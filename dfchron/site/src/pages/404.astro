@@ -1,0 +1,61 @@
+---
+/**
+ * Shell de la APLICACION.
+ *
+ * Todas las vistas que dependen de la API se pintan aqui, en el navegador.
+ *
+ * POR QUE UN SOLO SHELL Y NO UNA PAGINA POR VISTA
+ * ----------------------------------------------
+ * Una pagina pre-renderizada CONGELA el resultado del build: si la API no estaba
+ * viva durante `npm run build`, la pagina queda con "Data unavailable" para
+ * siempre (se comprobó: `/world` y `/figures` acabaron con datos congelados
+ * distintos en el mismo build).
+ *
+ * La alternativa, render en servidor, exige un adaptador y por tanto un runtime
+ * en la capa publica, que esta fase NO permite.
+ *
+ * Solucion: este shell estatico pide los datos en cada visita. Nada se congela,
+ * no hace falta adaptador, y `dist/` sigue siendo assets estaticos.
+ *
+ * Las rutas limpias (`/figures/712`) tambien llegan aqui: ver `rewrites` en
+ * `astro.config.mjs`.
+ */
+import '../styles/base.css';
+import '../styles/layout.css';
+import '../styles/components.css';
+import '../styles/app.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DF Legends — World Explorer</title>
+    <meta name="description" content="Explore the history of a Dwarf Fortress world." />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#101319" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <SiteHeader />
+
+    <main id="main" tabindex="-1">
+      <div class="container app-main">
+        <div id="app">
+          <p class="nota">Loading…</p>
+        </div>
+      </div>
+    </main>
+
+    <SiteFooter />
+
+    <script>
+      import '../lib/vistas';
+    </script>
+  </body>
+</html>

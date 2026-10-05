@@ -1,0 +1,54 @@
+---
+/**
+ * Listado generico de registros.
+ *
+ * Figuras, entidades, sitios y artefactos comparten la misma forma de listado.
+ * Se Centraliza aqui para que las cuatro vistas no se comporten de forma
+ * distinta por accidente.
+ */
+import { noDisponible, enlaceFicha } from '../lib/api';
+
+interface Props {
+  /** Filas ya normalizadas a { id, nombre, tipo, extra }. */
+  filas: Array<{
+    id: string | number;
+    nombre: string;
+    tipo?: string;
+    extra?: string;
+    certeza?: string;
+  }>;
+  /** 'figures' | 'entities' | 'sites' | 'artifacts' */
+  tipo: 'figures' | 'entities' | 'sites' | 'artifacts';
+}
+
+const { filas, tipo } = Astro.props;
+---
+
+{filas.length === 0 ? (
+  <p class="vacio">{noDisponible()}</p>
+) : (
+  <div class="tabla-scroll">
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Type</th>
+          <th scope="col">ID</th>
+          <th scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        {filas.map((f) => (
+          <tr>
+            <th scope="row">
+              <a href={enlaceFicha(tipo, f.id)}>{f.nombre}</a>
+            </th>
+            <td>{f.tipo ?? noDisponible()}</td>
+            <td><code>{f.id}</code></td>
+            <td>{f.extra ?? ''}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+)}

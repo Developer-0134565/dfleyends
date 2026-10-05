@@ -1,0 +1,46 @@
+---
+/**
+ * Hoja de ruta.
+ *
+ * Todo aqui es futuro. Ninguno de estos elementos tiene boton, enlace ni
+ *_ENDPOINT_: la pagina no finge functionality que no existe, y no hay datos
+ * mock que puedan confundirse con informacion real.
+ */
+const planned = [
+  { title: 'World Explorer', status: 'Planned', later: false },
+  { title: 'Search across a world', status: 'Planned', later: false },
+  { title: 'Maps', status: 'Planned', later: false },
+  { title: 'Public API', status: 'Planned', later: false },
+  { title: 'Standalone desktop build', status: 'Planned', later: false },
+  { title: 'AI assistance', status: 'Later', later: true },
+];
+---
+
+<section class="section" id="roadmap" aria-labelledby="roadmap-heading">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Roadmap</p>
+      <h2 id="roadmap-heading">What comes next</h2>
+      <p>
+        DF Legends is early. This page is the first step; the rest is being
+        built in order. Nothing listed below is available yet.
+      </p>
+    </div>
+
+    <ul class="roadmap">
+      {
+        planned.map((p) => (
+          <li class="rm-item">
+            <h3>{p.title}</h3>
+            <span class={`badge${p.later ? ' badge--later' : ''}`}>{p.status}</span>
+          </li>
+        ))
+      }
+    </ul>
+
+    <p class="roadmap-note">
+      Features move to this page as they ship. If it is not listed, it is not
+      built yet.
+    </p>
+  </div>
+</section>

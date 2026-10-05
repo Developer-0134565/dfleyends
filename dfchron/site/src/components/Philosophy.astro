@@ -1,0 +1,64 @@
+---
+/**
+ * filosofia del proyecto.
+ *
+ * La distincion FACT / DERIVED / UNKNOWN no es decoracion: es la regla real del
+ * nucleo DF-Chronicles. Aqui se explica sin vender capacidades de IA, que
+ * quedan para una fase posterior.
+ *
+ * Accesibilidad: cada estado lleva etiqueta de texto, el color de la muestra es
+ * solo un refuerzo (no depender exclusivamente del color).
+ */
+const states = [
+  {
+    key: 'fact',
+    name: 'Fact',
+    body: 'Recorded in the history file. Shown as it is.',
+  },
+  {
+    key: 'derived',
+    name: 'Derived',
+    body: 'Computed from recorded data, and labelled as derived.',
+  },
+  {
+    key: 'unknown',
+    name: 'Unknown',
+    body: 'Not recorded. Shown as a gap, never guessed.',
+  },
+];
+---
+
+<section class="section" id="philosophy" aria-labelledby="philosophy-heading">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Philosophy</p>
+      <h2 id="philosophy-heading">Built from the world’s history</h2>
+    </div>
+
+    <div class="philosophy-panel">
+      <blockquote>
+        DF Legends is built around the historical data produced by Dwarf Fortress,
+        keeping recorded facts separate from derived information and unknowns.
+      </blockquote>
+
+      <ul class="legend">
+        {
+          states.map((s) => (
+            <li>
+              <span class={`swatch swatch--${s.key}`} aria-hidden="true" />
+              <span>
+                <b>{s.name}</b>
+                {s.body}
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+
+      <p class="philosophy-note">
+        That separation is enforced in the core, not just described here. It is
+        the reason DF Legends never claims to know what a world has not said.
+      </p>
+    </div>
+  </div>
+</section>

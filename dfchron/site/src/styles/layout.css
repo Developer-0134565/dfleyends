@@ -1,0 +1,233 @@
+/* DF Legends :: estructura de pagina.
+   ---------------------------------------------------------------------------
+   Cabecera, hero, secciones y pie. Todo lo que decide el ritmo vertical. */
+
+/* --------------------------------------------------------------- cabecera */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(16, 19, 25, 0.94);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  min-height: 3.75rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+}
+
+.brand:hover {
+  color: var(--brass-hi);
+}
+
+.brand svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  flex: none;
+  color: var(--brass);
+}
+
+.brand b {
+  font-weight: 600;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  display: block;
+  padding: 0.45rem 0.7rem;
+  border-radius: var(--r);
+  border: 1px solid transparent;
+  color: var(--ink-dim);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.site-nav a:hover {
+  color: var(--ink);
+  background: var(--stone-800);
+  border-color: var(--line);
+}
+
+/* ------------------------------------------------------------------- hero */
+
+.hero {
+  padding: clamp(3.5rem, 9vw, 7rem) 0 clamp(3rem, 7vw, 5rem);
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 44rem;
+  margin-inline: auto;
+}
+
+.hero-mark {
+  width: 4.25rem;
+  height: 4.25rem;
+  margin: 0 auto 1.5rem;
+  color: var(--brass);
+}
+
+.hero h1 {
+  font-size: clamp(2.75rem, 9vw, 5.25rem);
+  letter-spacing: 0.05em;
+  margin: 0 0 0.5rem;
+}
+
+.hero .tagline {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.12rem, 2.6vw, 1.6rem);
+  color: var(--brass-hi);
+  margin-bottom: 1.25rem;
+}
+
+.hero .lede {
+  font-size: clamp(1rem, 2.2vw, 1.12rem);
+  color: var(--ink-dim);
+  max-width: 38rem;
+  margin: 0 auto 2rem;
+}
+
+.hero .eyebrow {
+  justify-content: center;
+}
+
+.hero-rule {
+  width: 8rem;
+  height: 1px;
+  margin: 2rem auto 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--brass-dim),
+    transparent
+  );
+}
+
+/* -------------------------------------------------------------- secciones */
+
+.section {
+  padding: clamp(3rem, 7vw, 5rem) 0;
+  border-top: 1px solid var(--line-soft);
+}
+
+/* -------------------------------------------------------------------- pie */
+
+.site-footer {
+  background: var(--stone-950);
+  border-top: 1px solid var(--line);
+  padding: clamp(2.5rem, 6vw, 3.5rem) 0 2rem;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  align-items: start;
+}
+
+.footer-brand {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.4rem;
+}
+
+.footer-tag {
+  color: var(--ink-dim);
+  font-size: 0.95rem;
+  max-width: 26rem;
+  margin: 0;
+}
+
+.footer-h {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--brass);
+  margin: 0 0 0.85rem;
+}
+
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.site-footer a {
+  color: var(--ink-dim);
+  text-decoration: none;
+  font-size: 0.93rem;
+}
+
+.site-footer a:hover {
+  color: var(--brass-hi);
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line-soft);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: var(--ink-faint);
+  font-size: 0.85rem;
+}
+
+/* ------------------------------------------------------------ responsive */
+
+@media (max-width: 720px) {
+  .header-inner {
+    min-height: 3.25rem;
+    row-gap: 0.4rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-nav ul {
+    gap: 0.15rem;
+  }
+
+  .site-nav a {
+    padding: 0.4rem 0.55rem;
+    font-size: 0.88rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+}

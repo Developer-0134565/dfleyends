@@ -1,0 +1,32 @@
+# DF-Chronicles gitignore
+# Build artifacts
+dfchron/site/dist_publico/
+
+# Extraction outputs and backups
+00_SOURCE/backups/
+../backups/
+
+# State files
+estado/estado_conocimiento.json
+ic.err
+ic.out
+
+# Test output files
+*.err
+*.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+
+# .env
+.env

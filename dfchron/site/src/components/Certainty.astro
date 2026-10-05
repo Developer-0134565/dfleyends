@@ -1,0 +1,38 @@
+---
+/**
+ * Etiqueta de certidumbre.
+ *
+ * FACT, DERIVED y UNKNOWN se MUESTRAN. Es una decision de la interfaz, no un
+ * adorno: quien lee tiene que poder distinguir un dato extraido del XML de
+ * uno calculado y de uno que no consta.
+ *
+ * UNKNOWN no se disimula con un texto afirmativo. Se muestra como esta.
+ */
+import type { Certainty } from '../lib/api';
+
+interface Props {
+  valor: Certainty | string | undefined;
+  titulo?: string;
+}
+
+const { valor, titulo } = Astro.props;
+
+const c = (valor ?? 'UNKNOWN').toUpperCase() as Certainty;
+const clase = c === 'FACT' ? 'certeza--fact' : c === 'DERIVED' ? 'certeza--derived' : 'certeza--unknown';
+
+const texto: Record<string, string> = {
+  FACT: 'FACT',
+  DERIVED: 'DERIVED',
+  UNKNOWN: 'UNKNOWN',
+};
+
+const explicacion: Record<string, string> = {
+  FACT: 'Extraido directamente del XML de Dwarf Fortress.',
+  DERIVED: 'Calculado a partir de los datos. No esta escrito en el XML.',
+  UNKNOWN: 'No consta en los datos. No se deduce ni se rellena.',
+};
+---
+
+<span class={`certeza ${clase}`} title={titulo ?? explicacion[c] ?? explicacion.UNKNOWN}>
+  {texto[c] ?? 'UNKNOWN'}
+</span>

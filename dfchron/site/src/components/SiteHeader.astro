@@ -1,0 +1,55 @@
+﻿---
+/**
+ * Cabecera de la aplicacion.
+ *
+ * Antes solo navegaba por anclas de la portada. Ahora ofrece la navegacion real
+ * del explorador: cada destino es una RUTA QUE EXISTE de verdad
+ * (`/world`, `/figures`, ...). Nada apunta a una pagina futura.
+ */
+const ruta = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+const nav = [
+  { href: '/app/world', label: 'Explore World' },
+  { href: '/app/figures', label: 'Figures' },
+  { href: '/app/entities', label: 'Entities' },
+  { href: '/app/sites', label: 'Sites' },
+  { href: '/app/artifacts', label: 'Artifacts' },
+  { href: '/app/events', label: 'Events' },
+  { href: '/app/timeline', label: 'Timeline' },
+];
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/app/world">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" focusable="false">
+        <path
+          d="M3 11c5-6 21-6 26 0"
+          stroke="currentColor"
+          stroke-width="2.6"
+          stroke-linecap="round"></path>
+        <path
+          d="M16 9v19"
+          stroke="currentColor"
+          stroke-width="2.6"
+          stroke-linecap="round"></path>
+      </svg>
+      <b>DF Legends</b>
+    </a>
+
+    <nav class="site-nav" aria-label="Secciones">
+      <ul>
+        {nav.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              aria-current={ruta === item.href ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>

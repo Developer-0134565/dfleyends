@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DF-Chronicles</title>
+<link rel="stylesheet" href="/static/estilo.css">
+</head>
+<body>
+
+<header class="barra">
+  <h1>DF-Chronicles</h1>
+  <form id="form-buscar" class="buscador" autocomplete="off">
+    <input id="q" type="search" placeholder="Buscar figura, entidad, sitio, artefacto o evento..."
+           aria-label="Buscar en el archivo historico">
+    <button type="submit">Buscar</button>
+  </form>
+  <nav id="menu">
+    <a href="#/inicio">Inicio</a>
+    <a href="#/figuras">Figuras</a>
+    <a href="#/entidades">Entidades</a>
+    <a href="#/sitios">Sitios</a>
+    <a href="#/artefactos">Artefactos</a>
+    <a href="#/eventos">Eventos</a>
+    <a href="#/cronologia">Cronologia</a>
+    <a href="#/geografia">Geografia</a>
+    <a href="#/limitaciones">Limitaciones</a>
+  </nav>
+</header>
+
+<!-- Las limitaciones se muestran SIEMPRE, no solo en su pagina: una
+     interfaz no debe ocultar lo que los datos no saben. -->
+<div id="aviso-limitaciones" class="aviso" hidden></div>
+
+<main id="vista"><p class="vacio">Cargando el archivo historico...</p></main>
+
+<footer class="pie">
+  <span>Datos: <code>legends.xml</code> + <code>legends_plus.xml</code> (Dwarf Fortress)</span>
+  <span id="pie-ruta"></span>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,292 @@
+/* DF-Chronicles :: hoja de estilo unica.
+   Utilitaria por decision: sin animaciones, sin sombras_commands, sin mapas
+   complejos. La exactitud de los datos manda sobre la estetica. */
+
+:root {
+  --fondo: #14161a;
+  --panel: #1d2026;
+  --panel2: #262a32;
+  --texto: #dfe3ea;
+  --tenue: #98a0ae;
+  --borde: #333945;
+  --acento: #7fb3d5;
+  --fact: #7fc9a0;
+  --derived: #d5b87f;
+  --unknown: #d58b7f;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: "Segoe UI", Consolas, "DejaVu Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+code, .mono { font-family: Consolas, "DejaVu Sans Mono", monospace; }
+
+/* ---------------------------------------------------------------- cabecera */
+.barra {
+  background: var(--panel);
+  border-bottom: 1px solid var(--borde);
+  padding: 10px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.barra h1 { margin: 0 0 8px; font-size: 18px; letter-spacing: .5px; }
+.barra h1 span { color: var(--acento); }
+
+.buscador { display: flex; gap: 8px; margin-bottom: 8px; }
+.buscador input {
+  flex: 1;
+  padding: 8px 10px;
+  background: var(--fondo);
+  border: 1px solid var(--borde);
+  border-radius: 4px;
+  color: var(--texto);
+  font-size: 14px;
+}
+.buscador input:focus { outline: 1px solid var(--acento); }
+.buscador button {
+  padding: 8px 16px;
+  background: var(--acento);
+  color: #10131a;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#menu { display: flex; flex-wrap: wrap; gap: 4px; }
+#menu a {
+  color: var(--tenue);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+#menu a:hover { background: var(--panel2); color: var(--texto); }
+#menu a.activo { background: var(--acento); color: #10131a; font-weight: 600; }
+
+/* -------------------------------------------------------------- limitaciones */
+.aviso {
+  background: #3a2f22;
+  border-bottom: 1px solid #5a4a33;
+  color: #e8d5b0;
+  padding: 8px 16px;
+  font-size: 12.5px;
+}
+.aviso ul { margin: 4px 0 0; padding-left: 20px; }
+
+/* ------------------------------------------------------------------ cuerpo */
+main { padding: 16px; max-width: 1200px; margin: 0 auto; }
+
+h2 { font-size: 17px; margin: 20px 0 8px; border-bottom: 1px solid var(--borde);
+     padding-bottom: 4px; }
+h3 { font-size: 14px; margin: 14px 0 6px; color: var(--acento); }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--borde);
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+/* Estadisticas de la portada */
+.rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+           gap: 10px; }
+.tarjeta { background: var(--panel2); border: 1px solid var(--borde);
+           border-radius: 5px; padding: 10px; text-align: center; }
+.tarjeta .cifra { font-size: 22px; font-weight: 700; color: var(--acento);
+                 display: block; }
+.tarjeta .etiqueta { font-size: 12px; color: var(--tenue); }
+
+/* ------------------------------------------------------------------ tablas */
+table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 13px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--borde);
+         vertical-align: top; }
+th { color: var(--tenue); font-weight: 600; font-size: 12px;
+     text-transform: uppercase; letter-spacing: .4px; }
+tbody tr:hover { background: var(--panel2); }
+.tabla-scroll { overflow-x: auto; }
+
+/* ------------------------------------------------------------------ enlaces */
+a.enlace { color: var(--acento); text-decoration: none; cursor: pointer; }
+a.enlace:hover { text-decoration: underline; }
+
+/* ---------------------------------------------------------------- etiquetas */
+.cert {
+
+/* ----------------------------------------------------------------- filtros */
+.filtros { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end;
+           background: var(--panel); border: 1px solid var(--borde);
+           border-radius: 5px; padding: 12px; margin-bottom: 12px; }
+.campo { display: flex; flex-direction: column; gap: 3px; }
+.campo label { font-size: 11px; color: var(--tenue); text-transform: uppercase;
+               letter-spacing: .4px; }
+.campo input, .campo select {
+  background: var(--fondo); border: 1px solid var(--borde); color: var(--texto);
+  padding: 6px 8px; border-radius: 4px; min-width: 150px; font-size: 13px;
+}
+.campo input:focus, .campo select:focus { outline: 1px solid var(--acento); }
+
+button.accion {
+  padding: 7px 14px; background: var(--acento); color: #10131a; border: 0;
+  border-radius: 4px; font-weight: 600; cursor: pointer;
+}
+button.secundario {
+  padding: 5px 10px; background: var(--panel2); color: var(--texto);
+  border: 1px solid var(--borde); border-radius: 4px; cursor: pointer;
+  font-size: 12px;
+}
+
+/* -------------------------------------------------------------- cronologia */
+.cronologia .anio {
+  border-left: 2px solid var(--acento);
+  padding: 2px 0 2px 12px;
+  margin: 10px 0;
+}
+.cronologia .anio > .titulo { color: var(--acento); font-weight: 700; }
+.cronologia ul { list-style: none; margin: 4px 0 0; padding: 0; }
+.cronologia li { padding: 2px 0; border-bottom: 1px dotted var(--borde); }
+
+/* ---------------------------------------------------------------- geografia */
+.mapa { width: 100%; height: 420px; background: #10131a;
+        border: 1px solid var(--borde); border-radius: 5px; }
+.mapa .punto { fill: var(--acento); }
+.mapa .pico { fill: var(--derived); }
+.mapa .construccion { fill: var(--fact); }
+.mapa .rio { stroke: #4a90c4; fill: none; stroke-width: 1.5; }
+
+/* -------------------------------------------------------------------- pie */
+.pie {
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+  padding: 10px 16px; border-top: 1px solid var(--borde);
+  color: var(--tenue); font-size: 11.5px;
+}
+
+dl.datos { display: grid; grid-template-columns: max-content 1fr;
+           gap: 3px 14px; margin: 6px 0; }
+dl.datos dt { color: var(--tenue); font-size: 12px; }
+dl.datos dd { margin: 0; }
+
+/* Navegacion por secciones de una ficha */
+.secciones { display: flex; flex-wrap: wrap; gap: 16px; }
+.secciones > nav { min-width: 150px; }
+.secciones > nav button {
+  display: block; width: 100%; text-align: left; background: var(--panel2);
+  border: 1px solid var(--borde); color: var(--texto); padding: 6px 10px;
+  cursor: pointer; border-radius: 3px; margin-bottom: 4px; font-size: 13px;
+}
+.secciones > nav button.activo { background: var(--acento); color: #10131a;
+                                 font-weight: 600; }
+.secciones > nav button:hover { border-color: var(--acento); }
+.contenido-seccion { flex: 1; min-width: 300px; }
+
+  font-size: 10.5px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  letter-spacing: .3px;
+  white-space: nowrap;
+}
+.cert.FACT { background: #1e3a2c; color: var(--fact); }
+.cert.DERIVED { background: #3a3220; color: var(--derived); }
+.cert.UNKNOWN { background: #3a2622; color: var(--unknown); }
+.cert.OK { background: #1e3a2c; color: var(--fact); }
+
+/* Aviso de truncamiento: NUNCA puede quedar oculto. */
+.truncado {
+  background: #3a3220;
+  border-left: 3px solid var(--derived);
+  color: var(--derived);
+  padding: 6px 10px;
+  margin: 8px 0;
+  font-size: 12.5px;
+  border-radius: 0 3px 3px 0;
+}
+
+.vacio { color: var(--tenue); font-style: italic; padding: 16px 0; }
+.error { background: #3a2622; border-left: 3px solid var(--unknown);
+         color: #f0c4bd; padding: 10px; border-radius: 0 3px 3px 0;
+         margin: 8px 0; }
+
+/* --- Estados del contrato de consulta -------------------------------------
+ *
+ * Los cinco estados se distinguen por COLOR y por TEXTO. El color es la
+ * distincion rapida; el texto es la que no se puede malinterpretar.
+ *
+ * `NOT_VERIFIED` lleva un color propio, distinto del de `NOT_FOUND`, a
+ * proposito: son cosas distintas. `NOT_FOUND` es «lo he buscado y no esta»;
+ * `NOT_VERIFIED` es «no lo he podido determinar». Pintarlos igual seria
+ * fundir la distincion que el servicio existe para mantener.
+ */
+.estado {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 11px;
+  margin: 8px 0;
+  font-size: 12.5px;
+  border-radius: 0 3px 3px 0;
+  border-left: 3px solid var(--tenue);
+  background: #22252c;
+  color: var(--tenue);
+}
+
+.estado__codigo {
+  font-size: 11px;
+  opacity: 0.75;
+  letter-spacing: 0.04em;
+}
+
+.estado--found {
+  border-left-color: var(--fact);
+  color: var(--fact);
+  background: #1e3a2c;
+}
+
+/* Ausencia confirmada: el dato NO esta. */
+.estado--notfound {
+  border-left-color: var(--unknown);
+  color: var(--unknown);
+  background: #3a2622;
+}
+
+/* Incertidumbre: no se ha podido determinar. NO es lo mismo que no existir,
+   asi que NO comparte color con `.estado--notfound`. */
+.estado--notverified {
+  border-left-color: var(--derived);
+  color: var(--derived);
+  background: #3a3220;
+}
+
+.estado--invalid {
+  border-left-color: #8f7fb0;
+  color: #c3b3e0;
+  background: #2c2739;
+}
+
+.estado--unavailable {
+  border-left-color: var(--tenue);
+  color: var(--tenue);
+  background: #22252c;
+}
+
+/* Procedencia: de que mundo y con que version viene cada dato. */
+.panel--evidencia h3 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  color: var(--tenue);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.panel--evidencia .datos dt {
+  color: var(--tenue);
+}

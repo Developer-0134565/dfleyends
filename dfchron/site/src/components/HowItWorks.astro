@@ -1,0 +1,62 @@
+---
+/**
+ * Como funciona. Explicacion visual del flujo, no del proceso real.
+ *
+ * El pipeline del nucleo es mas largo (Legends XML -> procesado -> JSONL
+ * validado -> nucleo -> API/interfaz). Aqui se simplifica a cuatro pasos
+ * porque la pagina es para visitors, no para la documentacion tecnica.
+ */
+const steps = [
+  {
+    n: '01',
+    title: 'Dwarf Fortress',
+    body: 'The game generates the world and keeps a chronicle of it as it runs.',
+  },
+  {
+    n: '02',
+    title: 'Legends Data',
+    body: 'That chronicle is written out as Legends data alongside the save.',
+  },
+  {
+    n: '03',
+    title: 'DF Legends',
+    body: 'The data is validated and indexed by the DF Legends core.',
+  },
+  {
+    n: '04',
+    title: 'Explore Your World',
+    body: 'The index becomes something you can search, read and cross-reference.',
+  },
+];
+---
+
+<section class="section" id="how-it-works" aria-labelledby="how-heading">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">How it works</p>
+      <h2 id="how-heading">From the fortress to the chronicle</h2>
+      <p>
+        DF Legends does not invent history — Dwarf Fortress records it. The
+        project reads the record the game already writes and gives it a shape
+        you can navigate.
+      </p>
+    </div>
+
+    <ol class="flow">
+      {
+        steps.map((s) => (
+          <li class="step">
+            <p class="step-num">{s.n}</p>
+            <h3>{s.title}</h3>
+            <p>{s.body}</p>
+          </li>
+        ))
+      }
+    </ol>
+
+    <p class="flow-note">
+      Your world data never leaves your machine. Nothing on this page is
+      generated from a save file.
+    </p>
+  </div>
+</section>

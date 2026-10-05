@@ -1,0 +1,676 @@
+/* DF Legends :: estilos de la APLICACION (interior del explorador).
+   ---------------------------------------------------------------------------
+   Se apoya en los tokens de `base.css` (piedra, pergamino, laton y los tres
+   colores de certidumbre `--fact` / `--derived` / `--unknown`). Aqui SOLO hay
+   maquetacion: tablas, paneles, formularios y la linea temporal.
+
+   Responsive: el enunciado pide 320, 360, 390, 414, 600, 768, 1024, 1280 y
+   1440. Las tablas se desplazan en horizontal en vez de romper el ancho, que es
+   lo que falla primero a 320px. */
+
+.app-main {
+  padding-block: clamp(1.75rem, 5vw, 3.25rem) clamp(3rem, 8vw, 5rem);
+}
+
+.app-main h1 {
+  font-size: clamp(1.9rem, 5.2vw, 2.9rem);
+  margin-bottom: 0.35rem;
+}
+
+.nota,
+.ficha-sub {
+  color: var(--ink-dim);
+  font-size: 0.94rem;
+}
+
+/* ------------------------------------------------------------- estados ---- */
+
+.vacio {
+  padding: 1.1rem 1.25rem;
+  border: 1px dashed var(--line);
+  border-radius: var(--r);
+  color: var(--ink-faint);
+  font-style: italic;
+  background: color-mix(in srgb, var(--stone-850) 70%, transparent);
+}
+
+.aviso-api,
+.aviso-ambigua {
+  padding: 0.95rem 1.15rem;
+  border-radius: var(--r);
+  border: 1px solid var(--brass-dim);
+  background: color-mix(in srgb, var(--stone-800) 88%, var(--brass) 12%);
+  color: var(--ink);
+}
+
+.aviso-ambigua {
+  border-color: var(--derived);
+  background: color-mix(in srgb, var(--stone-800) 88%, var(--derived) 12%);
+}
+
+.truncado {
+  margin: 0.75rem 0;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: var(--derived);
+}
+
+/* -------------------------------------------------------------- certeza --- */
+
+.certeza {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+
+.certeza--fact { color: var(--fact); }
+.certeza--derived { color: var(--derived); }
+.certeza--unknown { color: var(--unknown); }
+
+.certainty-line {
+  color: var(--ink-dim);
+  font-size: 0.94rem;
+}
+
+/* ------------------------------------------------------------- statistics - */
+
+.stats {
+  display: grid;
+  /* 10rem es el minimo que hace que la etiqueta mas larga, "RELATIONSHIPS",
+     quepa en una linea (con 9.5rem se partia como "RELATIONSHI / PS") y que las
+     SEIS tarjetas quepan en una sola fila a ancho de escritorio. Con 11rem solo
+     cabian cinco y la sexta quedaba sola en una segunda fila. */
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.85rem;
+  padding: 0;
+  margin: 1.5rem 0 2.25rem;
+  list-style: none;
+}
+
+.stat {
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: linear-gradient(180deg, var(--stone-850), var(--stone-900));
+  overflow: hidden;
+}
+
+.stat a,
+.stat-label {
+  display: block;
+  padding: 0.95rem 1.05rem;
+}
+
+.stat a:hover {
+  background: var(--stone-800);
+}
+
+.stat-value {
+  display: block;
+  padding: 0.95rem 1.05rem 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  color: var(--brass-hi);
+  line-height: 1.1;
+}
+
+.stat-value--vacio {
+  font-size: 0.95rem;
+  color: var(--ink-faint);
+  font-style: italic;
+  font-family: var(--font-body);
+}
+
+.stat-label {
+  padding-top: 0;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  /* Una etiqueta nunca se parte a mitad de palabra: el body permite
+     `overflow-wrap: break-word` para el texto corrido, pero aqui no. */
+  overflow-wrap: normal;
+  word-break: keep-all;
+  hyphens: none;
+}
+
+.dato-grande {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  color: var(--brass-hi);
+  margin-bottom: 0.35rem;
+}
+
+/* ---------------------------------------------------------------- panels -- */
+
+.panel {
+  margin: 1.75rem 0;
+  padding: clamp(1rem, 3vw, 1.6rem);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: color-mix(in srgb, var(--stone-850) 82%, transparent);
+}
+
+.panel h2 {
+  font-size: clamp(1.1rem, 2.6vw, 1.35rem);
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.contador {
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+.definiciones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 0.65rem 1.5rem;
+  margin: 0;
+}
+
+.definiciones div {
+  border-bottom: 1px solid var(--line-soft);
+  padding-bottom: 0.4rem;
+}
+
+.definiciones dt {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.definiciones dd {
+  margin: 0.15rem 0 0;
+}
+/* --------------------------------------------------------------- tables --- */
+
+.tabla-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--r);
+}
+
+.tabla {
+  width: 100%;
+  min-width: 34rem;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.tabla th,
+.tabla td {
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line-soft);
+  vertical-align: top;
+}
+
+.tabla thead th {
+  background: var(--stone-800);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+}
+
+.tabla tbody tr:last-child th,
+.tabla tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tabla tbody tr:hover {
+  background: var(--stone-800);
+}
+
+.tabla code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--ink-dim);
+}
+
+/* ------------------------------------------------------------------ lists -- */
+
+.lista-rel {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.lista-rel li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--r);
+  background: var(--stone-850);
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brass);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 0.08rem 0.4rem;
+}
+
+.tag--tipo {
+  color: var(--brass-hi);
+  border-color: var(--brass-dim);
+}
+
+/* --------------------------------------------------------------- forms ---- */
+
+.buscador {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.25rem 0;
+}
+
+.buscador input,
+.filtros input,
+.filtros select {
+  flex: 1 1 12rem;
+  min-width: 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--r);
+  border: 1px solid var(--line);
+  background: var(--stone-900);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.95rem;
+}
+
+.buscador input::placeholder {
+  color: var(--ink-faint);
+}
+
+button {
+  flex: 0 0 auto;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--r);
+  border: 1px solid var(--brass);
+  background: color-mix(in srgb, var(--brass) 18%, var(--stone-800));
+  color: var(--brass-hi);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: color-mix(in srgb, var(--brass) 30%, var(--stone-800));
+}
+
+.filtros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.7rem;
+  align-items: end;
+  padding: 1rem;
+  margin: 1.25rem 0;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--r);
+  background: var(--stone-850);
+}
+
+.filtros label {
+  display: grid;
+  gap: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.limpiar {
+  align-self: center;
+  font-size: 0.88rem;
+}
+
+/* ----------------------------------------------------------- pagination --- */
+
+.paginacion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--r);
+  font-size: 0.9rem;
+}
+
+/* -------------------------------------------------------------- timeline -- */
+
+.linea-temporal {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0;
+  border-left: 2px solid var(--line);
+}
+
+.hito {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 0.9rem;
+  padding: 0.75rem 0 0.75rem 1rem;
+  position: relative;
+}
+
+.hito::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 1.15rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--brass);
+}
+
+.hito-anio {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--brass-hi);
+}
+
+.hito-meta {
+  margin: 0.25rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+}
+
+/* ---------------------------------------------------------------- capas --- */
+
+.capas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0;
+}
+
+.capas a {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+.capas a[aria-current='page'] {
+  border-color: var(--brass);
+  color: var(--brass-hi);
+  background: color-mix(in srgb, var(--brass) 14%, transparent);
+}
+
+/* --------------------------------------------------------- header nav ----- */
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--ink-dim);
+}
+
+.site-nav a:hover {
+  color: var(--brass-hi);
+}
+
+.site-nav a[aria-current='page'] {
+  color: var(--brass-hi);
+  border-bottom: 2px solid var(--brass);
+}
+
+/* --------------------------------------------------- breakpoints (320-1440) */
+
+@media (max-width: 600px) {
+  .stats {
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  }
+
+  .hito {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .buscador button {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .filtros {
+    grid-template-columns: 1fr;
+  }
+}
+/* ========================================================== GEOGRAFÍA === */
+/* El mapa es un SVG escalable: sin dependencias, sin scripts, sin librerías
+ * de mapas. Los puntos vienen de coordenadas reales; no se dibuja ningún
+ * fondo geográfico porque no existe en los datos. */
+
+.mapa {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  background: #0d0f14;
+  border: 1px solid #2a2e38;
+  border-radius: 2px;
+}
+
+.mapa-fondo { fill: #0d0f14; stroke: #1b1f27; }
+
+.mapa-punto circle {
+  fill: rgba(214, 168, 84, 0.18);
+  stroke: #d6a854;
+  stroke-width: 1.5;
+}
+
+.mapa-punto text {
+  fill: #d6a854;
+  font-size: 9px;
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  pointer-events: none;
+}
+
+.mapa-punto:hover circle,
+.mapa-punto:focus circle { fill: rgba(214, 168, 84, 0.42); stroke-width: 2.5; }
+.mapa-punto:focus { outline: none; }
+.mapa-punto:focus-visible circle { stroke: #fff; stroke-width: 3; }
+
+.mapa-punto--destacado circle {
+  fill: rgba(224, 118, 84, 0.45);
+  stroke: #e07654;
+}
+
+.mapa-nota {
+  fill: #7a808c;
+  font-size: 12px;
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+
+.leyenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.9rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.7rem 0 0;
+  font-size: 0.78rem;
+  color: #a8aeb9;
+}
+
+.leyenda li { display: flex; align-items: center; gap: 0.3rem; }
+.leyenda-glifo { color: #d6a854; font-size: 0.95rem; }
+
+.mapa-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+.boton-mapa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;          /* objetivo táctil cómodo en móvil */
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #2a2e38;
+  border-radius: 2px;
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 0.78rem;
+  color: #a8aeb9;
+  text-decoration: none;
+}
+
+.boton-mapa:hover,
+.boton-mapa:focus-visible { border-color: #d6a854; color: #d6a854; }
+
+.form-coords {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.6rem;
+}
+
+.form-coords .campo { display: flex; flex-direction: column; gap: 0.25rem; }
+
+.form-coords label {
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7a808c;
+}
+
+.form-coords input {
+  width: 7.5rem;
+  min-height: 40px;
+  padding: 0.4rem 0.6rem;
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 1rem;
+  color: #e8e6e1;
+  background: #0b0c10;
+  border: 1px solid #2a2e38;
+  border-radius: 2px;
+}
+
+.form-coords input:focus-visible { border-color: #d6a854; }
+
+.form-coords button {
+  min-height: 40px;
+  padding: 0.4rem 1rem;
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 0.85rem;
+  color: #0b0c10;
+  background: #d6a854;
+  border: 1px solid #d6a854;
+  border-radius: 2px;
+  cursor: pointer;
+/* ================================================ IDENTIDAD DEL DATASET === */
+/* Discreto a propósito: dice qué mundo se está viendo, sin convertir la web en
+ * un panel de control. Mismo lenguaje que el resto: piedra, pergamino, latón. */
+
+.panel--dataset {
+  border-left: 2px solid #d6a854;
+}
+
+.panel--dataset h2 {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8a8578;
+  margin-bottom: 0.6rem;
+}
+
+.panel--dataset .definiciones code {
+  font-size: 0.8rem;
+  color: #d6a854;
+}
+
+.aviso-dataset {
+  margin: 0 0 1.4rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid #d6a854;
+  border-left-width: 3px;
+  border-radius: 2px;
+  background: rgba(214, 168, 84, 0.07);
+  font-size: 0.9rem;
+}
+
+.aviso-dataset p { margin: 0 0 0.5rem; }
+.aviso-dataset p:last-child { margin-bottom: 0; }
+.aviso-dataset code { color: #d6a854; }
+.aviso-dataset a { color: #d6a854; }
+
+/* ================================================ IDENTIDAD DEL DATASET === */
+}
+
+.subpanel { margin-top: 1.2rem; }
+.subpanel h3 { margin-bottom: 0.4rem; }
+
+.cert {
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: #7a808c;
+  border: 1px solid #2a2e38;
+  border-radius: 2px;
+  padding: 0 0.25rem;
+  margin-left: 0.35rem;
+}
+
+/* En móvil el mapa baja de alto para que el panel de resultados siga siendo
+ * utilizable sin obligar a desplazarse en horizontal. */
+@media (max-width: 640px) {
+  .mapa { max-height: 52vh; }
+  .form-coords input { width: 100%; min-width: 0; }
+  .form-coords .campo { flex: 1 1 40%; }
+  .boton-mapa { flex: 1 1 auto; }
+}
+
+/* ========================================================== GEOGRAFÍA === */

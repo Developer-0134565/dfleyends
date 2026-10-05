@@ -1,0 +1,66 @@
+---
+/**
+ * Shell de la APLICACION.
+ *
+ * `404.astro` y `app.astro` son el MISMO shell. Se duplican a proposito:
+ *
+ *  - `/app` es la ruta navegable de la aplicacion.
+ *  - `404.html` hace que CUALQUIER ruta desconocida (por ejemplo
+ *    `/figures/712`) se sirva con este shell, que en el navegador detecta la
+ *    ruta y pinta la vista o la ficha correspondiente.
+ *
+ * Es el patron estatico habitual: sin adaptador, sin runtime en el servidor, y
+ * con URLs limpias navegables y compartibles.
+ *
+ * POR QUE NO SE PRE-RENDERIZA CADA VISTA
+ * --------------------------------------
+ * Una pagina pre-renderizada CONGELA el resultado del build: si la API no estaba
+ * viva durante `npm run build`, la pagina queda con "Data unavailable" para
+ * siempre. Se comprobó en la practica: `/world` y `/figures` acabaron con
+ * datos congelados distintos en el mismo build.
+ *
+ * La alternativa, render en servidor, exige un adaptador y por tanto un runtime
+ * en la capa publica, que esta fase NO permite.
+ *
+ * Aqui los datos se piden en cada visita. Nada se congela, no hace falta
+ * adaptador y `dist/` sigue siendo assets estaticos.
+ */
+import '../styles/base.css';
+import '../styles/layout.css';
+import '../styles/components.css';
+import '../styles/app.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DF Legends — World Explorer</title>
+    <meta name="description" content="Explore the history of a Dwarf Fortress world." />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#101319" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <SiteHeader />
+
+    <main id="main" tabindex="-1">
+      <div class="container app-main">
+        <div id="app">
+          <p class="nota">Loading…</p>
+        </div>
+      </div>
+    </main>
+
+    <SiteFooter />
+
+    <script>
+      import '../lib/vistas';
+    </script>
+  </body>
+</html>

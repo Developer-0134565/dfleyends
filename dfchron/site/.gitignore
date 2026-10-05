@@ -1,0 +1,16 @@
+# dependencias
+node_modules/
+
+# build de Astro
+dist/
+.astro/
+
+# Cloudflare
+.wrangler/
+
+# sistema / editores
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*

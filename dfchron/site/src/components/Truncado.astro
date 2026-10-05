@@ -1,0 +1,23 @@
+---
+/**
+ * Aviso de truncamiento.
+ *
+ * La regla del proyecto: un resultado recortado NUNCA se presenta como si fuera
+ * completo. Este componente es el unico sitio donde se pinta ese aviso, para
+ * que no se pueda olvidar en una vista.
+ */
+import { avisoTruncamiento, type Envelope } from '../lib/api';
+
+interface Props {
+  env: Envelope<unknown>;
+}
+
+const { env } = Astro.props;
+const aviso = avisoTruncamiento(env);
+---
+
+{aviso && (
+  <p class="truncado" role="status">
+    {aviso}
+  </p>
+)}

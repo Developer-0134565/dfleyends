@@ -1,0 +1,21 @@
+{
+  "name": "df-legends-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Public presentation layer for DF Legends. Static Astro site deployed to Cloudflare Workers.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "astro build && wrangler deploy"
+  },
+  "dependencies": {
+    "astro": "^7.3.5"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  // Cloudflare Workers :: se despliega el output estatico de Astro (`dist/`).
+  // Sin `main` ni `workers_dev` extra: el Worker sirve assets y nada mas.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "df-legends",
+  "compatibility_date": "2026-02-10",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

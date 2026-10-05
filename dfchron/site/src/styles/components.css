@@ -1,0 +1,383 @@
+/* DF Legends :: componentes.
+   ---------------------------------------------------------------------------
+   Botones, tarjetas, flujo, leyenda de verdad y hoja de ruta. */
+
+/* --------------------------------------------------------------- botones */
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--r);
+  border: 1px solid transparent;
+  font-family: var(--font-body);
+  font-size: 0.97rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.18s ease, color 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, var(--brass-hi), var(--brass));
+  color: #1a1509;
+  border-color: var(--brass-dim);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(180deg, #f2dba4, var(--brass-hi));
+  color: #1a1509;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+.btn-ghost:hover:not([disabled]) {
+  border-color: var(--brass-dim);
+  color: var(--brass-hi);
+  background: var(--stone-800);
+}
+
+/* Estado "todavia no": opaco, sin puntero y sin destino. Sin enlaces rotos. */
+.btn[disabled] {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.actions-note {
+  margin: 1.1rem auto 0;
+  max-width: 34rem;
+  font-size: 0.88rem;
+  color: var(--ink-faint);
+}
+
+/* --------------------------------------------------------------- tarjetas */
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 1px;
+  background: var(--line-soft);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--r);
+  overflow: hidden;
+}
+
+.feature {
+  background: var(--stone-850);
+  padding: 1.75rem 1.5rem;
+}
+
+.feature-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  color: var(--brass);
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.feature p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-dim);
+}
+
+/* ------------------------------------------------------------------ flujo */
+
+.flow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  /* el <ol> mantiene la semantica de lista ordenada; solo se quita el marcador */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.step {
+  position: relative;
+  background: var(--stone-850);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--r);
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+}
+
+.step-num {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--brass);
+}
+
+.step h3 {
+  font-size: 1.02rem;
+  margin: 0.5rem 0 0.35rem;
+}
+
+.step p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+}
+
+/* Conector: un galon entre tarjetas, como una flecha de grabada. */
+.step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -0.55rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-top: 1px solid var(--brass-dim);
+  border-right: 1px solid var(--brass-dim);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.flow-note {
+  margin: 1.5rem auto 0;
+  max-width: 44rem;
+  font-size: 0.92rem;
+  color: var(--ink-faint);
+  text-align: center;
+}
+
+/* -------------------------------------------------------------- filosofia */
+
+.philosophy-panel {
+  background: var(--stone-850);
+  border: 1px solid var(--line-soft);
+  border-left: 3px solid var(--brass-dim);
+  border-radius: var(--r);
+  padding: clamp(1.5rem, 4vw, 2.25rem);
+}
+
+.philosophy-panel blockquote {
+  margin: 0 0 1.75rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.08rem, 2.4vw, 1.35rem);
+  color: var(--ink);
+}
+
+.legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+  gap: 0.9rem;
+}
+
+.legend li {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  font-size: 0.9rem;
+  color: var(--ink-dim);
+}
+
+/* El color nunca es la unica senal: cada estado lleva ademas su etiqueta. */
+.swatch {
+  flex: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-top: 0.38rem;
+  border-radius: 2px;
+}
+
+.swatch--fact {
+  background: var(--fact);
+}
+
+.swatch--derived {
+  background: var(--derived);
+}
+
+.swatch--unknown {
+  background: var(--unknown);
+}
+
+.legend b {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+
+.philosophy-note {
+  margin: 1.75rem 0 0;
+  font-size: 0.92rem;
+  color: var(--ink-faint);
+}
+
+/* --------------------------------------------------------------- roadmap */
+
+.roadmap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rm-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  border: 1px dashed var(--line);
+  border-radius: var(--r);
+  padding: 0.95rem 1.1rem;
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.rm-item h3 {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  font-weight: 600;
+}
+
+.badge {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brass);
+  border: 1px solid var(--brass-dim);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  white-space: nowrap;
+}
+
+.badge--later {
+  color: var(--ink-faint);
+  border-color: var(--line);
+}
+
+.roadmap-note {
+  margin: 1.5rem 0 0;
+  font-size: 0.92rem;
+  color: var(--ink-faint);
+}
+
+/* ------------------------------------------------------------ responsive */
+
+@media (max-width: 900px) {
+  .flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* en dos columnas el conector solo une 1->2 y 3->4 */
+  .step:nth-child(2)::after,
+  .step:nth-child(4)::after {
+    content: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .flow {
+    grid-template-columns: 1fr;
+  }
+
+  /* una sola columna: los conectores horizontales sobran. El selector lleva
+     `.flow` para igualar la especificidad de `.step:not(:last-child)::after`. */
+  .flow .step::after {
+    content: none;
+  }
+
+  .actions .btn {
+    width: 100%;
+  }
+}
+/* --- Estados del contrato de consulta -------------------------------------
+ *
+ * Los cinco estados se distinguen por color Y por texto. El texto es lo que
+ * no se puede malinterpretar: `NOT_VERIFIED` dice que no se pudo determinar,
+ * nunca que el dato no exista. Por eso NO comparte color con `.notfound`:
+ * son afirmaciones distintas y fundirlas seria mentir en la interfaz.
+ */
+.estado {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+  padding: 0.45rem 0.7rem;
+  border-left: 3px solid var(--ink-faint);
+  border-radius: 0 var(--r) var(--r) 0;
+  background: var(--stone-700);
+  color: var(--ink-dim);
+  font-size: 0.85rem;
+}
+
+.estado__codigo {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  opacity: 0.75;
+}
+
+.estado--found {
+  border-left-color: var(--fact);
+  background: color-mix(in srgb, var(--fact) 12%, var(--stone-700));
+  color: var(--fact);
+}
+
+.estado--notfound {
+  border-left-color: var(--unknown);
+  background: color-mix(in srgb, var(--unknown) 12%, var(--stone-700));
+  color: var(--unknown);
+}
+
+/* No se pudo determinar. Color propio, distinto del de NOT_FOUND. */
+.estado--notverified {
+  border-left-color: var(--derived);
+  background: color-mix(in srgb, var(--derived) 12%, var(--stone-700));
+  color: var(--derived);
+}
+
+.estado--invalid {
+  border-left-color: var(--brass);
+  background: color-mix(in srgb, var(--brass) 12%, var(--stone-700));
+  color: var(--brass-hi);
+}
+
+.estado--data_unavailable {
+  border-left-color: var(--ink-faint);
+  color: var(--ink-dim);
+}
+
+/* Procedencia: de que mundo y con que version viene el dato. */
+.panel--evidencia h2 {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+}
+
+.panel--evidencia code {
+  font-size: 0.8rem;
+  word-break: break-all;
+}
