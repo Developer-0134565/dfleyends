@@ -1,0 +1,29 @@
+{"evento":"DIMENSIONES"}
+{"evento":"DIMENSIONES"}
+{"evento":"getSize","ok":true,"tipo":"number","valor":"12"}
+{"ok":false,"probe":"getBlockSize","tipo":"string","valor":"...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:22: attempt to call a nil value (field '?')"}
+{"ok":false,"probe":"getMapSize","tipo":"string","valor":"...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:22: attempt to call a nil value (field '?')"}
+{"evento":"end_block","ok":["...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:25: Cannot read field world_data.end_block: not found.","...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:26: Cannot read field world_data.end_block: not found.","...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:27: Cannot read field world_data.end_block: not found."],"valor":["...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:25: Cannot read field world_data.end_block: not found.","...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:26: Cannot read field world_data.end_block: not found.","...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:27: Cannot read field world_data.end_block: not found."]}
+{"evento":"VALIDACION_POSICIONES"}
+{"ok":true,"valido":true,"x":0,"y":0,"z":0}
+{"ok":true,"valido":true,"x":1,"y":1,"z":1}
+{"ok":true,"valido":false,"x":-1,"y":0,"z":0}
+{"ok":true,"valido":false,"x":0,"y":-1,"z":0}
+{"ok":true,"valido":false,"x":0,"y":0,"z":-1}
+{"ok":true,"valido":false,"x":99999,"y":0,"z":0}
+{"ok":true,"valido":false,"x":0,"y":99999,"z":0}
+{"evento":"MUESTRA_TILES"}
+{"evento":"DIMENSIONES"}
+{"evento":"getSize","ok":true,"tipo":"number","valor":"12"}
+{"ok":false,"probe":"getBlockSize","tipo":"string","valor":"...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:22: attempt to call a nil value (field '?')"}
+{"ok":false,"probe":"getMapSize","tipo":"string","valor":"...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:22: attempt to call a nil value (field '?')"}
+{"evento":"end_block","ok":["...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:25: Cannot read field world_data.end_block: not found.","...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:26: Cannot read field world_data.end_block: not found.","...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:27: Cannot read field world_data.end_block: not found."],"valor":["...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:25: Cannot read field world_data.end_block: not found.","...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:26: Cannot read field world_data.end_block: not found.","...ress/DF-Chronicles/dfchron/pruebas/p1_6/muestra_mapa.lua:27: Cannot read field world_data.end_block: not found."]}
+{"evento":"VALIDACION_POSICIONES"}
+{"ok":true,"valido":true,"x":0,"y":0,"z":0}
+{"ok":true,"valido":true,"x":1,"y":1,"z":1}
+{"ok":true,"valido":false,"x":-1,"y":0,"z":0}
+{"ok":true,"valido":false,"x":0,"y":-1,"z":0}
+{"ok":true,"valido":false,"x":0,"y":0,"z":-1}
+{"ok":true,"valido":false,"x":99999,"y":0,"z":0}
+{"ok":true,"valido":false,"x":0,"y":99999,"z":0}
+{"evento":"MUESTRA_TILES"}

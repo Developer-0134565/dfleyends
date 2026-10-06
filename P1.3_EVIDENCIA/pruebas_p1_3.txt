@@ -1,0 +1,109 @@
+======================================================================
+P1.3 :: PRUEBAS DE HERRAMIENTAS DE INVESTIGACION
+======================================================================
+
+[1] forense_save :: entradas validas
+  OK    contenedor valido es legible
+  OK    detecta la version esperada
+  OK    no quedan bytes sin procesar
+  OK    todos los bloques decodifican
+  OK    sha256 presente y de 64 hex
+  OK    mtime marcado como NO identidad
+
+[2] forense_save :: identicos y duplicados
+  OK    copia byte a byte detectada
+  OK    el hash no distingue el original de la copia
+  OK    el hash NO se declara identidad de mundo
+
+[3] forense_save :: diferencias de metadata
+  OK    version distinta marcada como NO conocida
+  OK    el valor de version leido difiere
+  OK    flag distinto se lee correctamente
+  OK    save con otra version NO es copia byte a byte
+
+[4] forense_save :: datos corruptos
+  OK    fichero vacio -> ilegible sin excepcion
+  OK    fichero vacio informa del motivo
+  OK    cabecera truncada -> ilegible
+  OK    zlib corrupto -> se contabiliza el error
+  OK    zlib corrupto -> la herramienta no revienta
+  OK    fichero truncado se analiza sin excepcion
+
+[5] forense_save :: entradas ausentes
+ERROR: no existe el fichero: C:\Users\MISSIN~1\AppData\Local\Temp\p1_3_pruebas_z4lmy__4\no_existe.sav
+  OK    ruta inexistente -> codigo de error
+ERROR: indica al menos un --save
+  OK    sin argumentos -> codigo de error de uso
+
+[6] forense_save :: determinismo
+  OK    dos analisis identicos coinciden
+==========================================================================
+P1.3 :: FORENSICA DE CONTENEDOR DE SAVE (solo lectura)
+==========================================================================
+
+-- bueno.sav
+   bytes            : 150
+   sha256           : ebf831ae4597bd745964fd6ef86c3fdc1aa230137a66af6e2f3ed2fda73be938
+   version_etiqueta : 3602
+   flag             : 1
+   bloques          : 3 (ok 3 / error 0)
+   descomprimido    : 60,000
+   bytes restantes  : 0
+
+informe escrito en: C:\Users\MISSIN~1\AppData\Local\Temp\p1_3_pruebas_z4lmy__4\a.json
+==========================================================================
+P1.3 :: FORENSICA DE CONTENEDOR DE SAVE (solo lectura)
+==========================================================================
+
+-- bueno.sav
+   bytes            : 150
+   sha256           : ebf831ae4597bd745964fd6ef86c3fdc1aa230137a66af6e2f3ed2fda73be938
+   version_etiqueta : 3602
+   flag             : 1
+   bloques          : 3 (ok 3 / error 0)
+   descomprimido    : 60,000
+   bytes restantes  : 0
+
+informe escrito en: C:\Users\MISSIN~1\AppData\Local\Temp\p1_3_pruebas_z4lmy__4\b.json
+  OK    JSON byte a byte identico entre ejecuciones
+
+[7] forense_save :: no modifica los originales
+  OK    el hash del original no cambia tras analizarlo
+  OK    no se crea ningun .bin derivado
+
+[8] inventario_exportador :: analisis estatico
+  OK    la instalacion de DFHack esta disponible
+ERROR: no existe la raiz de DFHack: C:\Users\MISSIN~1\AppData\Local\Temp\p1_3_pruebas_z4lmy__4\no_existe
+Indica --raiz <ruta a DFHack/hack>
+  OK    raiz DFHack inexistente -> codigo de error
+  OK    se localiza exportlegends.lua
+  OK    no falta ningun objetivo declarado
+  OK    hay una ficha por fichero analizado
+  OK    exportlegends cede el control con script.sleep
+  OK    exportlegends NO usa with_suspend
+  OK    exportlegends captura cur_savegame.save_dir
+  OK    exportlegends NO muta memoria de DF
+  OK    open-legends SI muta memoria de DF
+  OK    el informe se declara herramienta de investigacion
+  OK    el informe declara no ser producto
+  OK    el analisis es determinista
+
+[9] inventario_exportador :: comentarios ignorados
+  OK    un comentario NO cuenta como cesion
+  OK    el fichero se analiza igualmente
+
+[10] experimentos_p1_3 :: honestidad del banco
+  OK    se declaran los 12 experimentos
+  OK    ningun experimento tiene resultado inventado
+  OK    cada experimento tiene procedimiento
+  OK    cada experimento declara su criterio de PASE y de FALLA
+  OK    cada experimento declara que mide
+  OK    sin DF nada se declara EJECUTADO
+  OK    el banco declara que no inventa resultados
+  OK    el banco declara que no escribe en saves
+  OK    E7 queda enlazado con la evidencia E007
+  OK    experimento inexistente -> error
+
+======================================================================
+RESULTADO: 50/50 comprobaciones correctas
+Todas las comprobaciones de las herramientas P1.3 han pasado.

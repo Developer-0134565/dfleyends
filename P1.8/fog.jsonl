@@ -1,0 +1,8 @@
+{"bounds":[104,81,171,108,85,175],"caja":"fortaleza","etiqueta":"RESUMEN_CAJA","por_fog_of_war":{"0":125},"tiles":125}
+{"bounds":[104,81,203,108,85,207],"caja":"arriba_z+2","etiqueta":"RESUMEN_CAJA","por_fog_of_war":[],"tiles":0}
+{"bounds":[104,81,139,108,85,143],"caja":"abajo_z-2","etiqueta":"RESUMEN_CAJA","por_fog_of_war":{"0":125},"tiles":125}
+{"bounds":[132,81,171,136,85,175],"caja":"este_x+2","etiqueta":"RESUMEN_CAJA","por_fog_of_war":{"0":125},"tiles":125}
+{"bounds":[72,81,171,76,85,175],"caja":"oeste_x-2","etiqueta":"RESUMEN_CAJA","por_fog_of_war":{"0":125},"tiles":125}
+{"bounds":[104,89,171,108,93,175],"caja":"norte_y+2","etiqueta":"RESUMEN_CAJA","por_fog_of_war":{"0":125},"tiles":125}
+{"abortado_por_limite":false,"etiqueta":"DISTRIBUCION_GLOBAL","total_tiles":625,"valores_fog_declarados":{"0":625}}
+{"abortado":false,"etiqueta":"FIN","paused":true,"tick":174512,"total_tiles":625}

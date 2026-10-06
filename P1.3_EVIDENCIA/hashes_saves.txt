@@ -1,0 +1,32 @@
+==========================================================================
+P1.3 :: FORENSICA DE CONTENEDOR DE SAVE (solo lectura)
+==========================================================================
+
+-- world.sav
+   bytes            : 12,490,429
+   sha256           : 603f455dde52b567ede034e1f637755e7845b53467abcde07809d885625de114
+   version_etiqueta : 3602
+   flag             : 1
+   bloques          : 10425 (ok 10425 / error 0)
+   descomprimido    : 208,489,987
+   bytes restantes  : 0
+
+-- world.sav
+   bytes            : 12,490,429
+   sha256           : 603f455dde52b567ede034e1f637755e7845b53467abcde07809d885625de114
+   version_etiqueta : 3602
+   flag             : 1
+   bloques          : 10425 (ok 10425 / error 0)
+   descomprimido    : 208,489,987
+   bytes restantes  : 0
+
+-- world.dat
+   bytes            : 10,055,380
+   sha256           : 229736318b941155b90a33c31f6cbba36649b22532772245a1d72b5b39b1d110
+   version_etiqueta : 3602
+   flag             : 1
+   bloques          : 3918 (ok 3918 / error 0)
+   descomprimido    : 78,352,171
+   bytes restantes  : 0
+
+informe escrito en: P1.3_EVIDENCIA\hashes_saves.json

@@ -1,0 +1,43 @@
+==========================================================================
+P1.3 :: INVENTARIO ESTATICO DE EXPORTADORES DFHack
+==========================================================================
+Raiz: C:\Users\Missingn0\Documents\Dwarf Fortress\DFHack\hack
+Ficheros analizados: 9
+
+-- asyncexport.lua (104 lineas)
+     (sin eventos de las clases buscadas)
+
+-- export-world-map.lua (12 lineas)
+     (sin eventos de las clases buscadas)
+
+-- exportlegends.lua (1057 lineas)
+     cesion_script_sleep            x1
+     cesion_start_script            x1
+     escritura_file_write           x274
+     escritura_io_open              x1
+     hook_state_change              x1
+     identidad_save_dir             x1
+     identidad_world_data_name      x2
+     reloj_cur_year                 x1
+     reloj_get_tick_count           x2
+     reloj_readcurrent              x2
+
+-- load-save.lua (63 lineas)
+     (sin eventos de las clases buscadas)
+
+-- once-per-save.lua (40 lineas)
+     persistencia_world_data        x3
+
+-- open-legends.lua (203 lineas)
+     escritura_memoria_df           x3  <-- MUTA EL MUNDO
+
+-- quicksave.lua (42 lineas)
+     (sin eventos de las clases buscadas)
+
+-- racefilter.lua (130 lineas)
+     (sin eventos de las clases buscadas)
+
+-- timestream.lua (50 lineas)
+     persistencia_site_data         x1
+
+informe escrito en: P1.3_EVIDENCIA\inventario_exportadores.json

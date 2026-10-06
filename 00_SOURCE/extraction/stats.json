@@ -1,0 +1,26 @@
+{
+ "strings_total": 150695,
+ "strings_by_kind": {
+  "text": 36601,
+  "proper_name_candidate": 256,
+  "slug": 16932,
+  "raw_tag_or_id": 96906
+ },
+ "strings_by_region": {
+  "raws_text": 135215,
+  "game_data": 15480
+ },
+ "proper_name_candidates": 256,
+ "blocks": 10425,
+ "uncompressed_bytes": 208489987,
+ "entities": {
+  "historical_figures": "UNKNOWN",
+  "civilizations": "UNKNOWN",
+  "sites": "UNKNOWN",
+  "artifacts": "UNKNOWN",
+  "events": "UNKNOWN",
+  "units": "UNKNOWN",
+  "relationships": "UNKNOWN"
+ },
+ "unknown_records": 150439
+}

@@ -1,0 +1,45 @@
+{
+ "certainty": "FACT",
+ "source_file": "C:\\Users\\Missingn0\\AppData\\Roaming\\Bay 12 Games\\Dwarf Fortress\\save\\region1\\world.sav",
+ "source_size_bytes": 12490429,
+ "source_mtime": "2026-10-02T17:26:56.244489",
+ "source_sha256": "603f455dde52b567ede034e1f637755e7845b53467abcde07809d885625de114",
+ "source_modified_by_extraction": false,
+ "game_version_detected": "53.16",
+ "container": {
+  "magic_version_field": 3602,
+  "flag_field": 1,
+  "block_count": 10425,
+  "block_uncompressed_size": 20000,
+  "block_size_histogram": {
+   "20000": 10424,
+   "9987": 1
+  },
+  "trailing_bytes": 0,
+  "total_uncompressed_bytes": 208489987,
+  "compression": "zlib (RFC1950), one independent stream per block"
+ },
+ "strings": {
+  "total": 150695,
+  "by_kind": {
+   "text": 36601,
+   "proper_name_candidate": 256,
+   "slug": 16932,
+   "raw_tag_or_id": 96906
+  },
+  "by_region": {
+   "raws_text": 135215,
+   "game_data": 15480
+  },
+  "raws_text_region_end_offset": 6455296
+ },
+ "entities": {
+  "historical_figures": "UNKNOWN",
+  "civilizations": "UNKNOWN",
+  "sites": "UNKNOWN",
+  "artifacts": "UNKNOWN",
+  "events": "UNKNOWN",
+  "units": "UNKNOWN",
+  "relationships": "UNKNOWN"
+ }
+}

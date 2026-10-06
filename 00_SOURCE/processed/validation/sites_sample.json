@@ -1,0 +1,173 @@
+{
+ "certainty": "FACT",
+ "sitios": [
+  {
+   "df_id": "87",
+   "nombre": "halesteel",
+   "tipo": "fortress",
+   "coords": [
+    [
+     112,
+     20
+    ]
+   ],
+   "civ_id": 294,
+   "eventos": 1546,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "88",
+   "nombre": "bootgalleys",
+   "tipo": "fortress",
+   "coords": [
+    [
+     96,
+     113
+    ]
+   ],
+   "civ_id": 296,
+   "eventos": 1357,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "96",
+   "nombre": "listenfly",
+   "tipo": "dark fortress",
+   "coords": [
+    [
+     98,
+     103
+    ]
+   ],
+   "civ_id": 312,
+   "eventos": 1031,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "204",
+   "nombre": "boatsaviors",
+   "tipo": "fortress",
+   "coords": [
+    [
+     16,
+     40
+    ]
+   ],
+   "civ_id": 282,
+   "eventos": 803,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "85",
+   "nombre": "voicecruel",
+   "tipo": "dark fortress",
+   "coords": [
+    [
+     106,
+     110
+    ]
+   ],
+   "civ_id": 290,
+   "eventos": 779,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "95",
+   "nombre": "passdangles",
+   "tipo": "town",
+   "coords": [
+    [
+     101,
+     3
+    ]
+   ],
+   "civ_id": 310,
+   "eventos": 693,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "76",
+   "nombre": "tomblines",
+   "tipo": "fortress",
+   "coords": [
+    [
+     79,
+     21
+    ]
+   ],
+   "civ_id": 268,
+   "eventos": 678,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "92",
+   "nombre": "scourgetalk",
+   "tipo": "dark fortress",
+   "coords": [
+    [
+     110,
+     124
+    ]
+   ],
+   "civ_id": 304,
+   "eventos": 645,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "93",
+   "nombre": "gravelwondered",
+   "tipo": "fortress",
+   "coords": [
+    [
+     38,
+     17
+    ]
+   ],
+   "civ_id": 306,
+   "eventos": 600,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "82",
+   "nombre": "mirthfulbeast",
+   "tipo": "forest retreat",
+   "coords": [
+    [
+     65,
+     13
+    ]
+   ],
+   "civ_id": 284,
+   "eventos": 542,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "97",
+   "nombre": "slaughterswrung",
+   "tipo": "town",
+   "coords": [
+    [
+     82,
+     108
+    ]
+   ],
+   "civ_id": 314,
+   "eventos": 501,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "239",
+   "nombre": "scorpionfield",
+   "tipo": "dark pits",
+   "coords": [
+    [
+     105,
+     110
+    ]
+   ],
+   "civ_id": 290,
+   "eventos": 466,
+   "certainty": "FACT"
+  }
+ ]
+}

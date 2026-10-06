@@ -1,0 +1,4204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<df_world><regions>
+	<region>
+		<id>0</id>
+		<name>the water of trussing</name>
+		<type>Ocean</type>
+	</region>
+	<region>
+		<id>1</id>
+		<name>the tundra of worms</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>2</id>
+		<name>the blizzards of kissing</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>3</id>
+		<name>the blizzards of wonder</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>4</id>
+		<name>the invisible glacier</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>5</id>
+		<name>the sandaled ice</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>6</id>
+		<name>the hill of shocks</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>7</id>
+		<name>the forest of pleats</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>8</id>
+		<name>the blizzard of hailing</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>9</id>
+		<name>the frost of ancients</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>10</id>
+		<name>the belted forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>11</id>
+		<name>the diminished forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>12</id>
+		<name>the adorable canyon-winter</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>13</id>
+		<name>the combined blizzard</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>14</id>
+		<name>the forest of balancing</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>15</id>
+		<name>the hills of socketing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>16</id>
+		<name>the late burial-desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>17</id>
+		<name>the hill of striking</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>18</id>
+		<name>the jungles of prophecy</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>19</id>
+		<name>the robust blizzard</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>20</id>
+		<name>the hill of furnaces</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>21</id>
+		<name>the special dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>22</id>
+		<name>the infinite hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>23</id>
+		<name>the whiskered frost</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>24</id>
+		<name>the tall axe</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>25</id>
+		<name>the forest of rain</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>26</id>
+		<name>the hill of generals</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>27</id>
+		<name>the named dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>28</id>
+		<name>the fuchsia jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>29</id>
+		<name>the mountain of gleams</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>30</id>
+		<name>the cracked point</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>31</id>
+		<name>the hill of raining</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>32</id>
+		<name>the forest of claws</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>33</id>
+		<name>the forests of neutralization</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>34</id>
+		<name>the ochre prairies</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>35</id>
+		<name>the blunt hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>36</id>
+		<name>the hills of nourishment</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>37</id>
+		<name>the frilly forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>38</id>
+		<name>the fair forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>39</id>
+		<name>the tenebrous walls</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>40</id>
+		<name>the field of disappearance</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>41</id>
+		<name>the bearded desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>42</id>
+		<name>the dune of peaks</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>43</id>
+		<name>the crimson hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>44</id>
+		<name>the fondled steppes</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>45</id>
+		<name>the kind prairies</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>46</id>
+		<name>the good hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>47</id>
+		<name>the delightful desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>48</id>
+		<name>the bulbous spine</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>49</id>
+		<name>the azure dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>50</id>
+		<name>the fabulous desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>51</id>
+		<name>the hill of virgins</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>52</id>
+		<name>the chartreuse glacier</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>53</id>
+		<name>the silky hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>54</id>
+		<name>the murk of beans</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>55</id>
+		<name>the blizzards of cleansing</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>56</id>
+		<name>the wispy field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>57</id>
+		<name>the forest of chewing</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>58</id>
+		<name>the slaughter-hills of eviscerating</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>59</id>
+		<name>the prim hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>60</id>
+		<name>the ardent hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>61</id>
+		<name>the rhythmic hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>62</id>
+		<name>the swift hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>63</id>
+		<name>the fields of sneaking</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>64</id>
+		<name>the prairie of allegiance</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>65</id>
+		<name>the turquoise forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>66</id>
+		<name>the water of blankets</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>67</id>
+		<name>the barbs of roaring</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>68</id>
+		<name>the dunes of attack</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>69</id>
+		<name>the desert of delighting</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>70</id>
+		<name>the ordered jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>71</id>
+		<name>the purple hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>72</id>
+		<name>the grand hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>73</id>
+		<name>the vanished prairies</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>74</id>
+		<name>the armored hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>75</id>
+		<name>the sensual hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>76</id>
+		<name>the ponderous lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>77</id>
+		<name>the desert of brains</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>78</id>
+		<name>the dune of torches</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>79</id>
+		<name>the flickering spines</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>80</id>
+		<name>the banded plain</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>81</id>
+		<name>the circumstantial lakes</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>82</id>
+		<name>the hale jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>83</id>
+		<name>the circumstantial hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>84</id>
+		<name>the hill of women</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>85</id>
+		<name>the unswerving hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>86</id>
+		<name>the sculpted hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>87</id>
+		<name>the dune of tapering</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>88</id>
+		<name>the amusing spines</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>89</id>
+		<name>the simple dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>90</id>
+		<name>the hill of amazing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>91</id>
+		<name>the craterous plain</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>92</id>
+		<name>the indigo horn</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>93</id>
+		<name>the murk of fords</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>94</id>
+		<name>the somber jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>95</id>
+		<name>the distant hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>96</id>
+		<name>the hills of gloss</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>97</id>
+		<name>the leafy desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>98</id>
+		<name>the amethyst hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>99</id>
+		<name>the sandaled steppe</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>100</id>
+		<name>the dispersed hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>101</id>
+		<name>the hill of brands</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>102</id>
+		<name>the lavender desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>103</id>
+		<name>the comedic fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>104</id>
+		<name>the south beak</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>105</id>
+		<name>the field of competitions</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>106</id>
+		<name>the crest of peaking</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>107</id>
+		<name>the jungle of moths</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>108</id>
+		<name>the jungle of whipping</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>109</id>
+		<name>the entrancing hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>110</id>
+		<name>the knowing hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>111</id>
+		<name>the dune of clasps</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>112</id>
+		<name>the inky steppes</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>113</id>
+		<name>the steppe of counseling</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>114</id>
+		<name>the waters of fainting</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>115</id>
+		<name>the desert of covers</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>116</id>
+		<name>the field of matches</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>117</id>
+		<name>the tempted hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>118</id>
+		<name>the hill of delighting</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>119</id>
+		<name>the bridled desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>120</id>
+		<name>the hill of glens</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>121</id>
+		<name>the harmonious dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>122</id>
+		<name>the hill of sports</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>123</id>
+		<name>the lavender dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>124</id>
+		<name>the creative dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>125</id>
+		<name>the desert of youth</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>126</id>
+		<name>the glad mire</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>127</id>
+		<name>the lakes of eviscerating</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>128</id>
+		<name>the hill of courtesy</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>129</id>
+		<name>the cracked hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>130</id>
+		<name>the scoured crest</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>131</id>
+		<name>the desert of chains</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>132</id>
+		<name>the slow lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>133</id>
+		<name>the glowing prairie</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>134</id>
+		<name>the bearded desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>135</id>
+		<name>the jungle of crescents</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>136</id>
+		<name>the forest of excavation</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>137</id>
+		<name>the jungle of age</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>138</id>
+		<name>the admired hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>139</id>
+		<name>the colorless hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>140</id>
+		<name>the hill of healers</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>141</id>
+		<name>the dunes of earth</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>142</id>
+		<name>the tapered hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>143</id>
+		<name>the comedic hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>144</id>
+		<name>the plain of dimples</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>145</id>
+		<name>the moist hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>146</id>
+		<name>the swamps of hoping</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>147</id>
+		<name>the doused forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>148</id>
+		<name>the hill of systems</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>149</id>
+		<name>the strapping prairie</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>150</id>
+		<name>the hill of sand</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>151</id>
+		<name>the high hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>152</id>
+		<name>the wealthy fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>153</id>
+		<name>the crowded lakes</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>154</id>
+		<name>the rhythmic hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>155</id>
+		<name>the pregnant hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>156</id>
+		<name>the hill of princesses</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>157</id>
+		<name>the jungle of sieges</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>158</id>
+		<name>the living dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>159</id>
+		<name>the lavender gate-dune of waxes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>160</id>
+		<name>the cremated hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>161</id>
+		<name>the field of dye</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>162</id>
+		<name>the reputed forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>163</id>
+		<name>the water of scenarios</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>164</id>
+		<name>the puzzling lakes</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>165</id>
+		<name>the forest of healers</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>166</id>
+		<name>the dune of straps</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>167</id>
+		<name>the circumstantial hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>168</id>
+		<name>the desert of strength</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>169</id>
+		<name>the granite hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>170</id>
+		<name>the belted desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>171</id>
+		<name>the cracked prairie</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>172</id>
+		<name>the jungle of finders</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>173</id>
+		<name>the indigo dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>174</id>
+		<name>the hill of pears</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>175</id>
+		<name>the dented plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>176</id>
+		<name>the destined dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>177</id>
+		<name>the dunes of striking</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>178</id>
+		<name>the steppe-prairie of melting</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>179</id>
+		<name>the hills of drilling</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>180</id>
+		<name>the mired hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>181</id>
+		<name>the strategic plain</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>182</id>
+		<name>the plain of slaughters</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>183</id>
+		<name>the plain of shoving</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>184</id>
+		<name>the gilded forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>185</id>
+		<name>the honest desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>186</id>
+		<name>the waters of riddling</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>187</id>
+		<name>the jungle of mastering</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>188</id>
+		<name>the courteous dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>189</id>
+		<name>the fields of evening</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>190</id>
+		<name>the hills of mining</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>191</id>
+		<name>the wise hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>192</id>
+		<name>the forest of relics</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>193</id>
+		<name>the ancient dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>194</id>
+		<name>the forest of flaying</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>195</id>
+		<name>the desert of swaying</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>196</id>
+		<name>the violent desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>197</id>
+		<name>the hill of purity</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>198</id>
+		<name>the molten dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>199</id>
+		<name>the plain of nature</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>200</id>
+		<name>the musical plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>201</id>
+		<name>the dunes of shaking</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>202</id>
+		<name>the oceanic hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>203</id>
+		<name>the desert of years</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>204</id>
+		<name>the forest of hoping</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>205</id>
+		<name>the desert of coasts</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>206</id>
+		<name>the speechless fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>207</id>
+		<name>the desert of crafts</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>208</id>
+		<name>the water of tongs</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>209</id>
+		<name>the granite prairie</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>210</id>
+		<name>the prairie of shade</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>211</id>
+		<name>the hill of sparkles</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>212</id>
+		<name>the ocean of craft</name>
+		<type>Ocean</type>
+	</region>
+	<region>
+		<id>213</id>
+		<name>the velvety lakes</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>214</id>
+		<name>the fields of dignity</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>215</id>
+		<name>the dune of silk</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>216</id>
+		<name>the blotted fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>217</id>
+		<name>the forest of pleats</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>218</id>
+		<name>the hill of shearing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>219</id>
+		<name>the rough jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>220</id>
+		<name>the mute field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>221</id>
+		<name>the beautiful hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>222</id>
+		<name>the jungle of tips</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>223</id>
+		<name>the dune of grasping</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>224</id>
+		<name>the heliotrope dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>225</id>
+		<name>the honest field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>226</id>
+		<name>the confident hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>227</id>
+		<name>the false jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>228</id>
+		<name>the hill of cracking</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>229</id>
+		<name>the named forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>230</id>
+		<name>the water of compassion</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>231</id>
+		<name>the hill of champions</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>232</id>
+		<name>the hill of evenness</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>233</id>
+		<name>the forests of safety</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>234</id>
+		<name>the jungle of wines</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>235</id>
+		<name>the mahogany forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>236</id>
+		<name>the drenched jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>237</id>
+		<name>the craterous hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>238</id>
+		<name>the field of women</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>239</id>
+		<name>the teal jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>240</id>
+		<name>the greatest fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>241</id>
+		<name>the plain of society</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>242</id>
+		<name>the forests of time</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>243</id>
+		<name>the spattered forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>244</id>
+		<name>the noble forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>245</id>
+		<name>the courageous dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>246</id>
+		<name>the blameless jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>247</id>
+		<name>the lucid hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>248</id>
+		<name>the radiant forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>249</id>
+		<name>the scalded jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>250</id>
+		<name>the hill of channels</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>251</id>
+		<name>the forest of beards</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>252</id>
+		<name>the snarling forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>253</id>
+		<name>the dune of holds</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>254</id>
+		<name>the mired hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>255</id>
+		<name>the copper fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>256</id>
+		<name>the clear forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>257</id>
+		<name>the hill of elders</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>258</id>
+		<name>the hill of rifts</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>259</id>
+		<name>the sandaled dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>260</id>
+		<name>the luxurious desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>261</id>
+		<name>the hills of entangling</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>262</id>
+		<name>the puzzling plain</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>263</id>
+		<name>the hill of dimming</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>264</id>
+		<name>the swamps of sounding</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>265</id>
+		<name>the infallible beak</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>266</id>
+		<name>the named jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>267</id>
+		<name>the hills of controlling</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>268</id>
+		<name>the ace forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>269</id>
+		<name>the equivalent hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>270</id>
+		<name>the diminished hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>271</id>
+		<name>the hill of brains</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>272</id>
+		<name>the hill of disembowelers</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>273</id>
+		<name>the murk of rasps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>274</id>
+		<name>the mire of owls</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>275</id>
+		<name>the plain of gems</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>276</id>
+		<name>the russet mire</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>277</id>
+		<name>the luxurious spikes</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>278</id>
+		<name>the outrageous fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>279</id>
+		<name>the jungles of boiling</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>280</id>
+		<name>the forest of wielding</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>281</id>
+		<name>the hill of denominations</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>282</id>
+		<name>the bent swamps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>283</id>
+		<name>the auburn plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>284</id>
+		<name>the oaken swamps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>285</id>
+		<name>the quiet hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>286</id>
+		<name>the tactical forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>287</id>
+		<name>the merged jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>288</id>
+		<name>the hill of jumping</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>289</id>
+		<name>the dune of sects</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>290</id>
+		<name>the heavy desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>291</id>
+		<name>the dune of furnaces</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>292</id>
+		<name>the hills of distraction</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>293</id>
+		<name>the hill of fliers</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>294</id>
+		<name>the competitive swamps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>295</id>
+		<name>the cracked hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>296</id>
+		<name>the dunes of stirring</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>297</id>
+		<name>the dune of touch</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>298</id>
+		<name>the glacial desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>299</id>
+		<name>the lined finger</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>300</id>
+		<name>the swamps of dabbling</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>301</id>
+		<name>the abated jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>302</id>
+		<name>the moist hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>303</id>
+		<name>the strangled hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>304</id>
+		<name>the roasted hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>305</id>
+		<name>the momentous jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>306</id>
+		<name>the living forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>307</id>
+		<name>the musical lakes</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>308</id>
+		<name>the magical desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>309</id>
+		<name>the forest of defenses</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>310</id>
+		<name>the hills of bowing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>311</id>
+		<name>the veiled hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>312</id>
+		<name>the murk of boiling</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>313</id>
+		<name>the adorable hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>314</id>
+		<name>the hill of rubbing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>315</id>
+		<name>the late waters</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>316</id>
+		<name>the desert of diminishment</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>317</id>
+		<name>the desert of wheels</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>318</id>
+		<name>the national hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>319</id>
+		<name>the desert of proliferation</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>320</id>
+		<name>the hill of turquoise</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>321</id>
+		<name>the goldenrod hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>322</id>
+		<name>the hill of sacrificing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>323</id>
+		<name>the unbridled mire</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>324</id>
+		<name>the murk of clarity</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>325</id>
+		<name>the furious dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>326</id>
+		<name>the alchemical jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>327</id>
+		<name>the forests of evenness</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>328</id>
+		<name>the hills of tenacity</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>329</id>
+		<name>the hill of assault</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>330</id>
+		<name>the dunes of whirling</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>331</id>
+		<name>the steppe of strategy</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>332</id>
+		<name>the swamp of reigning</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>333</id>
+		<name>the factional plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>334</id>
+		<name>the copper jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>335</id>
+		<name>the systemic hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>336</id>
+		<name>the distinct hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>337</id>
+		<name>the hill of guards</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>338</id>
+		<name>the hill of defenses</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>339</id>
+		<name>the stoked desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>340</id>
+		<name>the soaked forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>341</id>
+		<name>the enchanted hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>342</id>
+		<name>the forest of silver</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>343</id>
+		<name>the prestigious spines</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>344</id>
+		<name>the hill of fealties</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>345</id>
+		<name>the desert of marking</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>346</id>
+		<name>the hills of scorching</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>347</id>
+		<name>the lovely jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>348</id>
+		<name>the tame forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>349</id>
+		<name>the insightful dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>350</id>
+		<name>the equal axe</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>351</id>
+		<name>the symmetric desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>352</id>
+		<name>the spread dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>353</id>
+		<name>the split hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>354</id>
+		<name>the dune of opening</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>355</id>
+		<name>the dune of birds</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>356</id>
+		<name>the hill of hours</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>357</id>
+		<name>the jungle of slaughter</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>358</id>
+		<name>the dunes of cackling</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>359</id>
+		<name>the tufted dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>360</id>
+		<name>the rosy points</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>361</id>
+		<name>the legendary dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>362</id>
+		<name>the shady field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>363</id>
+		<name>the jungle of copper</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>364</id>
+		<name>the copper jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>365</id>
+		<name>the crazy dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>366</id>
+		<name>the forest of oranges</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>367</id>
+		<name>the dune of hushing</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>368</id>
+		<name>the mire of machines</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>369</id>
+		<name>the tactical hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>370</id>
+		<name>the hill of telling</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>371</id>
+		<name>the desert of secreting</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>372</id>
+		<name>the misty jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>373</id>
+		<name>the friendly hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>374</id>
+		<name>the pristine hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>375</id>
+		<name>the fields of scarring</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>376</id>
+		<name>the flayed jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>377</id>
+		<name>the hill of bending</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>378</id>
+		<name>the spry hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>379</id>
+		<name>the forest of walking</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>380</id>
+		<name>the jungle of cradles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>381</id>
+		<name>the forests of wondering</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>382</id>
+		<name>the split lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>383</id>
+		<name>the mirthful cut-hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>384</id>
+		<name>the sepia hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>385</id>
+		<name>the dune of focus</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>386</id>
+		<name>the dune of clutches</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>387</id>
+		<name>the lessened dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>388</id>
+		<name>the fenced dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>389</id>
+		<name>the waters of clasping</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>390</id>
+		<name>the forests of destruction</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>391</id>
+		<name>the tapered white lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>392</id>
+		<name>the forests of chewing</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>393</id>
+		<name>the embraced dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>394</id>
+		<name>the ashen lakes</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>395</id>
+		<name>the friendly hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>396</id>
+		<name>the joyous hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>397</id>
+		<name>the forests of perfection</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>398</id>
+		<name>the kindled lakes</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>399</id>
+		<name>the savage swamp</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>400</id>
+		<name>the born lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>401</id>
+		<name>the field of griffons</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>402</id>
+		<name>the water of morning</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>403</id>
+		<name>the forest of choking</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>404</id>
+		<name>the closed dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>405</id>
+		<name>the fragrant desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>406</id>
+		<name>the enchanted hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>407</id>
+		<name>the short dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>408</id>
+		<name>the odorous lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>409</id>
+		<name>the yawning hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>410</id>
+		<name>the beige dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>411</id>
+		<name>the hills of curiosity</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>412</id>
+		<name>the common desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>413</id>
+		<name>the hills of grasp</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>414</id>
+		<name>the honorable forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>415</id>
+		<name>the simple dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>416</id>
+		<name>the fabulous swamps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>417</id>
+		<name>the fields of crushing</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>418</id>
+		<name>the murk of tongues</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>419</id>
+		<name>the hill of decency</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>420</id>
+		<name>the legendary prairies</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>421</id>
+		<name>the swamps of murdering</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>422</id>
+		<name>the snarling hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>423</id>
+		<name>the lovely dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>424</id>
+		<name>the murk of creeds</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>425</id>
+		<name>the adventurous mire</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>426</id>
+		<name>the courageous swamp</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>427</id>
+		<name>the hill of savagery</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>428</id>
+		<name>the hollow desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>429</id>
+		<name>the fields of falling</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>430</id>
+		<name>the desert of dignity</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>431</id>
+		<name>the feral swamps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>432</id>
+		<name>the swamps of creating</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>433</id>
+		<name>the jungles of focusing</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>434</id>
+		<name>the desert of meshes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>435</id>
+		<name>the hill of leaders</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>436</id>
+		<name>the spike of panthers</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>437</id>
+		<name>the hills of mortification</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>438</id>
+		<name>the desert of tangles</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>439</id>
+		<name>the wealthy forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>440</id>
+		<name>the matched hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>441</id>
+		<name>the purged barb</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>442</id>
+		<name>the tattooed crest</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>443</id>
+		<name>the most music-desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>444</id>
+		<name>the stern dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>445</id>
+		<name>the amusing hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>446</id>
+		<name>the shaken dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>447</id>
+		<name>the hill of whispers</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>448</id>
+		<name>the grizzly dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>449</id>
+		<name>the clean hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>450</id>
+		<name>the hill of razors</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>451</id>
+		<name>the considerate dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>452</id>
+		<name>the relieved plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>453</id>
+		<name>the flickering swamps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>454</id>
+		<name>the ace jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>455</id>
+		<name>the crewed desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>456</id>
+		<name>the amber desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>457</id>
+		<name>the passionate hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>458</id>
+		<name>the charcoal hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>459</id>
+		<name>the autonomous desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>460</id>
+		<name>the massive dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>461</id>
+		<name>the dune of whispering</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>462</id>
+		<name>the socketed prairie</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>463</id>
+		<name>the green murk</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>464</id>
+		<name>the skinny jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>465</id>
+		<name>the worthy long-hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>466</id>
+		<name>the desert of soaking</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>467</id>
+		<name>the kindled desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>468</id>
+		<name>the hazy hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>469</id>
+		<name>the dune of pulling</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>470</id>
+		<name>the axe of perishment</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>471</id>
+		<name>the jungle of tournaments</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>472</id>
+		<name>the stormy hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>473</id>
+		<name>the desert of reticence</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>474</id>
+		<name>the crowded hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>475</id>
+		<name>the long dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>476</id>
+		<name>the brave prairie</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>477</id>
+		<name>the murk of racing</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>478</id>
+		<name>the admired plain</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>479</id>
+		<name>the special dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>480</id>
+		<name>the jungle of avalanches</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>481</id>
+		<name>the learned forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>482</id>
+		<name>the rhythmic hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>483</id>
+		<name>the closed dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>484</id>
+		<name>the dune of filling</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>485</id>
+		<name>the jungle of murdering</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>486</id>
+		<name>the spattered hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>487</id>
+		<name>the complex barbs</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>488</id>
+		<name>the dipped desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>489</id>
+		<name>the hills of dulling</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>490</id>
+		<name>the allied dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>491</id>
+		<name>the dunes of fog</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>492</id>
+		<name>the hill of bitterness</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>493</id>
+		<name>the dune of urging</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>494</id>
+		<name>the scarlet dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>495</id>
+		<name>the dune of ticks</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>496</id>
+		<name>the clod-dune of shins</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>497</id>
+		<name>the equal tower</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>498</id>
+		<name>the vermilion hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>499</id>
+		<name>the teeth of notching</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>500</id>
+		<name>the weak desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>501</id>
+		<name>the scarlet hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>502</id>
+		<name>the jungle of liberating</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>503</id>
+		<name>the dune of whispering</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>504</id>
+		<name>the fortuitous field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>505</id>
+		<name>the perplexing field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>506</id>
+		<name>the finger of insights</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>507</id>
+		<name>the puzzling murk</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>508</id>
+		<name>the horns of neutralization</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>509</id>
+		<name>the desert of bulbs</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>510</id>
+		<name>the past dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>511</id>
+		<name>the hill of living</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>512</id>
+		<name>the dye-desert of skunks</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>513</id>
+		<name>the hill of biting</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>514</id>
+		<name>the desert of trade</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>515</id>
+		<name>the dune of towns</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>516</id>
+		<name>the glorious hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>517</id>
+		<name>the prairies of amusing</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>518</id>
+		<name>the prairie of champions</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>519</id>
+		<name>the desert of calming</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>520</id>
+		<name>the tower of scraping</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>521</id>
+		<name>the murk of brothers</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>522</id>
+		<name>the dented swamps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>523</id>
+		<name>the hill of routs</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>524</id>
+		<name>the hills of blushing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>525</id>
+		<name>the geared desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>526</id>
+		<name>the most sienna fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>527</id>
+		<name>the lake of shades</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>528</id>
+		<name>the mire of wondering</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>529</id>
+		<name>the plain of lulls</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>530</id>
+		<name>the faint steppe</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>531</id>
+		<name>the oaken hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>532</id>
+		<name>the hill of eviscerators</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>533</id>
+		<name>the unseen dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>534</id>
+		<name>the hill of races</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>535</id>
+		<name>the oily dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>536</id>
+		<name>the water of rips</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>537</id>
+		<name>the amethyst fields</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>538</id>
+		<name>the eternal dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>539</id>
+		<name>the mysterious horns</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>540</id>
+		<name>the auburn desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>541</id>
+		<name>the cracked desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>542</id>
+		<name>the whimsical hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>543</id>
+		<name>the wooden desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>544</id>
+		<name>the luxurious hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>545</id>
+		<name>the crystalline dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>546</id>
+		<name>the desert of hoping</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>547</id>
+		<name>the dunes of luxury</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>548</id>
+		<name>the cradled swamp</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>549</id>
+		<name>the mischievous hill of beginnings</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>550</id>
+		<name>the dune of freckles</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>551</id>
+		<name>the dune of murders</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>552</id>
+		<name>the confining dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>553</id>
+		<name>the grizzly steppe of vises</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>554</id>
+		<name>the hill of rips</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>555</id>
+		<name>the trussed forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>556</id>
+		<name>the mint hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>557</id>
+		<name>the blockaded forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>558</id>
+		<name>the dunes of purity</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>559</id>
+		<name>the braided hills of catching</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>560</id>
+		<name>the desert of phantoms</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>561</id>
+		<name>the courteous forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>562</id>
+		<name>the desert of steel</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>563</id>
+		<name>the dunes of wilting</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>564</id>
+		<name>the intense hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>565</id>
+		<name>the jungle of vigor</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>566</id>
+		<name>the hill of chucking</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>567</id>
+		<name>the braided-hill of appearance</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>568</id>
+		<name>the forests of spray</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>569</id>
+		<name>the uncommon desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>570</id>
+		<name>the dune of evening</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>571</id>
+		<name>the hills of ice</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>572</id>
+		<name>the forest of virtue</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>573</id>
+		<name>the risky forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>574</id>
+		<name>the humble hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>575</id>
+		<name>the jungle of routing</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>576</id>
+		<name>the mint hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>577</id>
+		<name>the wispy jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>578</id>
+		<name>the hill of sitting</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>579</id>
+		<name>the jungle of splashes</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>580</id>
+		<name>the ageless lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>581</id>
+		<name>the prairie of quiescence</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>582</id>
+		<name>the desert of groups</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>583</id>
+		<name>the steamy dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>584</id>
+		<name>the hill of whipping</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>585</id>
+		<name>the escorted hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>586</id>
+		<name>the true hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>587</id>
+		<name>the hill of hegemons</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>588</id>
+		<name>the wise desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>589</id>
+		<name>the waters of dusk</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>590</id>
+		<name>the decent hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>591</id>
+		<name>the wise dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>592</id>
+		<name>the banded plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>593</id>
+		<name>the silken jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>594</id>
+		<name>the impervious spine</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>595</id>
+		<name>the dune of delights</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>596</id>
+		<name>the static desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>597</id>
+		<name>the everlasting hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>598</id>
+		<name>the strapping horns</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>599</id>
+		<name>the tender hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>600</id>
+		<name>the first dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>601</id>
+		<name>the future hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>602</id>
+		<name>the hill of ships</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>603</id>
+		<name>the sunken jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>604</id>
+		<name>the elder long-tower</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>605</id>
+		<name>the desert of scorching</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>606</id>
+		<name>the quiescent hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>607</id>
+		<name>the blotted tooth</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>608</id>
+		<name>the brilliant hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>609</id>
+		<name>the violent wave-jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>610</id>
+		<name>the last swamps</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>611</id>
+		<name>the rainy dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>612</id>
+		<name>the savage hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>613</id>
+		<name>the hill of spirit</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>614</id>
+		<name>the solitary dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>615</id>
+		<name>the hoary dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>616</id>
+		<name>the hill of partnering</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>617</id>
+		<name>the flaxen dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>618</id>
+		<name>the hill of boiling</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>619</id>
+		<name>the dune of cinders</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>620</id>
+		<name>the ecru field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>621</id>
+		<name>the desert of knights</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>622</id>
+		<name>the dunes of evisceration</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>623</id>
+		<name>the pale dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>624</id>
+		<name>the hill of society</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>625</id>
+		<name>the desert of ravagers</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>626</id>
+		<name>the hills of swallowing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>627</id>
+		<name>the swamp of rubbing</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>628</id>
+		<name>the spike of climates</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>629</id>
+		<name>the steppe of machines</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>630</id>
+		<name>the water of contests</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>631</id>
+		<name>the fields of disappearance</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>632</id>
+		<name>the water of cavorting</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>633</id>
+		<name>the solitary field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>634</id>
+		<name>the national hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>635</id>
+		<name>the ageless dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>636</id>
+		<name>the mortified hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>637</id>
+		<name>the untoward field</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>638</id>
+		<name>the blanketed towers</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>639</id>
+		<name>the desert of attack</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>640</id>
+		<name>the decent forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>641</id>
+		<name>the belted desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>642</id>
+		<name>the imprisoned perplexing hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>643</id>
+		<name>the single desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>644</id>
+		<name>the ancient forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>645</id>
+		<name>the point of deterioration</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>646</id>
+		<name>the dune of steel</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>647</id>
+		<name>the desert of glittering</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>648</id>
+		<name>the rhyming desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>649</id>
+		<name>the evaporated hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>650</id>
+		<name>the organized taut plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>651</id>
+		<name>the swamp of color</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>652</id>
+		<name>the plains of fording</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>653</id>
+		<name>the greater plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>654</id>
+		<name>the glittery hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>655</id>
+		<name>the hermitic basic-point</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>656</id>
+		<name>the desert of gliding</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>657</id>
+		<name>the vanished walls</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>658</id>
+		<name>the honest water</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>659</id>
+		<name>the worshipful desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>660</id>
+		<name>the desert of mirroring</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>661</id>
+		<name>the forests of tenacity</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>662</id>
+		<name>the steamy desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>663</id>
+		<name>the crest of ringing</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>664</id>
+		<name>the wispy point</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>665</id>
+		<name>the single mire</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>666</id>
+		<name>the sensual desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>667</id>
+		<name>the coincidental hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>668</id>
+		<name>the spotted plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>669</id>
+		<name>the dune of markets</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>670</id>
+		<name>the armored hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>671</id>
+		<name>the indigo hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>672</id>
+		<name>the silvery dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>673</id>
+		<name>the hills of nourishment</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>674</id>
+		<name>the murk of hailing</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>675</id>
+		<name>the swamps of dimming</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>676</id>
+		<name>the prairies of shaking</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>677</id>
+		<name>the honest mountain</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>678</id>
+		<name>the forests of subtlety</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>679</id>
+		<name>the dune of saviors</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>680</id>
+		<name>the ignited prairies</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>681</id>
+		<name>the plain of notches</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>682</id>
+		<name>the jungle of cloaks</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>683</id>
+		<name>the named desert of rhyming</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>684</id>
+		<name>the crazy prairies</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>685</id>
+		<name>the prairies of power</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>686</id>
+		<name>the infinite jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>687</id>
+		<name>the finger of erasing</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>688</id>
+		<name>the round plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>689</id>
+		<name>the ferocious mire</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>690</id>
+		<name>the prestigious dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>691</id>
+		<name>the awe-inspiring steppe</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>692</id>
+		<name>the dunes of fainting</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>693</id>
+		<name>the faded jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>694</id>
+		<name>the hill of wanes</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>695</id>
+		<name>the desert of ears</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>696</id>
+		<name>the jungle of relics</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>697</id>
+		<name>the cracked desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>698</id>
+		<name>the elevated jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>699</id>
+		<name>the desert of diamonds</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>700</id>
+		<name>the hill of romancing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>701</id>
+		<name>the slow dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>702</id>
+		<name>the whimsical jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>703</id>
+		<name>the occult jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>704</id>
+		<name>the dune of fists</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>705</id>
+		<name>the dunes of breath</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>706</id>
+		<name>the hill of vanishing</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>707</id>
+		<name>the weak steppes</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>708</id>
+		<name>the abated steppe</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>709</id>
+		<name>the jungle of stability</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>710</id>
+		<name>the trustworthy jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>711</id>
+		<name>the dunes of sculpture</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>712</id>
+		<name>the prestigious plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>713</id>
+		<name>the everlasting swamp</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>714</id>
+		<name>the false plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>715</id>
+		<name>the swamps of coincidence</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>716</id>
+		<name>the steppes of charcoal</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>717</id>
+		<name>the bewildering lakes</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>718</id>
+		<name>the problematic hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>719</id>
+		<name>the entrancing dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>720</id>
+		<name>the declining hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>721</id>
+		<name>the dune of conjunctions</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>722</id>
+		<name>the dunes of ticking</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>723</id>
+		<name>the lost jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>724</id>
+		<name>the scraped dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>725</id>
+		<name>the oceanic steppes</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>726</id>
+		<name>the mire of luxury</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>727</id>
+		<name>the fields of sorcery</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>728</id>
+		<name>the mire of wetting</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>729</id>
+		<name>the hill of breaching</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>730</id>
+		<name>the fatal dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>731</id>
+		<name>the lake of allying</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>732</id>
+		<name>the desert of memory</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>733</id>
+		<name>the hills of oak</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>734</id>
+		<name>the dunes of submerging</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>735</id>
+		<name>the desert of quests</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>736</id>
+		<name>the decent forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>737</id>
+		<name>the stern dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>738</id>
+		<name>the special waters</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>739</id>
+		<name>the impervious hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>740</id>
+		<name>the sepia desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>741</id>
+		<name>the ecru desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>742</id>
+		<name>the scaly hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>743</id>
+		<name>the tactical folded hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>744</id>
+		<name>the desert of feeding</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>745</id>
+		<name>the fed forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>746</id>
+		<name>the forest of assembling</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>747</id>
+		<name>the sable dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>748</id>
+		<name>the mountain of blades</name>
+		<type>Mountains</type>
+	</region>
+	<region>
+		<id>749</id>
+		<name>the poetic lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>750</id>
+		<name>the dunes of proliferating</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>751</id>
+		<name>the lyrical hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>752</id>
+		<name>the desert of coasts</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>753</id>
+		<name>the hardy steppes</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>754</id>
+		<name>the mortified hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>755</id>
+		<name>the hills of luster</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>756</id>
+		<name>the dune of thundering</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>757</id>
+		<name>the sly dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>758</id>
+		<name>the hazy hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>759</id>
+		<name>the forest of towers</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>760</id>
+		<name>the whirling desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>761</id>
+		<name>the mechanical castle-lake</name>
+		<type>Lake</type>
+	</region>
+	<region>
+		<id>762</id>
+		<name>the null plains</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>763</id>
+		<name>the cheerful dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>764</id>
+		<name>the hill of letters</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>765</id>
+		<name>the hills of confusion</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>766</id>
+		<name>the speechless steppe</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>767</id>
+		<name>the hill of wind</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>768</id>
+		<name>the combined dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>769</id>
+		<name>the tapered hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>770</id>
+		<name>the everseeing dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>771</id>
+		<name>the ambiguous hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>772</id>
+		<name>the azure hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>773</id>
+		<name>the weak dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>774</id>
+		<name>the hill of plunges</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>775</id>
+		<name>the forest of masters</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>776</id>
+		<name>the desert of ages</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>777</id>
+		<name>the distinct jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>778</id>
+		<name>the jungle of domination</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>779</id>
+		<name>the meandering forest</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>780</id>
+		<name>the steppe of courtesy</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>781</id>
+		<name>the desert of soaring</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>782</id>
+		<name>the old hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>783</id>
+		<name>the evaporated hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>784</id>
+		<name>the dune of laws</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>785</id>
+		<name>the hill of conflagrations</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>786</id>
+		<name>the forest of brushes</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>787</id>
+		<name>the deteriorated dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>788</id>
+		<name>the desert of shins</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>789</id>
+		<name>the forest of flames</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>790</id>
+		<name>the swamp of gifts</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>791</id>
+		<name>the matched hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>792</id>
+		<name>the true desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>793</id>
+		<name>the sizzling dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>794</id>
+		<name>the hill of glimmers</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>795</id>
+		<name>the hill of fishes</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>796</id>
+		<name>the assaulted jungles</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>797</id>
+		<name>the sour hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>798</id>
+		<name>the hill of blades</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>799</id>
+		<name>the released dune</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>800</id>
+		<name>the desert of singing</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>801</id>
+		<name>the hill of tapering</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>802</id>
+		<name>the exalted forests</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>803</id>
+		<name>the steppe of problems</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>804</id>
+		<name>the winter of competing</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>805</id>
+		<name>the blizzard of saffron</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>806</id>
+		<name>the winter of sundering</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>807</id>
+		<name>the slippery glacier</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>808</id>
+		<name>the ardent desert</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>809</id>
+		<name>the released dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>810</id>
+		<name>the jungle of reason</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>811</id>
+		<name>the jungles of fondling</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>812</id>
+		<name>the swamps of swallowing</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>813</id>
+		<name>the field of spikes</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>814</id>
+		<name>the murky dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>815</id>
+		<name>the hills of dying</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>816</id>
+		<name>the hill of butterflies</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>817</id>
+		<name>the dunes of touching</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>818</id>
+		<name>the adorable jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>819</id>
+		<name>the praised lock-tundras</name>
+		<type>Tundra</type>
+	</region>
+	<region>
+		<id>820</id>
+		<name>the murk of shadow</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>821</id>
+		<name>the field of fires</name>
+		<type>Grassland</type>
+	</region>
+	<region>
+		<id>822</id>
+		<name>the saffron hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>823</id>
+		<name>the first jungle</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>824</id>
+		<name>the murk of culmination</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>825</id>
+		<name>the ice of drinks</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>826</id>
+		<name>the dune of stabbing</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>827</id>
+		<name>the pure hill</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>828</id>
+		<name>the forests of competition</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>829</id>
+		<name>the swamp of control</name>
+		<type>Wetland</type>
+	</region>
+	<region>
+		<id>830</id>
+		<name>the hill of moistness</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>831</id>
+		<name>the desert of heaviness</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>832</id>
+		<name>the forest of odor</name>
+		<type>Forest</type>
+	</region>
+	<region>
+		<id>833</id>
+		<name>the kind dunes</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>834</id>
+		<name>the fragrant blizzard</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>835</id>
+		<name>the perfect hills</name>
+		<type>Hills</type>
+	</region>
+	<region>
+		<id>836</id>
+		<name>the dune of nuts</name>
+		<type>Desert</type>
+	</region>
+	<region>
+		<id>837</id>
+		<name>the false blizzard</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>838</id>
+		<name>the frost of furs</name>
+		<type>Glacier</type>
+	</region>
+	<region>
+		<id>839</id>
+		<name>the slippery tundras</name>
+		<type>Tundra</type>
+	</region>
+</regions>
+</df_world>

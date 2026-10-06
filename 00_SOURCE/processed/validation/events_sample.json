@@ -1,0 +1,245 @@
+{
+ "certainty": "FACT",
+ "eventos": [
+  {
+   "df_id": "1",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 1,
+   "site_id": 1,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "12",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 12,
+   "site_id": 7,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "14",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 14,
+   "site_id": 8,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "17",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 17,
+   "site_id": 9,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "18",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 18,
+   "site_id": 26,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "19",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 19,
+   "site_id": 27,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "2",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 2,
+   "site_id": 2,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "20",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 20,
+   "site_id": 28,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "21",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 21,
+   "site_id": 29,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "22",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 22,
+   "site_id": 30,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "23",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 23,
+   "site_id": 31,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "24",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 24,
+   "site_id": 32,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "25",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 25,
+   "site_id": 33,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "26",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 26,
+   "site_id": 34,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "27",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 27,
+   "site_id": 35,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "28",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 28,
+   "site_id": 36,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "29",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 29,
+   "site_id": 37,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "30",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 30,
+   "site_id": 38,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "31",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 31,
+   "site_id": 39,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "32",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 32,
+   "site_id": 40,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "33",
+   "año": 1,
+   "tipo": "change hf state",
+   "subtipo": null,
+   "hfid": 33,
+   "site_id": 41,
+   "civ_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "334",
+   "año": 1,
+   "tipo": "add hf entity link",
+   "subtipo": null,
+   "hfid": 344,
+   "site_id": null,
+   "civ_id": 268,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "335",
+   "año": 1,
+   "tipo": "add hf entity link",
+   "subtipo": null,
+   "hfid": 345,
+   "site_id": null,
+   "civ_id": 268,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "336",
+   "año": 1,
+   "tipo": "add hf entity link",
+   "subtipo": null,
+   "hfid": 346,
+   "site_id": null,
+   "civ_id": 268,
+   "certainty": "FACT"
+  }
+ ]
+}

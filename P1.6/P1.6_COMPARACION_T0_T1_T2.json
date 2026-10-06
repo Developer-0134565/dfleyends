@@ -1,0 +1,121 @@
+{
+ "comparacion": {
+  "citizens": {
+   "T0": 14,
+   "T2": 14,
+   "cambio": false
+  },
+  "fortress_mode": {
+   "T0": true,
+   "T2": true,
+   "cambio": false
+  },
+  "game_day": {
+   "T0": 5,
+   "T2": 6,
+   "cambio": true
+  },
+  "game_month": {
+   "T0": 5,
+   "T2": 5,
+   "cambio": false
+  },
+  "game_season": {
+   "T0": 1,
+   "T2": 1,
+   "cambio": false
+  },
+  "game_year": {
+   "T0": 10,
+   "T2": 10,
+   "cambio": false
+  },
+  "paused": {
+   "T0": true,
+   "T2": true,
+   "cambio": false
+  },
+  "weather": {
+   "T0": 0,
+   "T2": 0,
+   "cambio": false
+  },
+  "world_folder": {
+   "T0": "region1",
+   "T2": "region1",
+   "cambio": false
+  }
+ },
+ "t0": {
+  "_diag_tick": 173867,
+  "citizens": 14,
+  "etiqueta": "T0",
+  "fortress_mode": true,
+  "game_day": 5,
+  "game_month": 5,
+  "game_season": 1,
+  "game_year": 10,
+  "host_ms": 0,
+  "observation_id": "000001",
+  "observed_at_host": "2026-10-04T22:13:24Z",
+  "paused": true,
+  "professions": {
+   "Bone Carver": 1,
+   "Doctor": 1,
+   "Fish Dissector": 1,
+   "Fisherdwarf": 1,
+   "Glassmaker": 1,
+   "Jeweler": 1,
+   "Mason": 1,
+   "Miner": 1,
+   "Planter": 1,
+   "Stonecrafter": 1,
+   "Stoneworker": 1,
+   "Tanner": 1,
+   "Woodworker": 1,
+   "expedition leader": 1
+  },
+  "races": {
+   "DWARF": 14
+  },
+  "weather": 0,
+  "world_folder": "region1",
+  "world_name": "Xah Alu"
+ },
+ "t2": {
+  "_diag_tick": 174512,
+  "citizens": 14,
+  "etiqueta": "T2",
+  "fortress_mode": true,
+  "game_day": 6,
+  "game_month": 5,
+  "game_season": 1,
+  "game_year": 10,
+  "host_ms": 45000,
+  "observation_id": "000008",
+  "observed_at_host": "2026-10-04T22:14:09Z",
+  "paused": true,
+  "professions": {
+   "Bone Carver": 1,
+   "Doctor": 1,
+   "Fish Dissector": 1,
+   "Fisherdwarf": 1,
+   "Glassmaker": 1,
+   "Jeweler": 1,
+   "Mason": 1,
+   "Miner": 1,
+   "Planter": 1,
+   "Stonecrafter": 1,
+   "Stoneworker": 1,
+   "Tanner": 1,
+   "Woodworker": 1,
+   "expedition leader": 1
+  },
+  "races": {
+   "DWARF": 14
+  },
+  "weather": 0,
+  "world_folder": "region1",
+  "world_name": "Xah Alu"
+ }
+}

@@ -1,0 +1,1333 @@
+{
+  "analisis": {
+    "detalle": [
+      {
+        "escritura_memoria_df": false,
+        "eventos": {},
+        "fichero": "asyncexport.lua",
+        "lineas": 104,
+        "resumen": {}
+      },
+      {
+        "escritura_memoria_df": false,
+        "eventos": {},
+        "fichero": "export-world-map.lua",
+        "lineas": 12,
+        "resumen": {}
+      },
+      {
+        "escritura_memoria_df": false,
+        "eventos": {
+          "cesion_script_sleep": [
+            {
+              "linea": 55,
+              "texto": "script.sleep(1, 'frames')"
+            }
+          ],
+          "cesion_start_script": [
+            {
+              "linea": 1057,
+              "texto": "script.start(wrap_export)"
+            }
+          ],
+          "escritura_file_write": [
+            {
+              "linea": 91,
+              "texto": "file:write(\"<\" .. chunk.name .. \">\\n\")"
+            },
+            {
+              "linea": 93,
+              "texto": "file:write(\"</\" .. chunk.name .. \">\\n\")"
+            },
+            {
+              "linea": 120,
+              "texto": "file:write(string.rep(\"\\t\", indentation)..\"<\"..tag..\">\"..tostring(value)..\"</\"..tag..\">\\n\")"
+            },
+            {
+              "linea": 137,
+              "texto": "file:write(\"<?xml version=\\\"1.0\\\" encoding='UTF-8'?>\\n\")"
+            },
+            {
+              "linea": 138,
+              "texto": "file:write(\"<df_world>\\n\")"
+            },
+            {
+              "linea": 139,
+              "texto": "file:write(\"<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(world.world_data.name)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 140,
+              "texto": "file:write(\"<altname>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(world.world_data.name,1)))..\"</altname>\\n\")"
+            },
+            {
+              "linea": 146,
+              "texto": "file:write(\"\\t<landmass>\\n\")"
+            },
+            {
+              "linea": 147,
+              "texto": "file:write(\"\\t\\t<id>\"..landmassV.index..\"</id>\\n\")"
+            },
+            {
+              "linea": 148,
+              "texto": "file:write(\"\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(landmassV.name,1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 149,
+              "texto": "file:write(\"\\t\\t<coord_1>\"..landmassV.min_x..\",\"..landmassV.min_y..\"</coord_1>\\n\")"
+            },
+            {
+              "linea": 150,
+              "texto": "file:write(\"\\t\\t<coord_2>\"..landmassV.max_x..\",\"..landmassV.max_y..\"</coord_2>\\n\")"
+            },
+            {
+              "linea": 151,
+              "texto": "file:write(\"\\t</landmass>\\n\")"
+            },
+            {
+              "linea": 157,
+              "texto": "file:write(\"\\t<mountain_peak>\\n\")"
+            },
+            {
+              "linea": 158,
+              "texto": "file:write(\"\\t\\t<id>\"..mountainK..\"</id>\\n\")"
+            },
+            {
+              "linea": 159,
+              "texto": "file:write(\"\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(mountainV.name,1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 160,
+              "texto": "file:write(\"\\t\\t<coords>\"..mountainV.pos.x..\",\"..mountainV.pos.y..\"</coords>\\n\")"
+            },
+            {
+              "linea": 161,
+              "texto": "file:write(\"\\t\\t<height>\"..mountainV.height..\"</height>\\n\")"
+            },
+            {
+              "linea": 163,
+              "texto": "file:write(\"\\t\\t<is_volcano/>\\n\")"
+            },
+            {
+              "linea": 165,
+              "texto": "file:write(\"\\t</mountain_peak>\\n\")"
+            },
+            {
+              "linea": 171,
+              "texto": "file:write(\"\\t<region>\\n\")"
+            },
+            {
+              "linea": 172,
+              "texto": "file:write(\"\\t\\t<id>\"..regionV.index..\"</id>\\n\")"
+            },
+            {
+              "linea": 173,
+              "texto": "file:write(\"\\t\\t<coords>\")"
+            },
+            {
+              "linea": 175,
+              "texto": "file:write(xVal..\",\"..regionV.region_coords.y[xK]..\"|\")"
+            },
+            {
+              "linea": 177,
+              "texto": "file:write(\"</coords>\\n\")"
+            },
+            {
+              "linea": 184,
+              "texto": "file:write(\"\\t\\t<evilness>\"..evilness..\"</evilness>\\n\")"
+            },
+            {
+              "linea": 186,
+              "texto": "file:write(\"\\t\\t<force_id>\"..forceVal..\"</force_id>\\n\")"
+            },
+            {
+              "linea": 188,
+              "texto": "file:write(\"\\t</region>\\n\")"
+            },
+            {
+              "linea": 194,
+              "texto": "file:write(\"\\t<underground_region>\\n\")"
+            },
+            {
+              "linea": 195,
+              "texto": "file:write(\"\\t\\t<id>\"..regionV.index..\"</id>\\n\")"
+            },
+            {
+              "linea": 196,
+              "texto": "file:write(\"\\t\\t<coords>\")"
+            },
+            {
+              "linea": 198,
+              "texto": "file:write(xVal..\",\"..regionV.region_coords.y[xK]..\"|\")"
+            },
+            {
+              "linea": 200,
+              "texto": "file:write(\"</coords>\\n\")"
+            },
+            {
+              "linea": 201,
+              "texto": "file:write(\"\\t</underground_region>\\n\")"
+            },
+            {
+              "linea": 207,
+              "texto": "file:write(\"\\t<river>\\n\")"
+            },
+            {
+              "linea": 208,
+              "texto": "file:write(\"\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(riverV.name, 1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 209,
+              "texto": "file:write(\"\\t\\t<path>\")"
+            },
+            {
+              "linea": 211,
+              "texto": "file:write(pathV..\",\"..riverV.path.y[pathK]..\",\")"
+            },
+            {
+              "linea": 212,
+              "texto": "file:write(riverV.flow[pathK]..\",\")"
+            },
+            {
+              "linea": 213,
+              "texto": "file:write(riverV.exit_tile[pathK]..\",\")"
+            },
+            {
+              "linea": 214,
+              "texto": "file:write(riverV.elevation[pathK]..\"|\")"
+            },
+            {
+              "linea": 216,
+              "texto": "file:write(\"</path>\\n\")"
+            },
+            {
+              "linea": 217,
+              "texto": "file:write(\"\\t\\t<end_pos>\"..riverV.end_pos.x..\",\"..riverV.end_pos.y..\"</end_pos>\\n\")"
+            },
+            {
+              "linea": 218,
+              "texto": "file:write(\"\\t</river>\\n\")"
+            },
+            {
+              "linea": 224,
+              "texto": "file:write(\"\\t<creature>\\n\")"
+            },
+            {
+              "linea": 225,
+              "texto": "file:write(\"\\t\\t<creature_id>\"..creatureV.creature_id..\"</creature_id>\\n\")"
+            },
+            {
+              "linea": 226,
+              "texto": "file:write(\"\\t\\t<name_singular>\"..escape_xml(dfhack.df2utf(creatureV.name[0]))..\"</name_singular>\\n\")"
+            },
+            {
+              "linea": 227,
+              "texto": "file:write(\"\\t\\t<name_plural>\"..escape_xml(dfhack.df2utf(creatureV.name[1]))..\"</name_plural>\\n\")"
+            },
+            {
+              "linea": 230,
+              "texto": "file:write(\"\\t\\t<\"..flagV:lower()..\"/>\\n\")"
+            },
+            {
+              "linea": 233,
+              "texto": "file:write(\"\\t</creature>\\n\")"
+            },
+            {
+              "linea": 239,
+              "texto": "file:write(\"\\t<site>\\n\")"
+            },
+            {
+              "linea": 246,
+              "texto": "file:write(\"\\t\\t<structures>\\n\")"
+            },
+            {
+              "linea": 248,
+              "texto": "file:write(\"\\t\\t\\t<structure>\\n\")"
+            },
+            {
+              "linea": 249,
+              "texto": "file:write(\"\\t\\t\\t\\t<id>\"..buildingV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 250,
+              "texto": "file:write(\"\\t\\t\\t\\t<type>\"..df_enums.abstract_building_type[buildingV:getType()]:lower()..\"</type>\\n\")"
+            },
+            {
+              "linea": 252,
+              "texto": "file:write(\"\\t\\t\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(buildingV.name, 1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 253,
+              "texto": "file:write(\"\\t\\t\\t\\t<name2>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(buildingV.name)))..\"</name2>\\n\")"
+            },
+            {
+              "linea": 256,
+              "texto": "file:write(\"\\t\\t\\t\\t<deity_type>\"..buildingV.deity_type..\"</deity_type>\\n\")"
+            },
+            {
+              "linea": 258,
+              "texto": "file:write(\"\\t\\t\\t\\t<deity>\"..buildingV.deity_data.Deity..\"</deity>\\n\")"
+            },
+            {
+              "linea": 260,
+              "texto": "file:write(\"\\t\\t\\t\\t<religion>\"..buildingV.deity_data.Religion..\"</religion>\\n\")"
+            },
+            {
+              "linea": 264,
+              "texto": "file:write(\"\\t\\t\\t\\t<dungeon_type>\"..buildingV.dungeon_type..\"</dungeon_type>\\n\")"
+            },
+            {
+              "linea": 267,
+              "texto": "file:write(\"\\t\\t\\t\\t<inhabitant>\"..inhabitabntV.histfig_id..\"</inhabitant>\\n\")"
+            },
+            {
+              "linea": 269,
+              "texto": "file:write(\"\\t\\t\\t</structure>\\n\")"
+            },
+            {
+              "linea": 271,
+              "texto": "file:write(\"\\t\\t</structures>\\n\")"
+            },
+            {
+              "linea": 275,
+              "texto": "file:write(\"\\t</site>\\n\")"
+            },
+            {
+              "linea": 281,
+              "texto": "file:write(\"\\t<world_construction>\\n\")"
+            },
+            {
+              "linea": 282,
+              "texto": "file:write(\"\\t\\t<id>\"..wcV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 283,
+              "texto": "file:write(\"\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(wcV.name,1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 284,
+              "texto": "file:write(\"\\t\\t<type>\"..(df_enums.world_construction_type[wcV:getType()]):lower()..\"</type>\\n\")"
+            },
+            {
+              "linea": 285,
+              "texto": "file:write(\"\\t\\t<coords>\")"
+            },
+            {
+              "linea": 287,
+              "texto": "file:write(xVal..\",\"..wcV.square_pos.y[xK]..\"|\")"
+            },
+            {
+              "linea": 289,
+              "texto": "file:write(\"</coords>\\n\")"
+            },
+            {
+              "linea": 290,
+              "texto": "file:write(\"\\t</world_construction>\\n\")"
+            },
+            {
+              "linea": 296,
+              "texto": "file:write(\"\\t<artifact>\\n\")"
+            },
+            {
+              "linea": 297,
+              "texto": "file:write(\"\\t\\t<id>\"..artifactV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 300,
+              "texto": "file:write(\"\\t\\t<item_type>\"..tostring(df_enums.item_type[item:getType()]):lower()..\"</item_type>\\n\")"
+            },
+            {
+              "linea": 302,
+              "texto": "file:write(\"\\t\\t<item_subtype>\"..escape_xml(dfhack.df2utf(item.subtype.name))..\"</item_subtype>\\n\")"
+            },
+            {
+              "linea": 307,
+              "texto": "file:write(\"\\t\\t<writing>\"..writingV..\"</writing>\\n\")"
+            },
+            {
+              "linea": 310,
+              "texto": "file:write(\"\\t\\t<page_count>\"..impovementV.count..\"</page_count>\\n\")"
+            },
+            {
+              "linea": 312,
+              "texto": "file:write(\"\\t\\t<writing>\"..writingV..\"</writing>\\n\")"
+            },
+            {
+              "linea": 318,
+              "texto": "file:write(\"\\t\\t<item_description>\"..dfhack.df2utf(item.description:lower())..\"</item_description>\\n\")"
+            },
+            {
+              "linea": 321,
+              "texto": "file:write(\"\\t\\t<mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(item:getMaterial(), item:getMaterialIndex())))..\"</mat>\\n\")"
+            },
+            {
+              "linea": 323,
+              "texto": "file:write(\"\\t</artifact>\\n\")"
+            },
+            {
+              "linea": 329,
+              "texto": "file:write(\"\\t<historical_figure>\\n\")"
+            },
+            {
+              "linea": 330,
+              "texto": "file:write(\"\\t\\t<id>\"..hfV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 331,
+              "texto": "file:write(\"\\t\\t<sex>\"..hfV.sex..\"</sex>\\n\")"
+            },
+            {
+              "linea": 332,
+              "texto": "if hfV.race >= 0 then file:write(\"\\t\\t<race>\"..escape_xml(dfhack.df2utf(df.creature_raw.find(hfV.race).name[0]))..\"</race>\\n\") end"
+            },
+            {
+              "linea": 333,
+              "texto": "file:write(\"\\t</historical_figure>\\n\")"
+            },
+            {
+              "linea": 339,
+              "texto": "file:write(\"\\t<identity>\\n\")"
+            },
+            {
+              "linea": 340,
+              "texto": "file:write(\"\\t\\t<id>\"..idV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 341,
+              "texto": "file:write(\"\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(idV.name,1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 344,
+              "texto": "file:write(\"\\t\\t<\"..id_tag..\">\"..idV[id_tag]..\"</\"..id_tag..\">\\n\")"
+            },
+            {
+              "linea": 348,
+              "texto": "if idV.race >= 0 then file:write(\"\\t\\t<race>\"..(world.raws.creatures.all[idV.race].creature_id):lower()..\"</race>\\n\") end"
+            },
+            {
+              "linea": 349,
+              "texto": "if idV.race >= 0  and idV.caste >= 0 then file:write(\"\\t\\t<caste>\"..(world.raws.creatures.all[idV.race].caste[idV.caste].caste_id):lower()..\"</caste>\\n\") end"
+            },
+            {
+              "linea": 350,
+              "texto": "file:write(\"\\t\\t<birth_year>\"..idV.birth_year..\"</birth_year>\\n\")"
+            },
+            {
+              "linea": 351,
+              "texto": "file:write(\"\\t\\t<birth_second>\"..idV.birth_second..\"</birth_second>\\n\")"
+            },
+            {
+              "linea": 352,
+              "texto": "if idV.profession >= 0 then file:write(\"\\t\\t<profession>\"..(df_enums.profession[idV.profession]):lower()..\"</profession>\\n\") end"
+            },
+            {
+              "linea": 353,
+              "texto": "file:write(\"\\t\\t<entity_id>\"..idV.entity_id..\"</entity_id>\\n\")"
+            },
+            {
+              "linea": 354,
+              "texto": "file:write(\"\\t</identity>\\n\")"
+            },
+            {
+              "linea": 360,
+              "texto": "file:write(\"\\t<entity_population>\\n\")"
+            },
+            {
+              "linea": 361,
+              "texto": "file:write(\"\\t\\t<id>\"..entityPopV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 364,
+              "texto": "file:write(\"\\t\\t<race>\"..raceName..\":\"..entityPopV.counts[raceK]..\"</race>\\n\")"
+            },
+            {
+              "linea": 366,
+              "texto": "file:write(\"\\t\\t<civ_id>\"..entityPopV.civ_id..\"</civ_id>\\n\")"
+            },
+            {
+              "linea": 367,
+              "texto": "file:write(\"\\t</entity_population>\\n\")"
+            },
+            {
+              "linea": 373,
+              "texto": "file:write(\"\\t<entity>\\n\")"
+            },
+            {
+              "linea": 374,
+              "texto": "file:write(\"\\t\\t<id>\"..entityV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 376,
+              "texto": "file:write(\"\\t\\t<race>\"..(world.raws.creatures.all[entityV.race].creature_id):lower()..\"</race>\\n\")"
+            },
+            {
+              "linea": 378,
+              "texto": "file:write(\"\\t\\t<type>\"..(df_enums.historical_entity_type[entityV.type]):lower()..\"</type>\\n\")"
+            },
+            {
+              "linea": 382,
+              "texto": "file:write(\"\\t\\t<worship_id>\"..v..\"</worship_id>\\n\")"
+            },
+            {
+              "linea": 389,
+              "texto": "file:write(\"\\t\\t<weapon>\"..getItemSubTypeName(df.item_type.WEAPON, weaponID)..\"</weapon>\\n\")"
+            },
+            {
+              "linea": 395,
+              "texto": "file:write(\"\\t\\t<profession>\"..df_enums.profession[professionV.profession]:lower()..\"</profession>\\n\")"
+            },
+            {
+              "linea": 399,
+              "texto": "file:write(\"\\t\\t<entity_link>\\n\")"
+            },
+            {
+              "linea": 402,
+              "texto": "file:write(\"\\t\\t\\t<\"..k..\">\"..tostring(df_enums.entity_entity_link_type[v])..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 404,
+              "texto": "file:write(\"\\t\\t\\t<\"..k..\">\"..v..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 407,
+              "texto": "file:write(\"\\t\\t</entity_link>\\n\")"
+            },
+            {
+              "linea": 410,
+              "texto": "file:write(\"\\t\\t<entity_position>\\n\")"
+            },
+            {
+              "linea": 411,
+              "texto": "file:write(\"\\t\\t\\t<id>\"..positionV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 412,
+              "texto": "if positionV.name[0]          ~= \"\" then file:write(\"\\t\\t\\t<name>\"..escape_xml(positionV.name[0])..\"</name>\\n\") end"
+            },
+            {
+              "linea": 413,
+              "texto": "if positionV.name_male[0]     ~= \"\" then file:write(\"\\t\\t\\t<name_male>\"..escape_xml(positionV.name_male[0])..\"</name_male>\\n\") end"
+            },
+            {
+              "linea": 414,
+              "texto": "if positionV.name_female[0]   ~= \"\" then file:write(\"\\t\\t\\t<name_female>\"..escape_xml(positionV.name_female[0])..\"</name_female>\\n\") end"
+            },
+            {
+              "linea": 415,
+              "texto": "if positionV.spouse[0]        ~= \"\" then file:write(\"\\t\\t\\t<spouse>\"..positionV.spouse[0]..\"</spouse>\\n\") end"
+            },
+            {
+              "linea": 416,
+              "texto": "if positionV.spouse_male[0]   ~= \"\" then file:write(\"\\t\\t\\t<spouse_male>\"..positionV.spouse_male[0]..\"</spouse_male>\\n\") end"
+            },
+            {
+              "linea": 417,
+              "texto": "if positionV.spouse_female[0] ~= \"\" then file:write(\"\\t\\t\\t<spouse_female>\"..positionV.spouse_female[0]..\"</spouse_female>\\n\") end"
+            },
+            {
+              "linea": 418,
+              "texto": "file:write(\"\\t\\t</entity_position>\\n\")"
+            },
+            {
+              "linea": 421,
+              "texto": "file:write(\"\\t\\t<entity_position_assignment>\\n\")"
+            },
+            {
+              "linea": 427,
+              "texto": "file:write(\"\\t\\t</entity_position_assignment>\\n\")"
+            },
+            {
+              "linea": 430,
+              "texto": "file:write(\"\\t\\t<histfig_id>\"..id..\"</histfig_id>\\n\")"
+            },
+            {
+              "linea": 433,
+              "texto": "file:write(\"\\t\\t<child>\"..link..\"</child>\\n\")"
+            },
+            {
+              "linea": 447,
+              "texto": "file:write(\"\\t\\t<occasion>\\n\")"
+            },
+            {
+              "linea": 448,
+              "texto": "file:write(\"\\t\\t\\t<id>\"..occasionV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 449,
+              "texto": "file:write(\"\\t\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(occasionV.name,1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 450,
+              "texto": "file:write(\"\\t\\t\\t<event>\"..occasionV.purpose_id..\"</event>\\n\")"
+            },
+            {
+              "linea": 452,
+              "texto": "file:write(\"\\t\\t\\t<schedule>\\n\")"
+            },
+            {
+              "linea": 453,
+              "texto": "file:write(\"\\t\\t\\t\\t<id>\"..scheduleK..\"</id>\\n\")"
+            },
+            {
+              "linea": 454,
+              "texto": "file:write(\"\\t\\t\\t\\t<type>\"..df_enums.occasion_schedule_type[scheduleV.type]:lower()..\"</type>\\n\")"
+            },
+            {
+              "linea": 456,
+              "texto": "file:write(\"\\t\\t\\t\\t<item_type>\"..df_enums.item_type[scheduleV.reference]:lower()..\"</item_type>\\n\")"
+            },
+            {
+              "linea": 457,
+              "texto": "file:write(\"\\t\\t\\t\\t<item_subtype>\"..getItemSubTypeName(scheduleV.reference,scheduleV.reference2)..\"</item_subtype>\\n\")"
+            },
+            {
+              "linea": 459,
+              "texto": "file:write(\"\\t\\t\\t\\t<reference>\"..scheduleV.reference..\"</reference>\\n\")"
+            },
+            {
+              "linea": 460,
+              "texto": "file:write(\"\\t\\t\\t\\t<reference2>\"..scheduleV.reference2..\"</reference2>\\n\")"
+            },
+            {
+              "linea": 463,
+              "texto": "file:write(\"\\t\\t\\t\\t<feature>\\n\")"
+            },
+            {
+              "linea": 465,
+              "texto": "file:write(\"\\t\\t\\t\\t\\t<type>\"..df_enums.occasion_schedule_feature[featureV.feature]:lower()..\"</type>\\n\")"
+            },
+            {
+              "linea": 467,
+              "texto": "file:write(\"\\t\\t\\t\\t\\t<type>\"..featureV.feature..\"</type>\\n\")"
+            },
+            {
+              "linea": 469,
+              "texto": "file:write(\"\\t\\t\\t\\t\\t<reference>\"..featureV.reference..\"</reference>\\n\")"
+            },
+            {
+              "linea": 470,
+              "texto": "file:write(\"\\t\\t\\t\\t</feature>\\n\")"
+            },
+            {
+              "linea": 472,
+              "texto": "file:write(\"\\t\\t\\t</schedule>\\n\")"
+            },
+            {
+              "linea": 474,
+              "texto": "file:write(\"\\t\\t</occasion>\\n\")"
+            },
+            {
+              "linea": 477,
+              "texto": "file:write(\"\\t</entity>\\n\")"
+            },
+            {
+              "linea": 523,
+              "texto": "file:write(\"\\t<historical_event>\\n\")"
+            },
+            {
+              "linea": 524,
+              "texto": "file:write(\"\\t\\t<id>\"..event.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 525,
+              "texto": "file:write(\"\\t\\t<type>\"..tostring(df_enums.history_event_type[event:getType()]):lower()..\"</type>\\n\")"
+            },
+            {
+              "linea": 533,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..df_enums.histfig_entity_link_type[v]:lower()..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 539,
+              "texto": "file:write(\"\\t\\t<position>\"..escape_xml(tostring(entityPositionsV.name[0]):lower())..\"</position>\\n\")"
+            },
+            {
+              "linea": 544,
+              "texto": "file:write(\"\\t\\t<position>-1</position>\\n\")"
+            },
+            {
+              "linea": 551,
+              "texto": "file:write(\"\\t\\t<position>\"..escape_xml(tostring(entityPositionsV.name[0]):lower())..\"</position>\\n\")"
+            },
+            {
+              "linea": 556,
+              "texto": "file:write(\"\\t\\t<position>-1</position>\\n\")"
+            },
+            {
+              "linea": 559,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..df_enums.histfig_entity_link_type[v]:lower()..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 565,
+              "texto": "file:write(\"\\t\\t<position>\"..escape_xml(tostring(entityPositionsV.name[0]):lower())..\"</position>\\n\")"
+            },
+            {
+              "linea": 570,
+              "texto": "file:write(\"\\t\\t<position>-1</position>\\n\")"
+            },
+            {
+              "linea": 573,
+              "texto": "file:write(\"\\t\\t<link_type>\"..df_enums.histfig_hf_link_type[v]:lower()..\"</link_type>\\n\")"
+            },
+            {
+              "linea": 575,
+              "texto": "file:write(\"\\t\\t<link_type>\"..df_enums.histfig_site_link_type[v]:lower()..\"</link_type>\\n\")"
+            },
+            {
+              "linea": 577,
+              "texto": "file:write(\"\\t\\t<link_type>\"..df_enums.histfig_site_link_type[v]:lower()..\"</link_type>\\n\")"
+            },
+            {
+              "linea": 583,
+              "texto": "file:write(\"\\t\\t<item_type>\"..df_enums.item_type[v]:lower()..\"</item_type>\\n\")"
+            },
+            {
+              "linea": 590,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..getItemSubTypeName(event.item_type,v)..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 594,
+              "texto": "file:write(\"\\t\\t<item_type>food</item_type>\\n\")"
+            },
+            {
+              "linea": 595,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..getItemSubTypeName(df.item_type.FOOD,v)..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 600,
+              "texto": "file:write(\"\\t\\t<mattype>\"..event.mattype..\"</mattype>\\n\")"
+            },
+            {
+              "linea": 601,
+              "texto": "file:write(\"\\t\\t<matindex>\"..event.matindex..\"</matindex>\\n\")"
+            },
+            {
+              "linea": 603,
+              "texto": "file:write(\"\\t\\t<mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(event.mattype, event.matindex)))..\"</mat>\\n\")"
+            },
+            {
+              "linea": 617,
+              "texto": "file:write(\"\\t\\t<circumstance>\\n\")"
+            },
+            {
+              "linea": 618,
+              "texto": "file:write(\"\\t\\t\\t<type>\"..df_enums.unit_thought_type[event.circumstance.type]:lower()..\"</type>\\n\")"
+            },
+            {
+              "linea": 630,
+              "texto": "file:write(\"\\t\\t\\t<hist_event_collection>\"..event.circumstance.data.HistEventCollection..\"</hist_event_collection>\\n\")"
+            },
+            {
+              "linea": 634,
+              "texto": "file:write(\"\\t\\t</circumstance>\\n\")"
+            },
+            {
+              "linea": 647,
+              "texto": "file:write(\"\\t\\t<reason>\"..df_enums.history_event_reason[event.reason.type]:lower()..\"</reason>\\n\")"
+            },
+            {
+              "linea": 665,
+              "texto": "file:write(\"\\t\\t<mat_type>\"..event.mat_type..\"</mat_type>\\n\")"
+            },
+            {
+              "linea": 666,
+              "texto": "file:write(\"\\t\\t<mat_index>\"..event.mat_index..\"</mat_index>\\n\")"
+            },
+            {
+              "linea": 668,
+              "texto": "file:write(\"\\t\\t<mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(event.mat_type, event.mat_index)))..\"</mat>\\n\")"
+            },
+            {
+              "linea": 674,
+              "texto": "file:write(\"\\t\\t<imp_mat_type>\"..event.imp_mat_type..\"</imp_mat_type>\\n\")"
+            },
+            {
+              "linea": 675,
+              "texto": "file:write(\"\\t\\t<imp_mat_index>\"..event.imp_mat_index..\"</imp_mat_index>\\n\")"
+            },
+            {
+              "linea": 677,
+              "texto": "file:write(\"\\t\\t<imp_mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(event.imp_mat_type, event.imp_mat_index)))..\"</imp_mat>\\n\")"
+            },
+            {
+              "linea": 683,
+              "texto": "file:write(\"\\t\\t<dye_mat_type>\"..event.dye_mat_type..\"</dye_mat_type>\\n\")"
+            },
+            {
+              "linea": 684,
+              "texto": "file:write(\"\\t\\t<dye_mat_index>\"..event.dye_mat_index..\"</dye_mat_index>\\n\")"
+            },
+            {
+              "linea": 686,
+              "texto": "file:write(\"\\t\\t<dye_mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(event.dye_mat_type, event.dye_mat_index)))..\"</dye_mat>\\n\")"
+            },
+            {
+              "linea": 706,
+              "texto": "file:write(\"\\t\\t<topic>\"..tostring(df_enums.meeting_topic[v]):lower()..\"</topic>\\n\")"
+            },
+            {
+              "linea": 708,
+              "texto": "file:write(\"\\t\\t<improvement_type>\"..df_enums.improvement_type[v]:lower()..\"</improvement_type>\\n\")"
+            },
+            {
+              "linea": 713,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..detailV..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 717,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..escape_xml(dfhack.df2utf(df.creature_raw.find(detailV).name[0]))..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 721,
+              "texto": "file:write(\"\\t\\t<item_type>\"..tostring(df_enums.item_type[event.abuse_data.Impaled.item_type]):lower()..\"</item_type>\\n\")"
+            },
+            {
+              "linea": 722,
+              "texto": "file:write(\"\\t\\t<item_subtype>\"..getItemSubTypeName(event.abuse_data.Impaled.item_type,event.abuse_data.Impaled.item_subtype)..\"</item_subtype>\\n\")"
+            },
+            {
+              "linea": 725,
+              "texto": "file:write(\"\\t\\t<mat_type>\"..event.abuse_data.Impaled.mat_type..\"</mat_type>\\n\")"
+            },
+            {
+              "linea": 726,
+              "texto": "file:write(\"\\t\\t<mat_index>\"..event.abuse_data.Impaled.mat_index..\"</mat_index>\\n\")"
+            },
+            {
+              "linea": 728,
+              "texto": "file:write(\"\\t\\t<item_mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(event.abuse_data.Impaled.mat_type, event.abuse_data.Impaled.mat_index)))..\"</item_mat>\\n\")"
+            },
+            {
+              "linea": 734,
+              "texto": "file:write(\"\\t\\t<pile_type>unknown \"..tostring(event.abuse_data.Piled.pile_type)..\"</pile_type>\\n\")"
+            },
+            {
+              "linea": 736,
+              "texto": "file:write(\"\\t\\t<pile_type>\"..tostring(val):lower()..\"</pile_type>\\n\")"
+            },
+            {
+              "linea": 739,
+              "texto": "file:write(\"\\t\\t<structure>\"..tostring(event.abuse_data.Flayed.structure)..\"</structure>\\n\")"
+            },
+            {
+              "linea": 741,
+              "texto": "file:write(\"\\t\\t<tree>\"..tostring(event.abuse_data.Hung.tree)..\"</tree>\\n\")"
+            },
+            {
+              "linea": 743,
+              "texto": "file:write(\"\\t\\t<mat_type>\"..event.abuse_data.Hung.mat_type..\"</mat_type>\\n\")"
+            },
+            {
+              "linea": 744,
+              "texto": "file:write(\"\\t\\t<mat_index>\"..event.abuse_data.Hung.mat_index..\"</mat_index>\\n\")"
+            },
+            {
+              "linea": 746,
+              "texto": "file:write(\"\\t\\t<item_mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(event.abuse_data.Hung.mat_type, event.abuse_data.Hung.mat_index)))..\"</item_mat>\\n\")"
+            },
+            {
+              "linea": 750,
+              "texto": "file:write(\"\\t\\t<interaction>\"..tostring(event.abuse_data.Animated.interaction)..\"</interaction>\\n\")"
+            },
+            {
+              "linea": 763,
+              "texto": "file:write(\"\\t\\t<identity_name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(identity.name)))..\"</identity_name>\\n\")"
+            },
+            {
+              "linea": 766,
+              "texto": "file:write(\"\\t\\t<identity_race>\"..(craw.creature_id):lower()..\"</identity_race>\\n\")"
+            },
+            {
+              "linea": 767,
+              "texto": "file:write(\"\\t\\t<identity_caste>\"..(craw.caste[identity.caste].caste_id):lower()..\"</identity_caste>\\n\")"
+            },
+            {
+              "linea": 771,
+              "texto": "file:write(\"\\t\\t<building_type>\"..df_enums.building_type[v]:lower()..\"</building_type>\\n\")"
+            },
+            {
+              "linea": 774,
+              "texto": "file:write(\"\\t\\t<building_subtype>\"..df_enums.furnace_type[v]:lower()..\"</building_subtype>\\n\")"
+            },
+            {
+              "linea": 776,
+              "texto": "file:write(\"\\t\\t<building_subtype>\"..tostring(v)..\"</building_subtype>\\n\")"
+            },
+            {
+              "linea": 780,
+              "texto": "file:write(\"\\t\\t<race>\"..escape_xml(dfhack.df2utf(world.raws.creatures.all[v].name[0]))..\"</race>\\n\")"
+            },
+            {
+              "linea": 784,
+              "texto": "file:write(\"\\t\\t<caste>\"..(world.raws.creatures.all[event.race].caste[v].caste_id):lower()..\"</caste>\\n\")"
+            },
+            {
+              "linea": 792,
+              "texto": "file:write(\"\\t\\t<interaction_action>\"..str_1..world.raws.interactions.all[v].sources[0].hist_string_2..\"</interaction_action>\\n\")"
+            },
+            {
+              "linea": 796,
+              "texto": "file:write(\"\\t\\t<secret_text>\"..world.raws.interactions.all[v].sources[0].name..\"</secret_text>\\n\")"
+            },
+            {
+              "linea": 802,
+              "texto": "file:write(\"\\t\\t<\"..detailK..\">\"..detailV..\"</\"..detailK..\">\\n\")"
+            },
+            {
+              "linea": 808,
+              "texto": "file:write(\"\\t\\t<artifact_id>\"..refv.artifact_id..\"</artifact_id>\\n\")"
+            },
+            {
+              "linea": 817,
+              "texto": "file:write(\"\\t\\t<\"..detailK..\">\"..tostring(df_enums.item_type[detailV]):lower()..\"</\"..detailK..\">\\n\")"
+            },
+            {
+              "linea": 821,
+              "texto": "file:write(\"\\t\\t<\"..detailK..\">\"..getItemSubTypeName(event.weapon.item_type,detailV)..\"</\"..detailK..\">\\n\")"
+            },
+            {
+              "linea": 825,
+              "texto": "file:write(\"\\t\\t<mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(event.weapon.mattype, event.weapon.matindex)))..\"</mat>\\n\")"
+            },
+            {
+              "linea": 831,
+              "texto": "file:write(\"\\t\\t<\"..detailK..\">\"..detailV..\"</\"..detailK..\">\\n\")"
+            },
+            {
+              "linea": 837,
+              "texto": "file:write(\"\\t\\t<shooter_artifact_id>\"..refv.artifact_id..\"</shooter_artifact_id>\\n\")"
+            },
+            {
+              "linea": 846,
+              "texto": "file:write(\"\\t\\t<\"..detailK..\">\"..tostring(df_enums.item_type[detailV]):lower()..\"</\"..detailK..\">\\n\")"
+            },
+            {
+              "linea": 850,
+              "texto": "file:write(\"\\t\\t<\"..detailK..\">\"..getItemSubTypeName(event.weapon.shooter_item_type,detailV)..\"</\"..detailK..\">\\n\")"
+            },
+            {
+              "linea": 854,
+              "texto": "file:write(\"\\t\\t<shooter_mat>\"..dfhack.df2utf(dfhack.matinfo.toString(dfhack.matinfo.decode(event.weapon.shooter_mattype, event.weapon.shooter_matindex)))..\"</shooter_mat>\\n\")"
+            },
+            {
+              "linea": 861,
+              "texto": "file:write(\"\\t\\t<\"..detailK..\">\"..detailV..\"</\"..detailK..\">\\n\")"
+            },
+            {
+              "linea": 865,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..df_enums.death_type[v]:lower()..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 867,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..df_enums.profession[v]:lower()..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 869,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..escape_xml(dfhack.df2utf(world.raws.creatures.all[v].name[0]))..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 877,
+              "texto": "file:write(\"\\t\\t<\"..k..\">please report compound element for correction</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 883,
+              "texto": "file:write(\"\\t\\t<\"..k..\">unknown \"..tostring(v)..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 885,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..tostring(val):lower()..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 888,
+              "texto": "file:write(\"\\t\\t<\"..k..\">\"..tostring(v)..\"</\"..k..\">\\n\")"
+            },
+            {
+              "linea": 892,
+              "texto": "file:write(\"\\t</historical_event>\\n\")"
+            },
+            {
+              "linea": 900,
+              "texto": "file:write(\"\\t<historical_event_relationship>\\n\")"
+            },
+            {
+              "linea": 901,
+              "texto": "file:write(\"\\t\\t<event>\"..set.event[k]..\"</event>\\n\")"
+            },
+            {
+              "linea": 902,
+              "texto": "file:write(\"\\t\\t<relationship>\"..df_enums.vague_relationship_type[set.relationship[k]]..\"</relationship>\\n\")"
+            },
+            {
+              "linea": 903,
+              "texto": "file:write(\"\\t\\t<source_hf>\"..set.source_hf[k]..\"</source_hf>\\n\")"
+            },
+            {
+              "linea": 904,
+              "texto": "file:write(\"\\t\\t<target_hf>\"..set.target_hf[k]..\"</target_hf>\\n\")"
+            },
+            {
+              "linea": 905,
+              "texto": "file:write(\"\\t\\t<year>\"..set.year[k]..\"</year>\\n\")"
+            },
+            {
+              "linea": 906,
+              "texto": "file:write(\"\\t</historical_event_relationship>\\n\")"
+            },
+            {
+              "linea": 913,
+              "texto": "file:write(\"\\t<historical_event_relationship_supplement>\\n\")"
+            },
+            {
+              "linea": 914,
+              "texto": "file:write(\"\\t\\t<event>\"..event.event..\"</event>\\n\")"
+            },
+            {
+              "linea": 915,
+              "texto": "file:write(\"\\t\\t<occasion_type>\"..event.circumstance..\"</occasion_type>\\n\")"
+            },
+            {
+              "linea": 916,
+              "texto": "file:write(\"\\t\\t<site>\"..event.circumstance_id.Death..\"</site>\\n\")"
+            },
+            {
+              "linea": 917,
+              "texto": "file:write(\"\\t\\t<reason>\"..event.reason..\"</reason>\\n\")"
+            },
+            {
+              "linea": 918,
+              "texto": "file:write(\"\\t</historical_event_relationship_supplement>\\n\")"
+            },
+            {
+              "linea": 928,
+              "texto": "file:write(\"\\t<written_content>\\n\")"
+            },
+            {
+              "linea": 929,
+              "texto": "file:write(\"\\t\\t<id>\"..wcV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 930,
+              "texto": "file:write(\"\\t\\t<title>\"..escape_xml(dfhack.df2utf(wcV.title))..\"</title>\\n\")"
+            },
+            {
+              "linea": 934,
+              "texto": "file:write(\"\\t\\t<reference>\\n\")"
+            },
+            {
+              "linea": 935,
+              "texto": "file:write(\"\\t\\t\\t<type>\"..df_enums.general_ref_type[refV:getType()]..\"</type>\\n\")"
+            },
+            {
+              "linea": 936,
+              "texto": "if df.general_ref_artifact:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.artifact_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 937,
+              "texto": "elseif df.general_ref_entity:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.entity_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 938,
+              "texto": "elseif df.general_ref_historical_eventst:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.event_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 939,
+              "texto": "elseif df.general_ref_sitest:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.site_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 940,
+              "texto": "elseif df.general_ref_subregionst:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.region_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 941,
+              "texto": "elseif df.general_ref_historical_figurest:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.hist_figure_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 942,
+              "texto": "elseif df.general_ref_written_contentst:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.written_content_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 943,
+              "texto": "elseif df.general_ref_poetic_formst:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.poetic_form_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 944,
+              "texto": "elseif df.general_ref_musical_formst:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.musical_form_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 945,
+              "texto": "elseif df.general_ref_dance_formst:is_instance(refV) then file:write(\"\\t\\t\\t<id>\"..refV.dance_form_id..\"</id>\\n\")"
+            },
+            {
+              "linea": 955,
+              "texto": "file:write(\"\\t\\t</reference>\\n\")"
+            },
+            {
+              "linea": 957,
+              "texto": "file:write(\"\\t\\t<type>\"..(df_enums.written_content_type[wcV.type] or wcV.type)..\"</type>\\n\")"
+            },
+            {
+              "linea": 959,
+              "texto": "file:write(\"\\t\\t<style>\"..(df_enums.written_content_style[styleV] or styleV)..\"</style>\\n\")"
+            },
+            {
+              "linea": 961,
+              "texto": "file:write(\"\\t\\t<author>\"..wcV.author..\"</author>\\n\")"
+            },
+            {
+              "linea": 962,
+              "texto": "file:write(\"\\t</written_content>\\n\")"
+            },
+            {
+              "linea": 968,
+              "texto": "file:write(\"\\t<poetic_form>\\n\")"
+            },
+            {
+              "linea": 969,
+              "texto": "file:write(\"\\t\\t<id>\"..formV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 970,
+              "texto": "file:write(\"\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(formV.name,1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 971,
+              "texto": "file:write(\"\\t</poetic_form>\\n\")"
+            },
+            {
+              "linea": 977,
+              "texto": "file:write(\"\\t<musical_form>\\n\")"
+            },
+            {
+              "linea": 978,
+              "texto": "file:write(\"\\t\\t<id>\"..formV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 979,
+              "texto": "file:write(\"\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(formV.name,1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 980,
+              "texto": "file:write(\"\\t</musical_form>\\n\")"
+            },
+            {
+              "linea": 986,
+              "texto": "file:write(\"\\t<dance_form>\\n\")"
+            },
+            {
+              "linea": 987,
+              "texto": "file:write(\"\\t\\t<id>\"..formV.id..\"</id>\\n\")"
+            },
+            {
+              "linea": 988,
+              "texto": "file:write(\"\\t\\t<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(formV.name,1)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 989,
+              "texto": "file:write(\"\\t</dance_form>\\n\")"
+            },
+            {
+              "linea": 997,
+              "texto": "file:write(\"</df_world>\\n\")"
+            }
+          ],
+          "escritura_io_open": [
+            {
+              "linea": 131,
+              "texto": "local file = io.open(filename, 'w')"
+            }
+          ],
+          "hook_state_change": [
+            {
+              "linea": 1037,
+              "texto": "dfhack.onStateChange[GLOBAL_KEY] = function(sc)"
+            }
+          ],
+          "identidad_save_dir": [
+            {
+              "linea": 130,
+              "texto": "local filename = world.cur_savegame.save_dir..\"-\"..get_world_date_str()..\"-legends_plus.xml\""
+            }
+          ],
+          "identidad_world_data_name": [
+            {
+              "linea": 139,
+              "texto": "file:write(\"<name>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(world.world_data.name)))..\"</name>\\n\")"
+            },
+            {
+              "linea": 140,
+              "texto": "file:write(\"<altname>\"..escape_xml(dfhack.df2utf(dfhack.translation.translateName(world.world_data.name,1)))..\"</altname>\\n\")"
+            }
+          ],
+          "reloj_cur_year": [
+            {
+              "linea": 16,
+              "texto": "local date_str = string.format('%05d-%02d-%02d', df.global.cur_year, month, day)"
+            }
+          ],
+          "reloj_get_tick_count": [
+            {
+              "linea": 53,
+              "texto": "local now_ms = dfhack.getTickCount()"
+            },
+            {
+              "linea": 56,
+              "texto": "last_update_ms = dfhack.getTickCount()"
+            }
+          ],
+          "reloj_readcurrent": [
+            {
+              "linea": 14,
+              "texto": "local month = dfhack.world.ReadCurrentMonth() + 1"
+            },
+            {
+              "linea": 15,
+              "texto": "local day = dfhack.world.ReadCurrentDay()"
+            }
+          ]
+        },
+        "fichero": "exportlegends.lua",
+        "lineas": 1057,
+        "resumen": {
+          "cesion_script_sleep": 1,
+          "cesion_start_script": 1,
+          "escritura_file_write": 274,
+          "escritura_io_open": 1,
+          "hook_state_change": 1,
+          "identidad_save_dir": 1,
+          "identidad_world_data_name": 2,
+          "reloj_cur_year": 1,
+          "reloj_get_tick_count": 2,
+          "reloj_readcurrent": 2
+        }
+      },
+      {
+        "escritura_memoria_df": false,
+        "eventos": {},
+        "fichero": "load-save.lua",
+        "lineas": 63,
+        "resumen": {}
+      },
+      {
+        "escritura_memoria_df": false,
+        "eventos": {
+          "persistencia_world_data": [
+            {
+              "linea": 25,
+              "texto": "dfhack.persistent.deleteWorldData(GLOBAL_KEY)"
+            },
+            {
+              "linea": 29,
+              "texto": "local state = dfhack.persistent.getWorldData(GLOBAL_KEY, {})"
+            },
+            {
+              "linea": 40,
+              "texto": "dfhack.persistent.saveWorldData(GLOBAL_KEY, state)"
+            }
+          ]
+        },
+        "fichero": "once-per-save.lua",
+        "lineas": 40,
+        "resumen": {
+          "persistencia_world_data": 3
+        }
+      },
+      {
+        "escritura_memoria_df": true,
+        "eventos": {
+          "escritura_memoria_df": [
+            {
+              "linea": 37,
+              "texto": "df.global.gametype = df.game_type.VIEW_LEGENDS"
+            },
+            {
+              "linea": 79,
+              "texto": "df.global.gametype = self.gametype_backup"
+            },
+            {
+              "linea": 88,
+              "texto": "df.global.d_init.feature.autosave = df.d_init_autosave.NONE"
+            }
+          ]
+        },
+        "fichero": "open-legends.lua",
+        "lineas": 203,
+        "resumen": {
+          "escritura_memoria_df": 3
+        }
+      },
+      {
+        "escritura_memoria_df": false,
+        "eventos": {},
+        "fichero": "quicksave.lua",
+        "lineas": 42,
+        "resumen": {}
+      },
+      {
+        "escritura_memoria_df": false,
+        "eventos": {},
+        "fichero": "racefilter.lua",
+        "lineas": 130,
+        "resumen": {}
+      },
+      {
+        "escritura_memoria_df": false,
+        "eventos": {
+          "persistencia_site_data": [
+            {
+              "linea": 5,
+              "texto": "local old_config = dfhack.persistent.getSiteData(GLOBAL_KEY)"
+            }
+          ]
+        },
+        "fichero": "timestream.lua",
+        "lineas": 50,
+        "resumen": {
+          "persistencia_site_data": 1
+        }
+      }
+    ],
+    "faltantes": [],
+    "ficheros_analizados": [
+      "asyncexport.lua",
+      "export-world-map.lua",
+      "exportlegends.lua",
+      "load-save.lua",
+      "once-per-save.lua",
+      "open-legends.lua",
+      "quicksave.lua",
+      "racefilter.lua",
+      "timestream.lua"
+    ],
+    "raiz": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DFHack\\hack"
+  },
+  "descripcion_clases": {
+    "cesion_coroutine_yield": "Cede la corrutina al planificador de Lua.",
+    "cesion_script_sleep": "El script cede el control al juego durante N frames. NO congela la simulacion: el mundo puede avanzar.",
+    "cesion_start_script": "script.start() arranca el script como corrutina (asincrono).",
+    "cesion_suspend": "dfhack.suspend() toma el lock de core. La documentacion lo describe como necesario para 'acceder a un estado consistente de la memoria de DF'. No afirma que el mundo deje de avanzar.",
+    "cesion_with_suspend": "dfhack.with_suspend(f) ejecuta f con el lock de core tomado.",
+    "escritura_file_write": "Escribe en el fichero de salida.",
+    "escritura_io_open": "Abre un fichero para escritura.",
+    "escritura_memoria_df": "Asigna a memoria de DF (modifica el mundo).",
+    "hook_state_change": "Registra un handler de onStateChange.",
+    "host_reloj": "Reloj del sistema anfitrion.",
+    "identidad_read_world_folder": "Carpeta del save cargada. Vacio si no hay juego cargado esta sesion.",
+    "identidad_save_dir": "Nombre del directorio del save. Persistente en el juego, NO unico por estado (solo cambia al renombrar el save).",
+    "identidad_world_data_name": "Nombre del mundo. Persistente, NO unico por estado.",
+    "persistencia_site_data": "Igual que WorldData pero asociado al sitio (fortaleza).",
+    "persistencia_unsaved": "Segundos desde el ultimo guardado/carga. Mide 'suciedad', no tiempo de mundo.",
+    "persistencia_world_data": "Almacena datos en el directorio del save, asociados al mundo. Se escribe en disco SOLO cuando el juego se guarda.",
+    "reloj_cur_year": "Anio de mundo actual.",
+    "reloj_cur_year_tick": "Tick intra-anio del mundo.",
+    "reloj_frame_counter": "Contador de ticks DESDE EL INICIO DEL ANO (se reinicia cada ano).",
+    "reloj_get_tick_count": "Reloj de RENDER del proceso (milisegundos). Se reinicia al arrancar el proceso. NO es reloj de mundo.",
+    "reloj_readcurrent": "Reloj de mundo expuesto por DFHack (year/tick/month/day/worldfolder)."
+  },
+  "garantias": {
+    "determinista": true,
+    "es_producto": false,
+    "modifica_originales": false,
+    "solo_lectura": true
+  },
+  "herramienta": "inventario_exportador",
+  "modo": "analisis estatico; NO requiere DF en ejecucion",
+  "tipo": "HERRAMIENTA DE INVESTIGACION (no productiva)"
+}

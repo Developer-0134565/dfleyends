@@ -1,0 +1,3503 @@
+{
+ "contrato": "tipo_raw -> tipo_chronicle -> regla_semantica -> evidencia",
+ "definicion": {
+  "NOT_PROVEN": "estructura suficiente, significado NO demostrado",
+  "PARTIAL": "se convierte en parte; el resto se declara, no se inventa",
+  "SUPPORTED": "semantica demostrada; se convierte en evento Chronicle",
+  "UNSUPPORTED": "no se puede construir un evento utilizable"
+ },
+ "ejemplos": {
+  "add hf entity honor": {
+   "campos": {
+    "entity_id": "566",
+    "hfid": "2833",
+    "honor_id": "2",
+    "seconds72": "201600",
+    "type": "add hf entity honor",
+    "year": "56"
+   },
+   "certainty": "FACT",
+   "df_id": "21295",
+   "record_id": "historical_events:21295",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "add hf entity link": {
+   "campos": {
+    "civ_id": "268",
+    "hfid": "344",
+    "link": "position",
+    "position_id": "1",
+    "seconds72": "-1",
+    "type": "add hf entity link",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "334",
+   "record_id": "historical_events:334",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "add hf hf link": {
+   "campos": {
+    "hfid": "351",
+    "hfid_target": "347",
+    "seconds72": "-1",
+    "type": "add hf hf link",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "929",
+   "record_id": "historical_events:929",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "add hf site link": {
+   "campos": {
+    "seconds72": "-1",
+    "site_id": "77",
+    "type": "add hf site link",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "351",
+   "record_id": "historical_events:351",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "agreement formed": {
+   "campos": {
+    "agreement_id": "0",
+    "seconds72": "-1",
+    "type": "agreement formed",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "472",
+   "record_id": "historical_events:472",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "artifact claim formed": {
+   "campos": {
+    "artifact_id": "60",
+    "claim": "symbol",
+    "entity_id": "296",
+    "hist_figure_id": "-1",
+    "position_profile_id": "3",
+    "seconds72": "-1",
+    "type": "artifact claim formed",
+    "year": "23"
+   },
+   "certainty": "FACT",
+   "df_id": "6065",
+   "record_id": "historical_events:6065",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "artifact created": {
+   "campos": {
+    "artifact_id": "50",
+    "entity_id": "-1",
+    "hist_figure_id": "357",
+    "seconds72": "-1",
+    "site_id": "-1",
+    "type": "artifact created",
+    "unit_id": "-1",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "471",
+   "record_id": "historical_events:471",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "artifact found": {
+   "campos": {
+    "artifact_id": "60",
+    "hist_figure_id": "1012",
+    "seconds72": "-1",
+    "site_id": "88",
+    "type": "artifact found",
+    "unit_id": "-1",
+    "year": "23"
+   },
+   "certainty": "FACT",
+   "df_id": "6063",
+   "record_id": "historical_events:6063",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "artifact given": {
+   "campos": {
+    "artifact_id": "60",
+    "giver_entity_id": "-1",
+    "giver_hist_figure_id": "1012",
+    "receiver_entity_id": "296",
+    "receiver_hist_figure_id": "1474",
+    "seconds72": "-1",
+    "type": "artifact given",
+    "year": "23"
+   },
+   "certainty": "FACT",
+   "df_id": "6064",
+   "record_id": "historical_events:6064",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "artifact lost": {
+   "campos": {
+    "artifact_id": "57",
+    "seconds72": "-1",
+    "site_id": "141",
+    "type": "artifact lost",
+    "year": "14"
+   },
+   "certainty": "FACT",
+   "df_id": "4029",
+   "record_id": "historical_events:4029",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "artifact possessed": {
+   "campos": {
+    "artifact_id": "56",
+    "feature_layer_id": "-1",
+    "hist_figure_id": "533",
+    "seconds72": "134400",
+    "site_id": "87",
+    "subregion_id": "-1",
+    "type": "artifact possessed",
+    "unit_id": "-1",
+    "year": "4"
+   },
+   "certainty": "FACT",
+   "df_id": "1745",
+   "record_id": "historical_events:1745",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "artifact recovered": {
+   "campos": {
+    "artifact_id": "213",
+    "feature_layer_id": "-1",
+    "hist_figure_id": "5855",
+    "seconds72": "168000",
+    "site_id": "137",
+    "structure_id": "-1",
+    "subregion_id": "-1",
+    "type": "artifact recovered",
+    "unit_id": "-1",
+    "year": "90"
+   },
+   "certainty": "FACT",
+   "df_id": "56432",
+   "record_id": "historical_events:56432",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "artifact stored": {
+   "campos": {
+    "artifact_id": "50",
+    "hist_figure_id": "357",
+    "seconds72": "-1",
+    "site_id": "98",
+    "type": "artifact stored",
+    "unit_id": "-1",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "473",
+   "record_id": "historical_events:473",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "assume identity": {
+   "campos": {
+    "identity_id": "6",
+    "seconds72": "-1",
+    "target_enid": "-1",
+    "trickster_hfid": "615",
+    "type": "assume identity",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "770",
+   "record_id": "historical_events:770",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "attacked site": {
+   "campos": {
+    "attacker_civ_id": "304",
+    "attacker_general_hfid": "610",
+    "defender_civ_id": "296",
+    "defender_general_hfid": "795",
+    "seconds72": "84000",
+    "site_civ_id": "297",
+    "site_id": "88",
+    "type": "attacked site",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "1158",
+   "record_id": "historical_events:1158",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "body abused": {
+   "campos": {
+    "coords": "96,113",
+    "feature_layer_id": "-1",
+    "seconds72": "84000",
+    "site_id": "88",
+    "subregion_id": "-1",
+    "type": "body abused",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "1189",
+   "record_id": "historical_events:1189",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "building profile acquired": {
+   "campos": {
+    "acquirer_hfid": "751",
+    "building_profile_id": "0",
+    "inherited": "",
+    "purchased_unowned": "",
+    "rebuilt_ruined": "",
+    "seconds72": "134400",
+    "site_id": "95",
+    "type": "building profile acquired",
+    "year": "48"
+   },
+   "certainty": "FACT",
+   "df_id": "16026",
+   "record_id": "historical_events:16026",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "ceremony": {
+   "campos": {
+    "civ_id": "296",
+    "feature_layer_id": "-1",
+    "occasion_id": "0",
+    "schedule_id": "3",
+    "seconds72": "124000",
+    "site_id": "88",
+    "subregion_id": "-1",
+    "type": "ceremony",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "863",
+   "record_id": "historical_events:863",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "change hf body state": {
+   "campos": {
+    "body_state": "entombed at site",
+    "coords": "81,107",
+    "feature_layer_id": "-1",
+    "hfid": "904",
+    "seconds72": "-1",
+    "site_id": "163",
+    "structure_id": "0",
+    "subregion_id": "-1",
+    "type": "change hf body state",
+    "year": "11"
+   },
+   "certainty": "FACT",
+   "df_id": "3163",
+   "record_id": "historical_events:3163",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "change hf job": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "hfid": "614",
+    "seconds72": "-1",
+    "site_id": "92",
+    "subregion_id": "-1",
+    "type": "change hf job",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "755",
+   "record_id": "historical_events:755",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "change hf state": {
+   "campos": {
+    "coords": "9,110",
+    "feature_layer_id": "-1",
+    "hfid": "0",
+    "seconds72": "-1",
+    "site_id": "-1",
+    "state": "settled",
+    "subregion_id": "713",
+    "type": "change hf state",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "0",
+   "record_id": "historical_events:0",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "changed creature type": {
+   "campos": {
+    "changee_hfid": "375",
+    "changer_hfid": "328",
+    "new_caste": "MALE",
+    "new_race": "NIGHT_CREATURE_6",
+    "old_caste": "MALE",
+    "old_race": "ELF",
+    "seconds72": "151200",
+    "type": "changed creature type",
+    "year": "4"
+   },
+   "certainty": "FACT",
+   "df_id": "1757",
+   "record_id": "historical_events:1757",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "competition": {
+   "campos": {
+    "civ_id": "282",
+    "competitor_hfid": "739",
+    "feature_layer_id": "-1",
+    "occasion_id": "0",
+    "schedule_id": "3",
+    "seconds72": "85600",
+    "site_id": "81",
+    "subregion_id": "-1",
+    "type": "competition",
+    "winner_hfid": "739",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "840",
+   "record_id": "historical_events:840",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "create entity position": {
+   "campos": {
+    "seconds72": "0",
+    "type": "create entity position",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "819",
+   "record_id": "historical_events:819",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "created site": {
+   "campos": {
+    "civ_id": "268",
+    "seconds72": "-1",
+    "site_civ_id": "269",
+    "site_id": "76",
+    "type": "created site",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "347",
+   "record_id": "historical_events:347",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "created structure": {
+   "campos": {
+    "builder_hfid": "357",
+    "civ_id": "-1",
+    "seconds72": "-1",
+    "site_civ_id": "-1",
+    "site_id": "77",
+    "structure_id": "0",
+    "type": "created structure",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "348",
+   "record_id": "historical_events:348",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "created world construction": {
+   "campos": {
+    "civ_id": "300",
+    "master_wcid": "-1",
+    "seconds72": "-1",
+    "site_civ_id": "301",
+    "site_id1": "165",
+    "site_id2": "90",
+    "type": "created world construction",
+    "wcid": "1",
+    "year": "14"
+   },
+   "certainty": "FACT",
+   "df_id": "4008",
+   "record_id": "historical_events:4008",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "creature devoured": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "seconds72": "210000",
+    "site_id": "97",
+    "subregion_id": "-1",
+    "type": "creature devoured",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "877",
+   "record_id": "historical_events:877",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "dance form created": {
+   "campos": {
+    "circumstance": "dream",
+    "form_id": "106",
+    "hist_figure_id": "2676",
+    "seconds72": "243600",
+    "site_id": "242",
+    "type": "dance form created",
+    "year": "89"
+   },
+   "certainty": "FACT",
+   "df_id": "55312",
+   "record_id": "historical_events:55312",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "destroyed site": {
+   "campos": {
+    "attacker_civ_id": "705",
+    "defender_civ_id": "272",
+    "seconds72": "92400",
+    "site_civ_id": "664",
+    "site_id": "287",
+    "type": "destroyed site",
+    "year": "75"
+   },
+   "certainty": "FACT",
+   "df_id": "38363",
+   "record_id": "historical_events:38363",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity alliance formed": {
+   "campos": {
+    "initiating_enid": "296",
+    "joining_enid": "314",
+    "seconds72": "369600",
+    "type": "entity alliance formed",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "917",
+   "record_id": "historical_events:917",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity breach feature layer": {
+   "campos": {
+    "civ_entity_id": "268",
+    "feature_layer_id": "371",
+    "seconds72": "235200",
+    "site_entity_id": "269",
+    "site_id": "76",
+    "type": "entity breach feature layer",
+    "year": "71"
+   },
+   "certainty": "FACT",
+   "df_id": "33884",
+   "record_id": "historical_events:33884",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity created": {
+   "campos": {
+    "entity_id": "405",
+    "seconds72": "277200",
+    "site_id": "139",
+    "structure_id": "-1",
+    "type": "entity created",
+    "year": "10"
+   },
+   "certainty": "FACT",
+   "df_id": "3063",
+   "record_id": "historical_events:3063",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity dissolved": {
+   "campos": {
+    "entity_id": "641",
+    "reason": "heavy losses in battle",
+    "seconds72": "386400",
+    "type": "entity dissolved",
+    "year": "63"
+   },
+   "certainty": "FACT",
+   "df_id": "26958",
+   "record_id": "historical_events:26958",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity incorporated": {
+   "campos": {
+    "joined_entity_id": "417",
+    "joiner_entity_id": "452",
+    "leader_hfid": "4374",
+    "partial_incorporation": "",
+    "seconds72": "8400",
+    "site_id": "-1",
+    "type": "entity incorporated",
+    "year": "83"
+   },
+   "certainty": "FACT",
+   "df_id": "48035",
+   "record_id": "historical_events:48035",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity law": {
+   "campos": {
+    "entity_id": "276",
+    "hist_figure_id": "408",
+    "law_add": "harsh",
+    "seconds72": "42000",
+    "type": "entity law",
+    "year": "31"
+   },
+   "certainty": "FACT",
+   "df_id": "8657",
+   "record_id": "historical_events:8657",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity overthrown": {
+   "campos": {
+    "conspirator_hfid": "2366",
+    "entity_id": "280",
+    "instigator_hfid": "2366",
+    "overthrown_hfid": "1027",
+    "pos_taker_hfid": "2366",
+    "position_profile_id": "0",
+    "seconds72": "218400",
+    "site_id": "178",
+    "type": "entity overthrown",
+    "year": "46"
+   },
+   "certainty": "FACT",
+   "df_id": "14942",
+   "record_id": "historical_events:14942",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity persecuted": {
+   "campos": {
+    "persecutor_enid": "399",
+    "persecutor_hfid": "1290",
+    "seconds72": "-1",
+    "shrine_amount_destroyed": "0",
+    "site_id": "158",
+    "target_enid": "596",
+    "type": "entity persecuted",
+    "year": "59"
+   },
+   "certainty": "FACT",
+   "df_id": "23288",
+   "record_id": "historical_events:23288",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity primary criminals": {
+   "campos": {
+    "entity_id": "417",
+    "seconds72": "142800",
+    "site_id": "165",
+    "structure_id": "-1",
+    "type": "entity primary criminals",
+    "year": "29"
+   },
+   "certainty": "FACT",
+   "df_id": "8049",
+   "record_id": "historical_events:8049",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "entity relocate": {
+   "campos": {
+    "entity_id": "417",
+    "seconds72": "142800",
+    "site_id": "165",
+    "structure_id": "1",
+    "type": "entity relocate",
+    "year": "29"
+   },
+   "certainty": "FACT",
+   "df_id": "8048",
+   "record_id": "historical_events:8048",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "failed frame attempt": {
+   "campos": {
+    "convicter_enid": "307",
+    "crime": "treason",
+    "fooled_hfid": "984",
+    "framer_hfid": "977",
+    "seconds72": "319200",
+    "target_hfid": "984",
+    "type": "failed frame attempt",
+    "year": "30"
+   },
+   "certainty": "FACT",
+   "df_id": "8431",
+   "record_id": "historical_events:8431",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "failed intrigue corruption": {
+   "campos": {
+    "action": "bribe official",
+    "ally_defense_bonus": "-1",
+    "corruptor_hfid": "533",
+    "failed_judgment_test": "",
+    "feature_layer_id": "-1",
+    "method": "intimidate",
+    "seconds72": "134400",
+    "site_id": "87",
+    "subregion_id": "-1",
+    "target_hfid": "544",
+    "top_facet": "fearlessness",
+    "top_facet_modifier": "2",
+    "top_facet_rating": "39",
+    "top_value": "law",
+    "top_value_modifier": "-10",
+    "top_value_rating": "30",
+    "type": "failed intrigue corruption",
+    "year": "4"
+   },
+   "certainty": "FACT",
+   "df_id": "1748",
+   "record_id": "historical_events:1748",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "field battle": {
+   "campos": {
+    "attacker_civ_id": "312",
+    "attacker_general_hfid": "667",
+    "coords": "96,108",
+    "defender_civ_id": "296",
+    "defender_general_hfid": "554",
+    "feature_layer_id": "-1",
+    "seconds72": "361200",
+    "subregion_id": "673",
+    "type": "field battle",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "911",
+   "record_id": "historical_events:911",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "gamble": {
+   "campos": {
+    "gambler_hfid": "1466",
+    "new_account": "-5000",
+    "old_account": "0",
+    "seconds72": "361200",
+    "site_id": "96",
+    "structure_id": "1",
+    "type": "gamble",
+    "year": "21"
+   },
+   "certainty": "FACT",
+   "df_id": "5649",
+   "record_id": "historical_events:5649",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf abducted": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "seconds72": "126000",
+    "site_id": "120",
+    "snatcher_hfid": "328",
+    "subregion_id": "-1",
+    "target_hfid": "375",
+    "type": "hf abducted",
+    "year": "4"
+   },
+   "certainty": "FACT",
+   "df_id": "1740",
+   "record_id": "historical_events:1740",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf attacked site": {
+   "campos": {
+    "attacker_hfid": "11",
+    "defender_civ_id": "291",
+    "seconds72": "84000",
+    "site_civ_id": "291",
+    "site_id": "85",
+    "type": "hf attacked site",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "841",
+   "record_id": "historical_events:841",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf confronted": {
+   "campos": {
+    "coords": "55,25",
+    "feature_layer_id": "-1",
+    "hfid": "408",
+    "reason": "ageless",
+    "seconds72": "42000",
+    "site_id": "118",
+    "situation": "general suspicion",
+    "subregion_id": "-1",
+    "type": "hf confronted",
+    "year": "31"
+   },
+   "certainty": "FACT",
+   "df_id": "8656",
+   "record_id": "historical_events:8656",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf convicted": {
+   "campos": {
+    "convicted_hfid": "903",
+    "convicter_enid": "327",
+    "crime": "theft",
+    "prison_months": "60",
+    "seconds72": "218400",
+    "type": "hf convicted",
+    "year": "22"
+   },
+   "certainty": "FACT",
+   "df_id": "5907",
+   "record_id": "historical_events:5907",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf destroyed site": {
+   "campos": {
+    "attacker_hfid": "2",
+    "defender_civ_id": "278",
+    "seconds72": "201600",
+    "site_civ_id": "279",
+    "site_id": "17",
+    "type": "hf destroyed site",
+    "year": "5"
+   },
+   "certainty": "FACT",
+   "df_id": "2036",
+   "record_id": "historical_events:2036",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf died": {
+   "campos": {
+    "cause": "struck",
+    "feature_layer_id": "-1",
+    "hfid": "676",
+    "seconds72": "25200",
+    "site_id": "111",
+    "slayer_caste": "FEMALE",
+    "slayer_hfid": "712",
+    "slayer_item_id": "-1",
+    "slayer_race": "MINOTAUR",
+    "slayer_shooter_item_id": "-1",
+    "subregion_id": "-1",
+    "type": "hf died",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "829",
+   "record_id": "historical_events:829",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf does interaction": {
+   "campos": {
+    "doer_hfid": "586",
+    "interaction": "DEITY_CURSE_WEREBEAST_lemur_1",
+    "seconds72": "8400",
+    "target_hfid": "3694",
+    "type": "hf does interaction",
+    "year": "93"
+   },
+   "certainty": "FACT",
+   "df_id": "60598",
+   "record_id": "historical_events:60598",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf equipment purchase": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "group_hfid": "498",
+    "quality": "2",
+    "seconds72": "294000",
+    "site_id": "-1",
+    "structure_id": "-1",
+    "subregion_id": "-1",
+    "type": "hf equipment purchase",
+    "year": "13"
+   },
+   "certainty": "FACT",
+   "df_id": "3907",
+   "record_id": "historical_events:3907",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf gains secret goal": {
+   "campos": {
+    "hfid": "533",
+    "seconds72": "260400",
+    "secret_goal": "immortality",
+    "type": "hf gains secret goal",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "886",
+   "record_id": "historical_events:886",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf interrogated": {
+   "campos": {
+    "arresting_enid": "288",
+    "held_firm_in_interrogation": "",
+    "interrogator_hfid": "962",
+    "seconds72": "176400",
+    "target_hfid": "1100",
+    "type": "hf interrogated",
+    "wanted_and_recognized": "",
+    "year": "54"
+   },
+   "certainty": "FACT",
+   "df_id": "19985",
+   "record_id": "historical_events:19985",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf learns secret": {
+   "campos": {
+    "artifact_id": "56",
+    "interaction": "SECRET_1",
+    "seconds72": "134400",
+    "student_hfid": "533",
+    "teacher_hfid": "-1",
+    "type": "hf learns secret",
+    "year": "4"
+   },
+   "certainty": "FACT",
+   "df_id": "1746",
+   "record_id": "historical_events:1746",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf new pet": {
+   "campos": {
+    "coords": "-1,-1",
+    "feature_layer_id": "234",
+    "group_hfid": "610",
+    "seconds72": "0",
+    "site_id": "-1",
+    "subregion_id": "-1",
+    "type": "hf new pet",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "822",
+   "record_id": "historical_events:822",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf prayed inside structure": {
+   "campos": {
+    "hist_fig_id": "4800",
+    "seconds72": "176400",
+    "site_id": "306",
+    "structure_id": "0",
+    "type": "hf prayed inside structure",
+    "year": "68"
+   },
+   "certainty": "FACT",
+   "df_id": "31169",
+   "record_id": "historical_events:31169",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf preach": {
+   "campos": {
+    "entity_1": "593",
+    "entity_2": "586",
+    "seconds72": "361200",
+    "site_hfid": "95",
+    "speaker_hfid": "2408",
+    "topic": "set entity 1 against entity 2",
+    "type": "hf preach",
+    "year": "63"
+   },
+   "certainty": "FACT",
+   "df_id": "26907",
+   "record_id": "historical_events:26907",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf profaned structure": {
+   "campos": {
+    "hist_fig_id": "3694",
+    "seconds72": "8400",
+    "site_id": "165",
+    "structure_id": "4",
+    "type": "hf profaned structure",
+    "year": "93"
+   },
+   "certainty": "FACT",
+   "df_id": "60597",
+   "record_id": "historical_events:60597",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf recruited unit type for entity": {
+   "campos": {
+    "entity_id": "482",
+    "feature_layer_id": "-1",
+    "hfid": "2389",
+    "seconds72": "176400",
+    "site_id": "204",
+    "subregion_id": "-1",
+    "type": "hf recruited unit type for entity",
+    "unit_type": "monk",
+    "year": "33"
+   },
+   "certainty": "FACT",
+   "df_id": "9545",
+   "record_id": "historical_events:9545",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf relationship denied": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "reason": "prefers working alone",
+    "reason_id": "826",
+    "relationship": "apprentice",
+    "seconds72": "16800",
+    "seeker_hfid": "796",
+    "site_id": "164",
+    "subregion_id": "-1",
+    "target_hfid": "826",
+    "type": "hf relationship denied",
+    "year": "20"
+   },
+   "certainty": "FACT",
+   "df_id": "5283",
+   "record_id": "historical_events:5283",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf reunion": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "group_1_hfid": "2274",
+    "group_2_hfid": "1264",
+    "seconds72": "-1",
+    "site_id": "88",
+    "subregion_id": "-1",
+    "type": "hf reunion",
+    "year": "35"
+   },
+   "certainty": "FACT",
+   "df_id": "10102",
+   "record_id": "historical_events:10102",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf revived": {
+   "campos": {
+    "actor_hfid": "2025",
+    "feature_layer_id": "-1",
+    "hfid": "2293",
+    "seconds72": "201600",
+    "site_id": "209",
+    "subregion_id": "-1",
+    "type": "hf revived",
+    "year": "56"
+   },
+   "certainty": "FACT",
+   "df_id": "21294",
+   "record_id": "historical_events:21294",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf simple battle event": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "group_1_hfid": "712",
+    "group_2_hfid": "671",
+    "seconds72": "25200",
+    "site_id": "111",
+    "subregion_id": "-1",
+    "subtype": "attacked",
+    "type": "hf simple battle event",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "826",
+   "record_id": "historical_events:826",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf travel": {
+   "campos": {
+    "coords": "-1,-1",
+    "feature_layer_id": "234",
+    "group_hfid": "610",
+    "seconds72": "0",
+    "site_id": "-1",
+    "subregion_id": "-1",
+    "type": "hf travel",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "821",
+   "record_id": "historical_events:821",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hf wounded": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "seconds72": "84000",
+    "site_id": "85",
+    "subregion_id": "674",
+    "type": "hf wounded",
+    "woundee_hfid": "11",
+    "wounder_hfid": "500",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "845",
+   "record_id": "historical_events:845",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hfs formed intrigue relationship": {
+   "campos": {
+    "action": "bring into network",
+    "corruptor_hfid": "977",
+    "corruptor_seen_as": "master",
+    "feature_layer_id": "-1",
+    "method": "precedence",
+    "relevant_entity_id": "307",
+    "relevant_position_profile_id": "11",
+    "seconds72": "151200",
+    "site_id": "93",
+    "subregion_id": "-1",
+    "successful": "",
+    "target_hfid": "978",
+    "target_seen_as": "general purpose asset",
+    "top_relationship_factor": "trust",
+    "top_relationship_modifier": "0",
+    "top_relationship_rating": "0",
+    "type": "hfs formed intrigue relationship",
+    "year": "27"
+   },
+   "certainty": "FACT",
+   "df_id": "7386",
+   "record_id": "historical_events:7386",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "hfs formed reputation relationship": {
+   "campos": {
+    "feature_layer_id": "-1",
+    "hf_rep_1_of_2": "information source",
+    "hf_rep_2_of_1": "friendly",
+    "hfid1": "614",
+    "hfid2": "825",
+    "identity_id1": "8",
+    "identity_id2": "-1",
+    "seconds72": "58800",
+    "site_id": "85",
+    "subregion_id": "-1",
+    "type": "hfs formed reputation relationship",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "1145",
+   "record_id": "historical_events:1145",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "holy city declaration": {
+   "campos": {
+    "religion_id": "405",
+    "seconds72": "-1",
+    "site_id": "90",
+    "type": "holy city declaration",
+    "year": "81"
+   },
+   "certainty": "FACT",
+   "df_id": "45103",
+   "record_id": "historical_events:45103",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "item stolen": {
+   "campos": {
+    "circumstance": "historical event collection",
+    "circumstance_id": "50",
+    "seconds72": "-1",
+    "type": "item stolen",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "936",
+   "record_id": "historical_events:936",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "knowledge discovered": {
+   "campos": {
+    "first": "",
+    "hfid": "464",
+    "knowledge": "astronomy:phases of the moon",
+    "seconds72": "75600",
+    "type": "knowledge discovered",
+    "year": "13"
+   },
+   "certainty": "FACT",
+   "df_id": "3730",
+   "record_id": "historical_events:3730",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "modified building": {
+   "campos": {
+    "modification": "improved fortifications",
+    "modifier_hfid": "751",
+    "seconds72": "159600",
+    "site_id": "95",
+    "structure_id": "2",
+    "type": "modified building",
+    "year": "60"
+   },
+   "certainty": "FACT",
+   "df_id": "24264",
+   "record_id": "historical_events:24264",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "musical form created": {
+   "campos": {
+    "form_id": "95",
+    "hist_figure_id": "4359",
+    "seconds72": "25200",
+    "site_id": "82",
+    "type": "musical form created",
+    "year": "71"
+   },
+   "certainty": "FACT",
+   "df_id": "33639",
+   "record_id": "historical_events:33639",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "new site leader": {
+   "campos": {
+    "attacker_civ_id": "290",
+    "defender_civ_id": "314",
+    "new_leader_hfid": "3009",
+    "new_site_civ_id": "687",
+    "seconds72": "75600",
+    "site_civ_id": "314",
+    "site_id": "214",
+    "type": "new site leader",
+    "year": "62"
+   },
+   "certainty": "FACT",
+   "df_id": "25842",
+   "record_id": "historical_events:25842",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "peace accepted": {
+   "campos": {
+    "seconds72": "0",
+    "site_id": "-1",
+    "type": "peace accepted",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "1142",
+   "record_id": "historical_events:1142",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "peace rejected": {
+   "campos": {
+    "seconds72": "0",
+    "site_id": "-1",
+    "type": "peace rejected",
+    "year": "15"
+   },
+   "certainty": "FACT",
+   "df_id": "4302",
+   "record_id": "historical_events:4302",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "performance": {
+   "campos": {
+    "civ_id": "268",
+    "feature_layer_id": "-1",
+    "occasion_id": "0",
+    "schedule_id": "0",
+    "seconds72": "60480",
+    "site_id": "76",
+    "subregion_id": "-1",
+    "type": "performance",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "830",
+   "record_id": "historical_events:830",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "plundered site": {
+   "campos": {
+    "attacker_civ_id": "304",
+    "defender_civ_id": "296",
+    "detected": "",
+    "seconds72": "84000",
+    "site_civ_id": "296",
+    "site_id": "88",
+    "type": "plundered site",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "1188",
+   "record_id": "historical_events:1188",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "poetic form created": {
+   "campos": {
+    "form_id": "93",
+    "hist_figure_id": "2250",
+    "seconds72": "302400",
+    "site_id": "218",
+    "type": "poetic form created",
+    "year": "93"
+   },
+   "certainty": "FACT",
+   "df_id": "61106",
+   "record_id": "historical_events:61106",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "procession": {
+   "campos": {
+    "civ_id": "296",
+    "feature_layer_id": "-1",
+    "occasion_id": "0",
+    "schedule_id": "1",
+    "seconds72": "121600",
+    "site_id": "88",
+    "subregion_id": "-1",
+    "type": "procession",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "861",
+   "record_id": "historical_events:861",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "razed structure": {
+   "campos": {
+    "civ_id": "304",
+    "seconds72": "277200",
+    "site_id": "88",
+    "structure_id": "3",
+    "type": "razed structure",
+    "year": "56"
+   },
+   "certainty": "FACT",
+   "df_id": "21439",
+   "record_id": "historical_events:21439",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "reclaim site": {
+   "campos": {
+    "civ_id": "282",
+    "seconds72": "-1",
+    "site_civ_id": "398",
+    "site_id": "125",
+    "type": "reclaim site",
+    "year": "9"
+   },
+   "certainty": "FACT",
+   "df_id": "2679",
+   "record_id": "historical_events:2679",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "regionpop incorporated into entity": {
+   "campos": {
+    "join_entity_id": "315",
+    "pop_flid": "-1",
+    "pop_number_moved": "18",
+    "pop_race": "403",
+    "pop_srid": "607",
+    "seconds72": "-1",
+    "site_id": "97",
+    "type": "regionpop incorporated into entity",
+    "year": "19"
+   },
+   "certainty": "FACT",
+   "df_id": "5046",
+   "record_id": "historical_events:5046",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "remove hf entity link": {
+   "campos": {
+    "civ_id": "386",
+    "hfid": "1228",
+    "link": "prisoner",
+    "seconds72": "-1",
+    "type": "remove hf entity link",
+    "year": "30"
+   },
+   "certainty": "FACT",
+   "df_id": "8178",
+   "record_id": "historical_events:8178",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "remove hf hf link": {
+   "campos": {
+    "hfid": "498",
+    "hfid_target": "496",
+    "seconds72": "-1",
+    "type": "remove hf hf link",
+    "year": "5"
+   },
+   "certainty": "FACT",
+   "df_id": "1874",
+   "record_id": "historical_events:1874",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "remove hf site link": {
+   "campos": {
+    "seconds72": "-1",
+    "site_id": "96",
+    "type": "remove hf site link",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "943",
+   "record_id": "historical_events:943",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "site dispute": {
+   "campos": {
+    "dispute": "rights-of-way",
+    "entity_id_1": "301",
+    "entity_id_2": "337",
+    "seconds72": "277200",
+    "site_id_1": "90",
+    "site_id_2": "119",
+    "type": "site dispute",
+    "year": "1"
+   },
+   "certainty": "FACT",
+   "df_id": "891",
+   "record_id": "historical_events:891",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "site taken over": {
+   "campos": {
+    "attacker_civ_id": "762",
+    "defender_civ_id": "268",
+    "new_site_civ_id": "763",
+    "seconds72": "235200",
+    "site_civ_id": "269",
+    "site_id": "76",
+    "type": "site taken over",
+    "year": "71"
+   },
+   "certainty": "FACT",
+   "df_id": "33937",
+   "record_id": "historical_events:33937",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "trade": {
+   "campos": {
+    "account_shift": "-5680",
+    "allotment": "27",
+    "allotment_index": "66",
+    "dest_site_id": "187",
+    "production_zone_id": "66",
+    "seconds72": "210000",
+    "source_site_id": "90",
+    "trader_entity_id": "-1",
+    "trader_hfid": "1144",
+    "type": "trade",
+    "year": "26"
+   },
+   "certainty": "FACT",
+   "df_id": "7045",
+   "record_id": "historical_events:7045",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  },
+  "written content composed": {
+   "campos": {
+    "hist_figure_id": "499",
+    "seconds72": "201600",
+    "site_id": "121",
+    "type": "written content composed",
+    "wc_id": "0",
+    "year": "2"
+   },
+   "certainty": "FACT",
+   "df_id": "1226",
+   "record_id": "historical_events:1226",
+   "source": "legends.xml",
+   "source_section": "historical_events"
+  }
+ },
+ "grados": [
+  "SUPPORTED",
+  "PARTIAL",
+  "NOT_PROVEN",
+  "UNSUPPORTED"
+ ],
+ "por_grado": {
+  "NOT_PROVEN": 81,
+  "PARTIAL": 0,
+  "SUPPORTED": 1,
+  "UNSUPPORTED": 8
+ },
+ "registros_corruptos": 0,
+ "registros_totales": 57215,
+ "tipos": [
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 10718
+   },
+   "evidencia": "10718/10718 estructura (year+sujeto), 2786/10718 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 10718/10718 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 10718,
+   "registros_con_estructura": 10718,
+   "registros_con_instante": 2786,
+   "regla": null,
+   "source": {
+    "legends.xml": 10718
+   },
+   "source_section": {
+    "historical_events": 10718
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "change hf state"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 8692
+   },
+   "evidencia": "8692/8692 estructura (year+sujeto), 107/8692 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 8692/8692 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 8692,
+   "registros_con_estructura": 8692,
+   "registros_con_instante": 107,
+   "regla": null,
+   "source": {
+    "legends.xml": 8692
+   },
+   "source_section": {
+    "historical_events": 8692
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "change hf job"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 7534
+   },
+   "evidencia": "7534/7534 estructura (year+sujeto), 4306/7534 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 7534/7534 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 7534,
+   "registros_con_estructura": 7534,
+   "registros_con_instante": 4306,
+   "regla": null,
+   "source": {
+    "legends.xml": 7534
+   },
+   "source_section": {
+    "historical_events": 7534
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "add hf entity link"
+  },
+  {
+   "campo_sujeto": "group_1_hfid",
+   "campo_sujeto_observado": "group_1_hfid",
+   "certainty_observada": {
+    "FACT": 5478
+   },
+   "evidencia": "5478/5478 estructura (year+sujeto), 4439/5478 con instante, sujeto en `group_1_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 5478/5478 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 5478,
+   "registros_con_estructura": 5478,
+   "registros_con_instante": 4439,
+   "regla": null,
+   "source": {
+    "legends.xml": 5478
+   },
+   "source_section": {
+    "historical_events": 5478
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf simple battle event"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 4484
+   },
+   "evidencia": "MAPA_TIPOS + 4484/4484 estructura + 3540/4484 instante",
+   "grado": "SUPPORTED",
+   "motivo": "regla demostrada en MAPA_TIPOS + year y sujeto en el 100% de sus 4484 registros (instante completo en 3540; el resto se emite con tiempo PARTIAL, no se descarta)",
+   "n": 4484,
+   "registros_con_estructura": 4484,
+   "registros_con_instante": 3540,
+   "regla": "hfid + year + seconds72 + cause + slayer_hfid. El sujeto es quien murio; `slayer_hfid` es un PAPEL, no el sujeto.",
+   "source": {
+    "legends.xml": 4484
+   },
+   "source_section": {
+    "historical_events": 4484
+   },
+   "tipo_chronicle": "DEATH",
+   "tipo_raw": "hf died"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 2364
+   },
+   "evidencia": "2364/2364 estructura (year+sujeto), 851/2364 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 2364/2364 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 2364,
+   "registros_con_estructura": 2364,
+   "registros_con_instante": 851,
+   "regla": null,
+   "source": {
+    "legends.xml": 2364
+   },
+   "source_section": {
+    "historical_events": 2364
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "add hf hf link"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 2341
+   },
+   "evidencia": "2341/2341 estructura (year+sujeto), 2341/2341 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 2341/2341 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 2341,
+   "registros_con_estructura": 2341,
+   "registros_con_instante": 2341,
+   "regla": null,
+   "source": {
+    "legends.xml": 2341
+   },
+   "source_section": {
+    "historical_events": 2341
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "written content composed"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 2085
+   },
+   "evidencia": "2083/2085 estructura (year+sujeto), 2085/2085 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 2083/2085 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 2085,
+   "registros_con_estructura": 2083,
+   "registros_con_instante": 2085,
+   "regla": null,
+   "source": {
+    "legends.xml": 2085
+   },
+   "source_section": {
+    "historical_events": 2085
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "creature devoured"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 1215
+   },
+   "evidencia": "1215/1215 estructura (year+sujeto), 1215/1215 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1215/1215 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1215,
+   "registros_con_estructura": 1215,
+   "registros_con_instante": 1215,
+   "regla": null,
+   "source": {
+    "legends.xml": 1215
+   },
+   "source_section": {
+    "historical_events": 1215
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "performance"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 901
+   },
+   "evidencia": "901/901 estructura (year+sujeto), 901/901 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 901/901 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 901,
+   "registros_con_estructura": 901,
+   "registros_con_instante": 901,
+   "regla": null,
+   "source": {
+    "legends.xml": 901
+   },
+   "source_section": {
+    "historical_events": 901
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "ceremony"
+  },
+  {
+   "campo_sujeto": "woundee_hfid",
+   "campo_sujeto_observado": "woundee_hfid",
+   "certainty_observada": {
+    "FACT": 871
+   },
+   "evidencia": "871/871 estructura (year+sujeto), 800/871 con instante, sujeto en `woundee_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 871/871 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 871,
+   "registros_con_estructura": 871,
+   "registros_con_instante": 800,
+   "regla": null,
+   "source": {
+    "legends.xml": 871
+   },
+   "source_section": {
+    "historical_events": 871
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf wounded"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 789
+   },
+   "evidencia": "789/789 estructura (year+sujeto), 789/789 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 789/789 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 789,
+   "registros_con_estructura": 789,
+   "registros_con_instante": 789,
+   "regla": null,
+   "source": {
+    "legends.xml": 789
+   },
+   "source_section": {
+    "historical_events": 789
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "competition"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 688
+   },
+   "evidencia": "688/688 estructura (year+sujeto), 160/688 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 688/688 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 688,
+   "registros_con_estructura": 688,
+   "registros_con_instante": 160,
+   "regla": null,
+   "source": {
+    "legends.xml": 688
+   },
+   "source_section": {
+    "historical_events": 688
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "add hf site link"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 554
+   },
+   "evidencia": "554/554 estructura (year+sujeto), 0/554 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 554/554 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 554,
+   "registros_con_estructura": 554,
+   "registros_con_instante": 0,
+   "regla": null,
+   "source": {
+    "legends.xml": 554
+   },
+   "source_section": {
+    "historical_events": 554
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "remove hf hf link"
+  },
+  {
+   "campo_sujeto": "target_hfid",
+   "campo_sujeto_observado": "target_hfid",
+   "certainty_observada": {
+    "FACT": 523
+   },
+   "evidencia": "523/523 estructura (year+sujeto), 15/523 con instante, sujeto en `target_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 523/523 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 523,
+   "registros_con_estructura": 523,
+   "registros_con_instante": 15,
+   "regla": null,
+   "source": {
+    "legends.xml": 523
+   },
+   "source_section": {
+    "historical_events": 523
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf abducted"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 499
+   },
+   "evidencia": "499/499 estructura (year+sujeto), 499/499 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 499/499 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 499,
+   "registros_con_estructura": 499,
+   "registros_con_instante": 499,
+   "regla": null,
+   "source": {
+    "legends.xml": 499
+   },
+   "source_section": {
+    "historical_events": 499
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "procession"
+  },
+  {
+   "campo_sujeto": "trickster_hfid",
+   "campo_sujeto_observado": "trickster_hfid",
+   "certainty_observada": {
+    "FACT": 468
+   },
+   "evidencia": "468/468 estructura (year+sujeto), 411/468 con instante, sujeto en `trickster_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 468/468 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 468,
+   "registros_con_estructura": 468,
+   "registros_con_instante": 411,
+   "regla": null,
+   "source": {
+    "legends.xml": 468
+   },
+   "source_section": {
+    "historical_events": 468
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "assume identity"
+  },
+  {
+   "campo_sujeto": null,
+   "campo_sujeto_observado": null,
+   "certainty_observada": {
+    "FACT": 453
+   },
+   "evidencia": "0/453 estructura (year+sujeto), 435/453 con instante, sujeto en `None`",
+   "grado": "UNSUPPORTED",
+   "motivo": "ningun registro trae year+sujeto utilizables en el mismo registro; no hay nada que colocar en una cronica",
+   "n": 453,
+   "registros_con_estructura": 0,
+   "registros_con_instante": 435,
+   "regla": null,
+   "source": {
+    "legends.xml": 453
+   },
+   "source_section": {
+    "historical_events": 453
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "create entity position"
+  },
+  {
+   "campo_sujeto": "target_hfid",
+   "campo_sujeto_observado": "target_hfid",
+   "certainty_observada": {
+    "FACT": 431
+   },
+   "evidencia": "431/431 estructura (year+sujeto), 431/431 con instante, sujeto en `target_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 431/431 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 431,
+   "registros_con_estructura": 431,
+   "registros_con_instante": 431,
+   "regla": null,
+   "source": {
+    "legends.xml": 431
+   },
+   "source_section": {
+    "historical_events": 431
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf relationship denied"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 421
+   },
+   "evidencia": "421/421 estructura (year+sujeto), 421/421 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 421/421 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 421,
+   "registros_con_estructura": 421,
+   "registros_con_instante": 421,
+   "regla": null,
+   "source": {
+    "legends.xml": 421
+   },
+   "source_section": {
+    "historical_events": 421
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hfs formed reputation relationship"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 406
+   },
+   "evidencia": "406/406 estructura (year+sujeto), 6/406 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 406/406 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 406,
+   "registros_con_estructura": 406,
+   "registros_con_instante": 6,
+   "regla": null,
+   "source": {
+    "legends.xml": 406
+   },
+   "source_section": {
+    "historical_events": 406
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "created site"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 377
+   },
+   "evidencia": "377/377 estructura (year+sujeto), 316/377 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 377/377 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 377,
+   "registros_con_estructura": 377,
+   "registros_con_instante": 316,
+   "regla": null,
+   "source": {
+    "legends.xml": 377
+   },
+   "source_section": {
+    "historical_events": 377
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "artifact created"
+  },
+  {
+   "campo_sujeto": null,
+   "campo_sujeto_observado": null,
+   "certainty_observada": {
+    "FACT": 359
+   },
+   "evidencia": "0/359 estructura (year+sujeto), 315/359 con instante, sujeto en `None`",
+   "grado": "UNSUPPORTED",
+   "motivo": "ningun registro trae year+sujeto utilizables en el mismo registro; no hay nada que colocar en una cronica",
+   "n": 359,
+   "registros_con_estructura": 0,
+   "registros_con_instante": 315,
+   "regla": null,
+   "source": {
+    "legends.xml": 359
+   },
+   "source_section": {
+    "historical_events": 359
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "item stolen"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 319
+   },
+   "evidencia": "319/319 estructura (year+sujeto), 50/319 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 319/319 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 319,
+   "registros_con_estructura": 319,
+   "registros_con_instante": 50,
+   "regla": null,
+   "source": {
+    "legends.xml": 319
+   },
+   "source_section": {
+    "historical_events": 319
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "created structure"
+  },
+  {
+   "campo_sujeto": "group_hfid",
+   "campo_sujeto_observado": "group_hfid",
+   "certainty_observada": {
+    "FACT": 308
+   },
+   "evidencia": "308/308 estructura (year+sujeto), 308/308 con instante, sujeto en `group_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 308/308 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 308,
+   "registros_con_estructura": 308,
+   "registros_con_instante": 308,
+   "regla": null,
+   "source": {
+    "legends.xml": 308
+   },
+   "source_section": {
+    "historical_events": 308
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf travel"
+  },
+  {
+   "campo_sujeto": null,
+   "campo_sujeto_observado": null,
+   "certainty_observada": {
+    "FACT": 272
+   },
+   "evidencia": "0/272 estructura (year+sujeto), 266/272 con instante, sujeto en `None`",
+   "grado": "UNSUPPORTED",
+   "motivo": "ningun registro trae year+sujeto utilizables en el mismo registro; no hay nada que colocar en una cronica",
+   "n": 272,
+   "registros_con_estructura": 0,
+   "registros_con_instante": 266,
+   "regla": null,
+   "source": {
+    "legends.xml": 272
+   },
+   "source_section": {
+    "historical_events": 272
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "agreement formed"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 229
+   },
+   "evidencia": "229/229 estructura (year+sujeto), 212/229 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 229/229 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 229,
+   "registros_con_estructura": 229,
+   "registros_con_instante": 212,
+   "regla": null,
+   "source": {
+    "legends.xml": 229
+   },
+   "source_section": {
+    "historical_events": 229
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "artifact stored"
+  },
+  {
+   "campo_sujeto": "trader_hfid",
+   "campo_sujeto_observado": "trader_hfid",
+   "certainty_observada": {
+    "FACT": 229
+   },
+   "evidencia": "229/229 estructura (year+sujeto), 229/229 con instante, sujeto en `trader_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 229/229 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 229,
+   "registros_con_estructura": 229,
+   "registros_con_instante": 229,
+   "regla": null,
+   "source": {
+    "legends.xml": 229
+   },
+   "source_section": {
+    "historical_events": 229
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "trade"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 223
+   },
+   "evidencia": "223/223 estructura (year+sujeto), 76/223 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 223/223 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 223,
+   "registros_con_estructura": 223,
+   "registros_con_instante": 76,
+   "regla": null,
+   "source": {
+    "legends.xml": 223
+   },
+   "source_section": {
+    "historical_events": 223
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "remove hf entity link"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 217
+   },
+   "evidencia": "217/217 estructura (year+sujeto), 217/217 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 217/217 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 217,
+   "registros_con_estructura": 217,
+   "registros_con_instante": 217,
+   "regla": null,
+   "source": {
+    "legends.xml": 217
+   },
+   "source_section": {
+    "historical_events": 217
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf recruited unit type for entity"
+  },
+  {
+   "campo_sujeto": "target_hfid",
+   "campo_sujeto_observado": "target_hfid",
+   "certainty_observada": {
+    "FACT": 204
+   },
+   "evidencia": "204/204 estructura (year+sujeto), 204/204 con instante, sujeto en `target_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 204/204 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 204,
+   "registros_con_estructura": 204,
+   "registros_con_instante": 204,
+   "regla": null,
+   "source": {
+    "legends.xml": 204
+   },
+   "source_section": {
+    "historical_events": 204
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "failed intrigue corruption"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 187
+   },
+   "evidencia": "187/187 estructura (year+sujeto), 122/187 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 187/187 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 187,
+   "registros_con_estructura": 187,
+   "registros_con_instante": 122,
+   "regla": null,
+   "source": {
+    "legends.xml": 187
+   },
+   "source_section": {
+    "historical_events": 187
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "artifact claim formed"
+  },
+  {
+   "campo_sujeto": "entity_id",
+   "campo_sujeto_observado": "entity_id",
+   "certainty_observada": {
+    "FACT": 183
+   },
+   "evidencia": "183/183 estructura (year+sujeto), 183/183 con instante, sujeto en `entity_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 183/183 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 183,
+   "registros_con_estructura": 183,
+   "registros_con_instante": 183,
+   "regla": null,
+   "source": {
+    "legends.xml": 183
+   },
+   "source_section": {
+    "historical_events": 183
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity created"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 178
+   },
+   "evidencia": "178/178 estructura (year+sujeto), 178/178 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 178/178 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 178,
+   "registros_con_estructura": 178,
+   "registros_con_instante": 178,
+   "regla": null,
+   "source": {
+    "legends.xml": 178
+   },
+   "source_section": {
+    "historical_events": 178
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "knowledge discovered"
+  },
+  {
+   "campo_sujeto": "group_hfid",
+   "campo_sujeto_observado": "group_hfid",
+   "certainty_observada": {
+    "FACT": 172
+   },
+   "evidencia": "172/172 estructura (year+sujeto), 172/172 con instante, sujeto en `group_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 172/172 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 172,
+   "registros_con_estructura": 172,
+   "registros_con_instante": 172,
+   "regla": null,
+   "source": {
+    "legends.xml": 172
+   },
+   "source_section": {
+    "historical_events": 172
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf equipment purchase"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 168
+   },
+   "evidencia": "168/168 estructura (year+sujeto), 168/168 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 168/168 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 168,
+   "registros_con_estructura": 168,
+   "registros_con_instante": 168,
+   "regla": null,
+   "source": {
+    "legends.xml": 168
+   },
+   "source_section": {
+    "historical_events": 168
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "gamble"
+  },
+  {
+   "campo_sujeto": "group_hfid",
+   "campo_sujeto_observado": "group_hfid",
+   "certainty_observada": {
+    "FACT": 149
+   },
+   "evidencia": "149/149 estructura (year+sujeto), 149/149 con instante, sujeto en `group_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 149/149 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 149,
+   "registros_con_estructura": 149,
+   "registros_con_instante": 149,
+   "regla": null,
+   "source": {
+    "legends.xml": 149
+   },
+   "source_section": {
+    "historical_events": 149
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf new pet"
+  },
+  {
+   "campo_sujeto": "convicted_hfid",
+   "campo_sujeto_observado": "convicted_hfid",
+   "certainty_observada": {
+    "FACT": 135
+   },
+   "evidencia": "135/135 estructura (year+sujeto), 131/135 con instante, sujeto en `convicted_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 135/135 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 135,
+   "registros_con_estructura": 135,
+   "registros_con_instante": 131,
+   "regla": null,
+   "source": {
+    "legends.xml": 135
+   },
+   "source_section": {
+    "historical_events": 135
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf convicted"
+  },
+  {
+   "campo_sujeto": "civ_id",
+   "campo_sujeto_observado": "civ_id",
+   "certainty_observada": {
+    "FACT": 122
+   },
+   "evidencia": "122/122 estructura (year+sujeto), 0/122 con instante, sujeto en `civ_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 122/122 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 122,
+   "registros_con_estructura": 122,
+   "registros_con_instante": 0,
+   "regla": null,
+   "source": {
+    "legends.xml": 122
+   },
+   "source_section": {
+    "historical_events": 122
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "created world construction"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 117
+   },
+   "evidencia": "117/117 estructura (year+sujeto), 7/117 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 117/117 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 117,
+   "registros_con_estructura": 117,
+   "registros_con_instante": 7,
+   "regla": null,
+   "source": {
+    "legends.xml": 117
+   },
+   "source_section": {
+    "historical_events": 117
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "remove hf site link"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 98
+   },
+   "evidencia": "98/98 estructura (year+sujeto), 98/98 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 98/98 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 98,
+   "registros_con_estructura": 98,
+   "registros_con_instante": 98,
+   "regla": null,
+   "source": {
+    "legends.xml": 98
+   },
+   "source_section": {
+    "historical_events": 98
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "attacked site"
+  },
+  {
+   "campo_sujeto": null,
+   "campo_sujeto_observado": null,
+   "certainty_observada": {
+    "FACT": 96
+   },
+   "evidencia": "0/96 estructura (year+sujeto), 96/96 con instante, sujeto en `None`",
+   "grado": "UNSUPPORTED",
+   "motivo": "ningun registro trae year+sujeto utilizables en el mismo registro; no hay nada que colocar en una cronica",
+   "n": 96,
+   "registros_con_estructura": 0,
+   "registros_con_instante": 96,
+   "regla": null,
+   "source": {
+    "legends.xml": 96
+   },
+   "source_section": {
+    "historical_events": 96
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "site dispute"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 74
+   },
+   "evidencia": "74/74 estructura (year+sujeto), 74/74 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 74/74 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 74,
+   "registros_con_estructura": 74,
+   "registros_con_instante": 74,
+   "regla": null,
+   "source": {
+    "legends.xml": 74
+   },
+   "source_section": {
+    "historical_events": 74
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf revived"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 61
+   },
+   "evidencia": "61/61 estructura (year+sujeto), 61/61 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 61/61 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 61,
+   "registros_con_estructura": 61,
+   "registros_con_instante": 61,
+   "regla": null,
+   "source": {
+    "legends.xml": 61
+   },
+   "source_section": {
+    "historical_events": 61
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf attacked site"
+  },
+  {
+   "campo_sujeto": "target_hfid",
+   "campo_sujeto_observado": "target_hfid",
+   "certainty_observada": {
+    "FACT": 60
+   },
+   "evidencia": "60/60 estructura (year+sujeto), 59/60 con instante, sujeto en `target_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 60/60 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 60,
+   "registros_con_estructura": 60,
+   "registros_con_instante": 59,
+   "regla": null,
+   "source": {
+    "legends.xml": 60
+   },
+   "source_section": {
+    "historical_events": 60
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hfs formed intrigue relationship"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 55
+   },
+   "evidencia": "55/55 estructura (year+sujeto), 55/55 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 55/55 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 55,
+   "registros_con_estructura": 55,
+   "registros_con_instante": 55,
+   "regla": null,
+   "source": {
+    "legends.xml": 55
+   },
+   "source_section": {
+    "historical_events": 55
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf gains secret goal"
+  },
+  {
+   "campo_sujeto": "attacker_general_hfid",
+   "campo_sujeto_observado": "attacker_general_hfid",
+   "certainty_observada": {
+    "FACT": 50
+   },
+   "evidencia": "50/50 estructura (year+sujeto), 50/50 con instante, sujeto en `attacker_general_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 50/50 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 50,
+   "registros_con_estructura": 50,
+   "registros_con_instante": 50,
+   "regla": null,
+   "source": {
+    "legends.xml": 50
+   },
+   "source_section": {
+    "historical_events": 50
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "field battle"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 50
+   },
+   "evidencia": "37/50 estructura (year+sujeto), 40/50 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 37/50 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 50,
+   "registros_con_estructura": 37,
+   "registros_con_instante": 40,
+   "regla": null,
+   "source": {
+    "legends.xml": 50
+   },
+   "source_section": {
+    "historical_events": 50
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "artifact lost"
+  },
+  {
+   "campo_sujeto": null,
+   "campo_sujeto_observado": null,
+   "certainty_observada": {
+    "FACT": 49
+   },
+   "evidencia": "0/49 estructura (year+sujeto), 49/49 con instante, sujeto en `None`",
+   "grado": "UNSUPPORTED",
+   "motivo": "ningun registro trae year+sujeto utilizables en el mismo registro; no hay nada que colocar en una cronica",
+   "n": 49,
+   "registros_con_estructura": 0,
+   "registros_con_instante": 49,
+   "regla": null,
+   "source": {
+    "legends.xml": 49
+   },
+   "source_section": {
+    "historical_events": 49
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "peace accepted"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 49
+   },
+   "evidencia": "49/49 estructura (year+sujeto), 49/49 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 49/49 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 49,
+   "registros_con_estructura": 49,
+   "registros_con_instante": 49,
+   "regla": null,
+   "source": {
+    "legends.xml": 49
+   },
+   "source_section": {
+    "historical_events": 49
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "body abused"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 46
+   },
+   "evidencia": "46/46 estructura (year+sujeto), 46/46 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 46/46 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 46,
+   "registros_con_estructura": 46,
+   "registros_con_instante": 46,
+   "regla": null,
+   "source": {
+    "legends.xml": 46
+   },
+   "source_section": {
+    "historical_events": 46
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf destroyed site"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 41
+   },
+   "evidencia": "41/41 estructura (year+sujeto), 41/41 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 41/41 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 41,
+   "registros_con_estructura": 41,
+   "registros_con_instante": 41,
+   "regla": null,
+   "source": {
+    "legends.xml": 41
+   },
+   "source_section": {
+    "historical_events": 41
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf prayed inside structure"
+  },
+  {
+   "campo_sujeto": null,
+   "campo_sujeto_observado": null,
+   "certainty_observada": {
+    "FACT": 40
+   },
+   "evidencia": "0/40 estructura (year+sujeto), 4/40 con instante, sujeto en `None`",
+   "grado": "UNSUPPORTED",
+   "motivo": "ningun registro trae year+sujeto utilizables en el mismo registro; no hay nada que colocar en una cronica",
+   "n": 40,
+   "registros_con_estructura": 0,
+   "registros_con_instante": 4,
+   "regla": null,
+   "source": {
+    "legends.xml": 40
+   },
+   "source_section": {
+    "historical_events": 40
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "artifact given"
+  },
+  {
+   "campo_sujeto": "site_hfid",
+   "campo_sujeto_observado": "site_hfid",
+   "certainty_observada": {
+    "FACT": 40
+   },
+   "evidencia": "40/40 estructura (year+sujeto), 40/40 con instante, sujeto en `site_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 40/40 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 40,
+   "registros_con_estructura": 40,
+   "registros_con_instante": 40,
+   "regla": null,
+   "source": {
+    "legends.xml": 40
+   },
+   "source_section": {
+    "historical_events": 40
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf preach"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 25
+   },
+   "evidencia": "25/25 estructura (year+sujeto), 25/25 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 25/25 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 25,
+   "registros_con_estructura": 25,
+   "registros_con_instante": 25,
+   "regla": null,
+   "source": {
+    "legends.xml": 25
+   },
+   "source_section": {
+    "historical_events": 25
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "plundered site"
+  },
+  {
+   "campo_sujeto": null,
+   "campo_sujeto_observado": null,
+   "certainty_observada": {
+    "FACT": 22
+   },
+   "evidencia": "0/22 estructura (year+sujeto), 22/22 con instante, sujeto en `None`",
+   "grado": "UNSUPPORTED",
+   "motivo": "ningun registro trae year+sujeto utilizables en el mismo registro; no hay nada que colocar en una cronica",
+   "n": 22,
+   "registros_con_estructura": 0,
+   "registros_con_instante": 22,
+   "regla": null,
+   "source": {
+    "legends.xml": 22
+   },
+   "source_section": {
+    "historical_events": 22
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "peace rejected"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 22
+   },
+   "evidencia": "22/22 estructura (year+sujeto), 0/22 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 22/22 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 22,
+   "registros_con_estructura": 22,
+   "registros_con_instante": 0,
+   "regla": null,
+   "source": {
+    "legends.xml": 22
+   },
+   "source_section": {
+    "historical_events": 22
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity persecuted"
+  },
+  {
+   "campo_sujeto": "student_hfid",
+   "campo_sujeto_observado": "student_hfid",
+   "certainty_observada": {
+    "FACT": 21
+   },
+   "evidencia": "21/21 estructura (year+sujeto), 21/21 con instante, sujeto en `student_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 21/21 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 21,
+   "registros_con_estructura": 21,
+   "registros_con_instante": 21,
+   "regla": null,
+   "source": {
+    "legends.xml": 21
+   },
+   "source_section": {
+    "historical_events": 21
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf learns secret"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 20
+   },
+   "evidencia": "20/20 estructura (year+sujeto), 0/20 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 20/20 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 20,
+   "registros_con_estructura": 20,
+   "registros_con_instante": 0,
+   "regla": null,
+   "source": {
+    "legends.xml": 20
+   },
+   "source_section": {
+    "historical_events": 20
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "reclaim site"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 19
+   },
+   "evidencia": "19/19 estructura (year+sujeto), 17/19 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 19/19 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 19,
+   "registros_con_estructura": 19,
+   "registros_con_instante": 17,
+   "regla": null,
+   "source": {
+    "legends.xml": 19
+   },
+   "source_section": {
+    "historical_events": 19
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "building profile acquired"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 19
+   },
+   "evidencia": "19/19 estructura (year+sujeto), 19/19 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 19/19 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 19,
+   "registros_con_estructura": 19,
+   "registros_con_instante": 19,
+   "regla": null,
+   "source": {
+    "legends.xml": 19
+   },
+   "source_section": {
+    "historical_events": 19
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "razed structure"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 18
+   },
+   "evidencia": "18/18 estructura (year+sujeto), 18/18 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 18/18 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 18,
+   "registros_con_estructura": 18,
+   "registros_con_instante": 18,
+   "regla": null,
+   "source": {
+    "legends.xml": 18
+   },
+   "source_section": {
+    "historical_events": 18
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "site taken over"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 17
+   },
+   "evidencia": "17/17 estructura (year+sujeto), 1/17 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 17/17 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 17,
+   "registros_con_estructura": 17,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 17
+   },
+   "source_section": {
+    "historical_events": 17
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "change hf body state"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 17
+   },
+   "evidencia": "17/17 estructura (year+sujeto), 0/17 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 17/17 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 17,
+   "registros_con_estructura": 17,
+   "registros_con_instante": 0,
+   "regla": null,
+   "source": {
+    "legends.xml": 17
+   },
+   "source_section": {
+    "historical_events": 17
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "regionpop incorporated into entity"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 17
+   },
+   "evidencia": "17/17 estructura (year+sujeto), 17/17 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 17/17 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 17,
+   "registros_con_estructura": 17,
+   "registros_con_instante": 17,
+   "regla": null,
+   "source": {
+    "legends.xml": 17
+   },
+   "source_section": {
+    "historical_events": 17
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "add hf entity honor"
+  },
+  {
+   "campo_sujeto": "changee_hfid",
+   "campo_sujeto_observado": "changee_hfid",
+   "certainty_observada": {
+    "FACT": 15
+   },
+   "evidencia": "15/15 estructura (year+sujeto), 15/15 con instante, sujeto en `changee_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 15/15 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 15,
+   "registros_con_estructura": 15,
+   "registros_con_instante": 15,
+   "regla": null,
+   "source": {
+    "legends.xml": 15
+   },
+   "source_section": {
+    "historical_events": 15
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "changed creature type"
+  },
+  {
+   "campo_sujeto": "group_1_hfid",
+   "campo_sujeto_observado": "group_1_hfid",
+   "certainty_observada": {
+    "FACT": 14
+   },
+   "evidencia": "14/14 estructura (year+sujeto), 0/14 con instante, sujeto en `group_1_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 14/14 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 14,
+   "registros_con_estructura": 14,
+   "registros_con_instante": 0,
+   "regla": null,
+   "source": {
+    "legends.xml": 14
+   },
+   "source_section": {
+    "historical_events": 14
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf reunion"
+  },
+  {
+   "campo_sujeto": null,
+   "campo_sujeto_observado": null,
+   "certainty_observada": {
+    "FACT": 13
+   },
+   "evidencia": "0/13 estructura (year+sujeto), 13/13 con instante, sujeto en `None`",
+   "grado": "UNSUPPORTED",
+   "motivo": "ningun registro trae year+sujeto utilizables en el mismo registro; no hay nada que colocar en una cronica",
+   "n": 13,
+   "registros_con_estructura": 0,
+   "registros_con_instante": 13,
+   "regla": null,
+   "source": {
+    "legends.xml": 13
+   },
+   "source_section": {
+    "historical_events": 13
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity alliance formed"
+  },
+  {
+   "campo_sujeto": "entity_id",
+   "campo_sujeto_observado": "entity_id",
+   "certainty_observada": {
+    "FACT": 12
+   },
+   "evidencia": "12/12 estructura (year+sujeto), 12/12 con instante, sujeto en `entity_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 12/12 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 12,
+   "registros_con_estructura": 12,
+   "registros_con_instante": 12,
+   "regla": null,
+   "source": {
+    "legends.xml": 12
+   },
+   "source_section": {
+    "historical_events": 12
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity relocate"
+  },
+  {
+   "campo_sujeto": "entity_id",
+   "campo_sujeto_observado": "entity_id",
+   "certainty_observada": {
+    "FACT": 11
+   },
+   "evidencia": "11/11 estructura (year+sujeto), 11/11 con instante, sujeto en `entity_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 11/11 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 11,
+   "registros_con_estructura": 11,
+   "registros_con_instante": 11,
+   "regla": null,
+   "source": {
+    "legends.xml": 11
+   },
+   "source_section": {
+    "historical_events": 11
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity primary criminals"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 10
+   },
+   "evidencia": "10/10 estructura (year+sujeto), 10/10 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 10/10 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 10,
+   "registros_con_estructura": 10,
+   "registros_con_instante": 10,
+   "regla": null,
+   "source": {
+    "legends.xml": 10
+   },
+   "source_section": {
+    "historical_events": 10
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "new site leader"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 9
+   },
+   "evidencia": "9/9 estructura (year+sujeto), 9/9 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 9/9 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 9,
+   "registros_con_estructura": 9,
+   "registros_con_instante": 9,
+   "regla": null,
+   "source": {
+    "legends.xml": 9
+   },
+   "source_section": {
+    "historical_events": 9
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "artifact possessed"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 6
+   },
+   "evidencia": "6/6 estructura (year+sujeto), 0/6 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 6/6 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 6,
+   "registros_con_estructura": 6,
+   "registros_con_instante": 0,
+   "regla": null,
+   "source": {
+    "legends.xml": 6
+   },
+   "source_section": {
+    "historical_events": 6
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "artifact found"
+  },
+  {
+   "campo_sujeto": "leader_hfid",
+   "campo_sujeto_observado": "leader_hfid",
+   "certainty_observada": {
+    "FACT": 5
+   },
+   "evidencia": "5/5 estructura (year+sujeto), 5/5 con instante, sujeto en `leader_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 5/5 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 5,
+   "registros_con_estructura": 5,
+   "registros_con_instante": 5,
+   "regla": null,
+   "source": {
+    "legends.xml": 5
+   },
+   "source_section": {
+    "historical_events": 5
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity incorporated"
+  },
+  {
+   "campo_sujeto": "hfid",
+   "campo_sujeto_observado": "hfid",
+   "certainty_observada": {
+    "FACT": 4
+   },
+   "evidencia": "4/4 estructura (year+sujeto), 4/4 con instante, sujeto en `hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 4/4 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 4,
+   "registros_con_estructura": 4,
+   "registros_con_instante": 4,
+   "regla": null,
+   "source": {
+    "legends.xml": 4
+   },
+   "source_section": {
+    "historical_events": 4
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf confronted"
+  },
+  {
+   "campo_sujeto": "target_hfid",
+   "campo_sujeto_observado": "target_hfid",
+   "certainty_observada": {
+    "FACT": 3
+   },
+   "evidencia": "3/3 estructura (year+sujeto), 3/3 con instante, sujeto en `target_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 3/3 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 3,
+   "registros_con_estructura": 3,
+   "registros_con_instante": 3,
+   "regla": null,
+   "source": {
+    "legends.xml": 3
+   },
+   "source_section": {
+    "historical_events": 3
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "failed frame attempt"
+  },
+  {
+   "campo_sujeto": "entity_id",
+   "campo_sujeto_observado": "entity_id",
+   "certainty_observada": {
+    "FACT": 3
+   },
+   "evidencia": "3/3 estructura (year+sujeto), 3/3 con instante, sujeto en `entity_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 3/3 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 3,
+   "registros_con_estructura": 3,
+   "registros_con_instante": 3,
+   "regla": null,
+   "source": {
+    "legends.xml": 3
+   },
+   "source_section": {
+    "historical_events": 3
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity overthrown"
+  },
+  {
+   "campo_sujeto": "entity_id",
+   "campo_sujeto_observado": "entity_id",
+   "certainty_observada": {
+    "FACT": 3
+   },
+   "evidencia": "3/3 estructura (year+sujeto), 3/3 con instante, sujeto en `entity_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 3/3 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 3,
+   "registros_con_estructura": 3,
+   "registros_con_instante": 3,
+   "regla": null,
+   "source": {
+    "legends.xml": 3
+   },
+   "source_section": {
+    "historical_events": 3
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity dissolved"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 3
+   },
+   "evidencia": "3/3 estructura (year+sujeto), 3/3 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 3/3 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 3,
+   "registros_con_estructura": 3,
+   "registros_con_instante": 3,
+   "regla": null,
+   "source": {
+    "legends.xml": 3
+   },
+   "source_section": {
+    "historical_events": 3
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "musical form created"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 3
+   },
+   "evidencia": "3/3 estructura (year+sujeto), 3/3 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 3/3 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 3,
+   "registros_con_estructura": 3,
+   "registros_con_instante": 3,
+   "regla": null,
+   "source": {
+    "legends.xml": 3
+   },
+   "source_section": {
+    "historical_events": 3
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "destroyed site"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 2
+   },
+   "evidencia": "2/2 estructura (year+sujeto), 1/2 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 2/2 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 2,
+   "registros_con_estructura": 2,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 2
+   },
+   "source_section": {
+    "historical_events": 2
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity law"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 2
+   },
+   "evidencia": "2/2 estructura (year+sujeto), 2/2 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 2/2 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 2,
+   "registros_con_estructura": 2,
+   "registros_con_instante": 2,
+   "regla": null,
+   "source": {
+    "legends.xml": 2
+   },
+   "source_section": {
+    "historical_events": 2
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "poetic form created"
+  },
+  {
+   "campo_sujeto": "target_hfid",
+   "campo_sujeto_observado": "target_hfid",
+   "certainty_observada": {
+    "FACT": 1
+   },
+   "evidencia": "1/1 estructura (year+sujeto), 1/1 con instante, sujeto en `target_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1/1 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1,
+   "registros_con_estructura": 1,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 1
+   },
+   "source_section": {
+    "historical_events": 1
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf interrogated"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 1
+   },
+   "evidencia": "1/1 estructura (year+sujeto), 1/1 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1/1 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1,
+   "registros_con_estructura": 1,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 1
+   },
+   "source_section": {
+    "historical_events": 1
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "modified building"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 1
+   },
+   "evidencia": "1/1 estructura (year+sujeto), 1/1 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1/1 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1,
+   "registros_con_estructura": 1,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 1
+   },
+   "source_section": {
+    "historical_events": 1
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "entity breach feature layer"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 1
+   },
+   "evidencia": "1/1 estructura (year+sujeto), 0/1 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1/1 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1,
+   "registros_con_estructura": 1,
+   "registros_con_instante": 0,
+   "regla": null,
+   "source": {
+    "legends.xml": 1
+   },
+   "source_section": {
+    "historical_events": 1
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "holy city declaration"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 1
+   },
+   "evidencia": "1/1 estructura (year+sujeto), 1/1 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1/1 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1,
+   "registros_con_estructura": 1,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 1
+   },
+   "source_section": {
+    "historical_events": 1
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "dance form created"
+  },
+  {
+   "campo_sujeto": "hist_figure_id",
+   "campo_sujeto_observado": "hist_figure_id",
+   "certainty_observada": {
+    "FACT": 1
+   },
+   "evidencia": "1/1 estructura (year+sujeto), 1/1 con instante, sujeto en `hist_figure_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1/1 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1,
+   "registros_con_estructura": 1,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 1
+   },
+   "source_section": {
+    "historical_events": 1
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "artifact recovered"
+  },
+  {
+   "campo_sujeto": "site_id",
+   "campo_sujeto_observado": "site_id",
+   "certainty_observada": {
+    "FACT": 1
+   },
+   "evidencia": "1/1 estructura (year+sujeto), 1/1 con instante, sujeto en `site_id`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1/1 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1,
+   "registros_con_estructura": 1,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 1
+   },
+   "source_section": {
+    "historical_events": 1
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf profaned structure"
+  },
+  {
+   "campo_sujeto": "target_hfid",
+   "campo_sujeto_observado": "target_hfid",
+   "certainty_observada": {
+    "FACT": 1
+   },
+   "evidencia": "1/1 estructura (year+sujeto), 1/1 con instante, sujeto en `target_hfid`",
+   "grado": "NOT_PROVEN",
+   "motivo": "estructura presente en 1/1 registros, pero la SEMANTICA no esta demostrada: el motor no la infiere del nombre",
+   "n": 1,
+   "registros_con_estructura": 1,
+   "registros_con_instante": 1,
+   "regla": null,
+   "source": {
+    "legends.xml": 1
+   },
+   "source_section": {
+    "historical_events": 1
+   },
+   "tipo_chronicle": null,
+   "tipo_raw": "hf does interaction"
+  }
+ ],
+ "tipos_totales": 90,
+ "version": 1
+}

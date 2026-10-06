@@ -1,0 +1,2311 @@
+{
+ "certainty": "UNKNOWN",
+ "note": "Strings resembling proper names. NOT bound to any DF entity id. Do not use as narrative facts.",
+ "count": 256,
+ "records": [
+  {
+   "offset": 196,
+   "length": 7,
+   "text": "Xah Alu",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400328,
+   "length": 10,
+   "text": "LACE AGATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400340,
+   "length": 9,
+   "text": "BLUE JADE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400351,
+   "length": 12,
+   "text": "LAPIS LAZULI",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400372,
+   "length": 10,
+   "text": "PRASE OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400396,
+   "length": 10,
+   "text": "MOSS AGATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400408,
+   "length": 9,
+   "text": "MOSS OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400473,
+   "length": 12,
+   "text": "BANDED AGATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400497,
+   "length": 11,
+   "text": "CHERRY OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400510,
+   "length": 13,
+   "text": "LAVENDER JADE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400525,
+   "length": 9,
+   "text": "PINK JADE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400536,
+   "length": 10,
+   "text": "TUBE AGATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400548,
+   "length": 10,
+   "text": "FIRE AGATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400560,
+   "length": 11,
+   "text": "PLUME AGATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400573,
+   "length": 12,
+   "text": "BROWN JASPER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400587,
+   "length": 14,
+   "text": "PICTURE JASPER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400603,
+   "length": 12,
+   "text": "SMOKY QUARTZ",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400617,
+   "length": 8,
+   "text": "WAX OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400627,
+   "length": 9,
+   "text": "WOOD OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400638,
+   "length": 10,
+   "text": "AMBER OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400650,
+   "length": 9,
+   "text": "GOLD OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400670,
+   "length": 13,
+   "text": "YELLOW JASPER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400695,
+   "length": 10,
+   "text": "TIGER IRON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400717,
+   "length": 10,
+   "text": "RESIN OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400737,
+   "length": 16,
+   "text": "CLEAR TOURMALINE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400755,
+   "length": 15,
+   "text": "GRAY CHALCEDONY",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400772,
+   "length": 15,
+   "text": "DENDRITIC AGATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400789,
+   "length": 10,
+   "text": "SHELL OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400801,
+   "length": 9,
+   "text": "BONE OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400812,
+   "length": 16,
+   "text": "WHITE CHALCEDONY",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400830,
+   "length": 19,
+   "text": "FORTIFICATION AGATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400851,
+   "length": 11,
+   "text": "MILK QUARTZ",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400875,
+   "length": 10,
+   "text": "WHITE JADE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400887,
+   "length": 11,
+   "text": "JASPER OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400900,
+   "length": 14,
+   "text": "PINEAPPLE OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400916,
+   "length": 9,
+   "text": "ONYX OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400927,
+   "length": 9,
+   "text": "MILK OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400938,
+   "length": 9,
+   "text": "PIPE OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6400999,
+   "length": 12,
+   "text": "BLACK ZIRCON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401013,
+   "length": 12,
+   "text": "BLACK PYROPE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401037,
+   "length": 17,
+   "text": "INDIGO TOURMALINE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401056,
+   "length": 11,
+   "text": "BLUE GARNET",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401080,
+   "length": 16,
+   "text": "GREEN TOURMALINE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401109,
+   "length": 12,
+   "text": "GREEN ZIRCON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401123,
+   "length": 10,
+   "text": "GREEN JADE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401154,
+   "length": 10,
+   "text": "RED ZIRCON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401166,
+   "length": 14,
+   "text": "RED TOURMALINE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401182,
+   "length": 10,
+   "text": "RED PYROPE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401205,
+   "length": 13,
+   "text": "RED GROSSULAR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401220,
+   "length": 15,
+   "text": "PINK TOURMALINE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401237,
+   "length": 9,
+   "text": "RED BERYL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401248,
+   "length": 9,
+   "text": "FIRE OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401320,
+   "length": 18,
+   "text": "VIOLET SPESSARTINE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401340,
+   "length": 11,
+   "text": "PINK GARNET",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401362,
+   "length": 18,
+   "text": "CINNAMON GROSSULAR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401382,
+   "length": 18,
+   "text": "HONEY YELLOW BERYL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401402,
+   "length": 10,
+   "text": "JELLY OPAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401414,
+   "length": 12,
+   "text": "BROWN ZIRCON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401428,
+   "length": 13,
+   "text": "YELLOW ZIRCON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401443,
+   "length": 12,
+   "text": "GOLDEN BERYL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401457,
+   "length": 18,
+   "text": "YELLOW SPESSARTINE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401496,
+   "length": 16,
+   "text": "YELLOW GROSSULAR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401525,
+   "length": 12,
+   "text": "CLEAR GARNET",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401550,
+   "length": 9,
+   "text": "CAT'S EYE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6401561,
+   "length": 12,
+   "text": "CLEAR ZIRCON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404005,
+   "length": 10,
+   "text": "HAIR GRASS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404038,
+   "length": 12,
+   "text": "FESCUE GRASS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404082,
+   "length": 17,
+   "text": "DOG'S TOOTH GRASS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404145,
+   "length": 14,
+   "text": "DROPSEED GRASS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404161,
+   "length": 12,
+   "text": "NEEDLE GRASS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404175,
+   "length": 19,
+   "text": "BABY TOES SUCCULENT",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404196,
+   "length": 13,
+   "text": "PEBBLE PLANTS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404211,
+   "length": 10,
+   "text": "BLUE SEDGE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404223,
+   "length": 11,
+   "text": "FIELD SEDGE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404236,
+   "length": 17,
+   "text": "PURPLE MOOR GRASS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404255,
+   "length": 12,
+   "text": "VELVET GRASS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404288,
+   "length": 13,
+   "text": "MARSH THISTLE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404303,
+   "length": 11,
+   "text": "COMMON REED",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404348,
+   "length": 22,
+   "text": "WHITE MOUNTAIN HEATHER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404372,
+   "length": 14,
+   "text": "MOUNTAIN AVENS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404400,
+   "length": 14,
+   "text": "WORMY TENDRILS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404425,
+   "length": 12,
+   "text": "BUBBLE BULBS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404439,
+   "length": 11,
+   "text": "DOWNY GRASS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404452,
+   "length": 9,
+   "text": "CAVE MOSS",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6404463,
+   "length": 11,
+   "text": "FLOOR FUNGI",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6409411,
+   "length": 11,
+   "text": "PENGUIN MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6409467,
+   "length": 20,
+   "text": "PEREGRINE FALCON MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6409489,
+   "length": 22,
+   "text": "GIANT PEREGRINE FALCON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6409524,
+   "length": 8,
+   "text": "KIWI MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6409565,
+   "length": 11,
+   "text": "OSTRICH MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6411480,
+   "length": 15,
+   "text": "DESERT TORTOISE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6412846,
+   "length": 11,
+   "text": "NARWHAL MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6412973,
+   "length": 12,
+   "text": "PLATYPUS MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6413464,
+   "length": 9,
+   "text": "PANDA MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6413502,
+   "length": 12,
+   "text": "CAPYBARA MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6413524,
+   "length": 10,
+   "text": "BADGER MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6413558,
+   "length": 9,
+   "text": "MOOSE MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6413583,
+   "length": 9,
+   "text": "RED PANDA",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6413594,
+   "length": 13,
+   "text": "RED PANDA MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6414451,
+   "length": 12,
+   "text": "HONEY BADGER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6414465,
+   "length": 16,
+   "text": "HONEY BADGER MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6414504,
+   "length": 14,
+   "text": "GIANT TORTOISE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6414520,
+   "length": 18,
+   "text": "GIANT TORTOISE MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6414540,
+   "length": 17,
+   "text": "GIGANTIC TORTOISE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6414570,
+   "length": 13,
+   "text": "ARMADILLO MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6415991,
+   "length": 11,
+   "text": "RIVER OTTER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6416004,
+   "length": 9,
+   "text": "SEA OTTER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6416039,
+   "length": 15,
+   "text": "SNAPPING TURTLE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6416056,
+   "length": 25,
+   "text": "ALLIGATOR SNAPPING TURTLE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6416939,
+   "length": 9,
+   "text": "SQUID MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6416950,
+   "length": 14,
+   "text": "GIGANTIC SQUID",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6417900,
+   "length": 10,
+   "text": "RODENT MAN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6435606,
+   "length": 8,
+   "text": "PLAY FUN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6435616,
+   "length": 12,
+   "text": "PLAY PERFORM",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6436243,
+   "length": 10,
+   "text": "MALIGN ADJ",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6436551,
+   "length": 11,
+   "text": "SABLE COLOR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6436564,
+   "length": 10,
+   "text": "FELL CRUEL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6436576,
+   "length": 9,
+   "text": "FELL HIDE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6436587,
+   "length": 9,
+   "text": "PELT HIDE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6436633,
+   "length": 12,
+   "text": "RIGHT BETTER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6436657,
+   "length": 9,
+   "text": "FAIR EVEN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6436668,
+   "length": 10,
+   "text": "FAIR COLOR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6437071,
+   "length": 9,
+   "text": "LOCK HAIR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6437094,
+   "length": 10,
+   "text": "MEAN NASTY",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6437106,
+   "length": 8,
+   "text": "MEAN LOW",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6437245,
+   "length": 12,
+   "text": "BLOCK DEFEND",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6437259,
+   "length": 12,
+   "text": "BLOCK SQUARE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6437486,
+   "length": 10,
+   "text": "WIND STORM",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6437498,
+   "length": 10,
+   "text": "WIND CLOCK",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6437740,
+   "length": 9,
+   "text": "SKIN VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438166,
+   "length": 11,
+   "text": "ORDER GROUP",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438228,
+   "length": 11,
+   "text": "TEMPLE HEAD",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438249,
+   "length": 13,
+   "text": "ORDER CONCEPT",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438264,
+   "length": 13,
+   "text": "FAITH LOYALTY",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438339,
+   "length": 13,
+   "text": "STANDARD FLAG",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438432,
+   "length": 14,
+   "text": "STILL UNMOVING",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438553,
+   "length": 12,
+   "text": "FORTUNE LUCK",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438567,
+   "length": 14,
+   "text": "FORTUNE WEALTH",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438718,
+   "length": 14,
+   "text": "DISTRACT ANNOY",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438734,
+   "length": 16,
+   "text": "DISTRACTION GAME",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438752,
+   "length": 14,
+   "text": "DIVERSION GAME",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438768,
+   "length": 13,
+   "text": "DIVERT DETOUR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438783,
+   "length": 15,
+   "text": "RECREATION GAME",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438818,
+   "length": 13,
+   "text": "MATCH CONTEST",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6438833,
+   "length": 11,
+   "text": "MATCH EQUAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6439071,
+   "length": 17,
+   "text": "STABLE UNCHANGING",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6439090,
+   "length": 12,
+   "text": "LULL MISLEAD",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6439264,
+   "length": 9,
+   "text": "ARCH NOUN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6439340,
+   "length": 15,
+   "text": "FAINT INTENSITY",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6439357,
+   "length": 10,
+   "text": "FAINT VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6439704,
+   "length": 11,
+   "text": "MARBLE BALL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440010,
+   "length": 9,
+   "text": "GORE NOUN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440202,
+   "length": 10,
+   "text": "FLANK VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440214,
+   "length": 13,
+   "text": "PASS MOUNTAIN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440229,
+   "length": 9,
+   "text": "PASS VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440495,
+   "length": 11,
+   "text": "DEPRESS SAD",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440508,
+   "length": 14,
+   "text": "DEPRESSION LOW",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440561,
+   "length": 8,
+   "text": "GULF SEA",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440571,
+   "length": 8,
+   "text": "GULF PIT",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440581,
+   "length": 13,
+   "text": "GULF DISTANCE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440677,
+   "length": 11,
+   "text": "BOARD PLANK",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440690,
+   "length": 12,
+   "text": "BOARD GET ON",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440890,
+   "length": 10,
+   "text": "HAIL GREET",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6440902,
+   "length": 8,
+   "text": "HAIL ICE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6441774,
+   "length": 10,
+   "text": "SCALE VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6441786,
+   "length": 10,
+   "text": "SCALE SKIN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6442037,
+   "length": 12,
+   "text": "LEAGUE GROUP",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6442518,
+   "length": 11,
+   "text": "BAND OBJECT",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6442531,
+   "length": 10,
+   "text": "BAND GROUP",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6442631,
+   "length": 13,
+   "text": "HANDLE OBJECT",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6442646,
+   "length": 11,
+   "text": "HANDLE VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6442708,
+   "length": 12,
+   "text": "DEFECT FAULT",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6442879,
+   "length": 12,
+   "text": "WEATHER VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6442958,
+   "length": 13,
+   "text": "ENTRANCE VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6443034,
+   "length": 9,
+   "text": "BOWEL GUT",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6443045,
+   "length": 14,
+   "text": "BOWEL INTERIOR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6443061,
+   "length": 10,
+   "text": "DRILL BORE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6443073,
+   "length": 13,
+   "text": "DRILL ROUTINE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6443088,
+   "length": 10,
+   "text": "BORE DRILL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6443232,
+   "length": 9,
+   "text": "DRUM VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6443547,
+   "length": 12,
+   "text": "RIDDLE HOLES",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6444421,
+   "length": 10,
+   "text": "VAULT VERB",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6444433,
+   "length": 11,
+   "text": "VAULT PLACE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454548,
+   "length": 17,
+   "text": "MAKE WOODEN CHAIR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454567,
+   "length": 17,
+   "text": "MAKE WOODEN TABLE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454586,
+   "length": 15,
+   "text": "MAKE WOODEN BED",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454603,
+   "length": 17,
+   "text": "MAKE WOODEN CHEST",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454622,
+   "length": 19,
+   "text": "MAKE WOODEN CABINET",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454643,
+   "length": 16,
+   "text": "MAKE WOODEN DOOR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454661,
+   "length": 18,
+   "text": "MAKE WOODEN BARREL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454681,
+   "length": 18,
+   "text": "MAKE WOODEN BUCKET",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454701,
+   "length": 18,
+   "text": "MAKE WOODEN CASKET",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454721,
+   "length": 23,
+   "text": "MAKE WOODEN HATCH COVER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454746,
+   "length": 17,
+   "text": "MAKE WOODEN GRATE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454765,
+   "length": 15,
+   "text": "MAKE WOODEN BIN",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454782,
+   "length": 22,
+   "text": "MAKE WOODEN STEPLADDER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454806,
+   "length": 20,
+   "text": "MAKE WOODEN BOOKCASE",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454828,
+   "length": 18,
+   "text": "MAKE WOODEN SPLINT",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454848,
+   "length": 18,
+   "text": "MAKE WOODEN CRUTCH",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454868,
+   "length": 18,
+   "text": "MAKE WOODEN SHIELD",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454888,
+   "length": 19,
+   "text": "MAKE WOODEN BUCKLER",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454935,
+   "length": 32,
+   "text": "MAKE WOODEN TRAINING SHORT SWORD",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454969,
+   "length": 26,
+   "text": "MAKE WOODEN TRAINING SPEAR",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6454997,
+   "length": 20,
+   "text": "MAKE WOODEN PEDESTAL",
+   "region": "raws_text",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6457012,
+   "length": 18,
+   "text": "ASSEMBLE STONE AXE",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6457032,
+   "length": 24,
+   "text": "MAKE WOODEN DISPLAY CASE",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498108,
+   "length": 12,
+   "text": "Vanilla Text",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498122,
+   "length": 17,
+   "text": "Vanilla Languages",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498141,
+   "length": 19,
+   "text": "Vanilla Descriptors",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498162,
+   "length": 17,
+   "text": "Vanilla Materials",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498181,
+   "length": 19,
+   "text": "Vanilla Environment",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498202,
+   "length": 14,
+   "text": "Vanilla Plants",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498218,
+   "length": 13,
+   "text": "Vanilla Items",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498233,
+   "length": 17,
+   "text": "Vanilla Buildings",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498252,
+   "length": 14,
+   "text": "Vanilla Bodies",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498268,
+   "length": 17,
+   "text": "Vanilla Creatures",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498287,
+   "length": 25,
+   "text": "Vanilla Extinct Creatures",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498314,
+   "length": 16,
+   "text": "Vanilla Entities",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498332,
+   "length": 17,
+   "text": "Vanilla Reactions",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498351,
+   "length": 20,
+   "text": "Vanilla Interactions",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498373,
+   "length": 28,
+   "text": "Vanilla Descriptors Graphics",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498403,
+   "length": 23,
+   "text": "Vanilla Plants Graphics",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498428,
+   "length": 22,
+   "text": "Vanilla Items Graphics",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498452,
+   "length": 26,
+   "text": "Vanilla Buildings Graphics",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498508,
+   "length": 34,
+   "text": "Vanilla Extinct Creatures Graphics",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498544,
+   "length": 29,
+   "text": "Vanilla Interactions Graphics",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498575,
+   "length": 17,
+   "text": "Vanilla World Map",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498594,
+   "length": 17,
+   "text": "Vanilla Interface",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498613,
+   "length": 13,
+   "text": "Vanilla Music",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 6498628,
+   "length": 26,
+   "text": "Vanilla Procedural Objects",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16749255,
+   "length": 16,
+   "text": "Virginal Boredom",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16749325,
+   "length": 18,
+   "text": "Escort Ever Onward",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16749413,
+   "length": 26,
+   "text": "It Must Have Been Geniuses",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16749682,
+   "length": 18,
+   "text": "Blotch Ever Onward",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16750034,
+   "length": 29,
+   "text": "It Must Have Been Lamentation",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16750133,
+   "length": 13,
+   "text": "My Friend Goo",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16750280,
+   "length": 24,
+   "text": "It Must Have Been Frills",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16750358,
+   "length": 11,
+   "text": "Feast Hardy",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16750519,
+   "length": 15,
+   "text": "Doctrine Fierce",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16750683,
+   "length": 16,
+   "text": "The Future Weeps",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16750853,
+   "length": 14,
+   "text": "My Friend Omen",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16751135,
+   "length": 14,
+   "text": "Barbarous Gill",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16751203,
+   "length": 22,
+   "text": "It Must Have Been Ruin",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16751381,
+   "length": 19,
+   "text": "Rawness Ever Onward",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16751626,
+   "length": 21,
+   "text": "The Distracting Ulcer",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16751709,
+   "length": 19,
+   "text": "Columns Ever Onward",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16751782,
+   "length": 15,
+   "text": "My Friend Seals",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16751851,
+   "length": 25,
+   "text": "It Must Have Been Defense",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16752329,
+   "length": 18,
+   "text": "The Emerald Pranks",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16752417,
+   "length": 19,
+   "text": "The Short Barricade",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16752498,
+   "length": 13,
+   "text": "My Friend Sun",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16752652,
+   "length": 26,
+   "text": "The Cooperative Sculptures",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16753049,
+   "length": 17,
+   "text": "The Defended Jail",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16753213,
+   "length": 23,
+   "text": "It Must Have Been Dives",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16753361,
+   "length": 15,
+   "text": "My Friend Wills",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  },
+  {
+   "offset": 16753446,
+   "length": 16,
+   "text": "My Friend Lovers",
+   "region": "game_data",
+   "kind": "proper_name_candidate",
+   "certainty": "FACT",
+   "source": "world.sav"
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "entity_type": "artifacts",
+ "certainty": "UNKNOWN",
+ "count": 0,
+ "status": "UNKNOWN - no se pudo determinar con seguridad.",
+ "reason": "Offline decoding yields the container plus the raws and string tables, but the df struct graph (historical_figure, civilization, site, artifact, event, relationship) requires DFHack running inside Dwarf Fortress, which is not installed here.",
+ "records": []
+}

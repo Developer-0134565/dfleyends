@@ -1,0 +1,4073 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<df_world><artifacts>
+	<artifact>
+		<id>0</id>
+		<item>
+		<name_string>primeval wood scimitar</name_string>
+		</item>
+		<holder_hfid>18</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>1</id>
+		<item>
+		<name_string>primeval wood halberd</name_string>
+		</item>
+		<holder_hfid>19</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>2</id>
+		<item>
+		<name_string>primeval wood ring</name_string>
+		</item>
+		<holder_hfid>20</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>3</id>
+		<item>
+		<name_string>primeval wood earring</name_string>
+		</item>
+		<holder_hfid>21</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>4</id>
+		<item>
+		<name_string>primeval wood bracelet</name_string>
+		</item>
+		<holder_hfid>22</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>5</id>
+		<item>
+		<name_string>primeval wood amulet</name_string>
+		</item>
+		<holder_hfid>23</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>6</id>
+		<item>
+		<name_string>primeval wood ring</name_string>
+		</item>
+		<holder_hfid>24</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>7</id>
+		<item>
+		<name_string>primeval wood ring</name_string>
+		</item>
+		<holder_hfid>25</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>8</id>
+		<item>
+		<name_string>primeval wood amulet</name_string>
+		</item>
+		<holder_hfid>26</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>9</id>
+		<item>
+		<name_string>primeval wood ring</name_string>
+		</item>
+		<holder_hfid>27</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>10</id>
+		<item>
+		<name_string>primeval wood ring</name_string>
+		</item>
+		<holder_hfid>28</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>11</id>
+		<item>
+		<name_string>primeval wood bracelet</name_string>
+		</item>
+		<holder_hfid>29</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>12</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>38</site_id>
+	</artifact>
+	<artifact>
+		<id>13</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>39</site_id>
+	</artifact>
+	<artifact>
+		<id>14</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>40</site_id>
+	</artifact>
+	<artifact>
+		<id>15</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>41</site_id>
+	</artifact>
+	<artifact>
+		<id>16</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>42</site_id>
+	</artifact>
+	<artifact>
+		<id>17</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>43</site_id>
+	</artifact>
+	<artifact>
+		<id>18</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>44</site_id>
+	</artifact>
+	<artifact>
+		<id>19</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>45</site_id>
+	</artifact>
+	<artifact>
+		<id>20</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>46</site_id>
+	</artifact>
+	<artifact>
+		<id>21</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>47</site_id>
+	</artifact>
+	<artifact>
+		<id>22</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>48</site_id>
+	</artifact>
+	<artifact>
+		<id>23</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>49</site_id>
+	</artifact>
+	<artifact>
+		<id>24</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>50</site_id>
+	</artifact>
+	<artifact>
+		<id>25</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>51</site_id>
+	</artifact>
+	<artifact>
+		<id>26</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>52</site_id>
+	</artifact>
+	<artifact>
+		<id>27</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>53</site_id>
+	</artifact>
+	<artifact>
+		<id>28</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>54</site_id>
+	</artifact>
+	<artifact>
+		<id>29</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>55</site_id>
+	</artifact>
+	<artifact>
+		<id>30</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>56</site_id>
+	</artifact>
+	<artifact>
+		<id>31</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>57</site_id>
+	</artifact>
+	<artifact>
+		<id>32</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>58</site_id>
+	</artifact>
+	<artifact>
+		<id>33</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>59</site_id>
+	</artifact>
+	<artifact>
+		<id>34</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>60</site_id>
+	</artifact>
+	<artifact>
+		<id>35</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>61</site_id>
+	</artifact>
+	<artifact>
+		<id>36</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>62</site_id>
+	</artifact>
+	<artifact>
+		<id>37</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>63</site_id>
+	</artifact>
+	<artifact>
+		<id>38</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>64</site_id>
+	</artifact>
+	<artifact>
+		<id>39</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>65</site_id>
+	</artifact>
+	<artifact>
+		<id>40</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>66</site_id>
+	</artifact>
+	<artifact>
+		<id>41</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>67</site_id>
+	</artifact>
+	<artifact>
+		<id>42</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>68</site_id>
+	</artifact>
+	<artifact>
+		<id>43</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>69</site_id>
+	</artifact>
+	<artifact>
+		<id>44</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>70</site_id>
+	</artifact>
+	<artifact>
+		<id>45</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>71</site_id>
+	</artifact>
+	<artifact>
+		<id>46</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>72</site_id>
+	</artifact>
+	<artifact>
+		<id>47</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>73</site_id>
+	</artifact>
+	<artifact>
+		<id>48</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>74</site_id>
+	</artifact>
+	<artifact>
+		<id>49</id>
+		<item>
+		<name_string>primeval wood</name_string>
+		</item>
+		<site_id>75</site_id>
+	</artifact>
+	<artifact>
+		<id>50</id>
+		<name>the wave of prairies</name>
+		<item>
+		<name_string>iru elana</name_string>
+		</item>
+		<site_id>98</site_id>
+	</artifact>
+	<artifact>
+		<id>51</id>
+		<name>the sin of filth</name>
+		<item>
+		<name_string>vathi ciwa</name_string>
+		</item>
+		<site_id>99</site_id>
+	</artifact>
+	<artifact>
+		<id>52</id>
+		<name>the ferocity of sabres</name>
+		<item>
+		<name_string>kerleb vispol</name_string>
+		</item>
+		<site_id>100</site_id>
+	</artifact>
+	<artifact>
+		<id>53</id>
+		<name>earlybraved</name>
+		<item>
+		<name_string>rashedegu</name_string>
+		</item>
+		<site_id>101</site_id>
+	</artifact>
+	<artifact>
+		<id>54</id>
+		<name>the silty lamb</name>
+		<item>
+		<name_string>remamilema</name_string>
+		</item>
+		<site_id>102</site_id>
+	</artifact>
+	<artifact>
+		<id>55</id>
+		<name>ashgrease</name>
+		<item>
+		<name_string>usmdasmukong</name_string>
+		</item>
+		<site_id>103</site_id>
+	</artifact>
+	<artifact>
+		<id>56</id>
+		<name>perfectpower</name>
+		<item>
+		<name_string>atormidor</name_string>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>57</id>
+		<name>the interpretation of snodub racedevil</name>
+		<item>
+		<name_string>the interpretation of snodub racedevil</name_string>
+		<page_number>27</page_number>
+		<page_written_content_id>13</page_written_content_id>
+		</item>
+		<site_id>141</site_id>
+	</artifact>
+	<artifact>
+		<id>58</id>
+		<name>deadspring</name>
+		<item>
+		<name_string>muthrobisan</name_string>
+		</item>
+		<holder_hfid>699</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>59</id>
+		<name>sculptkeys</name>
+		<item>
+		<name_string>uthragel</name_string>
+		</item>
+		<site_id>3</site_id>
+	</artifact>
+	<artifact>
+		<id>60</id>
+		<name>the lancer of years</name>
+		<item>
+		<name_string>nita tol</name_string>
+		</item>
+		<holder_hfid>4189</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>61</id>
+		<name>pathways to migration</name>
+		<item>
+		<name_string>pathways to migration</name_string>
+		<page_number>96</page_number>
+		<page_written_content_id>58</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>62</id>
+		<name>mastering the forest retreat</name>
+		<item>
+		<name_string>mastering the forest retreat</name_string>
+		<page_number>28</page_number>
+		<page_written_content_id>66</page_written_content_id>
+		</item>
+		<site_id>78</site_id>
+	</artifact>
+	<artifact>
+		<id>63</id>
+		<name>never underestimate the movement of animals</name>
+		<item>
+		<name_string>never underestimate the movement of animals</name_string>
+		<page_number>106</page_number>
+		<page_written_content_id>71</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>64</id>
+		<name>more pits</name>
+		<item>
+		<name_string>more pits</name_string>
+		<page_number>28</page_number>
+		<page_written_content_id>85</page_written_content_id>
+		</item>
+		<site_id>89</site_id>
+	</artifact>
+	<artifact>
+		<id>65</id>
+		<name>poisonthieves</name>
+		<item>
+		<name_string>inrusgakit</name_string>
+		</item>
+		<site_id>93</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>66</id>
+		<name>dyewhisker</name>
+		<item>
+		<name_string>assegzega</name_string>
+		</item>
+		<holder_hfid>716</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>67</id>
+		<name>an exploration of the dark fortress</name>
+		<item>
+		<name_string>an exploration of the dark fortress</name_string>
+		<page_number>24</page_number>
+		<page_written_content_id>103</page_written_content_id>
+		</item>
+		<site_id>88</site_id>
+	</artifact>
+	<artifact>
+		<id>68</id>
+		<name>doubts about the wind</name>
+		<item>
+		<name_string>doubts about the wind</name_string>
+		<page_number>76</page_number>
+		<page_written_content_id>109</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>69</id>
+		<name>dentedtalks</name>
+		<item>
+		<name_string>gebmasos</name_string>
+		</item>
+		<site_id>250</site_id>
+	</artifact>
+	<artifact>
+		<id>70</id>
+		<name>portentclench the dell of emptying</name>
+		<item>
+		<name_string>niralegast ocig kisat</name_string>
+		</item>
+		<site_id>93</site_id>
+	</artifact>
+	<artifact>
+		<id>71</id>
+		<name>sweatsuck the gutters of ash</name>
+		<item>
+		<name_string>sinedeb nuglush ibruk</name_string>
+		</item>
+		<site_id>9</site_id>
+	</artifact>
+	<artifact>
+		<id>72</id>
+		<name>steelcalled</name>
+		<item>
+		<name_string>deleridos</name_string>
+		</item>
+		<holder_hfid>767</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>73</id>
+		<name>trammelfortresses the whips of submerging</name>
+		<item>
+		<name_string>rithargeshud bomrek rul</name_string>
+		</item>
+		<holder_hfid>715</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>74</id>
+		<name>true movement of animals</name>
+		<item>
+		<name_string>true movement of animals</name_string>
+		<page_number>144</page_number>
+		<page_written_content_id>127</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>75</id>
+		<name>the heavenly miseries</name>
+		<item>
+		<name_string>daselegeth</name_string>
+		</item>
+		<abs_tile_x>42624</abs_tile_x>
+		<abs_tile_y>11904</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>76</id>
+		<name>the struggle explained</name>
+		<item>
+		<name_string>the struggle explained</name_string>
+		<page_number>12</page_number>
+		<page_written_content_id>136</page_written_content_id>
+		</item>
+		<site_id>285</site_id>
+	</artifact>
+	<artifact>
+		<id>77</id>
+		<name>the gutter exposed</name>
+		<item>
+		<name_string>the gutter exposed</name_string>
+		<page_number>192</page_number>
+		<page_written_content_id>153</page_written_content_id>
+		</item>
+		<site_id>147</site_id>
+	</artifact>
+	<artifact>
+		<id>78</id>
+		<name>musings on rainfall</name>
+		<item>
+		<name_string>musings on rainfall</name_string>
+		<page_number>53</page_number>
+		<page_written_content_id>156</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>79</id>
+		<item>
+		<name_string>«untitled»</name_string>
+		<page_number>5</page_number>
+		<page_written_content_id>164</page_written_content_id>
+		</item>
+		<holder_hfid>953</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>80</id>
+		<name>mysteries of wind direction</name>
+		<item>
+		<name_string>mysteries of wind direction</name_string>
+		<page_number>99</page_number>
+		<page_written_content_id>166</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>81</id>
+		<name>the tower and other topics</name>
+		<item>
+		<name_string>the tower and other topics</name_string>
+		<page_number>78</page_number>
+		<page_written_content_id>174</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>82</id>
+		<name>umbrallonesome the grave of tresses</name>
+		<item>
+		<name_string>zospuosmgu orgu tudo</name_string>
+		</item>
+		<site_id>92</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>83</id>
+		<name>the reticent hame and executioners</name>
+		<item>
+		<name_string>the reticent hame and executioners</name_string>
+		<page_number>352</page_number>
+		<page_written_content_id>200</page_written_content_id>
+		</item>
+		<site_id>88</site_id>
+	</artifact>
+	<artifact>
+		<id>84</id>
+		<name>the birth of deities</name>
+		<item>
+		<name_string>the birth of deities</name_string>
+		<page_number>188</page_number>
+		<page_written_content_id>207</page_written_content_id>
+		</item>
+		<holder_hfid>2703</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>85</id>
+		<name>in pursuit of hexstaff</name>
+		<item>
+		<name_string>in pursuit of hexstaff</name_string>
+		<page_number>21</page_number>
+		<page_written_content_id>210</page_written_content_id>
+		</item>
+		<abs_tile_x>54144</abs_tile_x>
+		<abs_tile_y>74112</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>549</subregion_id>
+	</artifact>
+	<artifact>
+		<id>86</id>
+		<name>in pursuit of the dwarf</name>
+		<item>
+		<name_string>in pursuit of the dwarf</name_string>
+		<page_number>36</page_number>
+		<page_written_content_id>214</page_written_content_id>
+		</item>
+		<holder_hfid>1276</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>87</id>
+		<name>questions about the wind</name>
+		<item>
+		<name_string>questions about the wind</name_string>
+		<page_number>71</page_number>
+		<page_written_content_id>219</page_written_content_id>
+		</item>
+		<site_id>205</site_id>
+		<structure_local_id>1</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>88</id>
+		<name>the fortress and the coming troubles</name>
+		<item>
+		<name_string>the fortress and the coming troubles</name_string>
+		<page_number>52</page_number>
+		<page_written_content_id>225</page_written_content_id>
+		</item>
+		<site_id>92</site_id>
+	</artifact>
+	<artifact>
+		<id>89</id>
+		<name>the world of the tree</name>
+		<item>
+		<name_string>the world of the tree</name_string>
+		<page_number>63</page_number>
+		<page_written_content_id>226</page_written_content_id>
+		</item>
+		<holder_hfid>1567</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>90</id>
+		<name>book of wind direction</name>
+		<item>
+		<name_string>book of wind direction</name_string>
+		<page_number>66</page_number>
+		<page_written_content_id>233</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>91</id>
+		<name>the nuanced dwarves</name>
+		<item>
+		<name_string>the nuanced dwarves</name_string>
+		<page_number>28</page_number>
+		<page_written_content_id>235</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>92</id>
+		<name>passageweather</name>
+		<item>
+		<name_string>custithnugreth</name_string>
+		</item>
+		<site_id>250</site_id>
+	</artifact>
+	<artifact>
+		<id>93</id>
+		<name>a world of the farm</name>
+		<item>
+		<name_string>a world of the farm</name_string>
+		<writing_written_content_id>262</writing_written_content_id>
+		</item>
+		<site_id>232</site_id>
+	</artifact>
+	<artifact>
+		<id>94</id>
+		<name>unknown tonedspoken</name>
+		<item>
+		<name_string>unknown tonedspoken</name_string>
+		<page_number>20</page_number>
+		<page_written_content_id>264</page_written_content_id>
+		</item>
+		<site_id>209</site_id>
+	</artifact>
+	<artifact>
+		<id>95</id>
+		<name>theaterwine</name>
+		<item>
+		<name_string>stinthadotin</name_string>
+		</item>
+		<holder_hfid>2116</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>96</id>
+		<name>master of lyricbound</name>
+		<item>
+		<name_string>master of lyricbound</name_string>
+		<page_number>109</page_number>
+		<page_written_content_id>266</page_written_content_id>
+		</item>
+		<holder_hfid>1405</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>97</id>
+		<name>in pursuit of the fortress</name>
+		<item>
+		<name_string>in pursuit of the fortress</name_string>
+		<page_number>107</page_number>
+		<page_written_content_id>273</page_written_content_id>
+		</item>
+		<site_id>232</site_id>
+	</artifact>
+	<artifact>
+		<id>98</id>
+		<name>flowerembraces the reticence of aquamarine</name>
+		<item>
+		<name_string>totmonkurol zizcun utost</name_string>
+		</item>
+		<site_id>81</site_id>
+	</artifact>
+	<artifact>
+		<id>99</id>
+		<name>mysteries of listenfly</name>
+		<item>
+		<name_string>mysteries of listenfly</name_string>
+		<page_number>104</page_number>
+		<page_written_content_id>293</page_written_content_id>
+		</item>
+		<holder_hfid>1699</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>100</id>
+		<name>the kindness of deserts</name>
+		<item>
+		<name_string>nosim zareth</name_string>
+		</item>
+		<holder_hfid>894</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>101</id>
+		<name>after the shrubland</name>
+		<item>
+		<name_string>after the shrubland</name_string>
+		<page_number>27</page_number>
+		<page_written_content_id>308</page_written_content_id>
+		</item>
+		<site_id>83</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>102</id>
+		<name>truthfulproblems</name>
+		<item>
+		<name_string>osirbatok</name_string>
+		</item>
+		<holder_hfid>2281</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>103</id>
+		<name>the fresh hide</name>
+		<item>
+		<name_string>emetsebir</name_string>
+		</item>
+		<abs_tile_x>48000</abs_tile_x>
+		<abs_tile_y>15744</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>104</id>
+		<name>misconceptions about the hamlet</name>
+		<item>
+		<name_string>misconceptions about the hamlet</name_string>
+		<page_number>94</page_number>
+		<page_written_content_id>328</page_written_content_id>
+		</item>
+		<abs_tile_x>43392</abs_tile_x>
+		<abs_tile_y>8064</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>105</id>
+		<name>an offering to twowings</name>
+		<item>
+		<name_string>an offering to twowings</name_string>
+		<page_number>25</page_number>
+		<page_written_content_id>329</page_written_content_id>
+		</item>
+		<holder_hfid>2760</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>106</id>
+		<name>the tower for students</name>
+		<item>
+		<name_string>the tower for students</name_string>
+		<writing_written_content_id>330</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>107</id>
+		<name>the pursuit of wind patterns</name>
+		<item>
+		<name_string>the pursuit of wind patterns</name_string>
+		<writing_written_content_id>331</writing_written_content_id>
+		</item>
+		<site_id>205</site_id>
+		<structure_local_id>1</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>108</id>
+		<name>the esteem of air</name>
+		<item>
+		<name_string>ostath zafal</name_string>
+		</item>
+		<site_id>250</site_id>
+	</artifact>
+	<artifact>
+		<id>109</id>
+		<name>do you know surveying?</name>
+		<item>
+		<name_string>do you know surveying?</name_string>
+		<page_number>163</page_number>
+		<page_written_content_id>336</page_written_content_id>
+		</item>
+		<holder_hfid>1449</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>110</id>
+		<name>the origin of rainfall: further musings</name>
+		<item>
+		<name_string>the origin of rainfall: further musings</name_string>
+		<page_number>140</page_number>
+		<page_written_content_id>346</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>111</id>
+		<name>evenbrushed</name>
+		<item>
+		<name_string>degnosing</name_string>
+		</item>
+		<holder_hfid>2221</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>112</id>
+		<name>the dots of opening</name>
+		<item>
+		<name_string>sacat am</name_string>
+		</item>
+		<holder_hfid>812</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>113</id>
+		<name>findersmystery</name>
+		<item>
+		<name_string>atolshoveth</name_string>
+		</item>
+		<holder_hfid>2627</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>114</id>
+		<name>the bowel of chance</name>
+		<item>
+		<name_string>rodum tenshed</name_string>
+		</item>
+		<holder_hfid>2314</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>115</id>
+		<name>exploring foldedurns</name>
+		<item>
+		<name_string>exploring foldedurns</name_string>
+		<writing_written_content_id>369</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>116</id>
+		<name>strange horroreven</name>
+		<item>
+		<name_string>strange horroreven</name_string>
+		<page_number>103</page_number>
+		<page_written_content_id>370</page_written_content_id>
+		</item>
+		<holder_hfid>3709</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>117</id>
+		<name>the way with the outpost liaison</name>
+		<item>
+		<name_string>the way with the outpost liaison</name_string>
+		<page_number>23</page_number>
+		<page_written_content_id>378</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>118</id>
+		<name>the nuanced gutter</name>
+		<item>
+		<name_string>the nuanced gutter</name_string>
+		<page_number>82</page_number>
+		<page_written_content_id>382</page_written_content_id>
+		</item>
+		<holder_hfid>1632</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>119</id>
+		<name>mating and the coming troubles</name>
+		<item>
+		<name_string>mating and the coming troubles</name_string>
+		<page_number>148</page_number>
+		<page_written_content_id>390</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>120</id>
+		<name>my thoughts on animal diseases</name>
+		<item>
+		<name_string>my thoughts on animal diseases</name_string>
+		<page_number>86</page_number>
+		<page_written_content_id>402</page_written_content_id>
+		</item>
+		<holder_hfid>2519</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>121</id>
+		<name>cleftshrivels</name>
+		<item>
+		<name_string>gastistik</name_string>
+		</item>
+		<holder_hfid>2630</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>122</id>
+		<name>tameknighted</name>
+		<item>
+		<name_string>osustarzes</name_string>
+		</item>
+		<holder_hfid>812</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>123</id>
+		<name>brushedshrieks</name>
+		<item>
+		<name_string>nosingmivid</name_string>
+		</item>
+		<site_id>127</site_id>
+	</artifact>
+	<artifact>
+		<id>124</id>
+		<name>quill ever onward</name>
+		<item>
+		<name_string>quill ever onward</name_string>
+		<writing_written_content_id>411</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>125</id>
+		<name>new ores</name>
+		<item>
+		<name_string>new ores</name_string>
+		<writing_written_content_id>422</writing_written_content_id>
+		</item>
+		<abs_tile_x>44160</abs_tile_x>
+		<abs_tile_y>11136</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>126</id>
+		<name>a humble offering to the dwarf</name>
+		<item>
+		<name_string>a humble offering to the dwarf</name_string>
+		<page_number>21</page_number>
+		<page_written_content_id>437</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>127</id>
+		<name>the tower uncovered</name>
+		<item>
+		<name_string>the tower uncovered</name_string>
+		<writing_written_content_id>445</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>128</id>
+		<name>discovering the hamlet</name>
+		<item>
+		<name_string>discovering the hamlet</name_string>
+		<page_number>30</page_number>
+		<page_written_content_id>449</page_written_content_id>
+		</item>
+		<holder_hfid>2322</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>129</id>
+		<name>plaitednamed</name>
+		<item>
+		<name_string>mamotkab</name_string>
+		</item>
+		<holder_hfid>5561</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>130</id>
+		<name>callvise</name>
+		<item>
+		<name_string>idostost</name_string>
+		</item>
+		<holder_hfid>2822</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>131</id>
+		<name>nightfountains the lace of ivy</name>
+		<item>
+		<name_string>ananzefon vakist rinal</name_string>
+		</item>
+		<holder_hfid>968</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>132</id>
+		<name>the fortress might help</name>
+		<item>
+		<name_string>the fortress might help</name_string>
+		<page_number>18</page_number>
+		<page_written_content_id>468</page_written_content_id>
+		</item>
+		<site_id>232</site_id>
+	</artifact>
+	<artifact>
+		<id>133</id>
+		<name>mysteries of the forest</name>
+		<item>
+		<name_string>mysteries of the forest</name_string>
+		<page_number>92</page_number>
+		<page_written_content_id>481</page_written_content_id>
+		</item>
+		<site_id>82</site_id>
+	</artifact>
+	<artifact>
+		<id>134</id>
+		<name>failedlanguishes</name>
+		<item>
+		<name_string>ungegmerrang</name_string>
+		</item>
+		<holder_hfid>1123</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>135</id>
+		<name>reproduction</name>
+		<item>
+		<name_string>reproduction</name_string>
+		<page_number>73</page_number>
+		<page_written_content_id>484</page_written_content_id>
+		</item>
+		<holder_hfid>2519</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>136</id>
+		<name>mastering astesh strokebolt</name>
+		<item>
+		<name_string>mastering astesh strokebolt</name_string>
+		<page_number>15</page_number>
+		<page_written_content_id>487</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>137</id>
+		<name>the great tower</name>
+		<item>
+		<name_string>the great tower</name_string>
+		<page_number>76</page_number>
+		<page_written_content_id>491</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>138</id>
+		<name>the birth of conveniences</name>
+		<item>
+		<name_string>the birth of conveniences</name_string>
+		<writing_written_content_id>497</writing_written_content_id>
+		</item>
+		<site_id>137</site_id>
+	</artifact>
+	<artifact>
+		<id>139</id>
+		<name>dessertled the ace of charring</name>
+		<item>
+		<name_string>tislamerar alak sid</name_string>
+		</item>
+		<abs_tile_x>48768</abs_tile_x>
+		<abs_tile_y>18816</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>140</id>
+		<name>the student's economy</name>
+		<item>
+		<name_string>the student's economy</name_string>
+		<page_number>82</page_number>
+		<page_written_content_id>501</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>141</id>
+		<name>wind patterns and other topics</name>
+		<item>
+		<name_string>wind patterns and other topics</name_string>
+		<writing_written_content_id>503</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>142</id>
+		<name>first the trees, then the world!</name>
+		<item>
+		<name_string>first the trees, then the world!</name_string>
+		<page_number>73</page_number>
+		<page_written_content_id>504</page_written_content_id>
+		</item>
+		<holder_hfid>1132</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>143</id>
+		<name>did basinpanther falter?</name>
+		<item>
+		<name_string>did basinpanther falter?</name_string>
+		<page_number>112</page_number>
+		<page_written_content_id>519</page_written_content_id>
+		</item>
+		<holder_hfid>1213</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>144</id>
+		<name>the truth about the humans</name>
+		<item>
+		<name_string>the truth about the humans</name_string>
+		<page_number>32</page_number>
+		<page_written_content_id>520</page_written_content_id>
+		</item>
+		<site_id>84</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>145</id>
+		<name>hauntempire</name>
+		<item>
+		<name_string>dumurthalal</name_string>
+		</item>
+		<holder_hfid>1122</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>146</id>
+		<name>the wizard's guide to the rising of the sun</name>
+		<item>
+		<name_string>the wizard's guide to the rising of the sun</name_string>
+		<page_number>48</page_number>
+		<page_written_content_id>524</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>147</id>
+		<name>discovering the gutter</name>
+		<item>
+		<name_string>discovering the gutter</name_string>
+		<page_number>117</page_number>
+		<page_written_content_id>531</page_written_content_id>
+		</item>
+		<site_id>197</site_id>
+	</artifact>
+	<artifact>
+		<id>148</id>
+		<name>pulledperplex</name>
+		<item>
+		<name_string>tashemsherik</name_string>
+		</item>
+		<holder_hfid>5544</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>149</id>
+		<name>peacetusks</name>
+		<item>
+		<name_string>bisolbufut</name_string>
+		</item>
+		<holder_hfid>767</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>150</id>
+		<name>paperwithered the fortunate bones</name>
+		<item>
+		<name_string>monomnentuk akamosod</name_string>
+		</item>
+		<site_id>166</site_id>
+	</artifact>
+	<artifact>
+		<id>151</id>
+		<name>the tactical puzzle</name>
+		<item>
+		<name_string>rimadluslem</name_string>
+		</item>
+		<site_id>250</site_id>
+	</artifact>
+	<artifact>
+		<id>152</id>
+		<name>the mountainhome: further musings</name>
+		<item>
+		<name_string>the mountainhome: further musings</name_string>
+		<page_number>70</page_number>
+		<page_written_content_id>548</page_written_content_id>
+		</item>
+		<site_id>81</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>153</id>
+		<name>tradition: natural or supernatural?</name>
+		<item>
+		<name_string>tradition: natural or supernatural?</name_string>
+		<page_number>28</page_number>
+		<page_written_content_id>550</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>154</id>
+		<name>migration exposed</name>
+		<item>
+		<name_string>migration exposed</name_string>
+		<page_number>59</page_number>
+		<page_written_content_id>552</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>155</id>
+		<name>misconceptions about the diseases of animals</name>
+		<item>
+		<name_string>misconceptions about the diseases of animals</name_string>
+		<page_number>63</page_number>
+		<page_written_content_id>555</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>156</id>
+		<name>secret rising of sun</name>
+		<item>
+		<name_string>secret rising of sun</name_string>
+		<page_number>29</page_number>
+		<page_written_content_id>556</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>157</id>
+		<name>the divine permanency</name>
+		<item>
+		<name_string>nabasirlom</name_string>
+		</item>
+		<abs_tile_x>85632</abs_tile_x>
+		<abs_tile_y>18048</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>169</subregion_id>
+	</artifact>
+	<artifact>
+		<id>158</id>
+		<name>the meandering ages of spurning</name>
+		<item>
+		<name_string>ablishanam nobot</name_string>
+		</item>
+		<abs_tile_x>47232</abs_tile_x>
+		<abs_tile_y>15744</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>159</id>
+		<name>calmages</name>
+		<item>
+		<name_string>betananam</name_string>
+		</item>
+		<holder_hfid>3427</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>160</id>
+		<name>book of the diseases of animals</name>
+		<item>
+		<name_string>book of the diseases of animals</name_string>
+		<page_number>103</page_number>
+		<page_written_content_id>573</page_written_content_id>
+		</item>
+		<holder_hfid>2519</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>161</id>
+		<name>my friend goat</name>
+		<item>
+		<name_string>my friend goat</name_string>
+		<writing_written_content_id>588</writing_written_content_id>
+		</item>
+		<site_id>180</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>162</id>
+		<name>the hellish ancient</name>
+		<item>
+		<name_string>shashzustash</name_string>
+		</item>
+		<holder_hfid>5544</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>163</id>
+		<name>the economy explained</name>
+		<item>
+		<name_string>the economy explained</name_string>
+		<page_number>90</page_number>
+		<page_written_content_id>598</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>164</id>
+		<name>trade after the end</name>
+		<item>
+		<name_string>trade after the end</name_string>
+		<writing_written_content_id>618</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>165</id>
+		<name>explorations of the kindled society</name>
+		<item>
+		<name_string>explorations of the kindled society</name_string>
+		<writing_written_content_id>631</writing_written_content_id>
+		</item>
+		<site_id>232</site_id>
+	</artifact>
+	<artifact>
+		<id>166</id>
+		<name>sprayedaxe the ferocity of tenderness</name>
+		<item>
+		<name_string>basenlibash nidost ittas</name_string>
+		</item>
+		<holder_hfid>724</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>167</id>
+		<name>livingbane</name>
+		<item>
+		<name_string>stumostol</name_string>
+		</item>
+		<holder_hfid>468</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>168</id>
+		<name>time spent with rainfall</name>
+		<item>
+		<name_string>time spent with rainfall</name_string>
+		<page_number>24</page_number>
+		<page_written_content_id>634</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>169</id>
+		<name>meditations on the numbers</name>
+		<item>
+		<name_string>meditations on the numbers</name_string>
+		<page_number>97</page_number>
+		<page_written_content_id>639</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>170</id>
+		<name>the dealings book</name>
+		<item>
+		<name_string>the dealings book</name_string>
+		<writing_written_content_id>640</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>171</id>
+		<name>reflections on pulleys</name>
+		<item>
+		<name_string>reflections on pulleys</name_string>
+		<writing_written_content_id>649</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>172</id>
+		<name>factual pulleys</name>
+		<item>
+		<name_string>factual pulleys</name_string>
+		<writing_written_content_id>650</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>173</id>
+		<name>the origin of rainfall: a new approach</name>
+		<item>
+		<name_string>the origin of rainfall: a new approach</name_string>
+		<writing_written_content_id>664</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>174</id>
+		<name>the tower book</name>
+		<item>
+		<name_string>the tower book</name_string>
+		<writing_written_content_id>667</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>175</id>
+		<name>the primitive tails</name>
+		<item>
+		<name_string>the primitive tails</name_string>
+		<writing_written_content_id>670</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>176</id>
+		<name>foldedurns, my life</name>
+		<item>
+		<name_string>foldedurns, my life</name_string>
+		<writing_written_content_id>672</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>177</id>
+		<name>surveying without limits</name>
+		<item>
+		<name_string>surveying without limits</name_string>
+		<writing_written_content_id>673</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>178</id>
+		<name>secret animal courtship</name>
+		<item>
+		<name_string>secret animal courtship</name_string>
+		<page_number>64</page_number>
+		<page_written_content_id>675</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>179</id>
+		<name>factual metals</name>
+		<item>
+		<name_string>factual metals</name_string>
+		<page_number>84</page_number>
+		<page_written_content_id>679</page_written_content_id>
+		</item>
+		<abs_tile_x>39552</abs_tile_x>
+		<abs_tile_y>8832</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>180</id>
+		<name>the world without the duel</name>
+		<item>
+		<name_string>the world without the duel</name_string>
+		<page_number>12</page_number>
+		<page_written_content_id>685</page_written_content_id>
+		</item>
+		<abs_tile_x>47232</abs_tile_x>
+		<abs_tile_y>22656</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>181</id>
+		<name>the brilliant blockades</name>
+		<item>
+		<name_string>the brilliant blockades</name_string>
+		<page_number>201</page_number>
+		<page_written_content_id>698</page_written_content_id>
+		</item>
+		<holder_hfid>3721</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>182</id>
+		<name>master of the mountainhome</name>
+		<item>
+		<name_string>master of the mountainhome</name_string>
+		<page_number>113</page_number>
+		<page_written_content_id>708</page_written_content_id>
+		</item>
+		<site_id>211</site_id>
+	</artifact>
+	<artifact>
+		<id>183</id>
+		<name>introduction to the keep</name>
+		<item>
+		<name_string>introduction to the keep</name_string>
+		<page_number>47</page_number>
+		<page_written_content_id>717</page_written_content_id>
+		</item>
+		<site_id>232</site_id>
+	</artifact>
+	<artifact>
+		<id>184</id>
+		<name>of transactions</name>
+		<item>
+		<name_string>of transactions</name_string>
+		<page_number>114</page_number>
+		<page_written_content_id>731</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>185</id>
+		<name>of animals and the climate</name>
+		<item>
+		<name_string>of animals and the climate</name_string>
+		<page_number>30</page_number>
+		<page_written_content_id>743</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>186</id>
+		<name>and you sang 'toad!'</name>
+		<item>
+		<name_string>and you sang 'toad!'</name_string>
+		<page_number>26</page_number>
+		<page_written_content_id>746</page_written_content_id>
+		</item>
+		<site_id>306</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>187</id>
+		<name>about the economy</name>
+		<item>
+		<name_string>about the economy</name_string>
+		<writing_written_content_id>750</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>188</id>
+		<name>asseg beautyprairie: fact or fiction?</name>
+		<item>
+		<name_string>asseg beautyprairie: fact or fiction?</name_string>
+		<page_number>21</page_number>
+		<page_written_content_id>765</page_written_content_id>
+		</item>
+		<site_id>307</site_id>
+	</artifact>
+	<artifact>
+		<id>189</id>
+		<name>to wind direction and glory!</name>
+		<item>
+		<name_string>to wind direction and glory!</name_string>
+		<page_number>35</page_number>
+		<page_written_content_id>768</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>190</id>
+		<name>osush cakescoop and beyond</name>
+		<item>
+		<name_string>osush cakescoop and beyond</name_string>
+		<page_number>23</page_number>
+		<page_written_content_id>774</page_written_content_id>
+		</item>
+		<holder_hfid>2874</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>191</id>
+		<name>moldmenaced</name>
+		<item>
+		<name_string>thriregeslul</name_string>
+		</item>
+		<holder_hfid>4585</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>192</id>
+		<name>the book of the lute of aquamarines</name>
+		<item>
+		<name_string>the book of the lute of aquamarines</name_string>
+		<writing_written_content_id>781</writing_written_content_id>
+		</item>
+		<holder_hfid>2778</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>193</id>
+		<name>the secret of the object</name>
+		<item>
+		<name_string>the secret of the object</name_string>
+		<writing_written_content_id>797</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>194</id>
+		<name>the mystery of primsilky</name>
+		<item>
+		<name_string>the mystery of primsilky</name_string>
+		<page_number>78</page_number>
+		<page_written_content_id>817</page_written_content_id>
+		</item>
+		<holder_hfid>2874</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>195</id>
+		<name>the tower and other travesties</name>
+		<item>
+		<name_string>the tower and other travesties</name_string>
+		<page_number>95</page_number>
+		<page_written_content_id>830</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>196</id>
+		<name>it all begins with seasons and the sun</name>
+		<item>
+		<name_string>it all begins with seasons and the sun</name_string>
+		<page_number>60</page_number>
+		<page_written_content_id>834</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>197</id>
+		<name>powerchant the relieved rain</name>
+		<item>
+		<name_string>midoronshen noramudar</name_string>
+		</item>
+		<holder_hfid>966</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>198</id>
+		<name>the sword of rulers</name>
+		<item>
+		<name_string>dastot ilid</name_string>
+		</item>
+		<site_id>250</site_id>
+	</artifact>
+	<artifact>
+		<id>199</id>
+		<name>the light risk</name>
+		<item>
+		<name_string>istamneshast</name_string>
+		</item>
+		<holder_hfid>3926</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>200</id>
+		<name>the hungry present</name>
+		<item>
+		<name_string>fokashudiz</name_string>
+		</item>
+		<holder_hfid>3253</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>201</id>
+		<name>start your day with wind patterns</name>
+		<item>
+		<name_string>start your day with wind patterns</name_string>
+		<writing_written_content_id>843</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>202</id>
+		<name>an offering to the object</name>
+		<item>
+		<name_string>an offering to the object</name_string>
+		<writing_written_content_id>844</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>203</id>
+		<name>my thoughts on foraging behavior</name>
+		<item>
+		<name_string>my thoughts on foraging behavior</name_string>
+		<page_number>35</page_number>
+		<page_written_content_id>848</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>204</id>
+		<name>an introduction to opposites</name>
+		<item>
+		<name_string>an introduction to opposites</name_string>
+		<page_number>27</page_number>
+		<page_written_content_id>855</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>205</id>
+		<name>it all begins with the state</name>
+		<item>
+		<name_string>it all begins with the state</name_string>
+		<page_number>54</page_number>
+		<page_written_content_id>859</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>206</id>
+		<name>a humble offering to rainfall</name>
+		<item>
+		<name_string>a humble offering to rainfall</name_string>
+		<writing_written_content_id>861</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>207</id>
+		<name>the state for the beginning practitioner</name>
+		<item>
+		<name_string>the state for the beginning practitioner</name_string>
+		<writing_written_content_id>879</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>208</id>
+		<name>elements of transactions</name>
+		<item>
+		<name_string>elements of transactions</name_string>
+		<page_number>78</page_number>
+		<page_written_content_id>887</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>209</id>
+		<name>the book of surveying</name>
+		<item>
+		<name_string>the book of surveying</name_string>
+		<page_number>92</page_number>
+		<page_written_content_id>902</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>210</id>
+		<name>meditations on the origin of rainfall</name>
+		<item>
+		<name_string>meditations on the origin of rainfall</name_string>
+		<writing_written_content_id>911</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>211</id>
+		<name>the meaning of the gutter</name>
+		<item>
+		<name_string>the meaning of the gutter</name_string>
+		<page_number>99</page_number>
+		<page_written_content_id>913</page_written_content_id>
+		</item>
+		<site_id>390</site_id>
+	</artifact>
+	<artifact>
+		<id>212</id>
+		<name>organplank</name>
+		<item>
+		<name_string>inashshem</name_string>
+		</item>
+		<site_id>9</site_id>
+	</artifact>
+	<artifact>
+		<id>213</id>
+		<name>murderedgrasps</name>
+		<item>
+		<name_string>usangidthur</name_string>
+		</item>
+		<holder_hfid>5855</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>214</id>
+		<name>the hidden meaning of evaporation and condensation</name>
+		<item>
+		<name_string>the hidden meaning of evaporation and condensation</name_string>
+		<page_number>56</page_number>
+		<page_written_content_id>930</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>215</id>
+		<name>do we understand nomal scarroof?</name>
+		<item>
+		<name_string>do we understand nomal scarroof?</name_string>
+		<page_number>13</page_number>
+		<page_written_content_id>937</page_written_content_id>
+		</item>
+		<holder_hfid>2653</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>216</id>
+		<name>postjackal</name>
+		<item>
+		<name_string>itebsoshosh</name_string>
+		</item>
+		<site_id>9</site_id>
+	</artifact>
+	<artifact>
+		<id>217</id>
+		<name>praisedblights the trustworthy worm</name>
+		<item>
+		<name_string>libadsharsid arinvesrul</name_string>
+		</item>
+		<abs_tile_x>40320</abs_tile_x>
+		<abs_tile_y>10368</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>218</id>
+		<name>for the love of the fortress</name>
+		<item>
+		<name_string>for the love of the fortress</name_string>
+		<page_number>23</page_number>
+		<page_written_content_id>960</page_written_content_id>
+		</item>
+		<holder_hfid>3602</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>219</id>
+		<name>meditations on animal diseases</name>
+		<item>
+		<name_string>meditations on animal diseases</name_string>
+		<page_number>85</page_number>
+		<page_written_content_id>964</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>220</id>
+		<name>union and other travesties</name>
+		<item>
+		<name_string>union and other travesties</name_string>
+		<page_number>28</page_number>
+		<page_written_content_id>974</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>221</id>
+		<name>scorpionfield in the modern era</name>
+		<item>
+		<name_string>scorpionfield in the modern era</name_string>
+		<page_number>118</page_number>
+		<page_written_content_id>975</page_written_content_id>
+		</item>
+		<holder_hfid>3087</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>222</id>
+		<name>a world of leperhate</name>
+		<item>
+		<name_string>a world of leperhate</name_string>
+		<page_number>93</page_number>
+		<page_written_content_id>978</page_written_content_id>
+		</item>
+		<holder_hfid>3845</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>223</id>
+		<name>never underestimate daylight and the seasons</name>
+		<item>
+		<name_string>never underestimate daylight and the seasons</name_string>
+		<page_number>92</page_number>
+		<page_written_content_id>983</page_written_content_id>
+		</item>
+		<site_id>145</site_id>
+	</artifact>
+	<artifact>
+		<id>224</id>
+		<name>the fern of exaltation</name>
+		<item>
+		<name_string>sluslor ozok</name_string>
+		</item>
+		<holder_hfid>4237</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>225</id>
+		<name>scratchsparkle</name>
+		<item>
+		<name_string>keskebul</name_string>
+		</item>
+		<holder_hfid>1123</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>226</id>
+		<name>troubleweathered</name>
+		<item>
+		<name_string>kobemedol</name_string>
+		</item>
+		<holder_hfid>4266</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>227</id>
+		<name>the crazed daubs</name>
+		<item>
+		<name_string>ulingag</name_string>
+		</item>
+		<site_id>211</site_id>
+	</artifact>
+	<artifact>
+		<id>228</id>
+		<name>the pits the easy way</name>
+		<item>
+		<name_string>the pits the easy way</name_string>
+		<page_number>111</page_number>
+		<page_written_content_id>998</page_written_content_id>
+		</item>
+		<holder_hfid>3907</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>229</id>
+		<name>hardness: the truth</name>
+		<item>
+		<name_string>hardness: the truth</name_string>
+		<writing_written_content_id>1002</writing_written_content_id>
+		</item>
+		<site_id>185</site_id>
+	</artifact>
+	<artifact>
+		<id>230</id>
+		<name>the beaker when it counts</name>
+		<item>
+		<name_string>the beaker when it counts</name_string>
+		<page_number>46</page_number>
+		<page_written_content_id>1017</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>231</id>
+		<name>the rising of the sun: fact or fiction?</name>
+		<item>
+		<name_string>the rising of the sun: fact or fiction?</name_string>
+		<writing_written_content_id>1023</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>232</id>
+		<name>discovering listenfly</name>
+		<item>
+		<name_string>discovering listenfly</name_string>
+		<page_number>108</page_number>
+		<page_written_content_id>1035</page_written_content_id>
+		</item>
+		<holder_hfid>3907</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>233</id>
+		<name>principles of reproduction</name>
+		<item>
+		<name_string>principles of reproduction</name_string>
+		<page_number>35</page_number>
+		<page_written_content_id>1044</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>234</id>
+		<name>the journey into stozu bogdemons</name>
+		<item>
+		<name_string>the journey into stozu bogdemons</name_string>
+		<page_number>26</page_number>
+		<page_written_content_id>1049</page_written_content_id>
+		</item>
+		<holder_hfid>4106</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>235</id>
+		<name>the full silt</name>
+		<item>
+		<name_string>the full silt</name_string>
+		<page_number>21</page_number>
+		<page_written_content_id>1052</page_written_content_id>
+		</item>
+		<holder_hfid>4396</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>236</id>
+		<name>it all begins with the farm</name>
+		<item>
+		<name_string>it all begins with the farm</name_string>
+		<writing_written_content_id>1057</writing_written_content_id>
+		</item>
+		<holder_hfid>2724</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>237</id>
+		<name>inefa waxmute: principles and practice</name>
+		<item>
+		<name_string>inefa waxmute: principles and practice</name_string>
+		<page_number>33</page_number>
+		<page_written_content_id>1062</page_written_content_id>
+		</item>
+		<holder_hfid>2292</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>238</id>
+		<name>the deviant swamp and throat</name>
+		<item>
+		<name_string>the deviant swamp and throat</name_string>
+		<page_number>238</page_number>
+		<page_written_content_id>1064</page_written_content_id>
+		</item>
+		<site_id>211</site_id>
+	</artifact>
+	<artifact>
+		<id>239</id>
+		<name>trade maps the easy way</name>
+		<item>
+		<name_string>trade maps the easy way</name_string>
+		<page_number>144</page_number>
+		<page_written_content_id>1079</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>240</id>
+		<name>surveying questioned</name>
+		<item>
+		<name_string>surveying questioned</name_string>
+		<page_number>105</page_number>
+		<page_written_content_id>1084</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>241</id>
+		<name>the birth of ruins</name>
+		<item>
+		<name_string>the birth of ruins</name_string>
+		<page_number>13</page_number>
+		<page_written_content_id>1086</page_written_content_id>
+		</item>
+		<site_id>257</site_id>
+	</artifact>
+	<artifact>
+		<id>242</id>
+		<item>
+		<name_string>«untitled»</name_string>
+		<page_number>5</page_number>
+		<page_written_content_id>1087</page_written_content_id>
+		</item>
+		<holder_hfid>2978</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>243</id>
+		<name>the struggle when it counts</name>
+		<item>
+		<name_string>the struggle when it counts</name_string>
+		<writing_written_content_id>1090</writing_written_content_id>
+		</item>
+		<holder_hfid>3503</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>244</id>
+		<name>rainfall and rivers: fact or fiction?</name>
+		<item>
+		<name_string>rainfall and rivers: fact or fiction?</name_string>
+		<writing_written_content_id>1097</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>245</id>
+		<name>the goblin: the truth</name>
+		<item>
+		<name_string>the goblin: the truth</name_string>
+		<page_number>30</page_number>
+		<page_written_content_id>1121</page_written_content_id>
+		</item>
+		<holder_hfid>6465</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>246</id>
+		<name>do you know beakers?</name>
+		<item>
+		<name_string>do you know beakers?</name_string>
+		<page_number>76</page_number>
+		<page_written_content_id>1126</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>247</id>
+		<name>mastering wind direction</name>
+		<item>
+		<name_string>mastering wind direction</name_string>
+		<page_number>24</page_number>
+		<page_written_content_id>1128</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>248</id>
+		<name>the unabridged water cycle</name>
+		<item>
+		<name_string>the unabridged water cycle</name_string>
+		<page_number>97</page_number>
+		<page_written_content_id>1159</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>249</id>
+		<name>distillation: my only mistake</name>
+		<item>
+		<name_string>distillation: my only mistake</name_string>
+		<writing_written_content_id>1166</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>250</id>
+		<name>the study of wind patterns</name>
+		<item>
+		<name_string>the study of wind patterns</name_string>
+		<page_number>162</page_number>
+		<page_written_content_id>1168</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>251</id>
+		<name>mastering reproduction</name>
+		<item>
+		<name_string>mastering reproduction</name_string>
+		<writing_written_content_id>1172</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>252</id>
+		<name>true rising of sun</name>
+		<item>
+		<name_string>true rising of sun</name_string>
+		<writing_written_content_id>1195</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>253</id>
+		<name>the knowledge of xeso shimmersocket</name>
+		<item>
+		<name_string>the knowledge of xeso shimmersocket</name_string>
+		<page_number>12</page_number>
+		<page_written_content_id>1197</page_written_content_id>
+		</item>
+		<site_id>307</site_id>
+	</artifact>
+	<artifact>
+		<id>254</id>
+		<name>the interpretation of the moon's path</name>
+		<item>
+		<name_string>the interpretation of the moon's path</name_string>
+		<page_number>90</page_number>
+		<page_written_content_id>1202</page_written_content_id>
+		</item>
+		<abs_tile_x>48768</abs_tile_x>
+		<abs_tile_y>14208</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>255</id>
+		<name>a world of surveying</name>
+		<item>
+		<name_string>a world of surveying</name_string>
+		<page_number>42</page_number>
+		<page_written_content_id>1206</page_written_content_id>
+		</item>
+		<holder_hfid>1449</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>256</id>
+		<name>the mystery of wind direction</name>
+		<item>
+		<name_string>the mystery of wind direction</name_string>
+		<writing_written_content_id>1207</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>257</id>
+		<name>simplebusters</name>
+		<item>
+		<name_string>guzstal</name_string>
+		</item>
+		<abs_tile_x>54912</abs_tile_x>
+		<abs_tile_y>13440</abs_tile_y>
+		<abs_tile_z>-1000000</abs_tile_z>
+		<subregion_id>37</subregion_id>
+	</artifact>
+	<artifact>
+		<id>258</id>
+		<name>creation: my only mistake</name>
+		<item>
+		<name_string>creation: my only mistake</name_string>
+		<writing_written_content_id>1217</writing_written_content_id>
+		</item>
+		<holder_hfid>3503</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>259</id>
+		<name>the possibilities of the economy</name>
+		<item>
+		<name_string>the possibilities of the economy</name_string>
+		<page_number>91</page_number>
+		<page_written_content_id>1219</page_written_content_id>
+		</item>
+		<holder_hfid>1449</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>260</id>
+		<name>the elf in the age of myth</name>
+		<item>
+		<name_string>the elf in the age of myth</name_string>
+		<page_number>18</page_number>
+		<page_written_content_id>1239</page_written_content_id>
+		</item>
+		<holder_hfid>3316</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>261</id>
+		<name>animals and the climate in practice</name>
+		<item>
+		<name_string>animals and the climate in practice</name_string>
+		<writing_written_content_id>1249</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>262</id>
+		<name>elements of the goblin</name>
+		<item>
+		<name_string>elements of the goblin</name_string>
+		<page_number>12</page_number>
+		<page_written_content_id>1250</page_written_content_id>
+		</item>
+		<holder_hfid>2073</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>263</id>
+		<name>the world of the numbers</name>
+		<item>
+		<name_string>the world of the numbers</name_string>
+		<page_number>112</page_number>
+		<page_written_content_id>1254</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>264</id>
+		<name>do you know migration?</name>
+		<item>
+		<name_string>do you know migration?</name_string>
+		<page_number>116</page_number>
+		<page_written_content_id>1258</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>265</id>
+		<name>for the love of dissection</name>
+		<item>
+		<name_string>for the love of dissection</name_string>
+		<page_number>36</page_number>
+		<page_written_content_id>1263</page_written_content_id>
+		</item>
+		<holder_hfid>5542</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>266</id>
+		<name>the origin of rainfall: further musings</name>
+		<item>
+		<name_string>the origin of rainfall: further musings</name_string>
+		<writing_written_content_id>1268</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>267</id>
+		<name>daubeddooms might help</name>
+		<item>
+		<name_string>daubeddooms might help</name_string>
+		<page_number>59</page_number>
+		<page_written_content_id>1276</page_written_content_id>
+		</item>
+		<holder_hfid>4364</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>268</id>
+		<name>mysteries of the elf</name>
+		<item>
+		<name_string>mysteries of the elf</name_string>
+		<page_number>30</page_number>
+		<page_written_content_id>1280</page_written_content_id>
+		</item>
+		<holder_hfid>3382</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>269</id>
+		<name>mute confusion</name>
+		<item>
+		<name_string>mute confusion</name_string>
+		<writing_written_content_id>1281</writing_written_content_id>
+		</item>
+		<site_id>348</site_id>
+	</artifact>
+	<artifact>
+		<id>270</id>
+		<name>never underestimate dissection</name>
+		<item>
+		<name_string>never underestimate dissection</name_string>
+		<page_number>110</page_number>
+		<page_written_content_id>1289</page_written_content_id>
+		</item>
+		<holder_hfid>5542</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>271</id>
+		<name>can the humans save the world?</name>
+		<item>
+		<name_string>can the humans save the world?</name_string>
+		<page_number>25</page_number>
+		<page_written_content_id>1294</page_written_content_id>
+		</item>
+		<site_id>307</site_id>
+	</artifact>
+	<artifact>
+		<id>272</id>
+		<name>questions about anatomy</name>
+		<item>
+		<name_string>questions about anatomy</name_string>
+		<writing_written_content_id>1304</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>273</id>
+		<name>the moon questioned</name>
+		<item>
+		<name_string>the moon questioned</name_string>
+		<page_number>136</page_number>
+		<page_written_content_id>1319</page_written_content_id>
+		</item>
+		<holder_hfid>5259</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>274</id>
+		<name>at one with wind patterns</name>
+		<item>
+		<name_string>at one with wind patterns</name_string>
+		<writing_written_content_id>1328</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>275</id>
+		<name>the throne and joy</name>
+		<item>
+		<name_string>the throne and joy</name_string>
+		<page_number>25</page_number>
+		<page_written_content_id>1335</page_written_content_id>
+		</item>
+		<holder_hfid>4320</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>276</id>
+		<name>exploring the creatures</name>
+		<item>
+		<name_string>exploring the creatures</name_string>
+		<writing_written_content_id>1343</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>277</id>
+		<name>after the numbers</name>
+		<item>
+		<name_string>after the numbers</name_string>
+		<writing_written_content_id>1345</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>278</id>
+		<name>urgedfrays the dawn of spirit</name>
+		<item>
+		<name_string>smuslaas sagus stusnu</name_string>
+		</item>
+		<holder_hfid>4459</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>279</id>
+		<name>spurtugly the hag of guts</name>
+		<item>
+		<name_string>gopetsetnu agwa ngok</name_string>
+		</item>
+		<site_id>249</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>280</id>
+		<name>the origin of rainfall understood</name>
+		<item>
+		<name_string>the origin of rainfall understood</name_string>
+		<writing_written_content_id>1358</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>281</id>
+		<name>the wind direction book</name>
+		<item>
+		<name_string>the wind direction book</name_string>
+		<page_number>58</page_number>
+		<page_written_content_id>1372</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>282</id>
+		<name>pathways to the relationship</name>
+		<item>
+		<name_string>pathways to the relationship</name_string>
+		<writing_written_content_id>1377</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>283</id>
+		<name>explorations of the diseases of animals</name>
+		<item>
+		<name_string>explorations of the diseases of animals</name_string>
+		<page_number>26</page_number>
+		<page_written_content_id>1392</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>284</id>
+		<name>wind patterns in the time of my ancestors</name>
+		<item>
+		<name_string>wind patterns in the time of my ancestors</name_string>
+		<page_number>26</page_number>
+		<page_written_content_id>1399</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>285</id>
+		<name>processes in practice</name>
+		<item>
+		<name_string>processes in practice</name_string>
+		<writing_written_content_id>1404</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>286</id>
+		<name>treatise on the human</name>
+		<item>
+		<name_string>treatise on the human</name_string>
+		<page_number>21</page_number>
+		<page_written_content_id>1406</page_written_content_id>
+		</item>
+		<holder_hfid>3853</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>287</id>
+		<name>the farm might help</name>
+		<item>
+		<name_string>the farm might help</name_string>
+		<writing_written_content_id>1408</writing_written_content_id>
+		</item>
+		<holder_hfid>2970</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>288</id>
+		<name>discourse on observation</name>
+		<item>
+		<name_string>discourse on observation</name_string>
+		<page_number>115</page_number>
+		<page_written_content_id>1410</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>289</id>
+		<name>new harmony</name>
+		<item>
+		<name_string>new harmony</name_string>
+		<writing_written_content_id>1411</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>290</id>
+		<name>uncovering union</name>
+		<item>
+		<name_string>uncovering union</name_string>
+		<writing_written_content_id>1418</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>291</id>
+		<name>an introduction to the economy</name>
+		<item>
+		<name_string>an introduction to the economy</name_string>
+		<page_number>64</page_number>
+		<page_written_content_id>1422</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>292</id>
+		<name>the traps and dye</name>
+		<item>
+		<name_string>the traps and dye</name_string>
+		<writing_written_content_id>1435</writing_written_content_id>
+		</item>
+		<site_id>306</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>293</id>
+		<name>reproduction when it counts</name>
+		<item>
+		<name_string>reproduction when it counts</name_string>
+		<page_number>80</page_number>
+		<page_written_content_id>1436</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>294</id>
+		<name>first dealings, then the world!</name>
+		<item>
+		<name_string>first dealings, then the world!</name_string>
+		<page_number>127</page_number>
+		<page_written_content_id>1437</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>295</id>
+		<name>a meditation on time</name>
+		<item>
+		<name_string>a meditation on time</name_string>
+		<page_number>41</page_number>
+		<page_written_content_id>1442</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>296</id>
+		<name>my thoughts on surveying</name>
+		<item>
+		<name_string>my thoughts on surveying</name_string>
+		<page_number>137</page_number>
+		<page_written_content_id>1446</page_written_content_id>
+		</item>
+		<holder_hfid>4401</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>297</id>
+		<name>for the love of the human</name>
+		<item>
+		<name_string>for the love of the human</name_string>
+		<page_number>36</page_number>
+		<page_written_content_id>1452</page_written_content_id>
+		</item>
+		<site_id>306</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>298</id>
+		<name>great forest retreat</name>
+		<item>
+		<name_string>great forest retreat</name_string>
+		<page_number>103</page_number>
+		<page_written_content_id>1455</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>299</id>
+		<name>dissection in theory</name>
+		<item>
+		<name_string>dissection in theory</name_string>
+		<page_number>127</page_number>
+		<page_written_content_id>1464</page_written_content_id>
+		</item>
+		<holder_hfid>5542</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>300</id>
+		<name>exploring the scrubbed council</name>
+		<item>
+		<name_string>exploring the scrubbed council</name_string>
+		<writing_written_content_id>1475</writing_written_content_id>
+		</item>
+		<site_id>368</site_id>
+	</artifact>
+	<artifact>
+		<id>301</id>
+		<name>classification came full circle</name>
+		<item>
+		<name_string>classification came full circle</name_string>
+		<page_number>117</page_number>
+		<page_written_content_id>1487</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>302</id>
+		<name>nature: before and after</name>
+		<item>
+		<name_string>nature: before and after</name_string>
+		<writing_written_content_id>1497</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>303</id>
+		<name>journey to the dark fortress</name>
+		<item>
+		<name_string>journey to the dark fortress</name_string>
+		<page_number>119</page_number>
+		<page_written_content_id>1499</page_written_content_id>
+		</item>
+		<holder_hfid>1969</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>304</id>
+		<name>strange anatomy</name>
+		<item>
+		<name_string>strange anatomy</name_string>
+		<page_number>110</page_number>
+		<page_written_content_id>1501</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>305</id>
+		<name>a course on anatomy</name>
+		<item>
+		<name_string>a course on anatomy</name_string>
+		<page_number>90</page_number>
+		<page_written_content_id>1510</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>306</id>
+		<name>uncovering the town</name>
+		<item>
+		<name_string>uncovering the town</name_string>
+		<writing_written_content_id>1544</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>307</id>
+		<name>the dwarves: problems and solutions</name>
+		<item>
+		<name_string>the dwarves: problems and solutions</name_string>
+		<writing_written_content_id>1557</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>308</id>
+		<name>smoulderedwaxes the combined sanctuary</name>
+		<item>
+		<name_string>xubutungu bosuusper</name_string>
+		</item>
+		<holder_hfid>1523</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>309</id>
+		<name>strangledriddle the vines of decay</name>
+		<item>
+		<name_string>vuknudnokgol lemis ursas</name_string>
+		</item>
+		<holder_hfid>2681</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>310</id>
+		<name>the truth about the abbot</name>
+		<item>
+		<name_string>the truth about the abbot</name_string>
+		<page_number>18</page_number>
+		<page_written_content_id>1560</page_written_content_id>
+		</item>
+		<site_id>392</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>311</id>
+		<name>beyond equality</name>
+		<item>
+		<name_string>beyond equality</name_string>
+		<page_number>12</page_number>
+		<page_written_content_id>1571</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>312</id>
+		<name>trade the easy way</name>
+		<item>
+		<name_string>trade the easy way</name_string>
+		<writing_written_content_id>1573</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>313</id>
+		<name>the wind explained</name>
+		<item>
+		<name_string>the wind explained</name_string>
+		<writing_written_content_id>1582</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>314</id>
+		<name>the journey into surveying</name>
+		<item>
+		<name_string>the journey into surveying</name_string>
+		<writing_written_content_id>1583</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>315</id>
+		<name>classic mountainhome</name>
+		<item>
+		<name_string>classic mountainhome</name_string>
+		<page_number>160</page_number>
+		<page_written_content_id>1584</page_written_content_id>
+		</item>
+		<holder_hfid>949</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>316</id>
+		<name>discovering joy</name>
+		<item>
+		<name_string>discovering joy</name_string>
+		<page_number>11</page_number>
+		<page_written_content_id>1597</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>317</id>
+		<name>the world of creation</name>
+		<item>
+		<name_string>the world of creation</name_string>
+		<writing_written_content_id>1602</writing_written_content_id>
+		</item>
+		<site_id>306</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>318</id>
+		<name>the world of dissection</name>
+		<item>
+		<name_string>the world of dissection</name_string>
+		<page_number>91</page_number>
+		<page_written_content_id>1623</page_written_content_id>
+		</item>
+		<holder_hfid>8297</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>319</id>
+		<name>thoughts on friendship</name>
+		<item>
+		<name_string>thoughts on friendship</name_string>
+		<writing_written_content_id>1632</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>320</id>
+		<name>the way with romance</name>
+		<item>
+		<name_string>the way with romance</name_string>
+		<page_number>20</page_number>
+		<page_written_content_id>1635</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>321</id>
+		<name>discourse on the numbers</name>
+		<item>
+		<name_string>discourse on the numbers</name_string>
+		<writing_written_content_id>1638</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>322</id>
+		<name>traditional trade</name>
+		<item>
+		<name_string>traditional trade</name_string>
+		<writing_written_content_id>1640</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>323</id>
+		<name>the forest retreat: natural or supernatural?</name>
+		<item>
+		<name_string>the forest retreat: natural or supernatural?</name_string>
+		<page_number>61</page_number>
+		<page_written_content_id>1657</page_written_content_id>
+		</item>
+		<holder_hfid>5953</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>324</id>
+		<name>the harsh entrails and webs</name>
+		<item>
+		<name_string>the harsh entrails and webs</name_string>
+		<page_number>213</page_number>
+		<page_written_content_id>1676</page_written_content_id>
+		</item>
+		<site_id>257</site_id>
+	</artifact>
+	<artifact>
+		<id>325</id>
+		<name>commentary on the village</name>
+		<item>
+		<name_string>commentary on the village</name_string>
+		<writing_written_content_id>1678</writing_written_content_id>
+		</item>
+		<holder_hfid>5483</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>326</id>
+		<name>bonesburied</name>
+		<item>
+		<name_string>sutdonu</name_string>
+		</item>
+		<site_id>2</site_id>
+	</artifact>
+	<artifact>
+		<id>327</id>
+		<name>of wind direction</name>
+		<item>
+		<name_string>of wind direction</name_string>
+		<page_number>108</page_number>
+		<page_written_content_id>1683</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>328</id>
+		<name>rainfall and rivers and beyond</name>
+		<item>
+		<name_string>rainfall and rivers and beyond</name_string>
+		<writing_written_content_id>1690</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>329</id>
+		<name>the rising of the sun and other travesties</name>
+		<item>
+		<name_string>the rising of the sun and other travesties</name_string>
+		<page_number>95</page_number>
+		<page_written_content_id>1699</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>330</id>
+		<name>the gutter when it counts</name>
+		<item>
+		<name_string>the gutter when it counts</name_string>
+		<page_number>25</page_number>
+		<page_written_content_id>1703</page_written_content_id>
+		</item>
+		<holder_hfid>6472</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>331</id>
+		<name>the possibilities of the people</name>
+		<item>
+		<name_string>the possibilities of the people</name_string>
+		<writing_written_content_id>1711</writing_written_content_id>
+		</item>
+		<holder_hfid>5556</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>332</id>
+		<name>animals and the climate: fact or fiction?</name>
+		<item>
+		<name_string>animals and the climate: fact or fiction?</name_string>
+		<writing_written_content_id>1716</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>333</id>
+		<name>on animal diets</name>
+		<item>
+		<name_string>on animal diets</name_string>
+		<page_number>110</page_number>
+		<page_written_content_id>1732</page_written_content_id>
+		</item>
+		<holder_hfid>6461</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>334</id>
+		<name>explorations of the market</name>
+		<item>
+		<name_string>explorations of the market</name_string>
+		<writing_written_content_id>1740</writing_written_content_id>
+		</item>
+		<site_id>267</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>335</id>
+		<name>records of anatomy</name>
+		<item>
+		<name_string>records of anatomy</name_string>
+		<page_number>60</page_number>
+		<page_written_content_id>1746</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>336</id>
+		<name>the truth about stozu omenpoison</name>
+		<item>
+		<name_string>the truth about stozu omenpoison</name_string>
+		<page_number>21</page_number>
+		<page_written_content_id>1751</page_written_content_id>
+		</item>
+		<holder_hfid>4110</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>337</id>
+		<name>classic foraging behavior</name>
+		<item>
+		<name_string>classic foraging behavior</name_string>
+		<page_number>86</page_number>
+		<page_written_content_id>1769</page_written_content_id>
+		</item>
+		<holder_hfid>6461</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>338</id>
+		<name>strange surveying</name>
+		<item>
+		<name_string>strange surveying</name_string>
+		<writing_written_content_id>1774</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>339</id>
+		<name>useful market</name>
+		<item>
+		<name_string>useful market</name_string>
+		<writing_written_content_id>1776</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>340</id>
+		<name>fewetha tongsdeserts: a new approach</name>
+		<item>
+		<name_string>fewetha tongsdeserts: a new approach</name_string>
+		<page_number>23</page_number>
+		<page_written_content_id>1779</page_written_content_id>
+		</item>
+		<holder_hfid>1285</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>341</id>
+		<name>discovering surveying</name>
+		<item>
+		<name_string>discovering surveying</name_string>
+		<writing_written_content_id>1780</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>342</id>
+		<name>logic: principles and practice</name>
+		<item>
+		<name_string>logic: principles and practice</name_string>
+		<page_number>119</page_number>
+		<page_written_content_id>1798</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>343</id>
+		<name>understanding surveying</name>
+		<item>
+		<name_string>understanding surveying</name_string>
+		<page_number>87</page_number>
+		<page_written_content_id>1800</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>344</id>
+		<name>book of social animals</name>
+		<item>
+		<name_string>book of social animals</name_string>
+		<page_number>134</page_number>
+		<page_written_content_id>1807</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>345</id>
+		<name>do you know waxing and waning?</name>
+		<item>
+		<name_string>do you know waxing and waning?</name_string>
+		<writing_written_content_id>1809</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>346</id>
+		<name>traditional farm</name>
+		<item>
+		<name_string>traditional farm</name_string>
+		<page_number>125</page_number>
+		<page_written_content_id>1810</page_written_content_id>
+		</item>
+		<site_id>250</site_id>
+	</artifact>
+	<artifact>
+		<id>347</id>
+		<name>my thoughts on knowledge</name>
+		<item>
+		<name_string>my thoughts on knowledge</name_string>
+		<page_number>16</page_number>
+		<page_written_content_id>1820</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>348</id>
+		<name>a treatise on breathing</name>
+		<item>
+		<name_string>a treatise on breathing</name_string>
+		<writing_written_content_id>1821</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>349</id>
+		<name>foundations of shadow clocks</name>
+		<item>
+		<name_string>foundations of shadow clocks</name_string>
+		<writing_written_content_id>1822</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>350</id>
+		<name>dissection in the age of myth</name>
+		<item>
+		<name_string>dissection in the age of myth</name_string>
+		<writing_written_content_id>1838</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>351</id>
+		<name>dreams of the elf</name>
+		<item>
+		<name_string>dreams of the elf</name_string>
+		<writing_written_content_id>1839</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>352</id>
+		<name>misconceptions about time</name>
+		<item>
+		<name_string>misconceptions about time</name_string>
+		<page_number>127</page_number>
+		<page_written_content_id>1842</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>353</id>
+		<name>doubts about the tower</name>
+		<item>
+		<name_string>doubts about the tower</name_string>
+		<writing_written_content_id>1844</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>354</id>
+		<name>steelwalks: before and after</name>
+		<item>
+		<name_string>steelwalks: before and after</name_string>
+		<page_number>182</page_number>
+		<page_written_content_id>1847</page_written_content_id>
+		</item>
+		<holder_hfid>4623</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>355</id>
+		<name>equality explained</name>
+		<item>
+		<name_string>equality explained</name_string>
+		<writing_written_content_id>1849</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>356</id>
+		<name>an introduction to happenings</name>
+		<item>
+		<name_string>an introduction to happenings</name_string>
+		<writing_written_content_id>1866</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>357</id>
+		<name>events: before and after</name>
+		<item>
+		<name_string>events: before and after</name_string>
+		<page_number>85</page_number>
+		<page_written_content_id>1874</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>358</id>
+		<name>the secret of seasons and the sun</name>
+		<item>
+		<name_string>the secret of seasons and the sun</name_string>
+		<writing_written_content_id>1885</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>359</id>
+		<name>the humans for students</name>
+		<item>
+		<name_string>the humans for students</name_string>
+		<writing_written_content_id>1892</writing_written_content_id>
+		</item>
+		<site_id>392</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>360</id>
+		<name>the staff and more</name>
+		<item>
+		<name_string>the staff and more</name_string>
+		<page_number>117</page_number>
+		<page_written_content_id>1895</page_written_content_id>
+		</item>
+		<holder_hfid>1664</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>361</id>
+		<name>screws: a quandary</name>
+		<item>
+		<name_string>screws: a quandary</name_string>
+		<page_number>56</page_number>
+		<page_written_content_id>1899</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>362</id>
+		<name>before dissection</name>
+		<item>
+		<name_string>before dissection</name_string>
+		<writing_written_content_id>1910</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>363</id>
+		<name>assumptions: principles and practice</name>
+		<item>
+		<name_string>assumptions: principles and practice</name_string>
+		<writing_written_content_id>1913</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>364</id>
+		<name>the tower might help</name>
+		<item>
+		<name_string>the tower might help</name_string>
+		<page_number>33</page_number>
+		<page_written_content_id>1917</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>365</id>
+		<name>objects</name>
+		<item>
+		<name_string>objects</name_string>
+		<writing_written_content_id>1919</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>366</id>
+		<name>could it be passdangles?</name>
+		<item>
+		<name_string>could it be passdangles?</name_string>
+		<page_number>28</page_number>
+		<page_written_content_id>1927</page_written_content_id>
+		</item>
+		<site_id>392</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>367</id>
+		<name>a meditation on the forest retreat</name>
+		<item>
+		<name_string>a meditation on the forest retreat</name_string>
+		<page_number>139</page_number>
+		<page_written_content_id>1933</page_written_content_id>
+		</item>
+		<holder_hfid>8128</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>368</id>
+		<name>suddenly the future laughs</name>
+		<item>
+		<name_string>suddenly the future laughs</name_string>
+		<page_number>225</page_number>
+		<page_written_content_id>1939</page_written_content_id>
+		</item>
+		<holder_hfid>5757</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>369</id>
+		<name>the study of surveying</name>
+		<item>
+		<name_string>the study of surveying</name_string>
+		<page_number>101</page_number>
+		<page_written_content_id>1943</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>370</id>
+		<name>thoughts on leakyhates</name>
+		<item>
+		<name_string>thoughts on leakyhates</name_string>
+		<page_number>153</page_number>
+		<page_written_content_id>1945</page_written_content_id>
+		</item>
+		<holder_hfid>3856</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>371</id>
+		<name>musings on adoredsquare</name>
+		<item>
+		<name_string>musings on adoredsquare</name_string>
+		<writing_written_content_id>1946</writing_written_content_id>
+		</item>
+		<holder_hfid>3426</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>372</id>
+		<name>beyond anatomy</name>
+		<item>
+		<name_string>beyond anatomy</name_string>
+		<page_number>92</page_number>
+		<page_written_content_id>1952</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>373</id>
+		<name>the mystery: natural or supernatural?</name>
+		<item>
+		<name_string>the mystery: natural or supernatural?</name_string>
+		<writing_written_content_id>1953</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>374</id>
+		<name>the birth of inn</name>
+		<item>
+		<name_string>the birth of inn</name_string>
+		<page_number>325</page_number>
+		<page_written_content_id>1958</page_written_content_id>
+		</item>
+		<holder_hfid>5133</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>375</id>
+		<name>the great surveying</name>
+		<item>
+		<name_string>the great surveying</name_string>
+		<writing_written_content_id>1960</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>376</id>
+		<name>meditations on the screw</name>
+		<item>
+		<name_string>meditations on the screw</name_string>
+		<page_number>69</page_number>
+		<page_written_content_id>1966</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>377</id>
+		<name>animal societies, abridged</name>
+		<item>
+		<name_string>animal societies, abridged</name_string>
+		<page_number>61</page_number>
+		<page_written_content_id>1977</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>378</id>
+		<name>the town the easy way</name>
+		<item>
+		<name_string>the town the easy way</name_string>
+		<writing_written_content_id>1978</writing_written_content_id>
+		</item>
+		<site_id>180</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>379</id>
+		<name>the study of assumptions</name>
+		<item>
+		<name_string>the study of assumptions</name_string>
+		<writing_written_content_id>1985</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>380</id>
+		<name>did observation falter?</name>
+		<item>
+		<name_string>did observation falter?</name_string>
+		<page_number>77</page_number>
+		<page_written_content_id>1987</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>381</id>
+		<name>surveying in the age of myth</name>
+		<item>
+		<name_string>surveying in the age of myth</name_string>
+		<writing_written_content_id>2000</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>382</id>
+		<name>secret animal diseases</name>
+		<item>
+		<name_string>secret animal diseases</name_string>
+		<writing_written_content_id>2009</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>383</id>
+		<name>about the elf</name>
+		<item>
+		<name_string>about the elf</name_string>
+		<page_number>20</page_number>
+		<page_written_content_id>2030</page_written_content_id>
+		</item>
+		<holder_hfid>8289</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>384</id>
+		<name>inquiries on surveying</name>
+		<item>
+		<name_string>inquiries on surveying</name_string>
+		<writing_written_content_id>2034</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>385</id>
+		<name>secret dealings</name>
+		<item>
+		<name_string>secret dealings</name_string>
+		<page_number>138</page_number>
+		<page_written_content_id>2046</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>386</id>
+		<name>in pursuit of alatha hornsystems</name>
+		<item>
+		<name_string>in pursuit of alatha hornsystems</name_string>
+		<page_number>34</page_number>
+		<page_written_content_id>2047</page_written_content_id>
+		</item>
+		<holder_hfid>2703</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>387</id>
+		<name>belchghost</name>
+		<item>
+		<name_string>seggutacnu</name_string>
+		</item>
+		<holder_hfid>5318</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>388</id>
+		<name>foraging behavior in the time of my ancestors</name>
+		<item>
+		<name_string>foraging behavior in the time of my ancestors</name_string>
+		<page_number>38</page_number>
+		<page_written_content_id>2052</page_written_content_id>
+		</item>
+		<holder_hfid>8297</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>389</id>
+		<name>foldedurns, my life</name>
+		<item>
+		<name_string>foldedurns, my life</name_string>
+		<writing_written_content_id>2056</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>390</id>
+		<name>mastering the competitor</name>
+		<item>
+		<name_string>mastering the competitor</name_string>
+		<writing_written_content_id>2059</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>391</id>
+		<name>of the wedge</name>
+		<item>
+		<name_string>of the wedge</name_string>
+		<writing_written_content_id>2063</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>392</id>
+		<name>musings on waxing and waning</name>
+		<item>
+		<name_string>musings on waxing and waning</name_string>
+		<page_number>58</page_number>
+		<page_written_content_id>2064</page_written_content_id>
+		</item>
+		<holder_hfid>5259</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>393</id>
+		<item>
+		<name_string>«untitled»</name_string>
+		<page_number>1</page_number>
+		<page_written_content_id>2070</page_written_content_id>
+		</item>
+		<holder_hfid>6331</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>394</id>
+		<name>great anatomy</name>
+		<item>
+		<name_string>great anatomy</name_string>
+		<writing_written_content_id>2072</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>395</id>
+		<name>grains of sand: further musings</name>
+		<item>
+		<name_string>grains of sand: further musings</name_string>
+		<writing_written_content_id>2079</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>396</id>
+		<name>dreams of death</name>
+		<item>
+		<name_string>dreams of death</name_string>
+		<writing_written_content_id>2117</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>397</id>
+		<name>treatise on the people</name>
+		<item>
+		<name_string>treatise on the people</name_string>
+		<page_number>230</page_number>
+		<page_written_content_id>2121</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>398</id>
+		<name>the art of the postulates</name>
+		<item>
+		<name_string>the art of the postulates</name_string>
+		<page_number>26</page_number>
+		<page_written_content_id>2141</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>399</id>
+		<name>talons ever onward</name>
+		<item>
+		<name_string>talons ever onward</name_string>
+		<page_number>166</page_number>
+		<page_written_content_id>2143</page_written_content_id>
+		</item>
+		<holder_hfid>2828</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>400</id>
+		<name>foldedurns: a brief history</name>
+		<item>
+		<name_string>foldedurns: a brief history</name_string>
+		<page_number>61</page_number>
+		<page_written_content_id>2145</page_written_content_id>
+		</item>
+		<holder_hfid>533</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>401</id>
+		<name>the elf explained</name>
+		<item>
+		<name_string>the elf explained</name_string>
+		<page_number>22</page_number>
+		<page_written_content_id>2150</page_written_content_id>
+		</item>
+		<holder_hfid>9402</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>402</id>
+		<name>start your day with irene oilywaxes</name>
+		<item>
+		<name_string>start your day with irene oilywaxes</name_string>
+		<page_number>10</page_number>
+		<page_written_content_id>2151</page_written_content_id>
+		</item>
+		<holder_hfid>5084</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>403</id>
+		<name>the knowledge of the diseases of animals</name>
+		<item>
+		<name_string>the knowledge of the diseases of animals</name_string>
+		<page_number>135</page_number>
+		<page_written_content_id>2165</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>404</id>
+		<name>the possibilities of lunar phases</name>
+		<item>
+		<name_string>the possibilities of lunar phases</name_string>
+		<page_number>110</page_number>
+		<page_written_content_id>2166</page_written_content_id>
+		</item>
+		<holder_hfid>3942</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>405</id>
+		<name>against the town</name>
+		<item>
+		<name_string>against the town</name_string>
+		<writing_written_content_id>2167</writing_written_content_id>
+		</item>
+		<site_id>392</site_id>
+		<structure_local_id>0</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>406</id>
+		<name>errors in rainfall and rivers</name>
+		<item>
+		<name_string>errors in rainfall and rivers</name_string>
+		<page_number>100</page_number>
+		<page_written_content_id>2177</page_written_content_id>
+		</item>
+		<holder_hfid>4174</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>407</id>
+		<name>the world without the rising of the sun</name>
+		<item>
+		<name_string>the world without the rising of the sun</name_string>
+		<page_number>43</page_number>
+		<page_written_content_id>2182</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>408</id>
+		<name>riddle and the watchful sponge</name>
+		<item>
+		<name_string>riddle and the watchful sponge</name_string>
+		<page_number>23</page_number>
+		<page_written_content_id>2185</page_written_content_id>
+		</item>
+		<holder_hfid>1732</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>409</id>
+		<name>reflections on ignorance</name>
+		<item>
+		<name_string>reflections on ignorance</name_string>
+		<page_number>18</page_number>
+		<page_written_content_id>2187</page_written_content_id>
+		</item>
+		<holder_hfid>5041</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>410</id>
+		<name>could it be ignorance?</name>
+		<item>
+		<name_string>could it be ignorance?</name_string>
+		<page_number>16</page_number>
+		<page_written_content_id>2212</page_written_content_id>
+		</item>
+		<holder_hfid>5041</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>411</id>
+		<name>torturedsilenced the monstrous brand</name>
+		<item>
+		<name_string>mugshitheshom ushangzes</name_string>
+		</item>
+		<holder_hfid>6667</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>412</id>
+		<name>the tunnel of severity</name>
+		<item>
+		<name_string>od borlon</name_string>
+		</item>
+		<holder_hfid>5860</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>413</id>
+		<name>the pits and the universe</name>
+		<item>
+		<name_string>the pits and the universe</name_string>
+		<page_number>101</page_number>
+		<page_written_content_id>2223</page_written_content_id>
+		</item>
+		<holder_hfid>4420</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>414</id>
+		<name>foundations of the mountainhome</name>
+		<item>
+		<name_string>foundations of the mountainhome</name_string>
+		<page_number>113</page_number>
+		<page_written_content_id>2224</page_written_content_id>
+		</item>
+		<holder_hfid>4768</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>415</id>
+		<name>the center exposed</name>
+		<item>
+		<name_string>the center exposed</name_string>
+		<page_number>52</page_number>
+		<page_written_content_id>2237</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>416</id>
+		<name>the mystery of logic</name>
+		<item>
+		<name_string>the mystery of logic</name_string>
+		<writing_written_content_id>2242</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>417</id>
+		<name>the student's daylight and the seasons</name>
+		<item>
+		<name_string>the student's daylight and the seasons</name_string>
+		<page_number>143</page_number>
+		<page_written_content_id>2243</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>418</id>
+		<name>uncanny waxing and waning</name>
+		<item>
+		<name_string>uncanny waxing and waning</name_string>
+		<page_number>117</page_number>
+		<page_written_content_id>2250</page_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>419</id>
+		<name>the mystery of the fortress</name>
+		<item>
+		<name_string>the mystery of the fortress</name_string>
+		<page_number>117</page_number>
+		<page_written_content_id>2256</page_written_content_id>
+		</item>
+		<holder_hfid>6652</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>420</id>
+		<name>dreadlamb</name>
+		<item>
+		<name_string>ngebzotol</name_string>
+		</item>
+		<holder_hfid>7387</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>421</id>
+		<name>at one with relationships</name>
+		<item>
+		<name_string>at one with relationships</name_string>
+		<writing_written_content_id>2302</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>422</id>
+		<name>the secret of seasons and the sun</name>
+		<item>
+		<name_string>the secret of seasons and the sun</name_string>
+		<page_number>125</page_number>
+		<page_written_content_id>2306</page_written_content_id>
+		</item>
+		<holder_hfid>3004</holder_hfid>
+	</artifact>
+	<artifact>
+		<id>423</id>
+		<name>about the axioms</name>
+		<item>
+		<name_string>about the axioms</name_string>
+		<writing_written_content_id>2310</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+	<artifact>
+		<id>424</id>
+		<name>more genius</name>
+		<item>
+		<name_string>more genius</name_string>
+		<page_number>27</page_number>
+		<page_written_content_id>2313</page_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>425</id>
+		<name>the pursuit of loss</name>
+		<item>
+		<name_string>the pursuit of loss</name_string>
+		<writing_written_content_id>2314</writing_written_content_id>
+		</item>
+		<site_id>220</site_id>
+	</artifact>
+	<artifact>
+		<id>426</id>
+		<name>the pulley exposed</name>
+		<item>
+		<name_string>the pulley exposed</name_string>
+		<writing_written_content_id>2327</writing_written_content_id>
+		</item>
+		<site_id>87</site_id>
+		<structure_local_id>2</structure_local_id>
+	</artifact>
+</artifacts>
+</df_world>

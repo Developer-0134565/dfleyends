@@ -1,0 +1,65 @@
+
+## ENTORNO
+  world_loaded                   true
+  map_loaded                     true
+  fortress_mode                  true
+  pause                          true
+
+## MUNDO
+  world_folder                   region1
+  world_name                     Xah Alu
+  year                           10
+  month                          5
+  day                            5
+  season                         1
+  tick                           173026
+  weather                        0
+  civ_id_tipo                    ERROR: ...Chronicles/dfchron/pruebas/p1_5/reconocer_territorio.lua:41: Cannot read fiel
+  num_etnias                     ERROR: ...Chronicles/dfchron/pruebas/p1_5/reconocer_territorio.lua:42: Cannot read fiel
+  depth                          ERROR: ...Chronicles/dfchron/pruebas/p1_5/reconocer_territorio.lua:43: Cannot read fiel
+
+## UNIDADES
+  ciudadanos                     14
+  nombre_u1                      Såkzul Tulonroder
+  raza                           DWARF
+  raza_legible                   dwarf
+  profesion                      Miner
+  visible_por_jugador            true
+  sexo                           M
+  posicion                       105,82,172
+  edad                           60
+  es_ciudadano                   true
+  es_muerto                      false
+  estres                         6
+  edad_api                       function
+
+## FORTALEZA
+  edificios                      ERROR: ...Chronicles/dfchron/pruebas/p1_5/reconocer_territorio.lua:62: attempt to call 
+  tipos_edificio                 ERROR: ...Chronicles/dfchron/pruebas/p1_5/reconocer_territorio.lua:63: attempt to call 
+  trabajos_activos               ERROR: ...Chronicles/dfchron/pruebas/p1_5/reconocer_territorio.lua:64: attempt to call 
+  designaciones                  ERROR: ...Chronicles/dfchron/pruebas/p1_5/reconocer_territorio.lua:65: attempt to call 
+  burrows                        table
+  kitchen                        table
+  miembros_buildings             allocInstance, checkFreeTiles, completeBuild, constructAbstract, constructBuilding, constructWithFilters, constructWithItems, containsTile, countExtentTiles, deconstruct, findAtTile, findCivzonesAt, findPenPitAt, getCageOccupants, getCorrectSize, getFiltersByType, getGeneralRef, getName, getOwner, getRoomDescription, getSize, getSpecificRef, getStockpileContents, hasSupport, input_filter_defaults, isActive, isActivityZone, isPenPasture, isPitPond, markedForRemoval, notifyCivzoneModified, setOwner, setSize
+  miembros_job                   addGeneralRef, addWorker, assignToWorkshop, attachJobItem, checkBuildingsNow, checkDesignationsNow, cloneJobStruct, createLinked, disconnectJobGeneralRef, disconnectJobItem, getGeneralRef, getHolder, getManagerOrderName, getName, getSpecificRef, getWorker, is_equal, is_item_equal, isSuitableItem, isSuitableMaterial, linkIntoWorld, listNewlyCreated, printItemDetails, printJobDetails, removeJob, removePostings, removeWorker, setJobCooldown
+
+## MAPA
+  isValid_tiles                  ERROR: ...Chronicles/dfchron/pruebas/p1_5/reconocer_territorio.lua:74: attempt to call 
+  getTileType                    nil
+  miembros_maps                  addBlockColumns, addItemSpatter, addMaterialSpatter, canWalkBetween, enableBlockUpdates, ensureTileBlock, forEachTile, getBiomeType, getBlock, getBlockOrigin, getCurrentWeather, getGlobalInitFeature, getLocalInitFeature, getPlantAtTile, getRegionBiome, getSize, getTileAssignment, getTileBiomeRgn, getTileBlock, getTileBlockCoord, getTileBlockOffset, getTileFlags, getTileSize, getTileType, getWalkableGroup, hasTileAssignment, isTileAquifer, isTileHeavyAquifer, isTileVisible, isValidTilePos, removeTileAquifer, resetTileAssignment, setTileAquifer, setTileAssignment, spawnFlow
+
+## OBJETOS
+  miembros_items                 cancelMelting, canMelt, canTrade, canTradeAnyWithContents, canTradeWithContents, checkMandates, createItem, findSubtype, findType, getBookTitle, getCapacity, getContainedItems, getContainer, getDescription, getGeneralRef, getHolderBuilding, getHolderUnit, getItemBaseValue, getOuterContainerRef, getOwner, getPosition, getReadableDescription, getSpecificRef, getSubtypeCount, getSubtypeDef, getValue, isCasteMaterial, isRequestedTradeGood, isRouteVehicle, isSquadEquipment, makeProjectile, markForMelting, markForTrade, moveToBuilding, moveToContainer, moveToGround, moveToInventory, remove, setOwner
+
+## MILITAR
+  miembros_military              addToSquad, getSquadName, makeSquad, removeFromSquad, updateRoomAssignments
+
+## HISTORIA / PERSISTENCIA
+  miembros_persistent            __index, deleteSiteData, deleteWorldData, getSiteData, getSiteDataString, getUnsavedSeconds, getWorldData, getWorldDataString, saveSiteData, saveSiteDataString, saveWorldData, saveWorldDataString
+  persistent_world               nil
+  miembros_event                 new
+
+## PANTALLA / UI
+  miembros_screen                _doSimulateInput, charToKey, clear, dismiss, fillRect, findGraphicsTile, getKeyDisplay, getMousePixels, getMousePos, getWindowSize, hideGuard, inGraphicsMode, invalidate, isDismissed, keyToChar, paintMapPortTile, paintString, paintTile, raise, readMapPortTile, readTile, show
+  miembros_gui                   addCombatReport, addCombatReportAuto, autoDFAnnouncement, getAnyBuilding, getAnyCivZone, getAnyItem, getAnyJob, getAnyPlant, getAnyStockpile, getAnyUnit, getAnyWorkshopJob, getCurFocus, getCurViewscreen, getDepthAt, getDFViewscreen, getDwarfmodeViewDims, getFocusStrings, getMousePos, getSelectedBuilding, getSelectedCivZone, getSelectedItem, getSelectedJob, getSelectedPlant, getSelectedStockpile, getSelectedUnit, getSelectedWorkshopJob, getViewscreenByType, getWidget, getWidgetChildren, inRenameBuilding, makeAnnouncement, matchFocusString, pauseRecenter, refreshSidebar, resetDwarfmodeView, revealInDwarfmodeMap, showAnnouncement, showAutoAnnouncement, showPopupAnnouncement, showZoomAnnouncement, writeToGamelog
+  cur_view                       ERROR

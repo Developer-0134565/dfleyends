@@ -1,0 +1,101 @@
+{
+ "certainty": "FACT",
+ "artefactos": [
+  {
+   "df_id": "50",
+   "nombre": "the wave of prairies",
+   "tipo": "slab",
+   "holder_hfid": null,
+   "site_id": 98,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "51",
+   "nombre": "the sin of filth",
+   "tipo": "slab",
+   "holder_hfid": null,
+   "site_id": 99,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "52",
+   "nombre": "the ferocity of sabres",
+   "tipo": "slab",
+   "holder_hfid": null,
+   "site_id": 100,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "53",
+   "nombre": "earlybraved",
+   "tipo": "slab",
+   "holder_hfid": null,
+   "site_id": 101,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "54",
+   "nombre": "the silty lamb",
+   "tipo": "slab",
+   "holder_hfid": null,
+   "site_id": 102,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "55",
+   "nombre": "ashgrease",
+   "tipo": "slab",
+   "holder_hfid": null,
+   "site_id": 103,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "56",
+   "nombre": "perfectpower",
+   "tipo": "slab",
+   "holder_hfid": null,
+   "site_id": 220,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "57",
+   "nombre": "the interpretation of snodub racedevil",
+   "tipo": "book",
+   "holder_hfid": null,
+   "site_id": 141,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "58",
+   "nombre": "deadspring",
+   "tipo": "slab",
+   "holder_hfid": 699,
+   "site_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "59",
+   "nombre": "sculptkeys",
+   "tipo": "shield",
+   "holder_hfid": null,
+   "site_id": 3,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "60",
+   "nombre": "the lancer of years",
+   "tipo": "weapon",
+   "holder_hfid": 4189,
+   "site_id": null,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "61",
+   "nombre": "pathways to migration",
+   "tipo": "book",
+   "holder_hfid": null,
+   "site_id": 87,
+   "certainty": "FACT"
+  }
+ ]
+}

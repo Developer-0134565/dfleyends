@@ -6,6 +6,11 @@ dfchron/site/dist_publico/
 00_SOURCE/backups/
 ../backups/
 
+# Forensic scratch dumps: RAW, regenerable from world.sav via
+# 00_SOURCE/extraction/tools/probe_container.py
+# (world_decompressed.bin alone is ~199 MB and exceeds GitHub's 100 MB limit)
+00_SOURCE/extraction/tools/raw/
+
 # State files
 estado/estado_conocimiento.json
 ic.err

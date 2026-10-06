@@ -1,0 +1,3301 @@
+{
+ "ruta": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\processed\\merged\\historical_events.jsonl",
+ "total": 57215,
+ "corruptas": 0,
+ "tipos_distintos": 90,
+ "tipos": [
+  {
+   "tipo": "change hf state",
+   "n": 10718,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 10718
+   },
+   "fuente": {
+    "legends.xml": 10718
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id",
+    "coords"
+   ]
+  },
+  {
+   "tipo": "change hf job",
+   "n": 8692,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 8692
+   },
+   "fuente": {
+    "legends.xml": 8692
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id"
+   ]
+  },
+  {
+   "tipo": "add hf entity link",
+   "n": 7534,
+   "usable": "SI",
+   "motivo": "tiempo + 4 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 7534
+   },
+   "fuente": {
+    "legends.xml": 7534
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "link",
+    "hfid",
+    "position_id"
+   ]
+  },
+  {
+   "tipo": "hf simple battle event",
+   "n": 5478,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 5478
+   },
+   "fuente": {
+    "legends.xml": 5478
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "subtype",
+    "group_1_hfid",
+    "group_2_hfid",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "hf died",
+   "n": 4484,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 4484
+   },
+   "fuente": {
+    "legends.xml": 4484
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "slayer_hfid",
+    "slayer_item_id",
+    "slayer_shooter_item_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "add hf hf link",
+   "n": 2364,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 2364
+   },
+   "fuente": {
+    "legends.xml": 2364
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "hfid_target"
+   ]
+  },
+  {
+   "tipo": "written content composed",
+   "n": 2341,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 2341
+   },
+   "fuente": {
+    "legends.xml": 2341
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hist_figure_id",
+    "wc_id",
+    "site_id",
+    "circumstance",
+    "reason"
+   ]
+  },
+  {
+   "tipo": "creature devoured",
+   "n": 2085,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 2,
+   "certainty": {
+    "FACT": 2085
+   },
+   "fuente": {
+    "legends.xml": 2085
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id"
+   ]
+  },
+  {
+   "tipo": "performance",
+   "n": 1215,
+   "usable": "SI",
+   "motivo": "tiempo + 4 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1215
+   },
+   "fuente": {
+    "legends.xml": 1215
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "occasion_id",
+    "schedule_id",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "ceremony",
+   "n": 901,
+   "usable": "SI",
+   "motivo": "tiempo + 4 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 901
+   },
+   "fuente": {
+    "legends.xml": 901
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "occasion_id",
+    "schedule_id",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "hf wounded",
+   "n": 871,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 93,
+   "certainty": {
+    "FACT": 871
+   },
+   "fuente": {
+    "legends.xml": 871
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "woundee_hfid",
+    "wounder_hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id"
+   ]
+  },
+  {
+   "tipo": "competition",
+   "n": 789,
+   "usable": "SI",
+   "motivo": "tiempo + 4 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 789
+   },
+   "fuente": {
+    "legends.xml": 789
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "occasion_id",
+    "schedule_id",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "add hf site link",
+   "n": 688,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 688
+   },
+   "fuente": {
+    "legends.xml": 688
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "remove hf hf link",
+   "n": 554,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 554
+   },
+   "fuente": {
+    "legends.xml": 554
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "hfid_target"
+   ]
+  },
+  {
+   "tipo": "hf abducted",
+   "n": 523,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 523
+   },
+   "fuente": {
+    "legends.xml": 523
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "target_hfid",
+    "snatcher_hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id"
+   ]
+  },
+  {
+   "tipo": "procession",
+   "n": 499,
+   "usable": "SI",
+   "motivo": "tiempo + 4 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 499
+   },
+   "fuente": {
+    "legends.xml": 499
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "occasion_id",
+    "schedule_id",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "assume identity",
+   "n": 468,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 468,
+   "certainty": {
+    "FACT": 468
+   },
+   "fuente": {
+    "legends.xml": 468
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "trickster_hfid",
+    "identity_id",
+    "target_enid"
+   ]
+  },
+  {
+   "tipo": "create entity position",
+   "n": 453,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 453,
+   "certainty": {
+    "FACT": 453
+   },
+   "fuente": {
+    "legends.xml": 453
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type"
+   ]
+  },
+  {
+   "tipo": "hf relationship denied",
+   "n": 431,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 431
+   },
+   "fuente": {
+    "legends.xml": 431
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "seeker_hfid",
+    "target_hfid",
+    "relationship",
+    "reason",
+    "reason_id"
+   ]
+  },
+  {
+   "tipo": "hfs formed reputation relationship",
+   "n": 421,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 421
+   },
+   "fuente": {
+    "legends.xml": 421
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid1",
+    "identity_id1",
+    "hfid2",
+    "identity_id2",
+    "hf_rep_1_of_2"
+   ]
+  },
+  {
+   "tipo": "created site",
+   "n": 406,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 406
+   },
+   "fuente": {
+    "legends.xml": 406
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "site_civ_id",
+    "site_id",
+    "builder_hfid",
+    "resident_civ_id"
+   ]
+  },
+  {
+   "tipo": "artifact created",
+   "n": 377,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 377
+   },
+   "fuente": {
+    "legends.xml": 377
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "artifact_id",
+    "unit_id",
+    "hist_figure_id",
+    "entity_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "item stolen",
+   "n": 359,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 359,
+   "certainty": {
+    "FACT": 359
+   },
+   "fuente": {
+    "legends.xml": 359
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "circumstance",
+    "circumstance_id"
+   ]
+  },
+  {
+   "tipo": "created structure",
+   "n": 319,
+   "usable": "SI",
+   "motivo": "tiempo + 4 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 319
+   },
+   "fuente": {
+    "legends.xml": 319
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "site_civ_id",
+    "site_id",
+    "structure_id",
+    "builder_hfid"
+   ]
+  },
+  {
+   "tipo": "hf travel",
+   "n": 308,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 153,
+   "certainty": {
+    "FACT": 308
+   },
+   "fuente": {
+    "legends.xml": 308
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "group_hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id",
+    "coords"
+   ]
+  },
+  {
+   "tipo": "agreement formed",
+   "n": 272,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 272,
+   "certainty": {
+    "FACT": 272
+   },
+   "fuente": {
+    "legends.xml": 272
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "agreement_id",
+    "successful",
+    "action",
+    "method",
+    "failed_judgment_test"
+   ]
+  },
+  {
+   "tipo": "artifact stored",
+   "n": 229,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 229
+   },
+   "fuente": {
+    "legends.xml": 229
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "artifact_id",
+    "unit_id",
+    "hist_figure_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "trade",
+   "n": 229,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 229,
+   "certainty": {
+    "FACT": 229
+   },
+   "fuente": {
+    "legends.xml": 229
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "trader_hfid",
+    "trader_entity_id",
+    "source_site_id",
+    "dest_site_id",
+    "production_zone_id"
+   ]
+  },
+  {
+   "tipo": "remove hf entity link",
+   "n": 223,
+   "usable": "SI",
+   "motivo": "tiempo + 4 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 223
+   },
+   "fuente": {
+    "legends.xml": 223
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "link",
+    "hfid",
+    "position_id"
+   ]
+  },
+  {
+   "tipo": "hf recruited unit type for entity",
+   "n": 217,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 217
+   },
+   "fuente": {
+    "legends.xml": 217
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "entity_id",
+    "hfid",
+    "unit_type",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "failed intrigue corruption",
+   "n": 204,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 204
+   },
+   "fuente": {
+    "legends.xml": 204
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "corruptor_hfid",
+    "target_hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id"
+   ]
+  },
+  {
+   "tipo": "artifact claim formed",
+   "n": 187,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 187
+   },
+   "fuente": {
+    "legends.xml": 187
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "artifact_id",
+    "claim",
+    "hist_figure_id",
+    "entity_id",
+    "position_profile_id"
+   ]
+  },
+  {
+   "tipo": "entity created",
+   "n": 183,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 183
+   },
+   "fuente": {
+    "legends.xml": 183
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "entity_id",
+    "site_id",
+    "structure_id",
+    "creator_hfid"
+   ]
+  },
+  {
+   "tipo": "knowledge discovered",
+   "n": 178,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 178
+   },
+   "fuente": {
+    "legends.xml": 178
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "knowledge",
+    "first"
+   ]
+  },
+  {
+   "tipo": "hf equipment purchase",
+   "n": 172,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 172,
+   "certainty": {
+    "FACT": 172
+   },
+   "fuente": {
+    "legends.xml": 172
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "quality",
+    "group_hfid",
+    "site_id",
+    "structure_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "gamble",
+   "n": 168,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 168
+   },
+   "fuente": {
+    "legends.xml": 168
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "gambler_hfid",
+    "site_id",
+    "structure_id",
+    "old_account",
+    "new_account"
+   ]
+  },
+  {
+   "tipo": "hf new pet",
+   "n": 149,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 149,
+   "certainty": {
+    "FACT": 149
+   },
+   "fuente": {
+    "legends.xml": 149
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "group_hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id",
+    "coords"
+   ]
+  },
+  {
+   "tipo": "hf convicted",
+   "n": 135,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 134,
+   "certainty": {
+    "FACT": 135
+   },
+   "fuente": {
+    "legends.xml": 135
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "convicted_hfid",
+    "convicter_enid",
+    "crime",
+    "prison_months",
+    "death_penalty"
+   ]
+  },
+  {
+   "tipo": "created world construction",
+   "n": 122,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 122
+   },
+   "fuente": {
+    "legends.xml": 122
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "site_civ_id",
+    "wcid",
+    "master_wcid",
+    "site_id1"
+   ]
+  },
+  {
+   "tipo": "remove hf site link",
+   "n": 117,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 117
+   },
+   "fuente": {
+    "legends.xml": 117
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "attacked site",
+   "n": 98,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 98
+   },
+   "fuente": {
+    "legends.xml": 98
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "attacker_civ_id",
+    "defender_civ_id",
+    "site_civ_id",
+    "site_id",
+    "attacker_general_hfid"
+   ]
+  },
+  {
+   "tipo": "site dispute",
+   "n": 96,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 96,
+   "certainty": {
+    "FACT": 96
+   },
+   "fuente": {
+    "legends.xml": 96
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "dispute",
+    "entity_id_1",
+    "entity_id_2",
+    "site_id_1",
+    "site_id_2"
+   ]
+  },
+  {
+   "tipo": "hf revived",
+   "n": 74,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 74
+   },
+   "fuente": {
+    "legends.xml": 74
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id",
+    "actor_hfid"
+   ]
+  },
+  {
+   "tipo": "hf attacked site",
+   "n": 61,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 61
+   },
+   "fuente": {
+    "legends.xml": 61
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "attacker_hfid",
+    "defender_civ_id",
+    "site_civ_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "hfs formed intrigue relationship",
+   "n": 60,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 60
+   },
+   "fuente": {
+    "legends.xml": 60
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "corruptor_hfid",
+    "target_hfid",
+    "corruptor_seen_as",
+    "target_seen_as",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "hf gains secret goal",
+   "n": 55,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 55
+   },
+   "fuente": {
+    "legends.xml": 55
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "secret_goal"
+   ]
+  },
+  {
+   "tipo": "field battle",
+   "n": 50,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 50,
+   "certainty": {
+    "FACT": 50
+   },
+   "fuente": {
+    "legends.xml": 50
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "attacker_civ_id",
+    "defender_civ_id",
+    "subregion_id",
+    "feature_layer_id",
+    "coords"
+   ]
+  },
+  {
+   "tipo": "artifact lost",
+   "n": 50,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 13,
+   "certainty": {
+    "FACT": 50
+   },
+   "fuente": {
+    "legends.xml": 50
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "artifact_id",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "peace accepted",
+   "n": 49,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 49,
+   "certainty": {
+    "FACT": 49
+   },
+   "fuente": {
+    "legends.xml": 49
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "body abused",
+   "n": 49,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 49
+   },
+   "fuente": {
+    "legends.xml": 49
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id",
+    "coords"
+   ]
+  },
+  {
+   "tipo": "hf destroyed site",
+   "n": 46,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 46
+   },
+   "fuente": {
+    "legends.xml": 46
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "attacker_hfid",
+    "defender_civ_id",
+    "site_civ_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "hf prayed inside structure",
+   "n": 41,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 41
+   },
+   "fuente": {
+    "legends.xml": 41
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hist_fig_id",
+    "site_id",
+    "structure_id"
+   ]
+  },
+  {
+   "tipo": "artifact given",
+   "n": 40,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 40,
+   "certainty": {
+    "FACT": 40
+   },
+   "fuente": {
+    "legends.xml": 40
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "artifact_id",
+    "giver_hist_figure_id",
+    "giver_entity_id",
+    "receiver_hist_figure_id",
+    "receiver_entity_id"
+   ]
+  },
+  {
+   "tipo": "hf preach",
+   "n": 40,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 40,
+   "certainty": {
+    "FACT": 40
+   },
+   "fuente": {
+    "legends.xml": 40
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "speaker_hfid",
+    "site_hfid",
+    "topic",
+    "entity_1",
+    "entity_2"
+   ]
+  },
+  {
+   "tipo": "plundered site",
+   "n": 25,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 25
+   },
+   "fuente": {
+    "legends.xml": 25
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "attacker_civ_id",
+    "defender_civ_id",
+    "site_civ_id",
+    "site_id",
+    "detected"
+   ]
+  },
+  {
+   "tipo": "peace rejected",
+   "n": 22,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 22,
+   "certainty": {
+    "FACT": 22
+   },
+   "fuente": {
+    "legends.xml": 22
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "entity persecuted",
+   "n": 22,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 22
+   },
+   "fuente": {
+    "legends.xml": 22
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "persecutor_hfid",
+    "persecutor_enid",
+    "target_enid",
+    "site_id",
+    "shrine_amount_destroyed"
+   ]
+  },
+  {
+   "tipo": "hf learns secret",
+   "n": 21,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 21,
+   "certainty": {
+    "FACT": 21
+   },
+   "fuente": {
+    "legends.xml": 21
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "student_hfid",
+    "teacher_hfid",
+    "artifact_id",
+    "interaction"
+   ]
+  },
+  {
+   "tipo": "reclaim site",
+   "n": 20,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 20
+   },
+   "fuente": {
+    "legends.xml": 20
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "site_civ_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "building profile acquired",
+   "n": 19,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 19
+   },
+   "fuente": {
+    "legends.xml": 19
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id",
+    "building_profile_id",
+    "acquirer_hfid",
+    "inherited",
+    "rebuilt_ruined"
+   ]
+  },
+  {
+   "tipo": "razed structure",
+   "n": 19,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 19
+   },
+   "fuente": {
+    "legends.xml": 19
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "civ_id",
+    "site_id",
+    "structure_id"
+   ]
+  },
+  {
+   "tipo": "site taken over",
+   "n": 18,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 18
+   },
+   "fuente": {
+    "legends.xml": 18
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "attacker_civ_id",
+    "new_site_civ_id",
+    "defender_civ_id",
+    "site_civ_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "change hf body state",
+   "n": 17,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 17
+   },
+   "fuente": {
+    "legends.xml": 17
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "body_state",
+    "site_id",
+    "structure_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "regionpop incorporated into entity",
+   "n": 17,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 17
+   },
+   "fuente": {
+    "legends.xml": 17
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "pop_race",
+    "pop_number_moved",
+    "pop_srid",
+    "pop_flid",
+    "join_entity_id"
+   ]
+  },
+  {
+   "tipo": "add hf entity honor",
+   "n": 17,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 17
+   },
+   "fuente": {
+    "legends.xml": 17
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "entity_id",
+    "hfid",
+    "honor_id"
+   ]
+  },
+  {
+   "tipo": "changed creature type",
+   "n": 15,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 15,
+   "certainty": {
+    "FACT": 15
+   },
+   "fuente": {
+    "legends.xml": 15
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "changee_hfid",
+    "changer_hfid",
+    "old_race",
+    "old_caste",
+    "new_race"
+   ]
+  },
+  {
+   "tipo": "hf reunion",
+   "n": 14,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 14
+   },
+   "fuente": {
+    "legends.xml": 14
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "group_1_hfid",
+    "group_2_hfid",
+    "site_id",
+    "subregion_id",
+    "feature_layer_id"
+   ]
+  },
+  {
+   "tipo": "entity alliance formed",
+   "n": 13,
+   "usable": "NO",
+   "motivo": "sin sujeto identificable",
+   "sin_identificador": 13,
+   "certainty": {
+    "FACT": 13
+   },
+   "fuente": {
+    "legends.xml": 13
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "initiating_enid",
+    "joining_enid"
+   ]
+  },
+  {
+   "tipo": "entity relocate",
+   "n": 12,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 12
+   },
+   "fuente": {
+    "legends.xml": 12
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "entity_id",
+    "site_id",
+    "structure_id"
+   ]
+  },
+  {
+   "tipo": "entity primary criminals",
+   "n": 11,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 11
+   },
+   "fuente": {
+    "legends.xml": 11
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "entity_id",
+    "site_id",
+    "structure_id"
+   ]
+  },
+  {
+   "tipo": "new site leader",
+   "n": 10,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 10
+   },
+   "fuente": {
+    "legends.xml": 10
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "attacker_civ_id",
+    "new_site_civ_id",
+    "defender_civ_id",
+    "site_civ_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "artifact possessed",
+   "n": 9,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 9
+   },
+   "fuente": {
+    "legends.xml": 9
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "artifact_id",
+    "unit_id",
+    "hist_figure_id",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "artifact found",
+   "n": 6,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 6
+   },
+   "fuente": {
+    "legends.xml": 6
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "artifact_id",
+    "unit_id",
+    "hist_figure_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "entity incorporated",
+   "n": 5,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 5,
+   "certainty": {
+    "FACT": 5
+   },
+   "fuente": {
+    "legends.xml": 5
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "joiner_entity_id",
+    "joined_entity_id",
+    "site_id",
+    "leader_hfid",
+    "partial_incorporation"
+   ]
+  },
+  {
+   "tipo": "hf confronted",
+   "n": 4,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 4
+   },
+   "fuente": {
+    "legends.xml": 4
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hfid",
+    "situation",
+    "reason",
+    "site_id",
+    "subregion_id"
+   ]
+  },
+  {
+   "tipo": "failed frame attempt",
+   "n": 3,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 3
+   },
+   "fuente": {
+    "legends.xml": 3
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "target_hfid",
+    "convicter_enid",
+    "fooled_hfid",
+    "framer_hfid",
+    "crime"
+   ]
+  },
+  {
+   "tipo": "entity overthrown",
+   "n": 3,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 3
+   },
+   "fuente": {
+    "legends.xml": 3
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "entity_id",
+    "position_profile_id",
+    "overthrown_hfid",
+    "site_id",
+    "pos_taker_hfid"
+   ]
+  },
+  {
+   "tipo": "entity dissolved",
+   "n": 3,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 3
+   },
+   "fuente": {
+    "legends.xml": 3
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "entity_id",
+    "reason"
+   ]
+  },
+  {
+   "tipo": "musical form created",
+   "n": 3,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 3
+   },
+   "fuente": {
+    "legends.xml": 3
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hist_figure_id",
+    "form_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "destroyed site",
+   "n": 3,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 3
+   },
+   "fuente": {
+    "legends.xml": 3
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "attacker_civ_id",
+    "defender_civ_id",
+    "site_civ_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "entity law",
+   "n": 2,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 2
+   },
+   "fuente": {
+    "legends.xml": 2
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "entity_id",
+    "hist_figure_id",
+    "law_add",
+    "law_remove"
+   ]
+  },
+  {
+   "tipo": "poetic form created",
+   "n": 2,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 2
+   },
+   "fuente": {
+    "legends.xml": 2
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hist_figure_id",
+    "form_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "hf interrogated",
+   "n": 1,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1
+   },
+   "fuente": {
+    "legends.xml": 1
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "target_hfid",
+    "interrogator_hfid",
+    "arresting_enid",
+    "wanted_and_recognized",
+    "held_firm_in_interrogation"
+   ]
+  },
+  {
+   "tipo": "modified building",
+   "n": 1,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1
+   },
+   "fuente": {
+    "legends.xml": 1
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id",
+    "structure_id",
+    "modifier_hfid",
+    "modification"
+   ]
+  },
+  {
+   "tipo": "entity breach feature layer",
+   "n": 1,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1
+   },
+   "fuente": {
+    "legends.xml": 1
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "site_id",
+    "site_entity_id",
+    "civ_entity_id",
+    "feature_layer_id"
+   ]
+  },
+  {
+   "tipo": "holy city declaration",
+   "n": 1,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1
+   },
+   "fuente": {
+    "legends.xml": 1
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "religion_id",
+    "site_id"
+   ]
+  },
+  {
+   "tipo": "dance form created",
+   "n": 1,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1
+   },
+   "fuente": {
+    "legends.xml": 1
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hist_figure_id",
+    "form_id",
+    "site_id",
+    "circumstance"
+   ]
+  },
+  {
+   "tipo": "artifact recovered",
+   "n": 1,
+   "usable": "SI",
+   "motivo": "tiempo + 3 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1
+   },
+   "fuente": {
+    "legends.xml": 1
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "artifact_id",
+    "unit_id",
+    "hist_figure_id",
+    "site_id",
+    "structure_id"
+   ]
+  },
+  {
+   "tipo": "hf profaned structure",
+   "n": 1,
+   "usable": "SI",
+   "motivo": "tiempo + 2 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1
+   },
+   "fuente": {
+    "legends.xml": 1
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "hist_fig_id",
+    "site_id",
+    "structure_id"
+   ]
+  },
+  {
+   "tipo": "hf does interaction",
+   "n": 1,
+   "usable": "SI",
+   "motivo": "tiempo + 1 ids",
+   "sin_identificador": 0,
+   "certainty": {
+    "FACT": 1
+   },
+   "fuente": {
+    "legends.xml": 1
+   },
+   "campos": [
+    "year",
+    "seconds72",
+    "type",
+    "doer_hfid",
+    "target_hfid",
+    "interaction"
+   ]
+  }
+ ],
+ "ejemplos": {
+  "change hf state": {
+   "record_id": "historical_events:0",
+   "df_id": "0",
+   "certainty": "FACT",
+   "ejemplo": {
+    "coords": "9,110",
+    "feature_layer_id": "-1",
+    "hfid": "0",
+    "seconds72": "-1",
+    "site_id": "-1",
+    "state": "settled",
+    "subregion_id": "713",
+    "type": "change hf state",
+    "year": "1"
+   }
+  },
+  "add hf entity link": {
+   "record_id": "historical_events:334",
+   "df_id": "334",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "268",
+    "hfid": "344",
+    "link": "position",
+    "position_id": "1",
+    "seconds72": "-1",
+    "type": "add hf entity link",
+    "year": "1"
+   }
+  },
+  "created site": {
+   "record_id": "historical_events:347",
+   "df_id": "347",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "268",
+    "seconds72": "-1",
+    "site_civ_id": "269",
+    "site_id": "76",
+    "type": "created site",
+    "year": "1"
+   }
+  },
+  "created structure": {
+   "record_id": "historical_events:348",
+   "df_id": "348",
+   "certainty": "FACT",
+   "ejemplo": {
+    "builder_hfid": "357",
+    "civ_id": "-1",
+    "seconds72": "-1",
+    "site_civ_id": "-1",
+    "site_id": "77",
+    "structure_id": "0",
+    "type": "created structure",
+    "year": "1"
+   }
+  },
+  "add hf site link": {
+   "record_id": "historical_events:351",
+   "df_id": "351",
+   "certainty": "FACT",
+   "ejemplo": {
+    "seconds72": "-1",
+    "site_id": "77",
+    "type": "add hf site link",
+    "year": "1"
+   }
+  },
+  "artifact created": {
+   "record_id": "historical_events:471",
+   "df_id": "471",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "50",
+    "entity_id": "-1",
+    "hist_figure_id": "357",
+    "seconds72": "-1",
+    "site_id": "-1",
+    "type": "artifact created",
+    "unit_id": "-1",
+    "year": "1"
+   }
+  },
+  "agreement formed": {
+   "record_id": "historical_events:472",
+   "df_id": "472",
+   "certainty": "FACT",
+   "ejemplo": {
+    "agreement_id": "0",
+    "seconds72": "-1",
+    "type": "agreement formed",
+    "year": "1"
+   }
+  },
+  "artifact stored": {
+   "record_id": "historical_events:473",
+   "df_id": "473",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "50",
+    "hist_figure_id": "357",
+    "seconds72": "-1",
+    "site_id": "98",
+    "type": "artifact stored",
+    "unit_id": "-1",
+    "year": "1"
+   }
+  },
+  "change hf job": {
+   "record_id": "historical_events:755",
+   "df_id": "755",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "hfid": "614",
+    "seconds72": "-1",
+    "site_id": "92",
+    "subregion_id": "-1",
+    "type": "change hf job",
+    "year": "1"
+   }
+  },
+  "assume identity": {
+   "record_id": "historical_events:770",
+   "df_id": "770",
+   "certainty": "FACT",
+   "ejemplo": {
+    "identity_id": "6",
+    "seconds72": "-1",
+    "target_enid": "-1",
+    "trickster_hfid": "615",
+    "type": "assume identity",
+    "year": "1"
+   }
+  },
+  "create entity position": {
+   "record_id": "historical_events:819",
+   "df_id": "819",
+   "certainty": "FACT",
+   "ejemplo": {
+    "seconds72": "0",
+    "type": "create entity position",
+    "year": "1"
+   }
+  },
+  "hf travel": {
+   "record_id": "historical_events:821",
+   "df_id": "821",
+   "certainty": "FACT",
+   "ejemplo": {
+    "coords": "-1,-1",
+    "feature_layer_id": "234",
+    "group_hfid": "610",
+    "seconds72": "0",
+    "site_id": "-1",
+    "subregion_id": "-1",
+    "type": "hf travel",
+    "year": "1"
+   }
+  },
+  "hf new pet": {
+   "record_id": "historical_events:822",
+   "df_id": "822",
+   "certainty": "FACT",
+   "ejemplo": {
+    "coords": "-1,-1",
+    "feature_layer_id": "234",
+    "group_hfid": "610",
+    "seconds72": "0",
+    "site_id": "-1",
+    "subregion_id": "-1",
+    "type": "hf new pet",
+    "year": "1"
+   }
+  },
+  "hf simple battle event": {
+   "record_id": "historical_events:826",
+   "df_id": "826",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "group_1_hfid": "712",
+    "group_2_hfid": "671",
+    "seconds72": "25200",
+    "site_id": "111",
+    "subregion_id": "-1",
+    "subtype": "attacked",
+    "type": "hf simple battle event",
+    "year": "1"
+   }
+  },
+  "hf died": {
+   "record_id": "historical_events:829",
+   "df_id": "829",
+   "certainty": "FACT",
+   "ejemplo": {
+    "cause": "struck",
+    "feature_layer_id": "-1",
+    "hfid": "676",
+    "seconds72": "25200",
+    "site_id": "111",
+    "slayer_caste": "FEMALE",
+    "slayer_hfid": "712",
+    "slayer_item_id": "-1",
+    "slayer_race": "MINOTAUR",
+    "slayer_shooter_item_id": "-1",
+    "subregion_id": "-1",
+    "type": "hf died",
+    "year": "1"
+   }
+  },
+  "performance": {
+   "record_id": "historical_events:830",
+   "df_id": "830",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "268",
+    "feature_layer_id": "-1",
+    "occasion_id": "0",
+    "schedule_id": "0",
+    "seconds72": "60480",
+    "site_id": "76",
+    "subregion_id": "-1",
+    "type": "performance",
+    "year": "1"
+   }
+  },
+  "competition": {
+   "record_id": "historical_events:840",
+   "df_id": "840",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "282",
+    "competitor_hfid": "739",
+    "feature_layer_id": "-1",
+    "occasion_id": "0",
+    "schedule_id": "3",
+    "seconds72": "85600",
+    "site_id": "81",
+    "subregion_id": "-1",
+    "type": "competition",
+    "winner_hfid": "739",
+    "year": "1"
+   }
+  },
+  "hf attacked site": {
+   "record_id": "historical_events:841",
+   "df_id": "841",
+   "certainty": "FACT",
+   "ejemplo": {
+    "attacker_hfid": "11",
+    "defender_civ_id": "291",
+    "seconds72": "84000",
+    "site_civ_id": "291",
+    "site_id": "85",
+    "type": "hf attacked site",
+    "year": "1"
+   }
+  },
+  "hf wounded": {
+   "record_id": "historical_events:845",
+   "df_id": "845",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "seconds72": "84000",
+    "site_id": "85",
+    "subregion_id": "674",
+    "type": "hf wounded",
+    "woundee_hfid": "11",
+    "wounder_hfid": "500",
+    "year": "1"
+   }
+  },
+  "procession": {
+   "record_id": "historical_events:861",
+   "df_id": "861",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "296",
+    "feature_layer_id": "-1",
+    "occasion_id": "0",
+    "schedule_id": "1",
+    "seconds72": "121600",
+    "site_id": "88",
+    "subregion_id": "-1",
+    "type": "procession",
+    "year": "1"
+   }
+  },
+  "ceremony": {
+   "record_id": "historical_events:863",
+   "df_id": "863",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "296",
+    "feature_layer_id": "-1",
+    "occasion_id": "0",
+    "schedule_id": "3",
+    "seconds72": "124000",
+    "site_id": "88",
+    "subregion_id": "-1",
+    "type": "ceremony",
+    "year": "1"
+   }
+  },
+  "creature devoured": {
+   "record_id": "historical_events:877",
+   "df_id": "877",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "seconds72": "210000",
+    "site_id": "97",
+    "subregion_id": "-1",
+    "type": "creature devoured",
+    "year": "1"
+   }
+  },
+  "hf gains secret goal": {
+   "record_id": "historical_events:886",
+   "df_id": "886",
+   "certainty": "FACT",
+   "ejemplo": {
+    "hfid": "533",
+    "seconds72": "260400",
+    "secret_goal": "immortality",
+    "type": "hf gains secret goal",
+    "year": "1"
+   }
+  },
+  "site dispute": {
+   "record_id": "historical_events:891",
+   "df_id": "891",
+   "certainty": "FACT",
+   "ejemplo": {
+    "dispute": "rights-of-way",
+    "entity_id_1": "301",
+    "entity_id_2": "337",
+    "seconds72": "277200",
+    "site_id_1": "90",
+    "site_id_2": "119",
+    "type": "site dispute",
+    "year": "1"
+   }
+  },
+  "field battle": {
+   "record_id": "historical_events:911",
+   "df_id": "911",
+   "certainty": "FACT",
+   "ejemplo": {
+    "attacker_civ_id": "312",
+    "attacker_general_hfid": "667",
+    "coords": "96,108",
+    "defender_civ_id": "296",
+    "defender_general_hfid": "554",
+    "feature_layer_id": "-1",
+    "seconds72": "361200",
+    "subregion_id": "673",
+    "type": "field battle",
+    "year": "1"
+   }
+  },
+  "entity alliance formed": {
+   "record_id": "historical_events:917",
+   "df_id": "917",
+   "certainty": "FACT",
+   "ejemplo": {
+    "initiating_enid": "296",
+    "joining_enid": "314",
+    "seconds72": "369600",
+    "type": "entity alliance formed",
+    "year": "1"
+   }
+  },
+  "add hf hf link": {
+   "record_id": "historical_events:929",
+   "df_id": "929",
+   "certainty": "FACT",
+   "ejemplo": {
+    "hfid": "351",
+    "hfid_target": "347",
+    "seconds72": "-1",
+    "type": "add hf hf link",
+    "year": "2"
+   }
+  },
+  "item stolen": {
+   "record_id": "historical_events:936",
+   "df_id": "936",
+   "certainty": "FACT",
+   "ejemplo": {
+    "circumstance": "historical event collection",
+    "circumstance_id": "50",
+    "seconds72": "-1",
+    "type": "item stolen",
+    "year": "2"
+   }
+  },
+  "remove hf site link": {
+   "record_id": "historical_events:943",
+   "df_id": "943",
+   "certainty": "FACT",
+   "ejemplo": {
+    "seconds72": "-1",
+    "site_id": "96",
+    "type": "remove hf site link",
+    "year": "2"
+   }
+  },
+  "peace accepted": {
+   "record_id": "historical_events:1142",
+   "df_id": "1142",
+   "certainty": "FACT",
+   "ejemplo": {
+    "seconds72": "0",
+    "site_id": "-1",
+    "type": "peace accepted",
+    "year": "2"
+   }
+  },
+  "hfs formed reputation relationship": {
+   "record_id": "historical_events:1145",
+   "df_id": "1145",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "hf_rep_1_of_2": "information source",
+    "hf_rep_2_of_1": "friendly",
+    "hfid1": "614",
+    "hfid2": "825",
+    "identity_id1": "8",
+    "identity_id2": "-1",
+    "seconds72": "58800",
+    "site_id": "85",
+    "subregion_id": "-1",
+    "type": "hfs formed reputation relationship",
+    "year": "2"
+   }
+  },
+  "attacked site": {
+   "record_id": "historical_events:1158",
+   "df_id": "1158",
+   "certainty": "FACT",
+   "ejemplo": {
+    "attacker_civ_id": "304",
+    "attacker_general_hfid": "610",
+    "defender_civ_id": "296",
+    "defender_general_hfid": "795",
+    "seconds72": "84000",
+    "site_civ_id": "297",
+    "site_id": "88",
+    "type": "attacked site",
+    "year": "2"
+   }
+  },
+  "plundered site": {
+   "record_id": "historical_events:1188",
+   "df_id": "1188",
+   "certainty": "FACT",
+   "ejemplo": {
+    "attacker_civ_id": "304",
+    "defender_civ_id": "296",
+    "detected": "",
+    "seconds72": "84000",
+    "site_civ_id": "296",
+    "site_id": "88",
+    "type": "plundered site",
+    "year": "2"
+   }
+  },
+  "body abused": {
+   "record_id": "historical_events:1189",
+   "df_id": "1189",
+   "certainty": "FACT",
+   "ejemplo": {
+    "coords": "96,113",
+    "feature_layer_id": "-1",
+    "seconds72": "84000",
+    "site_id": "88",
+    "subregion_id": "-1",
+    "type": "body abused",
+    "year": "2"
+   }
+  },
+  "written content composed": {
+   "record_id": "historical_events:1226",
+   "df_id": "1226",
+   "certainty": "FACT",
+   "ejemplo": {
+    "hist_figure_id": "499",
+    "seconds72": "201600",
+    "site_id": "121",
+    "type": "written content composed",
+    "wc_id": "0",
+    "year": "2"
+   }
+  },
+  "hf abducted": {
+   "record_id": "historical_events:1740",
+   "df_id": "1740",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "seconds72": "126000",
+    "site_id": "120",
+    "snatcher_hfid": "328",
+    "subregion_id": "-1",
+    "target_hfid": "375",
+    "type": "hf abducted",
+    "year": "4"
+   }
+  },
+  "artifact possessed": {
+   "record_id": "historical_events:1745",
+   "df_id": "1745",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "56",
+    "feature_layer_id": "-1",
+    "hist_figure_id": "533",
+    "seconds72": "134400",
+    "site_id": "87",
+    "subregion_id": "-1",
+    "type": "artifact possessed",
+    "unit_id": "-1",
+    "year": "4"
+   }
+  },
+  "hf learns secret": {
+   "record_id": "historical_events:1746",
+   "df_id": "1746",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "56",
+    "interaction": "SECRET_1",
+    "seconds72": "134400",
+    "student_hfid": "533",
+    "teacher_hfid": "-1",
+    "type": "hf learns secret",
+    "year": "4"
+   }
+  },
+  "failed intrigue corruption": {
+   "record_id": "historical_events:1748",
+   "df_id": "1748",
+   "certainty": "FACT",
+   "ejemplo": {
+    "action": "bribe official",
+    "ally_defense_bonus": "-1",
+    "corruptor_hfid": "533",
+    "failed_judgment_test": "",
+    "feature_layer_id": "-1",
+    "method": "intimidate",
+    "seconds72": "134400",
+    "site_id": "87",
+    "subregion_id": "-1",
+    "target_hfid": "544",
+    "top_facet": "fearlessness",
+    "top_facet_modifier": "2",
+    "top_facet_rating": "39",
+    "top_value": "law"
+   }
+  },
+  "changed creature type": {
+   "record_id": "historical_events:1757",
+   "df_id": "1757",
+   "certainty": "FACT",
+   "ejemplo": {
+    "changee_hfid": "375",
+    "changer_hfid": "328",
+    "new_caste": "MALE",
+    "new_race": "NIGHT_CREATURE_6",
+    "old_caste": "MALE",
+    "old_race": "ELF",
+    "seconds72": "151200",
+    "type": "changed creature type",
+    "year": "4"
+   }
+  },
+  "remove hf hf link": {
+   "record_id": "historical_events:1874",
+   "df_id": "1874",
+   "certainty": "FACT",
+   "ejemplo": {
+    "hfid": "498",
+    "hfid_target": "496",
+    "seconds72": "-1",
+    "type": "remove hf hf link",
+    "year": "5"
+   }
+  },
+  "hf destroyed site": {
+   "record_id": "historical_events:2036",
+   "df_id": "2036",
+   "certainty": "FACT",
+   "ejemplo": {
+    "attacker_hfid": "2",
+    "defender_civ_id": "278",
+    "seconds72": "201600",
+    "site_civ_id": "279",
+    "site_id": "17",
+    "type": "hf destroyed site",
+    "year": "5"
+   }
+  },
+  "reclaim site": {
+   "record_id": "historical_events:2679",
+   "df_id": "2679",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "282",
+    "seconds72": "-1",
+    "site_civ_id": "398",
+    "site_id": "125",
+    "type": "reclaim site",
+    "year": "9"
+   }
+  },
+  "entity created": {
+   "record_id": "historical_events:3063",
+   "df_id": "3063",
+   "certainty": "FACT",
+   "ejemplo": {
+    "entity_id": "405",
+    "seconds72": "277200",
+    "site_id": "139",
+    "structure_id": "-1",
+    "type": "entity created",
+    "year": "10"
+   }
+  },
+  "change hf body state": {
+   "record_id": "historical_events:3163",
+   "df_id": "3163",
+   "certainty": "FACT",
+   "ejemplo": {
+    "body_state": "entombed at site",
+    "coords": "81,107",
+    "feature_layer_id": "-1",
+    "hfid": "904",
+    "seconds72": "-1",
+    "site_id": "163",
+    "structure_id": "0",
+    "subregion_id": "-1",
+    "type": "change hf body state",
+    "year": "11"
+   }
+  },
+  "knowledge discovered": {
+   "record_id": "historical_events:3730",
+   "df_id": "3730",
+   "certainty": "FACT",
+   "ejemplo": {
+    "first": "",
+    "hfid": "464",
+    "knowledge": "astronomy:phases of the moon",
+    "seconds72": "75600",
+    "type": "knowledge discovered",
+    "year": "13"
+   }
+  },
+  "hf equipment purchase": {
+   "record_id": "historical_events:3907",
+   "df_id": "3907",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "group_hfid": "498",
+    "quality": "2",
+    "seconds72": "294000",
+    "site_id": "-1",
+    "structure_id": "-1",
+    "subregion_id": "-1",
+    "type": "hf equipment purchase",
+    "year": "13"
+   }
+  },
+  "created world construction": {
+   "record_id": "historical_events:4008",
+   "df_id": "4008",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "300",
+    "master_wcid": "-1",
+    "seconds72": "-1",
+    "site_civ_id": "301",
+    "site_id1": "165",
+    "site_id2": "90",
+    "type": "created world construction",
+    "wcid": "1",
+    "year": "14"
+   }
+  },
+  "artifact lost": {
+   "record_id": "historical_events:4029",
+   "df_id": "4029",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "57",
+    "seconds72": "-1",
+    "site_id": "141",
+    "type": "artifact lost",
+    "year": "14"
+   }
+  },
+  "peace rejected": {
+   "record_id": "historical_events:4302",
+   "df_id": "4302",
+   "certainty": "FACT",
+   "ejemplo": {
+    "seconds72": "0",
+    "site_id": "-1",
+    "type": "peace rejected",
+    "year": "15"
+   }
+  },
+  "regionpop incorporated into entity": {
+   "record_id": "historical_events:5046",
+   "df_id": "5046",
+   "certainty": "FACT",
+   "ejemplo": {
+    "join_entity_id": "315",
+    "pop_flid": "-1",
+    "pop_number_moved": "18",
+    "pop_race": "403",
+    "pop_srid": "607",
+    "seconds72": "-1",
+    "site_id": "97",
+    "type": "regionpop incorporated into entity",
+    "year": "19"
+   }
+  },
+  "hf relationship denied": {
+   "record_id": "historical_events:5283",
+   "df_id": "5283",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "reason": "prefers working alone",
+    "reason_id": "826",
+    "relationship": "apprentice",
+    "seconds72": "16800",
+    "seeker_hfid": "796",
+    "site_id": "164",
+    "subregion_id": "-1",
+    "target_hfid": "826",
+    "type": "hf relationship denied",
+    "year": "20"
+   }
+  },
+  "gamble": {
+   "record_id": "historical_events:5649",
+   "df_id": "5649",
+   "certainty": "FACT",
+   "ejemplo": {
+    "gambler_hfid": "1466",
+    "new_account": "-5000",
+    "old_account": "0",
+    "seconds72": "361200",
+    "site_id": "96",
+    "structure_id": "1",
+    "type": "gamble",
+    "year": "21"
+   }
+  },
+  "hf convicted": {
+   "record_id": "historical_events:5907",
+   "df_id": "5907",
+   "certainty": "FACT",
+   "ejemplo": {
+    "convicted_hfid": "903",
+    "convicter_enid": "327",
+    "crime": "theft",
+    "prison_months": "60",
+    "seconds72": "218400",
+    "type": "hf convicted",
+    "year": "22"
+   }
+  },
+  "artifact found": {
+   "record_id": "historical_events:6063",
+   "df_id": "6063",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "60",
+    "hist_figure_id": "1012",
+    "seconds72": "-1",
+    "site_id": "88",
+    "type": "artifact found",
+    "unit_id": "-1",
+    "year": "23"
+   }
+  },
+  "artifact given": {
+   "record_id": "historical_events:6064",
+   "df_id": "6064",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "60",
+    "giver_entity_id": "-1",
+    "giver_hist_figure_id": "1012",
+    "receiver_entity_id": "296",
+    "receiver_hist_figure_id": "1474",
+    "seconds72": "-1",
+    "type": "artifact given",
+    "year": "23"
+   }
+  },
+  "artifact claim formed": {
+   "record_id": "historical_events:6065",
+   "df_id": "6065",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "60",
+    "claim": "symbol",
+    "entity_id": "296",
+    "hist_figure_id": "-1",
+    "position_profile_id": "3",
+    "seconds72": "-1",
+    "type": "artifact claim formed",
+    "year": "23"
+   }
+  },
+  "trade": {
+   "record_id": "historical_events:7045",
+   "df_id": "7045",
+   "certainty": "FACT",
+   "ejemplo": {
+    "account_shift": "-5680",
+    "allotment": "27",
+    "allotment_index": "66",
+    "dest_site_id": "187",
+    "production_zone_id": "66",
+    "seconds72": "210000",
+    "source_site_id": "90",
+    "trader_entity_id": "-1",
+    "trader_hfid": "1144",
+    "type": "trade",
+    "year": "26"
+   }
+  },
+  "hfs formed intrigue relationship": {
+   "record_id": "historical_events:7386",
+   "df_id": "7386",
+   "certainty": "FACT",
+   "ejemplo": {
+    "action": "bring into network",
+    "corruptor_hfid": "977",
+    "corruptor_seen_as": "master",
+    "feature_layer_id": "-1",
+    "method": "precedence",
+    "relevant_entity_id": "307",
+    "relevant_position_profile_id": "11",
+    "seconds72": "151200",
+    "site_id": "93",
+    "subregion_id": "-1",
+    "successful": "",
+    "target_hfid": "978",
+    "target_seen_as": "general purpose asset",
+    "top_relationship_factor": "trust"
+   }
+  },
+  "entity relocate": {
+   "record_id": "historical_events:8048",
+   "df_id": "8048",
+   "certainty": "FACT",
+   "ejemplo": {
+    "entity_id": "417",
+    "seconds72": "142800",
+    "site_id": "165",
+    "structure_id": "1",
+    "type": "entity relocate",
+    "year": "29"
+   }
+  },
+  "entity primary criminals": {
+   "record_id": "historical_events:8049",
+   "df_id": "8049",
+   "certainty": "FACT",
+   "ejemplo": {
+    "entity_id": "417",
+    "seconds72": "142800",
+    "site_id": "165",
+    "structure_id": "-1",
+    "type": "entity primary criminals",
+    "year": "29"
+   }
+  },
+  "remove hf entity link": {
+   "record_id": "historical_events:8178",
+   "df_id": "8178",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "386",
+    "hfid": "1228",
+    "link": "prisoner",
+    "seconds72": "-1",
+    "type": "remove hf entity link",
+    "year": "30"
+   }
+  },
+  "failed frame attempt": {
+   "record_id": "historical_events:8431",
+   "df_id": "8431",
+   "certainty": "FACT",
+   "ejemplo": {
+    "convicter_enid": "307",
+    "crime": "treason",
+    "fooled_hfid": "984",
+    "framer_hfid": "977",
+    "seconds72": "319200",
+    "target_hfid": "984",
+    "type": "failed frame attempt",
+    "year": "30"
+   }
+  },
+  "hf confronted": {
+   "record_id": "historical_events:8656",
+   "df_id": "8656",
+   "certainty": "FACT",
+   "ejemplo": {
+    "coords": "55,25",
+    "feature_layer_id": "-1",
+    "hfid": "408",
+    "reason": "ageless",
+    "seconds72": "42000",
+    "site_id": "118",
+    "situation": "general suspicion",
+    "subregion_id": "-1",
+    "type": "hf confronted",
+    "year": "31"
+   }
+  },
+  "entity law": {
+   "record_id": "historical_events:8657",
+   "df_id": "8657",
+   "certainty": "FACT",
+   "ejemplo": {
+    "entity_id": "276",
+    "hist_figure_id": "408",
+    "law_add": "harsh",
+    "seconds72": "42000",
+    "type": "entity law",
+    "year": "31"
+   }
+  },
+  "hf recruited unit type for entity": {
+   "record_id": "historical_events:9545",
+   "df_id": "9545",
+   "certainty": "FACT",
+   "ejemplo": {
+    "entity_id": "482",
+    "feature_layer_id": "-1",
+    "hfid": "2389",
+    "seconds72": "176400",
+    "site_id": "204",
+    "subregion_id": "-1",
+    "type": "hf recruited unit type for entity",
+    "unit_type": "monk",
+    "year": "33"
+   }
+  },
+  "hf reunion": {
+   "record_id": "historical_events:10102",
+   "df_id": "10102",
+   "certainty": "FACT",
+   "ejemplo": {
+    "feature_layer_id": "-1",
+    "group_1_hfid": "2274",
+    "group_2_hfid": "1264",
+    "seconds72": "-1",
+    "site_id": "88",
+    "subregion_id": "-1",
+    "type": "hf reunion",
+    "year": "35"
+   }
+  },
+  "entity overthrown": {
+   "record_id": "historical_events:14942",
+   "df_id": "14942",
+   "certainty": "FACT",
+   "ejemplo": {
+    "conspirator_hfid": "2366",
+    "entity_id": "280",
+    "instigator_hfid": "2366",
+    "overthrown_hfid": "1027",
+    "pos_taker_hfid": "2366",
+    "position_profile_id": "0",
+    "seconds72": "218400",
+    "site_id": "178",
+    "type": "entity overthrown",
+    "year": "46"
+   }
+  },
+  "building profile acquired": {
+   "record_id": "historical_events:16026",
+   "df_id": "16026",
+   "certainty": "FACT",
+   "ejemplo": {
+    "acquirer_hfid": "751",
+    "building_profile_id": "0",
+    "inherited": "",
+    "purchased_unowned": "",
+    "rebuilt_ruined": "",
+    "seconds72": "134400",
+    "site_id": "95",
+    "type": "building profile acquired",
+    "year": "48"
+   }
+  },
+  "hf interrogated": {
+   "record_id": "historical_events:19985",
+   "df_id": "19985",
+   "certainty": "FACT",
+   "ejemplo": {
+    "arresting_enid": "288",
+    "held_firm_in_interrogation": "",
+    "interrogator_hfid": "962",
+    "seconds72": "176400",
+    "target_hfid": "1100",
+    "type": "hf interrogated",
+    "wanted_and_recognized": "",
+    "year": "54"
+   }
+  },
+  "hf revived": {
+   "record_id": "historical_events:21294",
+   "df_id": "21294",
+   "certainty": "FACT",
+   "ejemplo": {
+    "actor_hfid": "2025",
+    "feature_layer_id": "-1",
+    "hfid": "2293",
+    "seconds72": "201600",
+    "site_id": "209",
+    "subregion_id": "-1",
+    "type": "hf revived",
+    "year": "56"
+   }
+  },
+  "add hf entity honor": {
+   "record_id": "historical_events:21295",
+   "df_id": "21295",
+   "certainty": "FACT",
+   "ejemplo": {
+    "entity_id": "566",
+    "hfid": "2833",
+    "honor_id": "2",
+    "seconds72": "201600",
+    "type": "add hf entity honor",
+    "year": "56"
+   }
+  },
+  "razed structure": {
+   "record_id": "historical_events:21439",
+   "df_id": "21439",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_id": "304",
+    "seconds72": "277200",
+    "site_id": "88",
+    "structure_id": "3",
+    "type": "razed structure",
+    "year": "56"
+   }
+  },
+  "entity persecuted": {
+   "record_id": "historical_events:23288",
+   "df_id": "23288",
+   "certainty": "FACT",
+   "ejemplo": {
+    "persecutor_enid": "399",
+    "persecutor_hfid": "1290",
+    "seconds72": "-1",
+    "shrine_amount_destroyed": "0",
+    "site_id": "158",
+    "target_enid": "596",
+    "type": "entity persecuted",
+    "year": "59"
+   }
+  },
+  "modified building": {
+   "record_id": "historical_events:24264",
+   "df_id": "24264",
+   "certainty": "FACT",
+   "ejemplo": {
+    "modification": "improved fortifications",
+    "modifier_hfid": "751",
+    "seconds72": "159600",
+    "site_id": "95",
+    "structure_id": "2",
+    "type": "modified building",
+    "year": "60"
+   }
+  },
+  "new site leader": {
+   "record_id": "historical_events:25842",
+   "df_id": "25842",
+   "certainty": "FACT",
+   "ejemplo": {
+    "attacker_civ_id": "290",
+    "defender_civ_id": "314",
+    "new_leader_hfid": "3009",
+    "new_site_civ_id": "687",
+    "seconds72": "75600",
+    "site_civ_id": "314",
+    "site_id": "214",
+    "type": "new site leader",
+    "year": "62"
+   }
+  },
+  "hf preach": {
+   "record_id": "historical_events:26907",
+   "df_id": "26907",
+   "certainty": "FACT",
+   "ejemplo": {
+    "entity_1": "593",
+    "entity_2": "586",
+    "seconds72": "361200",
+    "site_hfid": "95",
+    "speaker_hfid": "2408",
+    "topic": "set entity 1 against entity 2",
+    "type": "hf preach",
+    "year": "63"
+   }
+  },
+  "entity dissolved": {
+   "record_id": "historical_events:26958",
+   "df_id": "26958",
+   "certainty": "FACT",
+   "ejemplo": {
+    "entity_id": "641",
+    "reason": "heavy losses in battle",
+    "seconds72": "386400",
+    "type": "entity dissolved",
+    "year": "63"
+   }
+  },
+  "hf prayed inside structure": {
+   "record_id": "historical_events:31169",
+   "df_id": "31169",
+   "certainty": "FACT",
+   "ejemplo": {
+    "hist_fig_id": "4800",
+    "seconds72": "176400",
+    "site_id": "306",
+    "structure_id": "0",
+    "type": "hf prayed inside structure",
+    "year": "68"
+   }
+  },
+  "musical form created": {
+   "record_id": "historical_events:33639",
+   "df_id": "33639",
+   "certainty": "FACT",
+   "ejemplo": {
+    "form_id": "95",
+    "hist_figure_id": "4359",
+    "seconds72": "25200",
+    "site_id": "82",
+    "type": "musical form created",
+    "year": "71"
+   }
+  },
+  "entity breach feature layer": {
+   "record_id": "historical_events:33884",
+   "df_id": "33884",
+   "certainty": "FACT",
+   "ejemplo": {
+    "civ_entity_id": "268",
+    "feature_layer_id": "371",
+    "seconds72": "235200",
+    "site_entity_id": "269",
+    "site_id": "76",
+    "type": "entity breach feature layer",
+    "year": "71"
+   }
+  },
+  "site taken over": {
+   "record_id": "historical_events:33937",
+   "df_id": "33937",
+   "certainty": "FACT",
+   "ejemplo": {
+    "attacker_civ_id": "762",
+    "defender_civ_id": "268",
+    "new_site_civ_id": "763",
+    "seconds72": "235200",
+    "site_civ_id": "269",
+    "site_id": "76",
+    "type": "site taken over",
+    "year": "71"
+   }
+  },
+  "destroyed site": {
+   "record_id": "historical_events:38363",
+   "df_id": "38363",
+   "certainty": "FACT",
+   "ejemplo": {
+    "attacker_civ_id": "705",
+    "defender_civ_id": "272",
+    "seconds72": "92400",
+    "site_civ_id": "664",
+    "site_id": "287",
+    "type": "destroyed site",
+    "year": "75"
+   }
+  },
+  "holy city declaration": {
+   "record_id": "historical_events:45103",
+   "df_id": "45103",
+   "certainty": "FACT",
+   "ejemplo": {
+    "religion_id": "405",
+    "seconds72": "-1",
+    "site_id": "90",
+    "type": "holy city declaration",
+    "year": "81"
+   }
+  },
+  "entity incorporated": {
+   "record_id": "historical_events:48035",
+   "df_id": "48035",
+   "certainty": "FACT",
+   "ejemplo": {
+    "joined_entity_id": "417",
+    "joiner_entity_id": "452",
+    "leader_hfid": "4374",
+    "partial_incorporation": "",
+    "seconds72": "8400",
+    "site_id": "-1",
+    "type": "entity incorporated",
+    "year": "83"
+   }
+  },
+  "dance form created": {
+   "record_id": "historical_events:55312",
+   "df_id": "55312",
+   "certainty": "FACT",
+   "ejemplo": {
+    "circumstance": "dream",
+    "form_id": "106",
+    "hist_figure_id": "2676",
+    "seconds72": "243600",
+    "site_id": "242",
+    "type": "dance form created",
+    "year": "89"
+   }
+  },
+  "artifact recovered": {
+   "record_id": "historical_events:56432",
+   "df_id": "56432",
+   "certainty": "FACT",
+   "ejemplo": {
+    "artifact_id": "213",
+    "feature_layer_id": "-1",
+    "hist_figure_id": "5855",
+    "seconds72": "168000",
+    "site_id": "137",
+    "structure_id": "-1",
+    "subregion_id": "-1",
+    "type": "artifact recovered",
+    "unit_id": "-1",
+    "year": "90"
+   }
+  },
+  "hf profaned structure": {
+   "record_id": "historical_events:60597",
+   "df_id": "60597",
+   "certainty": "FACT",
+   "ejemplo": {
+    "hist_fig_id": "3694",
+    "seconds72": "8400",
+    "site_id": "165",
+    "structure_id": "4",
+    "type": "hf profaned structure",
+    "year": "93"
+   }
+  },
+  "hf does interaction": {
+   "record_id": "historical_events:60598",
+   "df_id": "60598",
+   "certainty": "FACT",
+   "ejemplo": {
+    "doer_hfid": "586",
+    "interaction": "DEITY_CURSE_WEREBEAST_lemur_1",
+    "seconds72": "8400",
+    "target_hfid": "3694",
+    "type": "hf does interaction",
+    "year": "93"
+   }
+  },
+  "poetic form created": {
+   "record_id": "historical_events:61106",
+   "df_id": "61106",
+   "certainty": "FACT",
+   "ejemplo": {
+    "form_id": "93",
+    "hist_figure_id": "2250",
+    "seconds72": "302400",
+    "site_id": "218",
+    "type": "poetic form created",
+    "year": "93"
+   }
+  }
+ }
+}

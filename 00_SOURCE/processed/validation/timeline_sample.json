@@ -1,0 +1,110 @@
+{
+ "certainty": "DERIVED",
+ "rango_anios": [
+  1,
+  100
+ ],
+ "eventos_por_año": [
+  {
+   "año": 1,
+   "eventos": 857,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 2,
+   "eventos": 325,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 3,
+   "eventos": 280,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 4,
+   "eventos": 249,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 5,
+   "eventos": 223,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 6,
+   "eventos": 173,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 7,
+   "eventos": 127,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 8,
+   "eventos": 208,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 9,
+   "eventos": 197,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 10,
+   "eventos": 187,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 11,
+   "eventos": 167,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 12,
+   "eventos": 221,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 13,
+   "eventos": 285,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 14,
+   "eventos": 224,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 15,
+   "eventos": 138,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 16,
+   "eventos": 198,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 17,
+   "eventos": 155,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 18,
+   "eventos": 173,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 19,
+   "eventos": 146,
+   "certainty": "DERIVED"
+  },
+  {
+   "año": 20,
+   "eventos": 163,
+   "certainty": "DERIVED"
+  }
+ ],
+ "nota": "Conteos DERIVADOS a partir del campo year de cada evento (FACT)."
+}

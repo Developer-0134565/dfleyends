@@ -1,0 +1,340 @@
+{
+  "generado": "2026-10-03T01:01:35.760Z",
+  "total": 57,
+  "ok": 57,
+  "fallos": 0,
+  "responsive": [
+    {
+      "id": "320",
+      "desborde": 0,
+      "w": 320
+    },
+    {
+      "id": "360",
+      "desborde": 0,
+      "w": 360
+    },
+    {
+      "id": "390",
+      "desborde": 0,
+      "w": 390
+    },
+    {
+      "id": "414",
+      "desborde": 0,
+      "w": 414
+    },
+    {
+      "id": "600",
+      "desborde": 0,
+      "w": 600
+    },
+    {
+      "id": "768",
+      "desborde": 0,
+      "w": 768
+    },
+    {
+      "id": "1024",
+      "desborde": 0,
+      "w": 1024
+    },
+    {
+      "id": "1280",
+      "desborde": 0,
+      "w": 1280
+    },
+    {
+      "id": "1440",
+      "desborde": 0,
+      "w": 1440
+    }
+  ],
+  "hallazgos": [
+    {
+      "ok": true,
+      "donde": "titulo",
+      "detalle": "h1 = \"Geography\""
+    },
+    {
+      "ok": true,
+      "donde": "mapa",
+      "detalle": "233 puntos navegables dibujados"
+    },
+    {
+      "ok": true,
+      "donde": "formulario",
+      "detalle": "el formulario X/Y esta presente"
+    },
+    {
+      "ok": true,
+      "donde": "contrato Z",
+      "detalle": "la UI declara que no hay Z"
+    },
+    {
+      "ok": true,
+      "donde": "punto",
+      "detalle": "muestra \"Location 112, 20\""
+    },
+    {
+      "ok": true,
+      "donde": "sitio",
+      "detalle": "aparece la fortaleza real #87"
+    },
+    {
+      "ok": true,
+      "donde": "tipo real",
+      "detalle": "1 etiqueta(s) \"fortress\""
+    },
+    {
+      "ok": true,
+      "donde": "Z",
+      "detalle": "Z se muestra como null"
+    },
+    {
+      "ok": true,
+      "donde": "construcciones",
+      "detalle": "lista las construcciones del punto"
+    },
+    {
+      "ok": true,
+      "donde": "URL",
+      "detalle": "la URL es compartible: x=112&y=20"
+    },
+    {
+      "ok": true,
+      "donde": "resultado",
+      "detalle": "el formulario trae datos reales"
+    },
+    {
+      "ok": true,
+      "donde": "recarga",
+      "detalle": "tras recargar sigue mostrando el mismo resultado"
+    },
+    {
+      "ok": true,
+      "donde": "mapa -> sitio",
+      "detalle": "abre \"halesteel\""
+    },
+    {
+      "ok": true,
+      "donde": "sitio -> figuras",
+      "detalle": "48 enlace(s) a figuras desde la ficha"
+    },
+    {
+      "ok": true,
+      "donde": "sitio -> eventos",
+      "detalle": "50 enlace(s) a eventos desde la ficha"
+    },
+    {
+      "ok": true,
+      "donde": "navegacion atras",
+      "detalle": "vuelve a \"Geography\""
+    },
+    {
+      "ok": true,
+      "donde": "punto vacio",
+      "detalle": "lo dice explicitamente en vez de inventar"
+    },
+    {
+      "ok": true,
+      "donde": "honestidad",
+      "detalle": "advierte que no significa que no existiera"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 320",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 320 · boton mapa",
+      "detalle": "37x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 320 · campo X",
+      "detalle": "120x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 320 · mapa",
+      "detalle": "249px <= 320px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 360",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 360 · boton mapa",
+      "detalle": "45x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 360 · campo X",
+      "detalle": "140x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 360 · mapa",
+      "detalle": "289px <= 360px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 390",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 390 · boton mapa",
+      "detalle": "51x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 390 · campo X",
+      "detalle": "155x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 390 · mapa",
+      "detalle": "319px <= 390px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 414",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 414 · boton mapa",
+      "detalle": "34x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 414 · campo X",
+      "detalle": "167x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 414 · mapa",
+      "detalle": "343px <= 414px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 600",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 600 · boton mapa",
+      "detalle": "62x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 600 · campo X",
+      "detalle": "252x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 600 · mapa",
+      "detalle": "514px <= 600px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 768",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 768 · boton mapa",
+      "detalle": "32x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 768 · campo X",
+      "detalle": "120x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 768 · mapa",
+      "detalle": "659px <= 768px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1024",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1024 · boton mapa",
+      "detalle": "32x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1024 · campo X",
+      "detalle": "120x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1024 · mapa",
+      "detalle": "891px <= 1024px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1280",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1280 · boton mapa",
+      "detalle": "32x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1280 · campo X",
+      "detalle": "120x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1280 · mapa",
+      "detalle": "987px <= 1280px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1440",
+      "detalle": "sin scroll horizontal"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1440 · boton mapa",
+      "detalle": "32x34px utilizables"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1440 · campo X",
+      "detalle": "120x40px"
+    },
+    {
+      "ok": true,
+      "donde": "responsive 1440 · mapa",
+      "detalle": "987px <= 1440px"
+    },
+    {
+      "ok": true,
+      "donde": "red",
+      "detalle": "origenes externos: http://127.0.0.1:877"
+    },
+    {
+      "ok": true,
+      "donde": "sin XML",
+      "detalle": "la pagina no referencia ningun XML"
+    },
+    {
+      "ok": true,
+      "donde": "sin JSONL",
+      "detalle": "la pagina no referencia ningun JSONL"
+    }
+  ]
+}

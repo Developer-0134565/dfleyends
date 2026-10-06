@@ -1,0 +1,420 @@
+{
+ "excluidas": [
+  "dfchron/pruebas/p1_4/validar_jsonl.py",
+  "dfchron/pruebas/p1_5/validar_cp437.py",
+  "dfchron/pruebas/p1_7/validar_mapa.py",
+  "dfchron/pruebas/probar_mutation_frontera.py"
+ ],
+ "resultados": [
+  {
+   "suite": "00_SOURCE/tools/probar_adversarial.py",
+   "estado": "OK",
+   "tests": 39,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 10.97,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "00_SOURCE/tools/probar_adversarial_nucleo.py",
+   "estado": "OK",
+   "tests": 10,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 17.42,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "00_SOURCE/tools/probar_integracion.py",
+   "estado": "OK",
+   "tests": 20,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 5.5,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "00_SOURCE/tools/probar_nucleo.py",
+   "estado": "OK",
+   "tests": 48,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 4.37,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "00_SOURCE/tools/probar_verificacion_semantica.py",
+   "estado": "OK",
+   "tests": 38,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 44.97,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/aceptacion_mision.py",
+   "estado": "FALLA",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 2.36,
+   "returncode": 1,
+   "cola": "urllib.error.URLError: <urlopen error [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión>"
+  },
+  {
+   "suite": "dfchron/pruebas/datos/generar_banco.py",
+   "estado": "NO_SUITE",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 3.94,
+   "returncode": 0,
+   "cola": "  L: 2"
+  },
+  {
+   "suite": "dfchron/pruebas/evaluar_banco_ia.py",
+   "estado": "NO_SUITE",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 17.38,
+   "returncode": 0,
+   "cola": "VEREDICTO: VALIDADO_CON_LIMITACIONES - las 83 pruebas tienen 0 discrepancias o limites de recuperacion"
+  },
+  {
+   "suite": "dfchron/pruebas/p1_3/experimentos_p1_3.py",
+   "estado": "NO_SUITE",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.22,
+   "returncode": 0,
+   "cola": "VEREDICTO: Todos los experimentos quedan PENDIENTES. No hay resultados que reportar. Cualquier afirmacion sobre su resultado seria inventada."
+  },
+  {
+   "suite": "dfchron/pruebas/p1_3/forense_save.py",
+   "estado": "FALLA",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.1,
+   "returncode": 2,
+   "cola": "ERROR: indica al menos un --save"
+  },
+  {
+   "suite": "dfchron/pruebas/p1_3/inventario_exportador.py",
+   "estado": "NO_SUITE",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.24,
+   "returncode": 0,
+   "cola": "     persistencia_site_data         x1"
+  },
+  {
+   "suite": "dfchron/pruebas/p1_3/probar_p1_3.py",
+   "estado": "NO_SUITE",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.57,
+   "returncode": 0,
+   "cola": "Todas las comprobaciones de las herramientas P1.3 han pasado."
+  },
+  {
+   "suite": "dfchron/pruebas/p1_5/generar_cp437.py",
+   "estado": "NO_SUITE",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.08,
+   "returncode": 0,
+   "cola": "generado cp437.lua (128 entradas) y cp437_vectores.json (132 vectores)"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_actualizacion.py",
+   "estado": "OK",
+   "tests": 43,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 25.02,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_api.py",
+   "estado": "OK",
+   "tests": 54,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 6.66,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_auditoria_final.py",
+   "estado": "OK",
+   "tests": 49,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.22,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_banco_ia.py",
+   "estado": "OK",
+   "tests": 29,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 18.29,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_cierre_pre_ia.py",
+   "estado": "OK",
+   "tests": 54,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.23,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_contrato_ia.py",
+   "estado": "OK",
+   "tests": 49,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.29,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_contrato_io.py",
+   "estado": "OK",
+   "tests": 48,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.16,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_documentacion_ia.py",
+   "estado": "OK",
+   "tests": 51,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.25,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_documentacion_indice.py",
+   "estado": "OK",
+   "tests": 11,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 63.68,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_estado_conocimiento.py",
+   "estado": "OK",
+   "tests": 48,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 3.77,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_frontera_inferencia.py",
+   "estado": "OK",
+   "tests": 12,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 4.45,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_frontera_linguistica.py",
+   "estado": "OK",
+   "tests": 25,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.15,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_gate_pre_ia.py",
+   "estado": "OK",
+   "tests": 15,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.16,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_geografia.py",
+   "estado": "OK",
+   "tests": 41,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 6.93,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_ia_contexto.py",
+   "estado": "OK",
+   "tests": 39,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 25.72,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_ia_mock.py",
+   "estado": "OK",
+   "tests": 35,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 4.98,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_identidad_mundo.py",
+   "estado": "OK",
+   "tests": 30,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.28,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_identidad_mundo_consumo.py",
+   "estado": "OK",
+   "tests": 35,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 3.47,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_integracion_consulta.py",
+   "estado": "OK",
+   "tests": 55,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 3.81,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_perimetro_ia.py",
+   "estado": "OK",
+   "tests": 50,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 3.57,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_puente_conocimiento.py",
+   "estado": "OK",
+   "tests": 52,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 4.62,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_refresh_cycle.py",
+   "estado": "OK",
+   "tests": 28,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 3.09,
+   "returncode": 0,
+   "cola": "<sys>:0: ResourceWarning: unclosed <socket.socket fd=348, family=2, type=1, proto=0, laddr=('127.0.0.1', 57684)>"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_riesgos_abc.py",
+   "estado": "OK",
+   "tests": 25,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.15,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_semantica_ia.py",
+   "estado": "OK",
+   "tests": 59,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.16,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_servicio_consulta.py",
+   "estado": "OK",
+   "tests": 66,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 4.06,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_verificacion_estructurada.py",
+   "estado": "OK",
+   "tests": 18,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 0.14,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/probar_web.py",
+   "estado": "OK",
+   "tests": 65,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 5.47,
+   "returncode": 0,
+   "cola": "OK"
+  },
+  {
+   "suite": "dfchron/pruebas/servidor_estatico.py",
+   "estado": "FALLA",
+   "tests": 0,
+   "skipped": 0,
+   "xfail": 0,
+   "segundos": 168.94,
+   "returncode": 4294967295,
+   "cola": ""
+  }
+ ]
+}

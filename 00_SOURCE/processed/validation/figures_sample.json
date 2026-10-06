@@ -1,0 +1,102 @@
+{
+ "certainty": "FACT",
+ "nota": "IDs y nombres reales de legends.xml",
+ "figuras": [
+  {
+   "df_id": "712",
+   "nombre": "galka shafttop the blades of knighting",
+   "race": "MINOTAUR",
+   "eventos": 158,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "327",
+   "nombre": "rakust burialtunneled",
+   "race": "NIGHT_CREATURE_7",
+   "eventos": 118,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "322",
+   "nombre": "baros phantomburials the night of graves",
+   "race": "NIGHT_CREATURE_12",
+   "eventos": 117,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "1156",
+   "nombre": "risen bellschewed",
+   "race": "NIGHT_CREATURE_14",
+   "eventos": 105,
+   "relaciones_plus": 2,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "730",
+   "nombre": "zagod knotjaw the confident pulp",
+   "race": "MINOTAUR",
+   "eventos": 100,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "328",
+   "nombre": "usmdas shadecrypts the ghost of abysses",
+   "race": "NIGHT_CREATURE_6",
+   "eventos": 80,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "319",
+   "nombre": "engig washedswim the primitive",
+   "race": "TITAN_9",
+   "eventos": 79,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "320",
+   "nombre": "rupola tunnelgraves the umbral twilight",
+   "race": "NIGHT_CREATURE_14",
+   "eventos": 72,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "2472",
+   "nombre": "palara pricechurches",
+   "race": "TROGLODYTE",
+   "eventos": 71,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "709",
+   "nombre": "asa dreamsdent the decisive cat",
+   "race": "MINOTAUR",
+   "eventos": 68,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "1753",
+   "nombre": "themiyi grooveddrink",
+   "race": "NIGHT_CREATURE_6",
+   "eventos": 67,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "316",
+   "nombre": "urus packsquid the submerged stream",
+   "race": "TITAN_6",
+   "eventos": 67,
+   "relaciones_plus": 0,
+   "certainty": "FACT"
+  }
+ ]
+}

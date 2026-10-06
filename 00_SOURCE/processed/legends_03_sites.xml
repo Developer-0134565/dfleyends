@@ -1,0 +1,7258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<df_world><sites>
+	<site>
+		<id>1</id>
+		<type>cave</type>
+		<name>meancracked the sewer of alchemy</name>
+		<coords>7,94</coords>
+		<rectangle>116,1511:118,1513</rectangle>
+	</site>
+	<site>
+		<id>2</id>
+		<type>cave</type>
+		<name>birdumbra the abysses of dancing</name>
+		<coords>115,15</coords>
+		<rectangle>1852,247:1854,249</rectangle>
+	</site>
+	<site>
+		<id>3</id>
+		<type>cave</type>
+		<name>the clean deeps</name>
+		<coords>101,112</coords>
+		<rectangle>1623,1804:1625,1806</rectangle>
+	</site>
+	<site>
+		<id>4</id>
+		<type>cave</type>
+		<name>wretchedcracked</name>
+		<coords>24,16</coords>
+		<rectangle>393,263:395,265</rectangle>
+	</site>
+	<site>
+		<id>5</id>
+		<type>cave</type>
+		<name>mucousgloom the cremated echoes</name>
+		<coords>80,49</coords>
+		<rectangle>1280,784:1282,786</rectangle>
+	</site>
+	<site>
+		<id>6</id>
+		<type>cave</type>
+		<name>flukehells</name>
+		<coords>50,78</coords>
+		<rectangle>813,1261:815,1263</rectangle>
+	</site>
+	<site>
+		<id>7</id>
+		<type>cave</type>
+		<name>crosssewers</name>
+		<coords>118,71</coords>
+		<rectangle>1888,1136:1890,1138</rectangle>
+	</site>
+	<site>
+		<id>8</id>
+		<type>cave</type>
+		<name>the night of disembowelers</name>
+		<coords>88,83</coords>
+		<rectangle>1421,1341:1423,1343</rectangle>
+	</site>
+	<site>
+		<id>9</id>
+		<type>cave</type>
+		<name>youthmines the scourge of attack</name>
+		<coords>80,8</coords>
+		<rectangle>1282,135:1284,137</rectangle>
+	</site>
+	<site>
+		<id>10</id>
+		<type>cave</type>
+		<name>stakemine</name>
+		<coords>37,105</coords>
+		<rectangle>604,1692:606,1694</rectangle>
+	</site>
+	<site>
+		<id>11</id>
+		<type>cave</type>
+		<name>the savage night</name>
+		<coords>3,46</coords>
+		<rectangle>52,743:54,745</rectangle>
+	</site>
+	<site>
+		<id>12</id>
+		<type>cave</type>
+		<name>the gloom of wings</name>
+		<coords>67,126</coords>
+		<rectangle>1078,2021:1080,2023</rectangle>
+	</site>
+	<site>
+		<id>13</id>
+		<type>cave</type>
+		<name>wringechoes the folded deeps</name>
+		<coords>56,28</coords>
+		<rectangle>903,452:905,454</rectangle>
+	</site>
+	<site>
+		<id>14</id>
+		<type>cave</type>
+		<name>yellowumbras</name>
+		<coords>33,56</coords>
+		<rectangle>535,904:537,906</rectangle>
+	</site>
+	<site>
+		<id>15</id>
+		<type>cave</type>
+		<name>the sewer of freezing</name>
+		<coords>109,44</coords>
+		<rectangle>1749,705:1751,707</rectangle>
+	</site>
+	<site>
+		<id>16</id>
+		<type>cave</type>
+		<name>racescars the kind hollow</name>
+		<coords>125,120</coords>
+		<rectangle>2003,1925:2005,1927</rectangle>
+	</site>
+	<site>
+		<id>17</id>
+		<type>cave</type>
+		<name>routedgloom the stoked depth</name>
+		<coords>94,27</coords>
+		<rectangle>1508,432:1510,434</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>stafagribis</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>18</id>
+		<type>cave</type>
+		<name>seducedcracked the violet lantern</name>
+		<coords>75,102</coords>
+		<rectangle>1207,1638:1209,1640</rectangle>
+	</site>
+	<site>
+		<id>19</id>
+		<type>cave</type>
+		<name>crowdumbra</name>
+		<coords>18,73</coords>
+		<rectangle>292,1174:294,1176</rectangle>
+	</site>
+	<site>
+		<id>20</id>
+		<type>cave</type>
+		<name>testeddeeps the superior hollow</name>
+		<coords>4,4</coords>
+		<rectangle>75,66:77,68</rectangle>
+	</site>
+	<site>
+		<id>21</id>
+		<type>cave</type>
+		<name>crymines</name>
+		<coords>43,4</coords>
+		<rectangle>691,68:693,70</rectangle>
+	</site>
+	<site>
+		<id>22</id>
+		<type>cave</type>
+		<name>the mines of sacrifice</name>
+		<coords>3,120</coords>
+		<rectangle>52,1928:54,1930</rectangle>
+	</site>
+	<site>
+		<id>23</id>
+		<type>cave</type>
+		<name>matchedscars</name>
+		<coords>109,91</coords>
+		<rectangle>1757,1462:1759,1464</rectangle>
+	</site>
+	<site>
+		<id>24</id>
+		<type>cave</type>
+		<name>the cave of sabres</name>
+		<coords>72,70</coords>
+		<rectangle>1159,1122:1161,1124</rectangle>
+	</site>
+	<site>
+		<id>25</id>
+		<type>cave</type>
+		<name>the uncommon sewers</name>
+		<coords>98,60</coords>
+		<rectangle>1568,961:1570,963</rectangle>
+	</site>
+	<site>
+		<id>26</id>
+		<type>mysterious palace</type>
+		<name>nightfish</name>
+		<coords>59,55</coords>
+		<rectangle>955,888:955,888</rectangle>
+	</site>
+	<site>
+		<id>27</id>
+		<type>mysterious palace</type>
+		<name>risemined</name>
+		<coords>102,2</coords>
+		<rectangle>1647,46:1647,46</rectangle>
+	</site>
+	<site>
+		<id>28</id>
+		<type>mysterious dungeon</type>
+		<name>sculpturemine</name>
+		<coords>58,110</coords>
+		<rectangle>930,1767:930,1767</rectangle>
+	</site>
+	<site>
+		<id>29</id>
+		<type>mysterious dungeon</type>
+		<name>spatteredscar</name>
+		<coords>39,37</coords>
+		<rectangle>634,595:634,595</rectangle>
+	</site>
+	<site>
+		<id>30</id>
+		<type>mysterious dungeon</type>
+		<name>darksang</name>
+		<coords>32,85</coords>
+		<rectangle>526,1368:526,1368</rectangle>
+	</site>
+	<site>
+		<id>31</id>
+		<type>mysterious dungeon</type>
+		<name>crackbristle</name>
+		<coords>17,34</coords>
+		<rectangle>284,551:284,551</rectangle>
+	</site>
+	<site>
+		<id>32</id>
+		<type>mysterious dungeon</type>
+		<name>creepymines</name>
+		<coords>63,90</coords>
+		<rectangle>1011,1452:1011,1452</rectangle>
+	</site>
+	<site>
+		<id>33</id>
+		<type>mysterious dungeon</type>
+		<name>echoflew</name>
+		<coords>45,121</coords>
+		<rectangle>728,1937:728,1937</rectangle>
+	</site>
+	<site>
+		<id>34</id>
+		<type>mysterious dungeon</type>
+		<name>umbrakings</name>
+		<coords>23,116</coords>
+		<rectangle>379,1858:379,1858</rectangle>
+	</site>
+	<site>
+		<id>35</id>
+		<type>mysterious dungeon</type>
+		<name>giftedholes</name>
+		<coords>118,105</coords>
+		<rectangle>1891,1687:1891,1687</rectangle>
+	</site>
+	<site>
+		<id>36</id>
+		<type>mysterious dungeon</type>
+		<name>blossomshaft</name>
+		<coords>76,31</coords>
+		<rectangle>1222,509:1222,509</rectangle>
+	</site>
+	<site>
+		<id>37</id>
+		<type>mysterious dungeon</type>
+		<name>minednourish</name>
+		<coords>67,17</coords>
+		<rectangle>1075,287:1075,287</rectangle>
+	</site>
+	<site>
+		<id>38</id>
+		<type>mysterious lair</type>
+		<name>scarrace</name>
+		<coords>13,57</coords>
+		<rectangle>218,912:218,912</rectangle>
+	</site>
+	<site>
+		<id>39</id>
+		<type>mysterious lair</type>
+		<name>echoscoured</name>
+		<coords>2,78</coords>
+		<rectangle>35,1261:35,1261</rectangle>
+	</site>
+	<site>
+		<id>40</id>
+		<type>mysterious lair</type>
+		<name>grandechoes</name>
+		<coords>109,124</coords>
+		<rectangle>1747,1993:1747,1993</rectangle>
+	</site>
+	<site>
+		<id>41</id>
+		<type>mysterious lair</type>
+		<name>wartcaves</name>
+		<coords>50,98</coords>
+		<rectangle>808,1570:808,1570</rectangle>
+	</site>
+	<site>
+		<id>42</id>
+		<type>mysterious lair</type>
+		<name>pitbone</name>
+		<coords>24,97</coords>
+		<rectangle>384,1561:384,1561</rectangle>
+	</site>
+	<site>
+		<id>43</id>
+		<type>mysterious lair</type>
+		<name>crackedweasels</name>
+		<coords>94,96</coords>
+		<rectangle>1506,1537:1506,1537</rectangle>
+	</site>
+	<site>
+		<id>44</id>
+		<type>mysterious lair</type>
+		<name>shaftwhirled</name>
+		<coords>68,42</coords>
+		<rectangle>1096,679:1096,679</rectangle>
+	</site>
+	<site>
+		<id>45</id>
+		<type>mysterious lair</type>
+		<name>fillhollows</name>
+		<coords>47,62</coords>
+		<rectangle>762,1006:762,1006</rectangle>
+	</site>
+	<site>
+		<id>46</id>
+		<type>mysterious lair</type>
+		<name>minesloths</name>
+		<coords>23,47</coords>
+		<rectangle>368,761:368,761</rectangle>
+	</site>
+	<site>
+		<id>47</id>
+		<type>mysterious lair</type>
+		<name>illheart</name>
+		<coords>14,106</coords>
+		<rectangle>229,1710:229,1710</rectangle>
+	</site>
+	<site>
+		<id>48</id>
+		<type>mysterious lair</type>
+		<name>umbratemple</name>
+		<coords>87,108</coords>
+		<rectangle>1394,1742:1394,1742</rectangle>
+	</site>
+	<site>
+		<id>49</id>
+		<type>mysterious lair</type>
+		<name>umbrayearlings</name>
+		<coords>60,6</coords>
+		<rectangle>973,102:973,102</rectangle>
+	</site>
+	<site>
+		<id>50</id>
+		<type>mysterious lair</type>
+		<name>knowcave</name>
+		<coords>51,15</coords>
+		<rectangle>825,240:825,240</rectangle>
+	</site>
+	<site>
+		<id>51</id>
+		<type>mysterious lair</type>
+		<name>echoplait</name>
+		<coords>38,20</coords>
+		<rectangle>623,325:623,325</rectangle>
+	</site>
+	<site>
+		<id>52</id>
+		<type>mysterious lair</type>
+		<name>dreamycracks</name>
+		<coords>92,44</coords>
+		<rectangle>1475,714:1475,714</rectangle>
+	</site>
+	<site>
+		<id>53</id>
+		<type>mysterious lair</type>
+		<name>gloomytorches</name>
+		<coords>52,41</coords>
+		<rectangle>839,661:839,661</rectangle>
+	</site>
+	<site>
+		<id>54</id>
+		<type>mysterious lair</type>
+		<name>crazedcracked</name>
+		<coords>30,29</coords>
+		<rectangle>493,473:493,473</rectangle>
+	</site>
+	<site>
+		<id>55</id>
+		<type>mysterious lair</type>
+		<name>thrallscar</name>
+		<coords>28,2</coords>
+		<rectangle>453,46:453,46</rectangle>
+	</site>
+	<site>
+		<id>56</id>
+		<type>mysterious lair</type>
+		<name>smallholes</name>
+		<coords>127,19</coords>
+		<rectangle>2040,313:2040,313</rectangle>
+	</site>
+	<site>
+		<id>57</id>
+		<type>mysterious lair</type>
+		<name>echoriddles</name>
+		<coords>107,77</coords>
+		<rectangle>1721,1244:1721,1244</rectangle>
+	</site>
+	<site>
+		<id>58</id>
+		<type>mysterious lair</type>
+		<name>sewerdismal</name>
+		<coords>107,23</coords>
+		<rectangle>1726,383:1726,383</rectangle>
+	</site>
+	<site>
+		<id>59</id>
+		<type>mysterious lair</type>
+		<name>drownedshaft</name>
+		<coords>99,15</coords>
+		<rectangle>1591,246:1591,246</rectangle>
+	</site>
+	<site>
+		<id>60</id>
+		<type>mysterious lair</type>
+		<name>glandhell</name>
+		<coords>86,19</coords>
+		<rectangle>1380,318:1380,318</rectangle>
+	</site>
+	<site>
+		<id>61</id>
+		<type>mysterious lair</type>
+		<name>heartspeck</name>
+		<coords>81,92</coords>
+		<rectangle>1308,1479:1308,1479</rectangle>
+	</site>
+	<site>
+		<id>62</id>
+		<type>mysterious lair</type>
+		<name>gloomcoiled</name>
+		<coords>72,115</coords>
+		<rectangle>1161,1848:1161,1848</rectangle>
+	</site>
+	<site>
+		<id>63</id>
+		<type>mysterious lair</type>
+		<name>canyoncaves</name>
+		<coords>33,125</coords>
+		<rectangle>535,2008:535,2008</rectangle>
+	</site>
+	<site>
+		<id>64</id>
+		<type>mysterious lair</type>
+		<name>soundechoed</name>
+		<coords>17,88</coords>
+		<rectangle>278,1415:278,1415</rectangle>
+	</site>
+	<site>
+		<id>65</id>
+		<type>mysterious lair</type>
+		<name>sewerreined</name>
+		<coords>7,67</coords>
+		<rectangle>120,1083:120,1083</rectangle>
+	</site>
+	<site>
+		<id>66</id>
+		<type>mysterious lair</type>
+		<name>wondroushells</name>
+		<coords>81,63</coords>
+		<rectangle>1300,1018:1300,1018</rectangle>
+	</site>
+	<site>
+		<id>67</id>
+		<type>mysterious lair</type>
+		<name>gloomyponder</name>
+		<coords>74,84</coords>
+		<rectangle>1199,1353:1199,1353</rectangle>
+	</site>
+	<site>
+		<id>68</id>
+		<type>mysterious lair</type>
+		<name>deepsewers</name>
+		<coords>61,74</coords>
+		<rectangle>977,1188:977,1188</rectangle>
+	</site>
+	<site>
+		<id>69</id>
+		<type>mysterious lair</type>
+		<name>crevicemighty</name>
+		<coords>41,92</coords>
+		<rectangle>661,1485:661,1485</rectangle>
+	</site>
+	<site>
+		<id>70</id>
+		<type>mysterious lair</type>
+		<name>trapcracked</name>
+		<coords>14,22</coords>
+		<rectangle>226,357:226,357</rectangle>
+	</site>
+	<site>
+		<id>71</id>
+		<type>mysterious lair</type>
+		<name>cryptpit</name>
+		<coords>115,116</coords>
+		<rectangle>1847,1865:1847,1865</rectangle>
+	</site>
+	<site>
+		<id>72</id>
+		<type>mysterious lair</type>
+		<name>murkyspider</name>
+		<coords>115,83</coords>
+		<rectangle>1840,1342:1840,1342</rectangle>
+	</site>
+	<site>
+		<id>73</id>
+		<type>mysterious lair</type>
+		<name>hellward</name>
+		<coords>106,102</coords>
+		<rectangle>1705,1635:1705,1635</rectangle>
+	</site>
+	<site>
+		<id>74</id>
+		<type>mysterious lair</type>
+		<name>minedsunder</name>
+		<coords>101,85</coords>
+		<rectangle>1630,1360:1630,1360</rectangle>
+	</site>
+	<site>
+		<id>75</id>
+		<type>mysterious lair</type>
+		<name>leafnights</name>
+		<coords>89,55</coords>
+		<rectangle>1434,889:1434,889</rectangle>
+	</site>
+	<site>
+		<id>76</id>
+		<type>fortress</type>
+		<name>tomblines</name>
+		<coords>79,21</coords>
+		<rectangle>1264,349:1266,351</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>inn tavern</type>
+			<name>the peach of barricades</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>guildhall</type>
+			<name>the fenced twig</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>guildhall</type>
+			<name>the wheel of galleys</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>guildhall</type>
+			<name>the scholar of channels</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>guildhall</type>
+			<name>the contingent of working</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>guildhall</type>
+			<name>the odor of theater</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>77</id>
+		<type>dark fortress</type>
+		<name>blazeevil</name>
+		<coords>33,22</coords>
+		<rectangle>533,354:549,370</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>underworld spire</type>
+			<name>the waxy bastion</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the date of seducers</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the date of vice</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the barbarous cook</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>78</id>
+		<type>forest retreat</type>
+		<name>waxdrummed</name>
+		<coords>101,15</coords>
+		<rectangle>1615,239:1631,255</rectangle>
+	</site>
+	<site>
+		<id>79</id>
+		<type>town</type>
+		<name>dressstrays</name>
+		<coords>56,24</coords>
+		<rectangle>898,385:914,401</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the furious village</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the tower of paddling</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the plum of worlds</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>tower</type>
+			<name>the jade passage</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<type>house</type>
+				<owner_hfid>2225</owner_hfid>
+			</site_property>
+			<site_property>
+				<id>1</id>
+				<structure_id>3</structure_id>
+				<owner_hfid>7029</owner_hfid>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>80</id>
+		<type>town</type>
+		<name>problemsaffron</name>
+		<coords>8,34</coords>
+		<rectangle>126,550:142,566</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the creams of kindness</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the south castle</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>81</id>
+		<type>fortress</type>
+		<name>sharkstandard</name>
+		<coords>16,47</coords>
+		<rectangle>256,765:258,767</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>inn tavern</type>
+			<name>the sugar of creation</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>guildhall</type>
+			<name>the lyric of nets</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>guildhall</type>
+			<name>the mechanical moistness</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>guildhall</type>
+			<name>the purge of guilds</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>guildhall</type>
+			<name>the rough verse</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>guildhall</type>
+			<name>the trust of trades</name>
+		</structure>
+		<structure>
+			<local_id>6</local_id>
+			<type>temple</type>
+			<name>the temple of teachers</name>
+			<entity_id>433</entity_id>
+		</structure>
+		<structure>
+			<local_id>7</local_id>
+			<type>dungeon</type>
+			<subtype>catacombs</subtype>
+			<name>depressmine the shadow of moths</name>
+		</structure>
+		<structure>
+			<local_id>8</local_id>
+			<type>guildhall</type>
+			<name>the ambiguity of tools</name>
+		</structure>
+		<structure>
+			<local_id>9</local_id>
+			<type>tomb</type>
+			<name>the barricaded crypt</name>
+		</structure>
+		<structure>
+			<local_id>10</local_id>
+			<type>tomb</type>
+			<name>the grave of sabres</name>
+		</structure>
+		<structure>
+			<local_id>11</local_id>
+			<type>tomb</type>
+			<name>the mountainous tombs</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>82</id>
+		<type>forest retreat</type>
+		<name>mirthfulbeast</name>
+		<coords>65,13</coords>
+		<rectangle>1037,209:1053,225</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the coastal jacks</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the snack of jaws</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>83</id>
+		<type>dark fortress</type>
+		<name>horroreven</name>
+		<coords>34,59</coords>
+		<rectangle>545,943:561,959</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>underworld spire</type>
+			<name>the palace of sucking</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the maligned muffin</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the cruel syrup</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the evil bread</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>84</id>
+		<type>hamlet</type>
+		<name>stilldabble</name>
+		<coords>107,7</coords>
+		<rectangle>1707,113:1723,129</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the euphoric taxes</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>85</id>
+		<type>dark fortress</type>
+		<name>voicecruel</name>
+		<coords>106,110</coords>
+		<rectangle>1693,1751:1703,1767</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>underworld spire</type>
+			<name>the violent castle</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the pepper of terror</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the profane muffin</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the teeth of sin</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>inn tavern</type>
+			<name>the doomed dinners</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>inn tavern</type>
+			<name>the bad apples</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>86</id>
+		<type>forest retreat</type>
+		<name>rosyromanced</name>
+		<coords>54,81</coords>
+		<rectangle>869,1296:882,1312</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the lunch of blazing</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the bearded baker</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>87</id>
+		<type>fortress</type>
+		<name>halesteel</name>
+		<coords>112,20</coords>
+		<rectangle>1799,332:1801,334</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>inn tavern</type>
+			<name>the cobalt syrups</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>guildhall</type>
+			<name>the fenced sparkles</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>library</type>
+			<name>the true vault</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>guildhall</type>
+			<name>the urns of tongs</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>guildhall</type>
+			<name>the silky daubs</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>temple</type>
+			<name>the dominant chapel</name>
+			<entity_id>448</entity_id>
+		</structure>
+		<structure>
+			<local_id>6</local_id>
+			<type>dungeon</type>
+			<subtype>catacombs</subtype>
+			<name>scabshollow</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>88</id>
+		<type>fortress</type>
+		<name>bootgalleys</name>
+		<coords>96,113</coords>
+		<rectangle>1536,1821:1538,1823</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>guildhall</type>
+			<name>the walled justice</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the earthen lemon</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>library</type>
+			<name>the bastion of poets</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>guildhall</type>
+			<name>the silken spirit</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>guildhall</type>
+			<name>the lock of crafting</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>guildhall</type>
+			<name>the brass winter</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>89</id>
+		<type>dark fortress</type>
+		<name>seducecrumbles</name>
+		<coords>70,115</coords>
+		<rectangle>1125,1840:1141,1856</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>underworld spire</type>
+			<name>the citadel of ages</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the dessert of plagues</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the candy of dungeons</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the malignant sugars</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>inn tavern</type>
+			<name>the unholy honeys</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>inn tavern</type>
+			<name>the doomed eater</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>90</id>
+		<type>town</type>
+		<name>atticships</name>
+		<coords>126,14</coords>
+		<rectangle>2014,229:2030,241</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the scraped grower</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the rustic tower</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the lunch of lilacs</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>temple</type>
+			<name>the fragrant sanctuary</name>
+			<entity_id>405</entity_id>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>dungeon</type>
+			<subtype>catacombs</subtype>
+			<name>hazescar the spiders of order</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>counting house</type>
+			<name>the west leaf</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>5</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>91</id>
+		<type>forest retreat</type>
+		<name>trussseason</name>
+		<coords>65,118</coords>
+		<rectangle>1042,1886:1058,1902</rectangle>
+	</site>
+	<site>
+		<id>92</id>
+		<type>dark fortress</type>
+		<name>scourgetalk</name>
+		<coords>110,124</coords>
+		<rectangle>1760,1989:1776,2005</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>underworld spire</type>
+			<name>the ruthless bastion</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the spidery orange</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the spidery fragrances</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the bread of midnights</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>inn tavern</type>
+			<name>the profane candies</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>93</id>
+		<type>fortress</type>
+		<name>gravelwondered</name>
+		<coords>38,17</coords>
+		<rectangle>621,272:623,274</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>guildhall</type>
+			<name>the inky dangers</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>guildhall</type>
+			<name>the inky clouds</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>guildhall</type>
+			<name>the legend of anvils</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the turquoise dessert</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>guildhall</type>
+			<name>the barricaded square</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>guildhall</type>
+			<name>the gilded admirer</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>94</id>
+		<type>forest retreat</type>
+		<name>shockedvine</name>
+		<coords>105,10</coords>
+		<rectangle>1685,159:1701,175</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the bushel of smiles</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the oaken muffin of leopards</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>counting house</type>
+			<name>the pelt of guilds</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>2</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>95</id>
+		<type>town</type>
+		<name>passdangles</name>
+		<coords>101,3</coords>
+		<rectangle>1614,46:1630,62</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the rhythmic plants</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the prim tower</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>tower</type>
+			<name>the conjurer of wealth</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the lucky lunch</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>counting house</type>
+			<name>the east severity</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>2</structure_id>
+			</site_property>
+			<site_property>
+				<id>1</id>
+				<structure_id>4</structure_id>
+			</site_property>
+			<site_property>
+				<id>2</id>
+				<type>house</type>
+			</site_property>
+			<site_property>
+				<id>3</id>
+				<type>house</type>
+				<owner_hfid>1422</owner_hfid>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>96</id>
+		<type>dark fortress</type>
+		<name>listenfly</name>
+		<coords>98,103</coords>
+		<rectangle>1567,1648:1583,1664</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>underworld spire</type>
+			<name>the spurting palace</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the dreadful cakes</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the black saffron</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the immoral dinners</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>97</id>
+		<type>town</type>
+		<name>slaughterswrung</name>
+		<coords>82,108</coords>
+		<rectangle>1313,1723:1329,1739</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the eternal stray</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the brown citadel</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>98</id>
+		<type>vault</type>
+		<name>healedbud</name>
+		<coords>66,19</coords>
+		<rectangle>1068,307:1068,307</rectangle>
+	</site>
+	<site>
+		<id>99</id>
+		<type>vault</type>
+		<name>lawcysts</name>
+		<coords>112,109</coords>
+		<rectangle>1795,1747:1795,1747</rectangle>
+	</site>
+	<site>
+		<id>100</id>
+		<type>vault</type>
+		<name>conflictsearches</name>
+		<coords>102,86</coords>
+		<rectangle>1646,1384:1646,1384</rectangle>
+	</site>
+	<site>
+		<id>101</id>
+		<type>vault</type>
+		<name>nourishbuds</name>
+		<coords>116,25</coords>
+		<rectangle>1868,403:1868,403</rectangle>
+	</site>
+	<site>
+		<id>102</id>
+		<type>vault</type>
+		<name>glovedmenaced</name>
+		<coords>113,114</coords>
+		<rectangle>1810,1829:1810,1829</rectangle>
+	</site>
+	<site>
+		<id>103</id>
+		<type>vault</type>
+		<name>glandbulwarks</name>
+		<coords>52,66</coords>
+		<rectangle>844,1068:844,1068</rectangle>
+	</site>
+	<site>
+		<id>104</id>
+		<type>hillocks</type>
+		<name>reignedglazes</name>
+		<coords>112,21</coords>
+		<rectangle>1792,335:1808,351</rectangle>
+	</site>
+	<site>
+		<id>105</id>
+		<type>forest retreat</type>
+		<name>beachriver</name>
+		<coords>105,9</coords>
+		<rectangle>1685,142:1701,158</rectangle>
+	</site>
+	<site>
+		<id>106</id>
+		<type>dark pits</type>
+		<name>buckmaligns</name>
+		<coords>69,115</coords>
+		<rectangle>1108,1840:1124,1856</rectangle>
+	</site>
+	<site>
+		<id>107</id>
+		<type>dark pits</type>
+		<name>leperhate</name>
+		<coords>107,109</coords>
+		<rectangle>1712,1744:1719,1760</rectangle>
+	</site>
+	<site>
+		<id>108</id>
+		<type>dark pits</type>
+		<name>tourhate</name>
+		<coords>33,58</coords>
+		<rectangle>533,926:549,942</rectangle>
+	</site>
+	<site>
+		<id>109</id>
+		<type>hamlet</type>
+		<name>tonedspoken</name>
+		<coords>102,4</coords>
+		<rectangle>1635,68:1649,84</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the tusk of assault</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>110</id>
+		<type>forest retreat</type>
+		<name>rainedroom</name>
+		<coords>64,14</coords>
+		<rectangle>1023,228:1039,244</rectangle>
+	</site>
+	<site>
+		<id>111</id>
+		<type>dark pits</type>
+		<name>faintflies</name>
+		<coords>99,102</coords>
+		<rectangle>1589,1626:1605,1642</rectangle>
+	</site>
+	<site>
+		<id>112</id>
+		<type>hamlet</type>
+		<name>begunboard</name>
+		<coords>8,35</coords>
+		<rectangle>129,567:145,582</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the wisp of clasping</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>113</id>
+		<type>hillocks</type>
+		<name>enjoyedlanterns</name>
+		<coords>78,22</coords>
+		<rectangle>1248,355:1264,371</rectangle>
+	</site>
+	<site>
+		<id>114</id>
+		<type>hamlet</type>
+		<name>sheenrouted</name>
+		<coords>81,108</coords>
+		<rectangle>1301,1723:1312,1739</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the tired apogee</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>115</id>
+		<type>forest retreat</type>
+		<name>honoredskunk</name>
+		<coords>54,80</coords>
+		<rectangle>869,1279:882,1295</rectangle>
+	</site>
+	<site>
+		<id>116</id>
+		<type>forest retreat</type>
+		<name>mountaincounsels</name>
+		<coords>64,117</coords>
+		<rectangle>1017,1874:1033,1890</rectangle>
+	</site>
+	<site>
+		<id>117</id>
+		<type>hillocks</type>
+		<name>anguishseal</name>
+		<coords>95,113</coords>
+		<rectangle>1514,1808:1530,1824</rectangle>
+	</site>
+	<site>
+		<id>118</id>
+		<type>hamlet</type>
+		<name>fencegoat</name>
+		<coords>55,25</coords>
+		<rectangle>883,405:899,421</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the moistness of painting</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>119</id>
+		<type>hamlet</type>
+		<name>whipbrides</name>
+		<coords>126,13</coords>
+		<rectangle>2010,212:2026,228</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the delight of hedges</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>120</id>
+		<type>forest retreat</type>
+		<name>flaxencages</name>
+		<coords>102,14</coords>
+		<rectangle>1630,218:1646,234</rectangle>
+	</site>
+	<site>
+		<id>121</id>
+		<type>hamlet</type>
+		<name>pulleyviper</name>
+		<coords>108,8</coords>
+		<rectangle>1728,129:1744,145</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the world of boys</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>122</id>
+		<type>dark pits</type>
+		<name>fedthief</name>
+		<coords>32,22</coords>
+		<rectangle>509,346:525,362</rectangle>
+	</site>
+	<site>
+		<id>123</id>
+		<type>dark pits</type>
+		<name>monsterbewitched</name>
+		<coords>98,102</coords>
+		<rectangle>1561,1632:1577,1647</rectangle>
+	</site>
+	<site>
+		<id>124</id>
+		<type>dark pits</type>
+		<name>hexstaff</name>
+		<coords>69,116</coords>
+		<rectangle>1098,1857:1114,1873</rectangle>
+	</site>
+	<site>
+		<id>125</id>
+		<type>hillocks</type>
+		<name>boltwarm</name>
+		<coords>14,46</coords>
+		<rectangle>224,741:240,757</rectangle>
+	</site>
+	<site>
+		<id>126</id>
+		<type>hamlet</type>
+		<name>boarsprings</name>
+		<coords>80,108</coords>
+		<rectangle>1273,1723:1289,1739</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the chambers of speech</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>127</id>
+		<type>hillocks</type>
+		<name>mirrorjail</name>
+		<coords>110,19</coords>
+		<rectangle>1760,305:1776,321</rectangle>
+	</site>
+	<site>
+		<id>128</id>
+		<type>forest retreat</type>
+		<name>limbdives</name>
+		<coords>104,9</coords>
+		<rectangle>1663,150:1679,166</rectangle>
+	</site>
+	<site>
+		<id>129</id>
+		<type>hillocks</type>
+		<name>dearthpages</name>
+		<coords>16,49</coords>
+		<rectangle>261,789:277,805</rectangle>
+	</site>
+	<site>
+		<id>130</id>
+		<type>dark pits</type>
+		<name>flygleamed</name>
+		<coords>98,101</coords>
+		<rectangle>1562,1615:1578,1631</rectangle>
+	</site>
+	<site>
+		<id>131</id>
+		<type>hillocks</type>
+		<name>bravelabors</name>
+		<coords>110,21</coords>
+		<rectangle>1759,330:1775,346</rectangle>
+	</site>
+	<site>
+		<id>132</id>
+		<type>hamlet</type>
+		<name>loverclobber</name>
+		<coords>9,36</coords>
+		<rectangle>144,583:160,599</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the butcher of reputations</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>133</id>
+		<type>dark pits</type>
+		<name>badenters</name>
+		<coords>34,58</coords>
+		<rectangle>550,926:566,942</rectangle>
+	</site>
+	<site>
+		<id>134</id>
+		<type>hillocks</type>
+		<name>boardcrested</name>
+		<coords>13,44</coords>
+		<rectangle>213,709:229,725</rectangle>
+	</site>
+	<site>
+		<id>135</id>
+		<type>dark pits</type>
+		<name>malicegoos</name>
+		<coords>106,109</coords>
+		<rectangle>1704,1744:1711,1760</rectangle>
+	</site>
+	<site>
+		<id>136</id>
+		<type>dark pits</type>
+		<name>hellscribed</name>
+		<coords>33,59</coords>
+		<rectangle>528,949:544,965</rectangle>
+	</site>
+	<site>
+		<id>137</id>
+		<type>hillocks</type>
+		<name>streamhelms</name>
+		<coords>77,21</coords>
+		<rectangle>1230,336:1246,352</rectangle>
+	</site>
+	<site>
+		<id>138</id>
+		<type>hillocks</type>
+		<name>silverydimples</name>
+		<coords>40,20</coords>
+		<rectangle>640,325:656,341</rectangle>
+	</site>
+	<site>
+		<id>139</id>
+		<type>hamlet</type>
+		<name>walledsavage</name>
+		<coords>124,12</coords>
+		<rectangle>1987,190:2003,206</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the divine ray</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>140</id>
+		<type>dark pits</type>
+		<name>unitedmaligned</name>
+		<coords>31,22</coords>
+		<rectangle>492,346:508,362</rectangle>
+	</site>
+	<site>
+		<id>141</id>
+		<type>dark pits</type>
+		<name>malignedfinder</name>
+		<coords>107,110</coords>
+		<rectangle>1720,1754:1736,1770</rectangle>
+	</site>
+	<site>
+		<id>142</id>
+		<type>dark pits</type>
+		<name>bowelevils</name>
+		<coords>70,116</coords>
+		<rectangle>1122,1861:1138,1877</rectangle>
+	</site>
+	<site>
+		<id>143</id>
+		<type>hamlet</type>
+		<name>lullteal</name>
+		<coords>54,24</coords>
+		<rectangle>861,381:877,397</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the medicine of flames</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>144</id>
+		<type>dark pits</type>
+		<name>doomedtaught</name>
+		<coords>109,122</coords>
+		<rectangle>1738,1952:1754,1968</rectangle>
+	</site>
+	<site>
+		<id>145</id>
+		<type>hillocks</type>
+		<name>tombspread</name>
+		<coords>83,24</coords>
+		<rectangle>1322,384:1338,400</rectangle>
+	</site>
+	<site>
+		<id>146</id>
+		<type>forest retreat</type>
+		<name>skunktempest</name>
+		<coords>53,81</coords>
+		<rectangle>850,1297:866,1313</rectangle>
+	</site>
+	<site>
+		<id>147</id>
+		<type>dark pits</type>
+		<name>hellgrieved</name>
+		<coords>28,23</coords>
+		<rectangle>448,362:464,378</rectangle>
+	</site>
+	<site>
+		<id>148</id>
+		<type>hamlet</type>
+		<name>dreamedclashes</name>
+		<coords>101,5</coords>
+		<rectangle>1618,81:1634,97</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the faint whispers</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>149</id>
+		<type>forest retreat</type>
+		<name>entrancegorges</name>
+		<coords>64,13</coords>
+		<rectangle>1024,210:1036,226</rectangle>
+	</site>
+	<site>
+		<id>150</id>
+		<type>forest retreat</type>
+		<name>dalemodest</name>
+		<coords>65,117</coords>
+		<rectangle>1039,1869:1055,1885</rectangle>
+	</site>
+	<site>
+		<id>151</id>
+		<type>dark pits</type>
+		<name>tunnelscourge</name>
+		<coords>32,54</coords>
+		<rectangle>506,864:522,880</rectangle>
+	</site>
+	<site>
+		<id>152</id>
+		<type>dark pits</type>
+		<name>stutteredmenace</name>
+		<coords>108,122</coords>
+		<rectangle>1721,1952:1737,1968</rectangle>
+	</site>
+	<site>
+		<id>153</id>
+		<type>forest retreat</type>
+		<name>heatherfragrance</name>
+		<coords>101,16</coords>
+		<rectangle>1618,259:1634,275</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the button of swamps</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the adorable oats</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>temple</type>
+			<name>the shrine of embracing</name>
+			<entity_id>418</entity_id>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>dungeon</type>
+			<subtype>catacombs</subtype>
+			<name>mergedshafts</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>154</id>
+		<type>hillocks</type>
+		<name>mineconstructs</name>
+		<coords>41,16</coords>
+		<rectangle>656,261:672,277</rectangle>
+	</site>
+	<site>
+		<id>155</id>
+		<type>dark pits</type>
+		<name>malignedbreeds</name>
+		<coords>109,120</coords>
+		<rectangle>1749,1925:1765,1941</rectangle>
+	</site>
+	<site>
+		<id>156</id>
+		<type>hamlet</type>
+		<name>basementtrampled</name>
+		<coords>107,8</coords>
+		<rectangle>1705,130:1721,146</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the stone of braids</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>157</id>
+		<type>forest retreat</type>
+		<name>sectheather</name>
+		<coords>95,15</coords>
+		<rectangle>1518,237:1534,253</rectangle>
+	</site>
+	<site>
+		<id>158</id>
+		<type>hamlet</type>
+		<name>mouthbush</name>
+		<coords>98,10</coords>
+		<rectangle>1563,162:1579,178</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the evenness of girders</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>159</id>
+		<type>forest retreat</type>
+		<name>primsilky</name>
+		<coords>105,7</coords>
+		<rectangle>1673,111:1689,127</rectangle>
+	</site>
+	<site>
+		<id>160</id>
+		<type>forest retreat</type>
+		<name>hidestop</name>
+		<coords>55,81</coords>
+		<rectangle>883,1290:899,1306</rectangle>
+	</site>
+	<site>
+		<id>161</id>
+		<type>hamlet</type>
+		<name>mutedflanks</name>
+		<coords>51,29</coords>
+		<rectangle>820,462:836,477</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the points of driving</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>162</id>
+		<type>hillocks</type>
+		<name>coalcalled</name>
+		<coords>76,14</coords>
+		<rectangle>1210,218:1226,234</rectangle>
+	</site>
+	<site>
+		<id>163</id>
+		<type>tomb</type>
+		<name>keeperback</name>
+		<coords>81,107</coords>
+		<rectangle>1298,1723:1300,1725</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>tomb</type>
+			<name>the modest crypt</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>tomb</type>
+			<name>the grave of practice</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>tomb</type>
+			<name>the clear crypts</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>tomb</type>
+			<name>the mellow crypt</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>164</id>
+		<type>forest retreat</type>
+		<name>lyricbound</name>
+		<coords>105,6</coords>
+		<rectangle>1684,94:1700,110</rectangle>
+	</site>
+	<site>
+		<id>165</id>
+		<type>town</type>
+		<name>siegedonion</name>
+		<coords>118,14</coords>
+		<rectangle>1884,223:1900,239</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the mechanical hips</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the oat of olives</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>keep</type>
+			<name>the laconic palace</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>counting house</type>
+			<name>the tome of walks</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>temple</type>
+			<name>the shrine of larks</name>
+			<entity_id>405</entity_id>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>dungeon</type>
+			<subtype>catacombs</subtype>
+			<name>catchdark</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<type>house</type>
+			</site_property>
+			<site_property>
+				<id>1</id>
+				<structure_id>3</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>166</id>
+		<type>hamlet</type>
+		<name>chamberrains</name>
+		<coords>12,37</coords>
+		<rectangle>197,595:213,611</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the mines of grooving</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>167</id>
+		<type>hillocks</type>
+		<name>palaceevened</name>
+		<coords>11,47</coords>
+		<rectangle>170,746:186,762</rectangle>
+	</site>
+	<site>
+		<id>168</id>
+		<type>tomb</type>
+		<name>scribewandered</name>
+		<coords>55,23</coords>
+		<rectangle>891,379:893,381</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>tomb</type>
+			<name>the subtle tombs</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>tomb</type>
+			<name>the sunken crypt</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>169</id>
+		<type>tomb</type>
+		<name>truthfulcasket</name>
+		<coords>118,15</coords>
+		<rectangle>1899,242:1901,244</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>tomb</type>
+			<name>the laborious crypt of foot</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>tomb</type>
+			<name>the crypts of submerging</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>tomb</type>
+			<name>the pure tomb</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>170</id>
+		<type>castle</type>
+		<name>lashsiege</name>
+		<coords>107,9</coords>
+		<rectangle>1712,151:1714,153</rectangle>
+	</site>
+	<site>
+		<id>171</id>
+		<type>hamlet</type>
+		<name>knowbeers</name>
+		<coords>114,9</coords>
+		<rectangle>1826,148:1842,164</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the frost of cages</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>172</id>
+		<type>forest retreat</type>
+		<name>twowings</name>
+		<coords>60,14</coords>
+		<rectangle>959,221:975,237</rectangle>
+	</site>
+	<site>
+		<id>173</id>
+		<type>forest retreat</type>
+		<name>dellmatch</name>
+		<coords>59,15</coords>
+		<rectangle>944,240:960,256</rectangle>
+	</site>
+	<site>
+		<id>174</id>
+		<type>forest retreat</type>
+		<name>belllarks</name>
+		<coords>53,80</coords>
+		<rectangle>852,1280:868,1296</rectangle>
+	</site>
+	<site>
+		<id>175</id>
+		<type>hillocks</type>
+		<name>feedlash</name>
+		<coords>10,39</coords>
+		<rectangle>154,629:170,645</rectangle>
+	</site>
+	<site>
+		<id>176</id>
+		<type>hamlet</type>
+		<name>saffrondistance</name>
+		<coords>99,11</coords>
+		<rectangle>1580,177:1596,193</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the books of chucking</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>177</id>
+		<type>forest retreat</type>
+		<name>godlylizard</name>
+		<coords>94,15</coords>
+		<rectangle>1501,233:1517,249</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the home of drinks</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the flowery cake</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>temple</type>
+			<name>the fancy sanctuary</name>
+			<entity_id>418</entity_id>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>dungeon</type>
+			<subtype>catacombs</subtype>
+			<name>cancerhells</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>keep</type>
+			<name>the towers of heart</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>tomb</type>
+			<name>the tombs of light</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>178</id>
+		<type>town</type>
+		<name>soakedbulbous</name>
+		<coords>2,40</coords>
+		<rectangle>34,636:50,652</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the cream of joys</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the sienna butters</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>keep</type>
+			<name>the fortress of living</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<type>house</type>
+			</site_property>
+			<site_property>
+				<id>1</id>
+				<type>house</type>
+				<owner_hfid>1027</owner_hfid>
+			</site_property>
+			<site_property>
+				<id>2</id>
+				<type>house</type>
+				<owner_hfid>3999</owner_hfid>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>179</id>
+		<type>hillocks</type>
+		<name>salveraptor</name>
+		<coords>110,18</coords>
+		<rectangle>1760,288:1776,304</rectangle>
+	</site>
+	<site>
+		<id>180</id>
+		<type>hamlet</type>
+		<name>peekanguish</name>
+		<coords>120,13</coords>
+		<rectangle>1926,209:1942,225</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the untamed swamps</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>181</id>
+		<type>dark pits</type>
+		<name>malignedroom</name>
+		<coords>110,119</coords>
+		<rectangle>1758,1905:1774,1921</rectangle>
+	</site>
+	<site>
+		<id>182</id>
+		<type>hamlet</type>
+		<name>waywardraptors</name>
+		<coords>79,110</coords>
+		<rectangle>1263,1758:1279,1774</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the one of sacrificing</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>183</id>
+		<type>hamlet</type>
+		<name>mysterybathes</name>
+		<coords>4,43</coords>
+		<rectangle>64,687:80,703</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the column of murder</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>184</id>
+		<type>hillocks</type>
+		<name>bellscrafts</name>
+		<coords>32,13</coords>
+		<rectangle>512,202:528,218</rectangle>
+	</site>
+	<site>
+		<id>185</id>
+		<type>hillocks</type>
+		<name>rapidpaddles</name>
+		<coords>32,12</coords>
+		<rectangle>512,187:528,201</rectangle>
+	</site>
+	<site>
+		<id>186</id>
+		<type>hillocks</type>
+		<name>rawsilver</name>
+		<coords>95,107</coords>
+		<rectangle>1525,1712:1541,1728</rectangle>
+	</site>
+	<site>
+		<id>187</id>
+		<type>town</type>
+		<name>rapidstab</name>
+		<coords>120,21</coords>
+		<rectangle>1919,339:1935,355</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the lemon of dusks</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the belly of calming</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>keep</type>
+			<name>the castle of dabblers</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>counting house</type>
+			<name>the squid of wandering</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<type>house</type>
+			</site_property>
+			<site_property>
+				<id>1</id>
+				<structure_id>3</structure_id>
+			</site_property>
+			<site_property>
+				<id>2</id>
+				<type>house</type>
+				<owner_hfid>5544</owner_hfid>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>188</id>
+		<type>hamlet</type>
+		<name>daggertour</name>
+		<coords>49,33</coords>
+		<rectangle>787,526:803,542</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the sunken ally</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>189</id>
+		<type>hamlet</type>
+		<name>groupedhares</name>
+		<coords>93,10</coords>
+		<rectangle>1485,158:1501,174</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the fuchsia howls</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>190</id>
+		<type>hillocks</type>
+		<name>giltbeached</name>
+		<coords>97,105</coords>
+		<rectangle>1557,1674:1573,1690</rectangle>
+	</site>
+	<site>
+		<id>191</id>
+		<type>hillocks</type>
+		<name>claspedtreaty</name>
+		<coords>84,25</coords>
+		<rectangle>1344,394:1360,410</rectangle>
+	</site>
+	<site>
+		<id>192</id>
+		<type>fortress</type>
+		<name>grooveurns</name>
+		<coords>104,14</coords>
+		<rectangle>1665,236:1667,238</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the mechanical stray</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the butter of pages</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>guildhall</type>
+			<name>the assault of working</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>guildhall</type>
+			<name>the inks-oil of salves</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>guildhall</type>
+			<name>the side of wires</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>counting house</type>
+			<name>the south conjurers</name>
+		</structure>
+		<structure>
+			<local_id>6</local_id>
+			<type>counting house</type>
+			<name>the wayward machine</name>
+		</structure>
+		<structure>
+			<local_id>7</local_id>
+			<type>counting house</type>
+			<name>the ferocity of merchants</name>
+		</structure>
+		<structure>
+			<local_id>8</local_id>
+			<type>counting house</type>
+			<name>the north bowel</name>
+		</structure>
+		<structure>
+			<local_id>9</local_id>
+			<type>guildhall</type>
+			<name>the gloved idol</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>5</structure_id>
+			</site_property>
+			<site_property>
+				<id>1</id>
+				<structure_id>6</structure_id>
+			</site_property>
+			<site_property>
+				<id>2</id>
+				<structure_id>7</structure_id>
+			</site_property>
+			<site_property>
+				<id>3</id>
+				<structure_id>8</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>193</id>
+		<type>hamlet</type>
+		<name>sweepgoat</name>
+		<coords>45,25</coords>
+		<rectangle>719,402:735,418</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the simple pastime</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>194</id>
+		<type>hamlet</type>
+		<name>lashskull</name>
+		<coords>99,12</coords>
+		<rectangle>1586,194:1598,205</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the tangled city</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>195</id>
+		<type>hillocks</type>
+		<name>bellally</name>
+		<coords>103,18</coords>
+		<rectangle>1642,293:1658,309</rectangle>
+	</site>
+	<site>
+		<id>196</id>
+		<type>hamlet</type>
+		<name>coastclosed</name>
+		<coords>90,114</coords>
+		<rectangle>1446,1825:1462,1841</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the lost ships</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>mead hall</type>
+			<name>the clean quicknesses</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>197</id>
+		<type>dark pits</type>
+		<name>releasedprofane</name>
+		<coords>72,117</coords>
+		<rectangle>1152,1866:1168,1882</rectangle>
+	</site>
+	<site>
+		<id>198</id>
+		<type>hamlet</type>
+		<name>knightstandard</name>
+		<coords>46,25</coords>
+		<rectangle>736,400:750,416</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the twilight of gates</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>199</id>
+		<type>forest retreat</type>
+		<name>divepraised</name>
+		<coords>50,71</coords>
+		<rectangle>805,1137:821,1153</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the apple of vines</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the saturnine peppers</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>200</id>
+		<type>dark pits</type>
+		<name>scourgespite</name>
+		<coords>103,107</coords>
+		<rectangle>1653,1712:1669,1728</rectangle>
+	</site>
+	<site>
+		<id>201</id>
+		<type>town</type>
+		<name>scribespicy</name>
+		<coords>15,33</coords>
+		<rectangle>250,532:266,548</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the mellow sleeve</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the castle of imprisonment</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the laborious meal</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<type>house</type>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>202</id>
+		<type>dark pits</type>
+		<name>malicestirred</name>
+		<coords>105,111</coords>
+		<rectangle>1680,1776:1696,1792</rectangle>
+	</site>
+	<site>
+		<id>203</id>
+		<type>fortress</type>
+		<name>wheelmerchant</name>
+		<coords>79,27</coords>
+		<rectangle>1276,439:1278,441</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the peek of fortifications</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the diamond syrups</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>guildhall</type>
+			<name>the past of mansions</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>guildhall</type>
+			<name>the owl of shielding</name>
+		</structure>
+		<structure>
+			<local_id>4</local_id>
+			<type>guildhall</type>
+			<name>the island of constructs</name>
+		</structure>
+		<structure>
+			<local_id>5</local_id>
+			<type>guildhall</type>
+			<name>the brass gifts</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>204</id>
+		<type>fortress</type>
+		<name>boatsaviors</name>
+		<coords>16,40</coords>
+		<rectangle>259,643:261,645</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the cup of wire</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the ochre plum</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>205</id>
+		<type>fortress</type>
+		<name>craftrule</name>
+		<coords>29,14</coords>
+		<rectangle>477,231:479,233</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the ochre pants</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>library</type>
+			<name>the watchful palace</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the gilded tongues</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>206</id>
+		<type>forest retreat</type>
+		<name>seasondaubed</name>
+		<coords>99,18</coords>
+		<rectangle>1584,293:1600,309</rectangle>
+	</site>
+	<site>
+		<id>207</id>
+		<type>hillocks</type>
+		<name>coasthandles</name>
+		<coords>104,16</coords>
+		<rectangle>1669,256:1685,272</rectangle>
+	</site>
+	<site>
+		<id>208</id>
+		<type>forest retreat</type>
+		<name>skirtsrobust</name>
+		<coords>90,16</coords>
+		<rectangle>1437,251:1453,267</rectangle>
+	</site>
+	<site>
+		<id>209</id>
+		<type>forest retreat</type>
+		<name>basinpanther</name>
+		<coords>98,20</coords>
+		<rectangle>1565,321:1581,337</rectangle>
+	</site>
+	<site>
+		<id>210</id>
+		<type>dark pits</type>
+		<name>dreadhobbled</name>
+		<coords>107,113</coords>
+		<rectangle>1717,1811:1733,1824</rectangle>
+	</site>
+	<site>
+		<id>211</id>
+		<type>hillocks</type>
+		<name>boardhailed</name>
+		<coords>30,14</coords>
+		<rectangle>480,218:496,234</rectangle>
+	</site>
+	<site>
+		<id>212</id>
+		<type>hamlet</type>
+		<name>empiresabbeys</name>
+		<coords>45,24</coords>
+		<rectangle>719,379:733,395</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the courtesies of spinning</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>213</id>
+		<type>hamlet</type>
+		<name>distantstrapped</name>
+		<coords>100,8</coords>
+		<rectangle>1604,126:1620,142</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the tome of testing</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>214</id>
+		<type>hamlet</type>
+		<name>paddlenests</name>
+		<coords>90,113</coords>
+		<rectangle>1435,1805:1451,1821</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the modesty of renown</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>215</id>
+		<type>castle</type>
+		<name>prestigegripped</name>
+		<coords>51,28</coords>
+		<rectangle>827,459:829,461</rectangle>
+	</site>
+	<site>
+		<id>216</id>
+		<type>hamlet</type>
+		<name>tuftclock</name>
+		<coords>44,28</coords>
+		<rectangle>709,449:725,464</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the healer of bellies</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>217</id>
+		<type>castle</type>
+		<name>glimmeredshove</name>
+		<coords>100,10</coords>
+		<rectangle>1607,160:1609,162</rectangle>
+	</site>
+	<site>
+		<id>218</id>
+		<type>hamlet</type>
+		<name>praiseochre</name>
+		<coords>100,11</coords>
+		<rectangle>1597,176:1613,192</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the lone gears</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>219</id>
+		<type>forest retreat</type>
+		<name>lionfriend</name>
+		<coords>84,11</coords>
+		<rectangle>1340,174:1356,190</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the intricate planter</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the oat of tusks</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>220</id>
+		<type>tower</type>
+		<name>foldedurns</name>
+		<coords>102,23</coords>
+		<rectangle>1641,374:1647,380</rectangle>
+	</site>
+	<site>
+		<id>221</id>
+		<type>hamlet</type>
+		<name>basesnumber</name>
+		<coords>13,35</coords>
+		<rectangle>209,556:225,572</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the coastal phrases</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>222</id>
+		<type>dark pits</type>
+		<name>sinlake</name>
+		<coords>107,112</coords>
+		<rectangle>1717,1794:1733,1810</rectangle>
+	</site>
+	<site>
+		<id>223</id>
+		<type>dark pits</type>
+		<name>evildived</name>
+		<coords>109,109</coords>
+		<rectangle>1738,1744:1754,1760</rectangle>
+	</site>
+	<site>
+		<id>224</id>
+		<type>hillocks</type>
+		<name>machinegalleys</name>
+		<coords>105,15</coords>
+		<rectangle>1685,239:1701,255</rectangle>
+	</site>
+	<site>
+		<id>225</id>
+		<type>forest retreat</type>
+		<name>fierceowls</name>
+		<coords>49,68</coords>
+		<rectangle>783,1082:799,1098</rectangle>
+	</site>
+	<site>
+		<id>226</id>
+		<type>fortress</type>
+		<name>helmsfords</name>
+		<coords>112,14</coords>
+		<rectangle>1799,224:1801,226</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the helmed hays</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the garlic of orbs</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>227</id>
+		<type>hamlet</type>
+		<name>apesmoss</name>
+		<coords>57,15</coords>
+		<rectangle>914,245:930,261</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the tapered tongues</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>228</id>
+		<type>forest retreat</type>
+		<name>rumoreddives</name>
+		<coords>92,14</coords>
+		<rectangle>1474,224:1490,240</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the brand of trailing</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>229</id>
+		<type>hillocks</type>
+		<name>squashblockade</name>
+		<coords>75,14</coords>
+		<rectangle>1193,218:1209,234</rectangle>
+	</site>
+	<site>
+		<id>230</id>
+		<type>castle</type>
+		<name>immortalityhealer</name>
+		<coords>43,27</coords>
+		<rectangle>690,443:692,445</rectangle>
+	</site>
+	<site>
+		<id>231</id>
+		<type>tomb</type>
+		<name>jawcommon</name>
+		<coords>100,9</coords>
+		<rectangle>1607,143:1609,145</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>tomb</type>
+			<name>the crypt of nourishing</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>tomb</type>
+			<name>the tomb of excavating</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>232</id>
+		<type>castle</type>
+		<name>charmage</name>
+		<coords>121,13</coords>
+		<rectangle>1943,221:1945,223</rectangle>
+	</site>
+	<site>
+		<id>233</id>
+		<type>hamlet</type>
+		<name>pleatmastered</name>
+		<coords>117,22</coords>
+		<rectangle>1872,357:1888,373</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the comedy of jesters</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>234</id>
+		<type>dark pits</type>
+		<name>stalkercurse</name>
+		<coords>103,109</coords>
+		<rectangle>1653,1749:1669,1765</rectangle>
+	</site>
+	<site>
+		<id>235</id>
+		<type>forest retreat</type>
+		<name>sweetnesssplattered</name>
+		<coords>84,10</coords>
+		<rectangle>1340,157:1356,173</rectangle>
+	</site>
+	<site>
+		<id>236</id>
+		<type>town</type>
+		<name>cityfriendly</name>
+		<coords>48,13</coords>
+		<rectangle>766,209:782,225</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the blockaded convenience</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the citadel of chips</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the sweetness of murder</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<type>house</type>
+				<owner_hfid>3461</owner_hfid>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>237</id>
+		<type>forest retreat</type>
+		<name>dellpolish</name>
+		<coords>83,10</coords>
+		<rectangle>1323,156:1339,172</rectangle>
+	</site>
+	<site>
+		<id>238</id>
+		<type>town</type>
+		<name>queensearches</name>
+		<coords>92,8</coords>
+		<rectangle>1472,125:1488,141</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the toasts of persuasion</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the azure fortress</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>counting house</type>
+			<name>the east equivalence</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>2</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>239</id>
+		<type>dark pits</type>
+		<name>scorpionfield</name>
+		<coords>105,110</coords>
+		<rectangle>1680,1768:1696,1775</rectangle>
+	</site>
+	<site>
+		<id>240</id>
+		<type>town</type>
+		<name>chainclasps</name>
+		<coords>75,120</coords>
+		<rectangle>1198,1922:1214,1938</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the glorious yarn</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the north fortress</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>241</id>
+		<type>fort</type>
+		<name>crestedplagues</name>
+		<coords>91,102</coords>
+		<rectangle>1469,1644:1471,1646</rectangle>
+	</site>
+	<site>
+		<id>242</id>
+		<type>dark pits</type>
+		<name>daubeddooms</name>
+		<coords>98,118</coords>
+		<rectangle>1573,1888:1589,1904</rectangle>
+	</site>
+	<site>
+		<id>243</id>
+		<type>hamlet</type>
+		<name>adoredsquare</name>
+		<coords>125,15</coords>
+		<rectangle>2006,242:2022,252</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the sword of growth</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>244</id>
+		<type>hamlet</type>
+		<name>squareblizzards</name>
+		<coords>77,113</coords>
+		<rectangle>1229,1801:1245,1817</rectangle>
+	</site>
+	<site>
+		<id>245</id>
+		<type>dark fortress</type>
+		<name>wereslide</name>
+		<coords>23,52</coords>
+		<rectangle>368,837:384,853</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the toast of seducers</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the monstrous sugar</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>246</id>
+		<type>hamlet</type>
+		<name>sensualgrottoes</name>
+		<coords>88,18</coords>
+		<rectangle>1402,289:1418,305</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the hale sword</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>247</id>
+		<type>hillocks</type>
+		<name>fastencity</name>
+		<coords>32,11</coords>
+		<rectangle>515,170:531,186</rectangle>
+	</site>
+	<site>
+		<id>248</id>
+		<type>hamlet</type>
+		<name>vigortender</name>
+		<coords>5,43</coords>
+		<rectangle>83,693:99,709</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the righteous fountains</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>249</id>
+		<type>hamlet</type>
+		<name>shankdoctrines</name>
+		<coords>19,27</coords>
+		<rectangle>303,431:319,447</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the buster of disemboweling</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>250</id>
+		<type>forest retreat</type>
+		<name>windychucks</name>
+		<coords>83,11</coords>
+		<rectangle>1325,179:1339,195</rectangle>
+	</site>
+	<site>
+		<id>251</id>
+		<type>hamlet</type>
+		<name>graspblossom</name>
+		<coords>49,10</coords>
+		<rectangle>788,160:804,176</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the uncommon mile</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>252</id>
+		<type>hamlet</type>
+		<name>rarescribe</name>
+		<coords>47,13</coords>
+		<rectangle>749,210:765,226</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the violent bane</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>253</id>
+		<type>dark pits</type>
+		<name>dalemonstrous</name>
+		<coords>100,118</coords>
+		<rectangle>1600,1888:1616,1904</rectangle>
+	</site>
+	<site>
+		<id>254</id>
+		<type>hamlet</type>
+		<name>leaptame</name>
+		<coords>48,12</coords>
+		<rectangle>766,195:782,208</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the tufted clasps</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>255</id>
+		<type>town</type>
+		<name>defenselance</name>
+		<coords>88,19</coords>
+		<rectangle>1401,306:1417,322</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the pants of convenience</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the splattered palace</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>counting house</type>
+			<name>the distraction of wheels</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>2</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>256</id>
+		<type>hillocks</type>
+		<name>stakecreed</name>
+		<coords>18,38</coords>
+		<rectangle>293,613:309,629</rectangle>
+	</site>
+	<site>
+		<id>257</id>
+		<type>dark pits</type>
+		<name>leakyhates</name>
+		<coords>105,108</coords>
+		<rectangle>1680,1733:1696,1749</rectangle>
+	</site>
+	<site>
+		<id>258</id>
+		<type>hillocks</type>
+		<name>handlequested</name>
+		<coords>105,13</coords>
+		<rectangle>1676,211:1692,227</rectangle>
+	</site>
+	<site>
+		<id>259</id>
+		<type>forest retreat</type>
+		<name>waninghail</name>
+		<coords>84,7</coords>
+		<rectangle>1348,113:1364,129</rectangle>
+	</site>
+	<site>
+		<id>260</id>
+		<type>hamlet</type>
+		<name>spreadclearing</name>
+		<coords>48,11</coords>
+		<rectangle>774,179:790,194</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the robust bristles</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>261</id>
+		<type>dark pits</type>
+		<name>strengthhexes</name>
+		<coords>101,115</coords>
+		<rectangle>1616,1834:1632,1850</rectangle>
+	</site>
+	<site>
+		<id>262</id>
+		<type>town</type>
+		<name>roarwhisper</name>
+		<coords>20,22</coords>
+		<rectangle>319,353:335,369</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the snarling hopper</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the fortress of dust</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<type>house</type>
+				<owner_hfid>4488</owner_hfid>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>263</id>
+		<type>mountain halls</type>
+		<name>cobaltmerchant</name>
+		<coords>112,18</coords>
+		<rectangle>1788,284:1804,300</rectangle>
+	</site>
+	<site>
+		<id>264</id>
+		<type>hamlet</type>
+		<name>clusteredbuttons</name>
+		<coords>56,16</coords>
+		<rectangle>895,255:911,271</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the fiery typhoon</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>265</id>
+		<type>mountain halls</type>
+		<name>inchring</name>
+		<coords>112,17</coords>
+		<rectangle>1788,267:1804,283</rectangle>
+	</site>
+	<site>
+		<id>266</id>
+		<type>forest retreat</type>
+		<name>nourishglossed</name>
+		<coords>92,15</coords>
+		<rectangle>1470,241:1486,257</rectangle>
+	</site>
+	<site>
+		<id>267</id>
+		<type>monastery</type>
+		<name>figurehedge</name>
+		<coords>125,14</coords>
+		<rectangle>2011,235:2013,237</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the lyrical church</name>
+			<entity_id>558</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>268</id>
+		<type>dark pits</type>
+		<name>sinkingdoms</name>
+		<coords>101,110</coords>
+		<rectangle>1616,1765:1632,1781</rectangle>
+	</site>
+	<site>
+		<id>269</id>
+		<type>hamlet</type>
+		<name>hopsplashed</name>
+		<coords>109,23</coords>
+		<rectangle>1743,361:1759,377</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the destruction of floors</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>270</id>
+		<type>hillocks</type>
+		<name>steelwalks</name>
+		<coords>20,19</coords>
+		<rectangle>325,298:341,314</rectangle>
+	</site>
+	<site>
+		<id>271</id>
+		<type>dark pits</type>
+		<name>cosmoswicked</name>
+		<coords>99,115</coords>
+		<rectangle>1581,1834:1597,1850</rectangle>
+	</site>
+	<site>
+		<id>272</id>
+		<type>dark pits</type>
+		<name>hexrank</name>
+		<coords>29,22</coords>
+		<rectangle>458,346:474,361</rectangle>
+	</site>
+	<site>
+		<id>273</id>
+		<type>mountain halls</type>
+		<name>archbeached</name>
+		<coords>80,25</coords>
+		<rectangle>1276,396:1292,412</rectangle>
+	</site>
+	<site>
+		<id>274</id>
+		<type>dark pits</type>
+		<name>muddledwicked</name>
+		<coords>104,114</coords>
+		<rectangle>1664,1829:1680,1845</rectangle>
+	</site>
+	<site>
+		<id>275</id>
+		<type>forest retreat</type>
+		<name>scalybrush</name>
+		<coords>60,15</coords>
+		<rectangle>961,240:971,256</rectangle>
+	</site>
+	<site>
+		<id>276</id>
+		<type>forest retreat</type>
+		<name>humorheather</name>
+		<coords>90,14</coords>
+		<rectangle>1433,228:1449,244</rectangle>
+	</site>
+	<site>
+		<id>277</id>
+		<type>dark pits</type>
+		<name>menacestank</name>
+		<coords>24,51</coords>
+		<rectangle>384,810:400,826</rectangle>
+	</site>
+	<site>
+		<id>278</id>
+		<type>hamlet</type>
+		<name>murderedflaxen</name>
+		<coords>20,27</coords>
+		<rectangle>320,431:336,447</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the laconic destiny</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>279</id>
+		<type>mountain halls</type>
+		<name>cloisterbridle</name>
+		<coords>80,23</coords>
+		<rectangle>1276,364:1292,380</rectangle>
+	</site>
+	<site>
+		<id>280</id>
+		<type>forest retreat</type>
+		<name>hailleaps</name>
+		<coords>58,23</coords>
+		<rectangle>925,365:941,381</rectangle>
+	</site>
+	<site>
+		<id>281</id>
+		<type>hillocks</type>
+		<name>lustrousabbeys</name>
+		<coords>111,15</coords>
+		<rectangle>1776,234:1792,250</rectangle>
+	</site>
+	<site>
+		<id>282</id>
+		<type>hamlet</type>
+		<name>datedjested</name>
+		<coords>44,29</coords>
+		<rectangle>702,465:717,481</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the skirts of targeting</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>283</id>
+		<type>monastery</type>
+		<name>blushedale</name>
+		<coords>116,22</coords>
+		<rectangle>1867,354:1869,356</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the incidental sanctuary</name>
+			<entity_id>606</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>284</id>
+		<type>fort</type>
+		<name>rinseshoots</name>
+		<coords>16,69</coords>
+		<rectangle>256,1104:258,1106</rectangle>
+	</site>
+	<site>
+		<id>285</id>
+		<type>hamlet</type>
+		<name>helpfulwill</name>
+		<coords>93,12</coords>
+		<rectangle>1491,191:1507,207</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the bald help</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>mead hall</type>
+			<name>the tournament of juggling</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>286</id>
+		<type>dark pits</type>
+		<name>fungidooms</name>
+		<coords>70,118</coords>
+		<rectangle>1123,1882:1133,1898</rectangle>
+	</site>
+	<site>
+		<id>287</id>
+		<type>forest retreat</type>
+		<name>taperedbeloved</name>
+		<coords>82,11</coords>
+		<rectangle>1308,177:1324,193</rectangle>
+	</site>
+	<site>
+		<id>288</id>
+		<type>dark pits</type>
+		<name>belteddemon</name>
+		<coords>22,44</coords>
+		<rectangle>346,698:362,714</rectangle>
+	</site>
+	<site>
+		<id>289</id>
+		<type>fort</type>
+		<name>dungeonboils</name>
+		<coords>68,125</coords>
+		<rectangle>1090,2005:1092,2007</rectangle>
+	</site>
+	<site>
+		<id>290</id>
+		<type>dark pits</type>
+		<name>dreadfulturmoils</name>
+		<coords>93,113</coords>
+		<rectangle>1482,1808:1498,1824</rectangle>
+	</site>
+	<site>
+		<id>291</id>
+		<type>hillocks</type>
+		<name>oilwalled</name>
+		<coords>103,16</coords>
+		<rectangle>1642,261:1658,277</rectangle>
+	</site>
+	<site>
+		<id>292</id>
+		<type>hamlet</type>
+		<name>cloutedcoal</name>
+		<coords>3,39</coords>
+		<rectangle>51,626:67,642</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the occult owner</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>293</id>
+		<type>town</type>
+		<name>staffthorns</name>
+		<coords>46,24</coords>
+		<rectangle>734,383:750,399</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the whirling village</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the reputed palace</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the tummies of silver</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>counting house</type>
+			<name>the wayward fin</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>3</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>294</id>
+		<type>hamlet</type>
+		<name>feastfinger</name>
+		<coords>123,20</coords>
+		<rectangle>1970,315:1986,331</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the matched water</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>295</id>
+		<type>hamlet</type>
+		<name>holdbeached</name>
+		<coords>99,13</coords>
+		<rectangle>1587,206:1603,222</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the cloud of humility</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>296</id>
+		<type>dark pits</type>
+		<name>hateseasons</name>
+		<coords>100,110</coords>
+		<rectangle>1594,1760:1610,1776</rectangle>
+	</site>
+	<site>
+		<id>297</id>
+		<type>hamlet</type>
+		<name>arrowwind</name>
+		<coords>50,9</coords>
+		<rectangle>803,142:819,158</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the treaty of blockades</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>298</id>
+		<type>forest retreat</type>
+		<name>merchanthail</name>
+		<coords>72,16</coords>
+		<rectangle>1150,250:1166,266</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the surprise of ferns</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the garlic of dunes</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>299</id>
+		<type>hamlet</type>
+		<name>buttondwelled</name>
+		<coords>14,35</coords>
+		<rectangle>228,559:244,575</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the kindling of frills</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>300</id>
+		<type>forest retreat</type>
+		<name>gladekingdoms</name>
+		<coords>61,14</coords>
+		<rectangle>983,229:999,245</rectangle>
+	</site>
+	<site>
+		<id>301</id>
+		<type>hamlet</type>
+		<name>clusteredcrushed</name>
+		<coords>120,14</coords>
+		<rectangle>1916,226:1932,242</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the beautiful pinnacle</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>302</id>
+		<type>hamlet</type>
+		<name>roarjests</name>
+		<coords>45,26</coords>
+		<rectangle>718,419:734,432</rectangle>
+	</site>
+	<site>
+		<id>303</id>
+		<type>hillocks</type>
+		<name>tomesechoes</name>
+		<coords>16,36</coords>
+		<rectangle>258,576:274,592</rectangle>
+	</site>
+	<site>
+		<id>304</id>
+		<type>hillocks</type>
+		<name>boltspatters</name>
+		<coords>105,12</coords>
+		<rectangle>1680,186:1696,202</rectangle>
+	</site>
+	<site>
+		<id>305</id>
+		<type>dark pits</type>
+		<name>malignedseizure</name>
+		<coords>67,109</coords>
+		<rectangle>1077,1744:1093,1760</rectangle>
+	</site>
+	<site>
+		<id>306</id>
+		<type>monastery</type>
+		<name>depthmop</name>
+		<coords>98,11</coords>
+		<rectangle>1570,187:1572,189</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the shrine of indignation</name>
+			<entity_id>507</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>307</id>
+		<type>castle</type>
+		<name>brasstombs</name>
+		<coords>113,10</coords>
+		<rectangle>1815,173:1817,175</rectangle>
+	</site>
+	<site>
+		<id>308</id>
+		<type>hamlet</type>
+		<name>rainwaves</name>
+		<coords>125,10</coords>
+		<rectangle>1993,158:2009,174</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the tenebrous princess</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>309</id>
+		<type>mountain halls</type>
+		<name>urnchain</name>
+		<coords>79,25</coords>
+		<rectangle>1259,396:1275,412</rectangle>
+	</site>
+	<site>
+		<id>310</id>
+		<type>hamlet</type>
+		<name>metalholes</name>
+		<coords>22,22</coords>
+		<rectangle>353,348:369,364</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the cut of cages</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>311</id>
+		<type>hillocks</type>
+		<name>wealthyfountain</name>
+		<coords>120,19</coords>
+		<rectangle>1914,298:1930,314</rectangle>
+	</site>
+	<site>
+		<id>312</id>
+		<type>forest retreat</type>
+		<name>shellskins</name>
+		<coords>72,19</coords>
+		<rectangle>1146,304:1162,320</rectangle>
+	</site>
+	<site>
+		<id>313</id>
+		<type>mountain halls</type>
+		<name>fathermine</name>
+		<coords>16,46</coords>
+		<rectangle>252,732:268,748</rectangle>
+	</site>
+	<site>
+		<id>314</id>
+		<type>forest retreat</type>
+		<name>ruletundra</name>
+		<coords>49,62</coords>
+		<rectangle>782,992:798,1008</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the tufted camps</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the olive of births</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>315</id>
+		<type>dark pits</type>
+		<name>malicethralls</name>
+		<coords>102,104</coords>
+		<rectangle>1626,1658:1642,1674</rectangle>
+	</site>
+	<site>
+		<id>316</id>
+		<type>fortress</type>
+		<name>standardmornings</name>
+		<coords>78,14</coords>
+		<rectangle>1248,224:1250,226</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the tin pockets</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the copper breakfasts</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>317</id>
+		<type>mountain halls</type>
+		<name>tradeland</name>
+		<coords>80,24</coords>
+		<rectangle>1276,381:1292,395</rectangle>
+	</site>
+	<site>
+		<id>318</id>
+		<type>hillocks</type>
+		<name>waneanvil</name>
+		<coords>104,3</coords>
+		<rectangle>1658,53:1674,69</rectangle>
+	</site>
+	<site>
+		<id>319</id>
+		<type>hamlet</type>
+		<name>galleystick</name>
+		<coords>122,11</coords>
+		<rectangle>1956,176:1972,192</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the playful ravager</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>320</id>
+		<type>hamlet</type>
+		<name>scrapetalks</name>
+		<coords>45,27</coords>
+		<rectangle>717,433:733,448</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the razor of shadows</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>321</id>
+		<type>hamlet</type>
+		<name>counselledwilted</name>
+		<coords>61,12</coords>
+		<rectangle>978,189:994,205</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the dipped cactus</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>322</id>
+		<type>forest retreat</type>
+		<name>backjumped</name>
+		<coords>71,20</coords>
+		<rectangle>1136,321:1152,337</rectangle>
+	</site>
+	<site>
+		<id>323</id>
+		<type>mountain halls</type>
+		<name>halecrafted</name>
+		<coords>16,42</coords>
+		<rectangle>252,668:268,684</rectangle>
+	</site>
+	<site>
+		<id>324</id>
+		<type>hillocks</type>
+		<name>pickjustice</name>
+		<coords>122,16</coords>
+		<rectangle>1957,256:1973,272</rectangle>
+	</site>
+	<site>
+		<id>325</id>
+		<type>forest retreat</type>
+		<name>snarlingbusts</name>
+		<coords>97,16</coords>
+		<rectangle>1546,252:1562,268</rectangle>
+	</site>
+	<site>
+		<id>326</id>
+		<type>dark pits</type>
+		<name>vileroof</name>
+		<coords>27,23</coords>
+		<rectangle>431,367:447,383</rectangle>
+	</site>
+	<site>
+		<id>327</id>
+		<type>hamlet</type>
+		<name>scribefinger</name>
+		<coords>100,13</coords>
+		<rectangle>1604,209:1620,225</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the mischief of celebration</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>328</id>
+		<type>hamlet</type>
+		<name>wonderbutter</name>
+		<coords>43,29</coords>
+		<rectangle>685,465:701,481</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the helpful boats</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>329</id>
+		<type>hamlet</type>
+		<name>subtleflares</name>
+		<coords>19,28</coords>
+		<rectangle>299,448:315,464</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the fancy locks</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>330</id>
+		<type>dark pits</type>
+		<name>hatredbirth</name>
+		<coords>97,108</coords>
+		<rectangle>1552,1722:1568,1738</rectangle>
+	</site>
+	<site>
+		<id>331</id>
+		<type>forest retreat</type>
+		<name>snakesbeards</name>
+		<coords>59,17</coords>
+		<rectangle>940,273:956,289</rectangle>
+	</site>
+	<site>
+		<id>332</id>
+		<type>monastery</type>
+		<name>humwonders</name>
+		<coords>103,4</coords>
+		<rectangle>1650,75:1652,77</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the harmonious sanctuary</name>
+			<entity_id>541</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>333</id>
+		<type>monastery</type>
+		<name>applesbrims</name>
+		<coords>43,30</coords>
+		<rectangle>688,487:690,489</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the lustrous shrine</name>
+			<entity_id>654</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>334</id>
+		<type>hamlet</type>
+		<name>granitegild</name>
+		<coords>48,10</coords>
+		<rectangle>769,162:785,178</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the hot grizzle</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>335</id>
+		<type>dark pits</type>
+		<name>bulbsteals</name>
+		<coords>103,106</coords>
+		<rectangle>1648,1690:1664,1706</rectangle>
+	</site>
+	<site>
+		<id>336</id>
+		<type>hillocks</type>
+		<name>frenzymetals</name>
+		<coords>21,16</coords>
+		<rectangle>341,256:357,272</rectangle>
+	</site>
+	<site>
+		<id>337</id>
+		<type>hamlet</type>
+		<name>roperakes</name>
+		<coords>109,14</coords>
+		<rectangle>1743,222:1759,238</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the tone of uniting</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>338</id>
+		<type>monastery</type>
+		<name>reasonplay</name>
+		<coords>55,15</coords>
+		<rectangle>891,251:893,253</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the sanctum of equivalence</name>
+			<entity_id>688</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>339</id>
+		<type>dark pits</type>
+		<name>hatredskies</name>
+		<coords>105,109</coords>
+		<rectangle>1676,1750:1692,1766</rectangle>
+	</site>
+	<site>
+		<id>340</id>
+		<type>dark pits</type>
+		<name>hatedditches</name>
+		<coords>71,117</coords>
+		<rectangle>1139,1866:1151,1882</rectangle>
+	</site>
+	<site>
+		<id>341</id>
+		<type>forest retreat</type>
+		<name>northhooves</name>
+		<coords>47,68</coords>
+		<rectangle>750,1083:766,1099</rectangle>
+	</site>
+	<site>
+		<id>342</id>
+		<type>hamlet</type>
+		<name>ancientracks</name>
+		<coords>119,17</coords>
+		<rectangle>1904,269:1920,285</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the scale of wading</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>343</id>
+		<type>forest retreat</type>
+		<name>sandalgrowl</name>
+		<coords>68,23</coords>
+		<rectangle>1092,369:1108,385</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the flowery frog</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the olive of twilight</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>344</id>
+		<type>hamlet</type>
+		<name>tuggedbitten</name>
+		<coords>50,10</coords>
+		<rectangle>805,159:821,175</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the metal of innocence</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>345</id>
+		<type>mountain halls</type>
+		<name>townwalled</name>
+		<coords>16,45</coords>
+		<rectangle>252,716:268,731</rectangle>
+	</site>
+	<site>
+		<id>346</id>
+		<type>forest retreat</type>
+		<name>steelwaxes</name>
+		<coords>91,14</coords>
+		<rectangle>1453,226:1469,242</rectangle>
+	</site>
+	<site>
+		<id>347</id>
+		<type>hamlet</type>
+		<name>rubbedblossomed</name>
+		<coords>98,13</coords>
+		<rectangle>1569,202:1585,218</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the rack of forests</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>348</id>
+		<type>tower</type>
+		<name>peakflag</name>
+		<coords>83,21</coords>
+		<rectangle>1328,345:1334,351</rectangle>
+	</site>
+	<site>
+		<id>349</id>
+		<type>forest retreat</type>
+		<name>cherishedreined</name>
+		<coords>69,21</coords>
+		<rectangle>1105,340:1121,356</rectangle>
+	</site>
+	<site>
+		<id>350</id>
+		<type>hamlet</type>
+		<name>rasporder</name>
+		<coords>2,42</coords>
+		<rectangle>25,671:41,687</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the ray of ticking</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>351</id>
+		<type>forest retreat</type>
+		<name>equaledskins</name>
+		<coords>58,17</coords>
+		<rectangle>923,265:939,281</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the straws of fanciness</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the sensual garlic</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>inn tavern</type>
+			<name>the berries of glimmering</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>352</id>
+		<type>fortress</type>
+		<name>amazecrypts</name>
+		<coords>77,20</coords>
+		<rectangle>1232,333:1234,335</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the blockaded supper</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>counting house</type>
+			<name>the north stranger of bridges</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>counting house</type>
+			<name>the east columns</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>guildhall</type>
+			<name>the constructive scars</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>1</structure_id>
+			</site_property>
+			<site_property>
+				<id>1</id>
+				<structure_id>2</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>353</id>
+		<type>forest retreat</type>
+		<name>lockhooves</name>
+		<coords>93,17</coords>
+		<rectangle>1483,273:1499,289</rectangle>
+	</site>
+	<site>
+		<id>354</id>
+		<type>hamlet</type>
+		<name>pulldishes</name>
+		<coords>115,11</coords>
+		<rectangle>1839,177:1855,193</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the noble line</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>355</id>
+		<type>monastery</type>
+		<name>bellheld</name>
+		<coords>98,12</coords>
+		<rectangle>1579,194:1581,196</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the church of geniuses</name>
+			<entity_id>694</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>356</id>
+		<type>dark pits</type>
+		<name>liewing</name>
+		<coords>28,21</coords>
+		<rectangle>441,336:457,352</rectangle>
+	</site>
+	<site>
+		<id>357</id>
+		<type>hamlet</type>
+		<name>guisemeals</name>
+		<coords>49,12</coords>
+		<rectangle>783,195:799,211</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the excavated sheens</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>358</id>
+		<type>dark pits</type>
+		<name>jackalglazed</name>
+		<coords>101,117</coords>
+		<rectangle>1619,1877:1635,1893</rectangle>
+	</site>
+	<site>
+		<id>359</id>
+		<type>dark pits</type>
+		<name>pucecruel</name>
+		<coords>34,22</coords>
+		<rectangle>550,346:566,362</rectangle>
+	</site>
+	<site>
+		<id>360</id>
+		<type>forest retreat</type>
+		<name>crestjungles</name>
+		<coords>74,16</coords>
+		<rectangle>1183,258:1199,274</rectangle>
+	</site>
+	<site>
+		<id>361</id>
+		<type>hamlet</type>
+		<name>shelteredcut</name>
+		<coords>110,9</coords>
+		<rectangle>1757,143:1773,159</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the constructive fortune</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>362</id>
+		<type>monastery</type>
+		<name>gleamflutes</name>
+		<coords>15,34</coords>
+		<rectangle>247,544:249,546</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the larval church</name>
+			<entity_id>680</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>363</id>
+		<type>forest retreat</type>
+		<name>blossomlustrous</name>
+		<coords>63,13</coords>
+		<rectangle>1007,206:1023,222</rectangle>
+	</site>
+	<site>
+		<id>364</id>
+		<type>forest retreat</type>
+		<name>immortalityfells</name>
+		<coords>93,18</coords>
+		<rectangle>1485,290:1501,306</rectangle>
+	</site>
+	<site>
+		<id>365</id>
+		<type>hamlet</type>
+		<name>pristinescorching</name>
+		<coords>114,22</coords>
+		<rectangle>1829,354:1845,370</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the equal flame</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>366</id>
+		<type>dark pits</type>
+		<name>chantbad</name>
+		<coords>109,110</coords>
+		<rectangle>1749,1765:1765,1781</rectangle>
+	</site>
+	<site>
+		<id>367</id>
+		<type>hamlet</type>
+		<name>diplanterns</name>
+		<coords>46,9</coords>
+		<rectangle>737,142:753,158</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the greater fingers</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>368</id>
+		<type>castle</type>
+		<name>tireddearth</name>
+		<coords>45,30</coords>
+		<rectangle>722,491:724,493</rectangle>
+	</site>
+	<site>
+		<id>369</id>
+		<type>hamlet</type>
+		<name>boltssinged</name>
+		<coords>45,29</coords>
+		<rectangle>718,465:734,481</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the decent image</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>370</id>
+		<type>hamlet</type>
+		<name>cheesedonkey</name>
+		<coords>125,16</coords>
+		<rectangle>2001,255:2017,271</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the silky death</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>371</id>
+		<type>forest retreat</type>
+		<name>cherishanguish</name>
+		<coords>59,20</coords>
+		<rectangle>938,316:954,332</rectangle>
+	</site>
+	<site>
+		<id>372</id>
+		<type>hamlet</type>
+		<name>ultradream</name>
+		<coords>100,12</coords>
+		<rectangle>1599,193:1615,205</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the deified brain of mining</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>373</id>
+		<type>forest retreat</type>
+		<name>fordstockade</name>
+		<coords>63,12</coords>
+		<rectangle>1010,189:1026,205</rectangle>
+	</site>
+	<site>
+		<id>374</id>
+		<type>hamlet</type>
+		<name>wisepraised</name>
+		<coords>2,41</coords>
+		<rectangle>35,653:51,669</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the jump of courage</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>375</id>
+		<type>mountain halls</type>
+		<name>liontrades</name>
+		<coords>79,15</coords>
+		<rectangle>1260,236:1276,252</rectangle>
+	</site>
+	<site>
+		<id>376</id>
+		<type>hamlet</type>
+		<name>merchantrains</name>
+		<coords>45,10</coords>
+		<rectangle>721,160:737,176</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the speechlessness of clutches</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>377</id>
+		<type>dark pits</type>
+		<name>wickedpraise</name>
+		<coords>91,111</coords>
+		<rectangle>1456,1781:1472,1797</rectangle>
+	</site>
+	<site>
+		<id>378</id>
+		<type>forest retreat</type>
+		<name>woodwinds</name>
+		<coords>59,19</coords>
+		<rectangle>942,299:958,315</rectangle>
+	</site>
+	<site>
+		<id>379</id>
+		<type>fort</type>
+		<name>groupedscar</name>
+		<coords>28,57</coords>
+		<rectangle>462,914:464,916</rectangle>
+	</site>
+	<site>
+		<id>380</id>
+		<type>hamlet</type>
+		<name>riddletongs</name>
+		<coords>101,4</coords>
+		<rectangle>1618,63:1634,79</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the sizzling stop</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>381</id>
+		<type>town</type>
+		<name>tiredcontained</name>
+		<coords>105,24</coords>
+		<rectangle>1678,380:1694,396</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the tressed juggler</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the exalted fortress</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>382</id>
+		<type>hamlet</type>
+		<name>greatshade</name>
+		<coords>47,10</coords>
+		<rectangle>752,163:768,179</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the temptation of fliers</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>383</id>
+		<type>dark pits</type>
+		<name>wireevil</name>
+		<coords>76,18</coords>
+		<rectangle>1209,281:1225,297</rectangle>
+	</site>
+	<site>
+		<id>384</id>
+		<type>forest retreat</type>
+		<name>thunderpracticed</name>
+		<coords>58,22</coords>
+		<rectangle>925,348:941,364</rectangle>
+	</site>
+	<site>
+		<id>385</id>
+		<type>monastery</type>
+		<name>judgewhips</name>
+		<coords>111,21</coords>
+		<rectangle>1776,336:1778,338</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the hardy sanctum</name>
+			<entity_id>790</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>386</id>
+		<type>forest retreat</type>
+		<name>pillarmoth</name>
+		<coords>105,5</coords>
+		<rectangle>1684,76:1700,92</rectangle>
+	</site>
+	<site>
+		<id>387</id>
+		<type>hamlet</type>
+		<name>ancientdips</name>
+		<coords>11,37</coords>
+		<rectangle>175,590:191,606</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the harmonious sacrifice</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>388</id>
+		<type>forest retreat</type>
+		<name>languagesnarling</name>
+		<coords>52,69</coords>
+		<rectangle>831,1106:847,1122</rectangle>
+	</site>
+	<site>
+		<id>389</id>
+		<type>dark fortress</type>
+		<name>bewitcheddoomed</name>
+		<coords>102,117</coords>
+		<rectangle>1637,1872:1653,1888</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the unnameable homes</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the olive of seduction</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>390</id>
+		<type>hillocks</type>
+		<name>cloisterchanced</name>
+		<coords>107,106</coords>
+		<rectangle>1716,1691:1732,1707</rectangle>
+	</site>
+	<site>
+		<id>391</id>
+		<type>dark pits</type>
+		<name>desertruthless</name>
+		<coords>99,107</coords>
+		<rectangle>1584,1717:1600,1733</rectangle>
+	</site>
+	<site>
+		<id>392</id>
+		<type>monastery</type>
+		<name>distinctworkers</name>
+		<coords>97,9</coords>
+		<rectangle>1559,144:1561,146</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the shrine of honoring</name>
+			<entity_id>761</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>393</id>
+		<type>dark pits</type>
+		<name>malignedbarbs</name>
+		<coords>76,16</coords>
+		<rectangle>1216,249:1232,265</rectangle>
+	</site>
+	<site>
+		<id>394</id>
+		<type>castle</type>
+		<name>clutchedshovels</name>
+		<coords>55,17</coords>
+		<rectangle>893,279:895,281</rectangle>
+	</site>
+	<site>
+		<id>395</id>
+		<type>hamlet</type>
+		<name>strayedcouncils</name>
+		<coords>43,28</coords>
+		<rectangle>682,448:698,464</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the wildness of hushing</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>396</id>
+		<type>dark pits</type>
+		<name>wereraced</name>
+		<coords>91,110</coords>
+		<rectangle>1450,1754:1466,1770</rectangle>
+	</site>
+	<site>
+		<id>397</id>
+		<type>dark pits</type>
+		<name>respectseduced</name>
+		<coords>29,21</coords>
+		<rectangle>464,329:480,345</rectangle>
+	</site>
+	<site>
+		<id>398</id>
+		<type>dark pits</type>
+		<name>clodhexes</name>
+		<coords>108,114</coords>
+		<rectangle>1733,1825:1749,1841</rectangle>
+	</site>
+	<site>
+		<id>399</id>
+		<type>hamlet</type>
+		<name>obeyedanguish</name>
+		<coords>126,16</coords>
+		<rectangle>2019,253:2035,269</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the belt of brunch</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>400</id>
+		<type>hamlet</type>
+		<name>shellsteppe</name>
+		<coords>107,21</coords>
+		<rectangle>1713,331:1729,347</rectangle>
+	</site>
+	<site>
+		<id>401</id>
+		<type>mountain halls</type>
+		<name>armorkindling</name>
+		<coords>16,44</coords>
+		<rectangle>252,700:268,715</rectangle>
+	</site>
+	<site>
+		<id>402</id>
+		<type>mountain halls</type>
+		<name>youngsmiths</name>
+		<coords>16,43</coords>
+		<rectangle>252,685:268,699</rectangle>
+	</site>
+	<site>
+		<id>403</id>
+		<type>hamlet</type>
+		<name>boldpasses</name>
+		<coords>47,12</coords>
+		<rectangle>747,191:763,207</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the fresh beak</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>404</id>
+		<type>forest retreat</type>
+		<name>archbeast</name>
+		<coords>61,15</coords>
+		<rectangle>972,238:982,254</rectangle>
+	</site>
+	<site>
+		<id>405</id>
+		<type>dark pits</type>
+		<name>plaguedregs</name>
+		<coords>92,110</coords>
+		<rectangle>1472,1754:1488,1770</rectangle>
+	</site>
+	<site>
+		<id>406</id>
+		<type>hamlet</type>
+		<name>wheelsclear</name>
+		<coords>124,21</coords>
+		<rectangle>1983,332:1999,348</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the lone cactus</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>407</id>
+		<type>hamlet</type>
+		<name>judgedeaths</name>
+		<coords>13,36</coords>
+		<rectangle>203,578:219,594</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the granite yellow bravery</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>408</id>
+		<type>town</type>
+		<name>glowplot</name>
+		<coords>45,34</coords>
+		<rectangle>716,543:732,559</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the handy uncle</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>keep</type>
+			<name>the wild palace</name>
+		</structure>
+		<structure>
+			<local_id>2</local_id>
+			<type>counting house</type>
+			<name>the diversion of trading</name>
+		</structure>
+		<structure>
+			<local_id>3</local_id>
+			<type>inn tavern</type>
+			<name>the torrid sugars</name>
+		</structure>
+		</structures>
+		<site_properties>
+			<site_property>
+				<id>0</id>
+				<structure_id>2</structure_id>
+			</site_property>
+		</site_properties>
+	</site>
+	<site>
+		<id>409</id>
+		<type>hamlet</type>
+		<name>ringshelter</name>
+		<coords>85,13</coords>
+		<rectangle>1359,208:1375,224</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the beak of tightness</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>410</id>
+		<type>forest retreat</type>
+		<name>morningsockets</name>
+		<coords>59,16</coords>
+		<rectangle>950,257:966,272</rectangle>
+	</site>
+	<site>
+		<id>411</id>
+		<type>hillocks</type>
+		<name>mineglory</name>
+		<coords>109,18</coords>
+		<rectangle>1743,293:1759,309</rectangle>
+	</site>
+	<site>
+		<id>412</id>
+		<type>hamlet</type>
+		<name>balancedlarge</name>
+		<coords>103,6</coords>
+		<rectangle>1652,94:1668,110</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the murky balls</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>413</id>
+		<type>dark pits</type>
+		<name>crushedstolen</name>
+		<coords>103,113</coords>
+		<rectangle>1648,1812:1664,1828</rectangle>
+	</site>
+	<site>
+		<id>414</id>
+		<type>hamlet</type>
+		<name>splatteredfin</name>
+		<coords>50,38</coords>
+		<rectangle>801,608:817,624</rectangle>
+	</site>
+	<site>
+		<id>415</id>
+		<type>forest retreat</type>
+		<name>dellwhips</name>
+		<coords>65,16</coords>
+		<rectangle>1039,253:1055,269</rectangle>
+	</site>
+	<site>
+		<id>416</id>
+		<type>hamlet</type>
+		<name>glitterblunt</name>
+		<coords>47,21</coords>
+		<rectangle>754,336:770,352</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the buff temple</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>417</id>
+		<type>hillocks</type>
+		<name>craftswebbed</name>
+		<coords>86,17</coords>
+		<rectangle>1376,277:1392,293</rectangle>
+	</site>
+	<site>
+		<id>418</id>
+		<type>hillocks</type>
+		<name>crystalages</name>
+		<coords>14,19</coords>
+		<rectangle>224,309:240,325</rectangle>
+	</site>
+	<site>
+		<id>419</id>
+		<type>dark pits</type>
+		<name>wraithbeaches</name>
+		<coords>26,24</coords>
+		<rectangle>410,389:426,405</rectangle>
+	</site>
+	<site>
+		<id>420</id>
+		<type>hamlet</type>
+		<name>matchloves</name>
+		<coords>107,5</coords>
+		<rectangle>1709,80:1725,96</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the future dispersal</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>421</id>
+		<type>dark pits</type>
+		<name>wickedspurt</name>
+		<coords>97,109</coords>
+		<rectangle>1553,1749:1569,1765</rectangle>
+	</site>
+	<site>
+		<id>422</id>
+		<type>forest retreat</type>
+		<name>heavensgullies</name>
+		<coords>70,20</coords>
+		<rectangle>1117,319:1133,335</rectangle>
+	</site>
+	<site>
+		<id>423</id>
+		<type>dark pits</type>
+		<name>sinfulhells</name>
+		<coords>104,115</coords>
+		<rectangle>1664,1846:1680,1862</rectangle>
+	</site>
+	<site>
+		<id>424</id>
+		<type>hamlet</type>
+		<name>hillceiling</name>
+		<coords>44,24</coords>
+		<rectangle>702,380:718,396</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the nourishing gift</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>425</id>
+		<type>hillocks</type>
+		<name>markedgravel</name>
+		<coords>96,20</coords>
+		<rectangle>1541,320:1557,336</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the emerald beard</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>426</id>
+		<type>tomb</type>
+		<name>goldplunges</name>
+		<coords>20,28</coords>
+		<rectangle>327,448:329,450</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>tomb</type>
+			<name>the big crypt</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>427</id>
+		<type>hillocks</type>
+		<name>tradefrills</name>
+		<coords>78,28</coords>
+		<rectangle>1242,442:1258,458</rectangle>
+	</site>
+	<site>
+		<id>428</id>
+		<type>hamlet</type>
+		<name>browncircled</name>
+		<coords>94,10</coords>
+		<rectangle>1502,163:1518,179</rectangle>
+	</site>
+	<site>
+		<id>429</id>
+		<type>hamlet</type>
+		<name>crowpetals</name>
+		<coords>47,24</coords>
+		<rectangle>751,385:767,401</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the humility of wonder</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>430</id>
+		<type>dark pits</type>
+		<name>snotthieves</name>
+		<coords>109,108</coords>
+		<rectangle>1738,1727:1754,1743</rectangle>
+	</site>
+	<site>
+		<id>431</id>
+		<type>hamlet</type>
+		<name>cratersavant</name>
+		<coords>98,28</coords>
+		<rectangle>1572,444:1588,460</rectangle>
+	</site>
+	<site>
+		<id>432</id>
+		<type>dark pits</type>
+		<name>crestedmalice</name>
+		<coords>100,117</coords>
+		<rectangle>1602,1871:1618,1887</rectangle>
+	</site>
+	<site>
+		<id>433</id>
+		<type>dark pits</type>
+		<name>wickedspider</name>
+		<coords>27,24</coords>
+		<rectangle>432,384:448,400</rectangle>
+	</site>
+	<site>
+		<id>434</id>
+		<type>hamlet</type>
+		<name>windyconvent</name>
+		<coords>99,23</coords>
+		<rectangle>1578,373:1594,389</rectangle>
+	</site>
+	<site>
+		<id>435</id>
+		<type>castle</type>
+		<name>splatteredgilt</name>
+		<coords>111,10</coords>
+		<rectangle>1778,171:1780,173</rectangle>
+	</site>
+	<site>
+		<id>436</id>
+		<type>hamlet</type>
+		<name>linedwiped</name>
+		<coords>124,16</coords>
+		<rectangle>1979,255:1995,271</rectangle>
+	</site>
+	<site>
+		<id>437</id>
+		<type>fortress</type>
+		<name>claspedblankets</name>
+		<coords>10,42</coords>
+		<rectangle>169,679:171,681</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the diamond house</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>438</id>
+		<type>hillocks</type>
+		<name>rackcoven</name>
+		<coords>17,37</coords>
+		<rectangle>275,586:291,602</rectangle>
+	</site>
+	<site>
+		<id>439</id>
+		<type>hillocks</type>
+		<name>crushedgranite</name>
+		<coords>103,21</coords>
+		<rectangle>1642,336:1658,352</rectangle>
+	</site>
+	<site>
+		<id>440</id>
+		<type>hamlet</type>
+		<name>drummedpetals</name>
+		<coords>96,29</coords>
+		<rectangle>1541,457:1557,473</rectangle>
+	</site>
+	<site>
+		<id>441</id>
+		<type>dark pits</type>
+		<name>nightmarecuts</name>
+		<coords>71,118</coords>
+		<rectangle>1134,1883:1150,1898</rectangle>
+	</site>
+	<site>
+		<id>442</id>
+		<type>forest retreat</type>
+		<name>bornsilk</name>
+		<coords>64,21</coords>
+		<rectangle>1017,339:1033,355</rectangle>
+	</site>
+	<site>
+		<id>443</id>
+		<type>hamlet</type>
+		<name>insightvises</name>
+		<coords>47,23</coords>
+		<rectangle>757,367:773,383</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the complex neutrality</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>444</id>
+		<type>dark fortress</type>
+		<name>vicevalley</name>
+		<coords>115,102</coords>
+		<rectangle>1840,1637:1856,1653</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>market</type>
+			<name>the scorpion-tub of wickedness</name>
+		</structure>
+		<structure>
+			<local_id>1</local_id>
+			<type>inn tavern</type>
+			<name>the pepper of malice</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>445</id>
+		<type>hamlet</type>
+		<name>naturesquid</name>
+		<coords>107,10</coords>
+		<rectangle>1711,158:1727,174</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the fruity gloves</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>446</id>
+		<type>dark pits</type>
+		<name>seduceslid</name>
+		<coords>69,118</coords>
+		<rectangle>1106,1882:1122,1898</rectangle>
+	</site>
+	<site>
+		<id>447</id>
+		<type>hamlet</type>
+		<name>lightlengths</name>
+		<coords>49,18</coords>
+		<rectangle>784,293:800,309</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the gilded inferno</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>448</id>
+		<type>dark pits</type>
+		<name>frayhorrors</name>
+		<coords>98,115</coords>
+		<rectangle>1564,1834:1580,1850</rectangle>
+	</site>
+	<site>
+		<id>449</id>
+		<type>mountain halls</type>
+		<name>axelanced</name>
+		<coords>79,16</coords>
+		<rectangle>1260,253:1276,268</rectangle>
+	</site>
+	<site>
+		<id>450</id>
+		<type>castle</type>
+		<name>musicbaker</name>
+		<coords>6,44</coords>
+		<rectangle>96,711:98,713</rectangle>
+	</site>
+	<site>
+		<id>451</id>
+		<type>hamlet</type>
+		<name>nurtureabbey</name>
+		<coords>19,33</coords>
+		<rectangle>308,529:324,545</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the learning of smoke</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>452</id>
+		<type>forest retreat</type>
+		<name>rainchucked</name>
+		<coords>65,14</coords>
+		<rectangle>1040,226:1056,242</rectangle>
+	</site>
+	<site>
+		<id>453</id>
+		<type>castle</type>
+		<name>frogsoapy</name>
+		<coords>100,14</coords>
+		<rectangle>1602,226:1604,228</rectangle>
+	</site>
+	<site>
+		<id>454</id>
+		<type>hamlet</type>
+		<name>splatteredjaws</name>
+		<coords>95,9</coords>
+		<rectangle>1524,148:1540,164</rectangle>
+	</site>
+	<site>
+		<id>455</id>
+		<type>castle</type>
+		<name>fistclinched</name>
+		<coords>46,27</coords>
+		<rectangle>749,439:751,441</rectangle>
+	</site>
+	<site>
+		<id>456</id>
+		<type>hamlet</type>
+		<name>admirestill</name>
+		<coords>49,34</coords>
+		<rectangle>778,543:794,559</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the poetic shank</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>457</id>
+		<type>hamlet</type>
+		<name>hawkwhips</name>
+		<coords>7,37</coords>
+		<rectangle>111,597:127,613</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>mead hall</type>
+			<name>the lovely uncertainty</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>458</id>
+		<type>mountain halls</type>
+		<name>futuremountains</name>
+		<coords>79,17</coords>
+		<rectangle>1260,269:1276,285</rectangle>
+	</site>
+	<site>
+		<id>459</id>
+		<type>dark pits</type>
+		<name>monstrousgulfs</name>
+		<coords>20,45</coords>
+		<rectangle>314,725:330,741</rectangle>
+	</site>
+	<site>
+		<id>460</id>
+		<type>tomb</type>
+		<name>masterinched</name>
+		<coords>101,13</coords>
+		<rectangle>1623,208:1625,210</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>tomb</type>
+			<name>the lucid tombs</name>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>461</id>
+		<type>hamlet</type>
+		<name>finwhirl</name>
+		<coords>51,30</coords>
+		<rectangle>818,478:834,494</rectangle>
+	</site>
+	<site>
+		<id>462</id>
+		<type>hamlet</type>
+		<name>platedfields</name>
+		<coords>104,23</coords>
+		<rectangle>1665,363:1681,379</rectangle>
+	</site>
+	<site>
+		<id>463</id>
+		<type>forest retreat</type>
+		<name>lightpearl</name>
+		<coords>69,22</coords>
+		<rectangle>1098,357:1114,368</rectangle>
+	</site>
+	<site>
+		<id>464</id>
+		<type>monastery</type>
+		<name>sloppyhound</name>
+		<coords>117,15</coords>
+		<rectangle>1874,242:1876,244</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the shrine of romancing</name>
+			<entity_id>947</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>465</id>
+		<type>hamlet</type>
+		<name>wreaththorn</name>
+		<coords>123,19</coords>
+		<rectangle>1972,298:1988,314</rectangle>
+	</site>
+	<site>
+		<id>466</id>
+		<type>hamlet</type>
+		<name>learnedhonors</name>
+		<coords>48,21</coords>
+		<rectangle>771,336:787,352</rectangle>
+	</site>
+	<site>
+		<id>467</id>
+		<type>dark pits</type>
+		<name>ruthlesstheater</name>
+		<coords>97,118</coords>
+		<rectangle>1556,1882:1572,1898</rectangle>
+	</site>
+	<site>
+		<id>468</id>
+		<type>forest retreat</type>
+		<name>quicknesscobras</name>
+		<coords>53,14</coords>
+		<rectangle>853,227:869,243</rectangle>
+	</site>
+	<site>
+		<id>469</id>
+		<type>dark pits</type>
+		<name>chantmaligned</name>
+		<coords>20,44</coords>
+		<rectangle>314,704:330,720</rectangle>
+	</site>
+	<site>
+		<id>470</id>
+		<type>forest retreat</type>
+		<name>mawhood</name>
+		<coords>60,19</coords>
+		<rectangle>959,303:975,319</rectangle>
+	</site>
+	<site>
+		<id>471</id>
+		<type>hamlet</type>
+		<name>seizureframes</name>
+		<coords>47,22</coords>
+		<rectangle>756,353:772,366</rectangle>
+	</site>
+	<site>
+		<id>472</id>
+		<type>dark pits</type>
+		<name>slickscourge</name>
+		<coords>82,26</coords>
+		<rectangle>1317,416:1333,432</rectangle>
+	</site>
+	<site>
+		<id>473</id>
+		<type>hamlet</type>
+		<name>outragemaw</name>
+		<coords>107,17</coords>
+		<rectangle>1707,265:1723,281</rectangle>
+	</site>
+	<site>
+		<id>474</id>
+		<type>forest retreat</type>
+		<name>drilledstorm</name>
+		<coords>63,17</coords>
+		<rectangle>1009,274:1025,290</rectangle>
+	</site>
+	<site>
+		<id>475</id>
+		<type>monastery</type>
+		<name>whisperedclocks</name>
+		<coords>3,43</coords>
+		<rectangle>50,699:52,701</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the teal sanctuary</name>
+			<entity_id>802</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>476</id>
+		<type>dark pits</type>
+		<name>menacedimage</name>
+		<coords>71,119</coords>
+		<rectangle>1130,1899:1146,1915</rectangle>
+	</site>
+	<site>
+		<id>477</id>
+		<type>dark pits</type>
+		<name>doomedtrades</name>
+		<coords>33,23</coords>
+		<rectangle>533,371:549,387</rectangle>
+	</site>
+	<site>
+		<id>478</id>
+		<type>castle</type>
+		<name>coastrake</name>
+		<coords>103,5</coords>
+		<rectangle>1650,91:1652,93</rectangle>
+	</site>
+	<site>
+		<id>479</id>
+		<type>hamlet</type>
+		<name>gatebright</name>
+		<coords>96,18</coords>
+		<rectangle>1537,290:1553,306</rectangle>
+	</site>
+	<site>
+		<id>480</id>
+		<type>dark pits</type>
+		<name>hatetoads</name>
+		<coords>104,111</coords>
+		<rectangle>1658,1770:1674,1786</rectangle>
+	</site>
+	<site>
+		<id>481</id>
+		<type>monastery</type>
+		<name>splatterhexes</name>
+		<coords>98,109</coords>
+		<rectangle>1570,1755:1572,1757</rectangle>
+		<structures>
+		<structure>
+			<local_id>0</local_id>
+			<type>temple</type>
+			<name>the abbey of whispering</name>
+			<entity_id>850</entity_id>
+		</structure>
+		</structures>
+	</site>
+	<site>
+		<id>482</id>
+		<type>camp</type>
+		<name>phrasemopped</name>
+		<coords>105,14</coords>
+		<rectangle>1695,238:1695,238</rectangle>
+	</site>
+	<site>
+		<id>483</id>
+		<type>camp</type>
+		<name>glosspeak</name>
+		<coords>93,10</coords>
+		<rectangle>1496,175:1496,175</rectangle>
+	</site>
+	<site>
+		<id>484</id>
+		<type>camp</type>
+		<name>toneclearings</name>
+		<coords>124,21</coords>
+		<rectangle>1991,351:1991,351</rectangle>
+	</site>
+	<site>
+		<id>485</id>
+		<type>camp</type>
+		<name>smileoils</name>
+		<coords>101,4</coords>
+		<rectangle>1617,65:1617,65</rectangle>
+	</site>
+	<site>
+		<id>486</id>
+		<type>camp</type>
+		<name>graypearl</name>
+		<coords>18,25</coords>
+		<rectangle>294,407:294,407</rectangle>
+	</site>
+	<site>
+		<id>487</id>
+		<type>camp</type>
+		<name>burnedscratch</name>
+		<coords>7,40</coords>
+		<rectangle>126,647:126,647</rectangle>
+	</site>
+	<site>
+		<id>488</id>
+		<type>camp</type>
+		<name>mindfulshins</name>
+		<coords>45,33</coords>
+		<rectangle>726,541:726,541</rectangle>
+	</site>
+	<site>
+		<id>489</id>
+		<type>camp</type>
+		<name>tirehelp</name>
+		<coords>46,32</coords>
+		<rectangle>739,521:739,521</rectangle>
+	</site>
+	<site>
+		<id>490</id>
+		<type>camp</type>
+		<name>showerechoed</name>
+		<coords>89,13</coords>
+		<rectangle>1434,213:1434,213</rectangle>
+	</site>
+	<site>
+		<id>491</id>
+		<type>camp</type>
+		<name>bakertwist</name>
+		<coords>51,31</coords>
+		<rectangle>816,508:816,508</rectangle>
+	</site>
+	<site>
+		<id>492</id>
+		<type>camp</type>
+		<name>lusterhug</name>
+		<coords>44,30</coords>
+		<rectangle>708,483:708,483</rectangle>
+	</site>
+	<site>
+		<id>493</id>
+		<type>camp</type>
+		<name>malicebrushes</name>
+		<coords>85,103</coords>
+		<rectangle>1366,1649:1366,1649</rectangle>
+	</site>
+	<site>
+		<id>494</id>
+		<type>camp</type>
+		<name>flythroats</name>
+		<coords>52,33</coords>
+		<rectangle>843,534:843,534</rectangle>
+	</site>
+	<site>
+		<id>495</id>
+		<type>camp</type>
+		<name>harshhate</name>
+		<coords>93,24</coords>
+		<rectangle>1502,392:1502,392</rectangle>
+	</site>
+	<site>
+		<id>496</id>
+		<type>camp</type>
+		<name>modestsystems</name>
+		<coords>98,10</coords>
+		<rectangle>1580,170:1580,170</rectangle>
+	</site>
+	<site>
+		<id>497</id>
+		<type>camp</type>
+		<name>passionpregnant</name>
+		<coords>107,14</coords>
+		<rectangle>1716,232:1716,232</rectangle>
+	</site>
+	<site>
+		<id>498</id>
+		<type>camp</type>
+		<name>echoveiled</name>
+		<coords>97,20</coords>
+		<rectangle>1562,326:1562,326</rectangle>
+	</site>
+	<site>
+		<id>499</id>
+		<type>camp</type>
+		<name>clobberedguard</name>
+		<coords>24,34</coords>
+		<rectangle>398,545:398,545</rectangle>
+	</site>
+	<site>
+		<id>500</id>
+		<type>camp</type>
+		<name>cursebeguiled</name>
+		<coords>101,103</coords>
+		<rectangle>1625,1648:1625,1648</rectangle>
+	</site>
+	<site>
+		<id>501</id>
+		<type>camp</type>
+		<name>soakstolen</name>
+		<coords>27,22</coords>
+		<rectangle>443,355:443,355</rectangle>
+	</site>
+	<site>
+		<id>502</id>
+		<type>camp</type>
+		<name>silkenthorns</name>
+		<coords>39,28</coords>
+		<rectangle>637,462:637,462</rectangle>
+	</site>
+	<site>
+		<id>503</id>
+		<type>camp</type>
+		<name>tameauras</name>
+		<coords>109,12</coords>
+		<rectangle>1750,198:1750,198</rectangle>
+	</site>
+	<site>
+		<id>504</id>
+		<type>camp</type>
+		<name>throatspotted</name>
+		<coords>103,23</coords>
+		<rectangle>1648,370:1648,370</rectangle>
+	</site>
+	<site>
+		<id>505</id>
+		<type>camp</type>
+		<name>heroicghosts</name>
+		<coords>85,6</coords>
+		<rectangle>1365,102:1365,102</rectangle>
+	</site>
+	<site>
+		<id>506</id>
+		<type>camp</type>
+		<name>hatredseasons</name>
+		<coords>69,124</coords>
+		<rectangle>1117,1990:1117,1990</rectangle>
+	</site>
+	<site>
+		<id>507</id>
+		<type>camp</type>
+		<name>fencesteppes</name>
+		<coords>41,23</coords>
+		<rectangle>667,380:667,380</rectangle>
+	</site>
+	<site>
+		<id>508</id>
+		<type>camp</type>
+		<name>datedusks</name>
+		<coords>45,25</coords>
+		<rectangle>729,401:729,401</rectangle>
+	</site>
+	<site>
+		<id>509</id>
+		<type>camp</type>
+		<name>stabbedblowing</name>
+		<coords>41,12</coords>
+		<rectangle>660,205:660,205</rectangle>
+	</site>
+	<site>
+		<id>510</id>
+		<type>camp</type>
+		<name>luredrilled</name>
+		<coords>56,23</coords>
+		<rectangle>898,382:898,382</rectangle>
+	</site>
+	<site>
+		<id>511</id>
+		<type>camp</type>
+		<name>helddemons</name>
+		<coords>14,25</coords>
+		<rectangle>231,405:231,405</rectangle>
+	</site>
+	<site>
+		<id>512</id>
+		<type>camp</type>
+		<name>vinelies</name>
+		<coords>29,2</coords>
+		<rectangle>472,39:472,39</rectangle>
+	</site>
+	<site>
+		<id>513</id>
+		<type>camp</type>
+		<name>ticksweet</name>
+		<coords>95,9</coords>
+		<rectangle>1520,146:1520,146</rectangle>
+	</site>
+	<site>
+		<id>514</id>
+		<type>camp</type>
+		<name>findscaled</name>
+		<coords>125,17</coords>
+		<rectangle>2002,279:2002,279</rectangle>
+	</site>
+	<site>
+		<id>515</id>
+		<type>camp</type>
+		<name>wraithlowness</name>
+		<coords>68,116</coords>
+		<rectangle>1089,1866:1089,1866</rectangle>
+	</site>
+	<site>
+		<id>516</id>
+		<type>camp</type>
+		<name>searedhumid</name>
+		<coords>84,9</coords>
+		<rectangle>1347,147:1347,147</rectangle>
+	</site>
+	<site>
+		<id>517</id>
+		<type>camp</type>
+		<name>saviorweb</name>
+		<coords>96,22</coords>
+		<rectangle>1544,355:1544,355</rectangle>
+	</site>
+	<site>
+		<id>518</id>
+		<type>camp</type>
+		<name>danglemenace</name>
+		<coords>70,120</coords>
+		<rectangle>1127,1929:1127,1929</rectangle>
+	</site>
+	<site>
+		<id>519</id>
+		<type>camp</type>
+		<name>drilledpanted</name>
+		<coords>85,15</coords>
+		<rectangle>1365,254:1365,254</rectangle>
+	</site>
+	<site>
+		<id>520</id>
+		<type>camp</type>
+		<name>rainedwheel</name>
+		<coords>56,18</coords>
+		<rectangle>896,303:896,303</rectangle>
+	</site>
+	<site>
+		<id>521</id>
+		<type>camp</type>
+		<name>goalmaligned</name>
+		<coords>20,15</coords>
+		<rectangle>331,241:331,241</rectangle>
+	</site>
+	<site>
+		<id>522</id>
+		<type>camp</type>
+		<name>cleareddragon</name>
+		<coords>93,12</coords>
+		<rectangle>1490,198:1490,198</rectangle>
+	</site>
+	<site>
+		<id>523</id>
+		<type>camp</type>
+		<name>appleskings</name>
+		<coords>125,18</coords>
+		<rectangle>2007,292:2007,292</rectangle>
+	</site>
+	<site>
+		<id>524</id>
+		<type>camp</type>
+		<name>spirallulled</name>
+		<coords>46,15</coords>
+		<rectangle>750,247:750,247</rectangle>
+	</site>
+	<site>
+		<id>525</id>
+		<type>camp</type>
+		<name>witchsalutes</name>
+		<coords>68,120</coords>
+		<rectangle>1102,1921:1102,1921</rectangle>
+	</site>
+	<site>
+		<id>526</id>
+		<type>camp</type>
+		<name>thiefpolishes</name>
+		<coords>51,4</coords>
+		<rectangle>826,75:826,75</rectangle>
+	</site>
+	<site>
+		<id>527</id>
+		<type>camp</type>
+		<name>polishedclasp</name>
+		<coords>44,22</coords>
+		<rectangle>704,353:704,353</rectangle>
+	</site>
+	<site>
+		<id>528</id>
+		<type>camp</type>
+		<name>brazenhexes</name>
+		<coords>43,14</coords>
+		<rectangle>696,225:696,225</rectangle>
+	</site>
+	<site>
+		<id>529</id>
+		<type>camp</type>
+		<name>girdertrusted</name>
+		<coords>88,15</coords>
+		<rectangle>1415,251:1415,251</rectangle>
+	</site>
+	<site>
+		<id>530</id>
+		<type>camp</type>
+		<name>armorsticks</name>
+		<coords>91,17</coords>
+		<rectangle>1463,272:1463,272</rectangle>
+	</site>
+	<site>
+		<id>531</id>
+		<type>camp</type>
+		<name>truthfullegends</name>
+		<coords>123,16</coords>
+		<rectangle>1974,268:1974,268</rectangle>
+	</site>
+	<site>
+		<id>532</id>
+		<type>camp</type>
+		<name>steamyhermits</name>
+		<coords>3,46</coords>
+		<rectangle>57,739:57,739</rectangle>
+	</site>
+	<site>
+		<id>533</id>
+		<type>camp</type>
+		<name>fissureprofane</name>
+		<coords>18,25</coords>
+		<rectangle>294,411:294,411</rectangle>
+	</site>
+	<site>
+		<id>534</id>
+		<type>camp</type>
+		<name>jumptrust</name>
+		<coords>7,37</coords>
+		<rectangle>125,595:125,595</rectangle>
+	</site>
+	<site>
+		<id>535</id>
+		<type>camp</type>
+		<name>sabrebear</name>
+		<coords>6,40</coords>
+		<rectangle>100,649:100,649</rectangle>
+	</site>
+	<site>
+		<id>536</id>
+		<type>camp</type>
+		<name>jewelthrew</name>
+		<coords>107,7</coords>
+		<rectangle>1727,126:1727,126</rectangle>
+	</site>
+	<site>
+		<id>537</id>
+		<type>camp</type>
+		<name>deerwishes</name>
+		<coords>10,37</coords>
+		<rectangle>165,606:165,606</rectangle>
+	</site>
+	<site>
+		<id>538</id>
+		<type>camp</type>
+		<name>sweetspire</name>
+		<coords>116,26</coords>
+		<rectangle>1868,422:1868,422</rectangle>
+	</site>
+	<site>
+		<id>539</id>
+		<type>camp</type>
+		<name>terrorrobust</name>
+		<coords>17,36</coords>
+		<rectangle>279,580:279,580</rectangle>
+	</site>
+	<site>
+		<id>540</id>
+		<type>camp</type>
+		<name>combatfell</name>
+		<coords>17,33</coords>
+		<rectangle>283,534:283,534</rectangle>
+	</site>
+	<site>
+		<id>541</id>
+		<type>camp</type>
+		<name>southferns</name>
+		<coords>120,19</coords>
+		<rectangle>1935,312:1935,312</rectangle>
+	</site>
+	<site>
+		<id>542</id>
+		<type>camp</type>
+		<name>stringcrab</name>
+		<coords>122,18</coords>
+		<rectangle>1967,290:1967,290</rectangle>
+	</site>
+	<site>
+		<id>543</id>
+		<type>camp</type>
+		<name>walledscales</name>
+		<coords>126,20</coords>
+		<rectangle>2022,331:2022,331</rectangle>
+	</site>
+	<site>
+		<id>544</id>
+		<type>camp</type>
+		<name>honordrives</name>
+		<coords>127,19</coords>
+		<rectangle>2039,316:2039,316</rectangle>
+	</site>
+	<site>
+		<id>545</id>
+		<type>camp</type>
+		<name>pukedungeon</name>
+		<coords>73,100</coords>
+		<rectangle>1180,1600:1180,1600</rectangle>
+	</site>
+	<site>
+		<id>546</id>
+		<type>camp</type>
+		<name>sramber</name>
+		<coords>9,43</coords>
+		<rectangle>153,696:153,696</rectangle>
+	</site>
+	<site>
+		<id>547</id>
+		<type>camp</type>
+		<name>daubedflies</name>
+		<coords>6,39</coords>
+		<rectangle>96,636:96,636</rectangle>
+	</site>
+	<site>
+		<id>548</id>
+		<type>camp</type>
+		<name>gloriestalons</name>
+		<coords>125,17</coords>
+		<rectangle>2014,284:2014,284</rectangle>
+	</site>
+	<site>
+		<id>549</id>
+		<type>camp</type>
+		<name>thiefvaulted</name>
+		<coords>8,37</coords>
+		<rectangle>128,605:128,605</rectangle>
+	</site>
+	<site>
+		<id>550</id>
+		<type>camp</type>
+		<name>hoarymenaced</name>
+		<coords>7,40</coords>
+		<rectangle>121,642:121,642</rectangle>
+	</site>
+	<site>
+		<id>551</id>
+		<type>camp</type>
+		<name>butterstops</name>
+		<coords>110,11</coords>
+		<rectangle>1760,183:1760,183</rectangle>
+	</site>
+	<site>
+		<id>552</id>
+		<type>camp</type>
+		<name>routcults</name>
+		<coords>114,19</coords>
+		<rectangle>1826,316:1826,316</rectangle>
+	</site>
+	<site>
+		<id>553</id>
+		<type>camp</type>
+		<name>malignedtwisted</name>
+		<coords>87,102</coords>
+		<rectangle>1404,1640:1404,1640</rectangle>
+	</site>
+	<site>
+		<id>554</id>
+		<type>camp</type>
+		<name>waxedmessiah</name>
+		<coords>105,12</coords>
+		<rectangle>1691,203:1691,203</rectangle>
+	</site>
+	<site>
+		<id>555</id>
+		<type>camp</type>
+		<name>rumorchucked</name>
+		<coords>107,5</coords>
+		<rectangle>1727,91:1727,91</rectangle>
+	</site>
+	<site>
+		<id>556</id>
+		<type>camp</type>
+		<name>battlenut</name>
+		<coords>120,15</coords>
+		<rectangle>1933,249:1933,249</rectangle>
+	</site>
+	<site>
+		<id>557</id>
+		<type>camp</type>
+		<name>seducehell</name>
+		<coords>56,32</coords>
+		<rectangle>909,521:909,521</rectangle>
+	</site>
+	<site>
+		<id>558</id>
+		<type>camp</type>
+		<name>loverslopped</name>
+		<coords>17,33</coords>
+		<rectangle>281,528:281,528</rectangle>
+	</site>
+	<site>
+		<id>559</id>
+		<type>camp</type>
+		<name>drorsner</name>
+		<coords>104,7</coords>
+		<rectangle>1668,112:1668,112</rectangle>
+	</site>
+	<site>
+		<id>560</id>
+		<type>camp</type>
+		<name>sportjoined</name>
+		<coords>64,21</coords>
+		<rectangle>1036,341:1036,341</rectangle>
+	</site>
+	<site>
+		<id>561</id>
+		<type>camp</type>
+		<name>crewedtorments</name>
+		<coords>75,107</coords>
+		<rectangle>1207,1719:1207,1719</rectangle>
+	</site>
+	<site>
+		<id>562</id>
+		<type>camp</type>
+		<name>thunderedtouched</name>
+		<coords>117,18</coords>
+		<rectangle>1879,295:1879,295</rectangle>
+	</site>
+	<site>
+		<id>563</id>
+		<type>camp</type>
+		<name>liegristles</name>
+		<coords>65,20</coords>
+		<rectangle>1047,324:1047,324</rectangle>
+	</site>
+	<site>
+		<id>564</id>
+		<type>camp</type>
+		<name>peachfords</name>
+		<coords>106,9</coords>
+		<rectangle>1702,158:1702,158</rectangle>
+	</site>
+	<site>
+		<id>565</id>
+		<type>camp</type>
+		<name>shaykis</name>
+		<coords>94,8</coords>
+		<rectangle>1507,128:1507,128</rectangle>
+	</site>
+	<site>
+		<id>566</id>
+		<type>camp</type>
+		<name>stealrun</name>
+		<coords>52,26</coords>
+		<rectangle>840,424:840,424</rectangle>
+	</site>
+	<site>
+		<id>567</id>
+		<type>camp</type>
+		<name>trussedprophets</name>
+		<coords>108,9</coords>
+		<rectangle>1731,159:1731,159</rectangle>
+	</site>
+	<site>
+		<id>568</id>
+		<type>camp</type>
+		<name>shishaydin</name>
+		<coords>5,40</coords>
+		<rectangle>89,654:89,654</rectangle>
+	</site>
+	<site>
+		<id>569</id>
+		<type>camp</type>
+		<name>folgin</name>
+		<coords>105,2</coords>
+		<rectangle>1687,42:1687,42</rectangle>
+	</site>
+	<site>
+		<id>570</id>
+		<type>lair</type>
+		<name>the scar of reigning</name>
+		<coords>112,23</coords>
+		<rectangle>1806,378:1806,378</rectangle>
+	</site>
+	<site>
+		<id>571</id>
+		<type>lair</type>
+		<name>calledecho the present hell</name>
+		<coords>77,27</coords>
+		<rectangle>1233,440:1233,440</rectangle>
+	</site>
+	<site>
+		<id>572</id>
+		<type>lair</type>
+		<name>pregnantscars</name>
+		<coords>74,14</coords>
+		<rectangle>1193,237:1193,237</rectangle>
+	</site>
+	<site>
+		<id>573</id>
+		<type>lair</type>
+		<name>guiltygloomy</name>
+		<coords>57,44</coords>
+		<rectangle>914,715:914,715</rectangle>
+	</site>
+	<site>
+		<id>574</id>
+		<type>lair</type>
+		<name>admiredsewers</name>
+		<coords>62,31</coords>
+		<rectangle>1001,499:1001,499</rectangle>
+	</site>
+	<site>
+		<id>575</id>
+		<type>lair</type>
+		<name>tattooedcracks</name>
+		<coords>110,114</coords>
+		<rectangle>1769,1829:1769,1829</rectangle>
+	</site>
+	<site>
+		<id>576</id>
+		<type>lair</type>
+		<name>shadowgloom</name>
+		<coords>107,93</coords>
+		<rectangle>1713,1496:1713,1496</rectangle>
+	</site>
+	<site>
+		<id>577</id>
+		<type>lair</type>
+		<name>the murk of drums</name>
+		<coords>90,22</coords>
+		<rectangle>1449,365:1449,365</rectangle>
+	</site>
+	<site>
+		<id>578</id>
+		<type>lair</type>
+		<name>lightningscarred the unthinkable gloom</name>
+		<coords>109,116</coords>
+		<rectangle>1749,1868:1749,1868</rectangle>
+	</site>
+	<site>
+		<id>579</id>
+		<type>lair</type>
+		<name>esteemedcaves</name>
+		<coords>21,19</coords>
+		<rectangle>349,305:349,305</rectangle>
+	</site>
+	<site>
+		<id>580</id>
+		<type>lair</type>
+		<name>bloodycracks</name>
+		<coords>23,12</coords>
+		<rectangle>375,192:375,192</rectangle>
+	</site>
+	<site>
+		<id>581</id>
+		<type>lair</type>
+		<name>cagecracks the tundra of play</name>
+		<coords>74,14</coords>
+		<rectangle>1197,235:1197,235</rectangle>
+	</site>
+	<site>
+		<id>582</id>
+		<type>lair</type>
+		<name>the fatal-shadow of laws</name>
+		<coords>105,124</coords>
+		<rectangle>1691,1993:1691,1993</rectangle>
+	</site>
+	<site>
+		<id>583</id>
+		<type>lair</type>
+		<name>torchscarred the simple slayer</name>
+		<coords>86,15</coords>
+		<rectangle>1388,252:1388,252</rectangle>
+	</site>
+	<site>
+		<id>584</id>
+		<type>lair</type>
+		<name>moistenedmurk</name>
+		<coords>105,91</coords>
+		<rectangle>1689,1464:1689,1464</rectangle>
+	</site>
+	<site>
+		<id>585</id>
+		<type>lair</type>
+		<name>weakcave</name>
+		<coords>111,108</coords>
+		<rectangle>1791,1741:1791,1741</rectangle>
+	</site>
+	<site>
+		<id>586</id>
+		<type>lair</type>
+		<name>the fenced abyss</name>
+		<coords>63,123</coords>
+		<rectangle>1013,1974:1013,1974</rectangle>
+	</site>
+	<site>
+		<id>587</id>
+		<type>lair</type>
+		<name>the ambiguous depth</name>
+		<coords>112,114</coords>
+		<rectangle>1795,1828:1795,1828</rectangle>
+	</site>
+	<site>
+		<id>588</id>
+		<type>lair</type>
+		<name>the crack of glee</name>
+		<coords>75,102</coords>
+		<rectangle>1209,1633:1209,1633</rectangle>
+	</site>
+	<site>
+		<id>589</id>
+		<type>lair</type>
+		<name>the vigorous shaft</name>
+		<coords>87,16</coords>
+		<rectangle>1404,265:1404,265</rectangle>
+	</site>
+	<site>
+		<id>590</id>
+		<type>lair</type>
+		<name>savantdank the naughty feet</name>
+		<coords>96,17</coords>
+		<rectangle>1539,278:1539,278</rectangle>
+	</site>
+	<site>
+		<id>591</id>
+		<type>lair</type>
+		<name>miredscar the fortunate echo</name>
+		<coords>85,17</coords>
+		<rectangle>1375,274:1375,274</rectangle>
+	</site>
+	<site>
+		<id>592</id>
+		<type>lair</type>
+		<name>the spotted clods-hollows</name>
+		<coords>113,25</coords>
+		<rectangle>1808,403:1808,403</rectangle>
+	</site>
+	<site>
+		<id>593</id>
+		<type>lair</type>
+		<name>outragenights the malodorous reverence</name>
+		<coords>112,108</coords>
+		<rectangle>1806,1730:1806,1730</rectangle>
+	</site>
+	<site>
+		<id>594</id>
+		<type>lair</type>
+		<name>yearmurk the harsh hole</name>
+		<coords>98,60</coords>
+		<rectangle>1577,961:1577,961</rectangle>
+	</site>
+	<site>
+		<id>595</id>
+		<type>lair</type>
+		<name>the deep of realms</name>
+		<coords>104,9</coords>
+		<rectangle>1667,148:1667,148</rectangle>
+	</site>
+	<site>
+		<id>596</id>
+		<type>lair</type>
+		<name>chantdank the hole of impaling</name>
+		<coords>59,22</coords>
+		<rectangle>957,367:957,367</rectangle>
+	</site>
+	<site>
+		<id>597</id>
+		<type>lair</type>
+		<name>ringedecho</name>
+		<coords>103,14</coords>
+		<rectangle>1662,236:1662,236</rectangle>
+	</site>
+	<site>
+		<id>598</id>
+		<type>lair</type>
+		<name>the scar of sandals</name>
+		<coords>15,21</coords>
+		<rectangle>246,338:246,338</rectangle>
+	</site>
+	<site>
+		<id>599</id>
+		<type>lair</type>
+		<name>sandcracked</name>
+		<coords>114,25</coords>
+		<rectangle>1836,409:1836,409</rectangle>
+	</site>
+	<site>
+		<id>600</id>
+		<type>lair</type>
+		<name>learnedsewers the hell of humor</name>
+		<coords>105,114</coords>
+		<rectangle>1694,1836:1694,1836</rectangle>
+	</site>
+	<site>
+		<id>601</id>
+		<type>lair</type>
+		<name>lockcracked the talon of biting</name>
+		<coords>102,105</coords>
+		<rectangle>1637,1684:1637,1684</rectangle>
+	</site>
+	<site>
+		<id>602</id>
+		<type>lair</type>
+		<name>the umbra of animals</name>
+		<coords>105,17</coords>
+		<rectangle>1688,279:1688,279</rectangle>
+	</site>
+	<site>
+		<id>603</id>
+		<type>lair</type>
+		<name>woodcracks</name>
+		<coords>107,21</coords>
+		<rectangle>1716,351:1716,351</rectangle>
+	</site>
+	<site>
+		<id>604</id>
+		<type>lair</type>
+		<name>flayedcracked</name>
+		<coords>110,119</coords>
+		<rectangle>1775,1916:1775,1916</rectangle>
+	</site>
+	<site>
+		<id>605</id>
+		<type>lair</type>
+		<name>the pleated crack</name>
+		<coords>80,8</coords>
+		<rectangle>1283,139:1283,139</rectangle>
+	</site>
+	<site>
+		<id>606</id>
+		<type>lair</type>
+		<name>the unholy nights</name>
+		<coords>82,25</coords>
+		<rectangle>1320,408:1320,408</rectangle>
+	</site>
+	<site>
+		<id>607</id>
+		<type>lair</type>
+		<name>the heart of bridles</name>
+		<coords>112,24</coords>
+		<rectangle>1805,397:1805,397</rectangle>
+	</site>
+	<site>
+		<id>608</id>
+		<type>lair</type>
+		<name>the contemptible crack</name>
+		<coords>114,21</coords>
+		<rectangle>1831,345:1831,345</rectangle>
+	</site>
+	<site>
+		<id>609</id>
+		<type>lair</type>
+		<name>the mine of frigidity</name>
+		<coords>78,73</coords>
+		<rectangle>1259,1182:1259,1182</rectangle>
+	</site>
+	<site>
+		<id>610</id>
+		<type>lair</type>
+		<name>the evil deeps</name>
+		<coords>117,18</coords>
+		<rectangle>1887,289:1887,289</rectangle>
+	</site>
+	<site>
+		<id>611</id>
+		<type>lair</type>
+		<name>brandedcaves the gutter of poetry</name>
+		<coords>89,14</coords>
+		<rectangle>1429,234:1429,234</rectangle>
+	</site>
+	<site>
+		<id>612</id>
+		<type>lair</type>
+		<name>heavenecho</name>
+		<coords>111,103</coords>
+		<rectangle>1791,1653:1791,1653</rectangle>
+	</site>
+	<site>
+		<id>613</id>
+		<type>lair</type>
+		<name>the scar of sliding</name>
+		<coords>78,8</coords>
+		<rectangle>1258,129:1258,129</rectangle>
+	</site>
+	<site>
+		<id>614</id>
+		<type>lair</type>
+		<name>whiskerscarred</name>
+		<coords>49,24</coords>
+		<rectangle>797,384:797,384</rectangle>
+	</site>
+	<site>
+		<id>615</id>
+		<type>lair</type>
+		<name>slaughtershollow the oceanic door</name>
+		<coords>16,18</coords>
+		<rectangle>260,298:260,298</rectangle>
+	</site>
+	<site>
+		<id>616</id>
+		<type>lair</type>
+		<name>the abysses of control</name>
+		<coords>50,26</coords>
+		<rectangle>802,429:802,429</rectangle>
+	</site>
+	<site>
+		<id>617</id>
+		<type>lair</type>
+		<name>the abyss of silt</name>
+		<coords>73,20</coords>
+		<rectangle>1171,329:1171,329</rectangle>
+	</site>
+	<site>
+		<id>618</id>
+		<type>lair</type>
+		<name>creepmines the speaker of crabs</name>
+		<coords>61,31</coords>
+		<rectangle>984,497:984,497</rectangle>
+	</site>
+	<site>
+		<id>619</id>
+		<type>lair</type>
+		<name>bridgedhells</name>
+		<coords>60,120</coords>
+		<rectangle>965,1932:965,1932</rectangle>
+	</site>
+	<site>
+		<id>620</id>
+		<type>lair</type>
+		<name>squatechoed</name>
+		<coords>89,105</coords>
+		<rectangle>1432,1691:1432,1691</rectangle>
+	</site>
+	<site>
+		<id>621</id>
+		<type>lair</type>
+		<name>seizedcracks the idle haunt</name>
+		<coords>81,11</coords>
+		<rectangle>1296,182:1296,182</rectangle>
+	</site>
+	<site>
+		<id>622</id>
+		<type>lair</type>
+		<name>slitcracks the maroon holes</name>
+		<coords>91,19</coords>
+		<rectangle>1457,304:1457,304</rectangle>
+	</site>
+	<site>
+		<id>623</id>
+		<type>lair</type>
+		<name>enjoyedscar</name>
+		<coords>56,28</coords>
+		<rectangle>896,453:896,453</rectangle>
+	</site>
+	<site>
+		<id>624</id>
+		<type>lair</type>
+		<name>bustedscars the fury of gladness</name>
+		<coords>11,69</coords>
+		<rectangle>177,1115:177,1115</rectangle>
+	</site>
+	<site>
+		<id>625</id>
+		<type>lair</type>
+		<name>speckumbras the echo of luxuries</name>
+		<coords>94,24</coords>
+		<rectangle>1508,399:1508,399</rectangle>
+	</site>
+	<site>
+		<id>626</id>
+		<type>lair</type>
+		<name>the cave of betrayal</name>
+		<coords>13,24</coords>
+		<rectangle>215,389:215,389</rectangle>
+	</site>
+	<site>
+		<id>627</id>
+		<type>lair</type>
+		<name>achemined</name>
+		<coords>83,4</coords>
+		<rectangle>1339,71:1339,71</rectangle>
+	</site>
+	<site>
+		<id>628</id>
+		<type>lair</type>
+		<name>the cavern of treasures</name>
+		<coords>92,24</coords>
+		<rectangle>1476,384:1476,384</rectangle>
+	</site>
+	<site>
+		<id>629</id>
+		<type>lair</type>
+		<name>leechgloom the puce prairies</name>
+		<coords>76,11</coords>
+		<rectangle>1230,191:1230,191</rectangle>
+	</site>
+	<site>
+		<id>630</id>
+		<type>lair</type>
+		<name>lulledpits the blossom of heads</name>
+		<coords>69,22</coords>
+		<rectangle>1115,362:1115,362</rectangle>
+	</site>
+	<site>
+		<id>631</id>
+		<type>lair</type>
+		<name>rogueechoed the abyss of creatures</name>
+		<coords>85,7</coords>
+		<rectangle>1368,112:1368,112</rectangle>
+	</site>
+	<site>
+		<id>632</id>
+		<type>lair</type>
+		<name>the deeps of perfecting</name>
+		<coords>70,125</coords>
+		<rectangle>1130,2007:1130,2007</rectangle>
+	</site>
+	<site>
+		<id>633</id>
+		<type>lair</type>
+		<name>hustledank the shadow of aquamarines</name>
+		<coords>113,24</coords>
+		<rectangle>1820,390:1820,390</rectangle>
+	</site>
+	<site>
+		<id>634</id>
+		<type>lair</type>
+		<name>umbraltunnels the oblivion of graves</name>
+		<coords>55,82</coords>
+		<rectangle>889,1322:889,1322</rectangle>
+	</site>
+	<site>
+		<id>635</id>
+		<type>lair</type>
+		<name>routumbras</name>
+		<coords>80,105</coords>
+		<rectangle>1290,1689:1290,1689</rectangle>
+	</site>
+	<site>
+		<id>636</id>
+		<type>lair</type>
+		<name>siltnight</name>
+		<coords>68,126</coords>
+		<rectangle>1099,2017:1099,2017</rectangle>
+	</site>
+	<site>
+		<id>637</id>
+		<type>lair</type>
+		<name>rainyscars</name>
+		<coords>52,100</coords>
+		<rectangle>836,1610:836,1610</rectangle>
+	</site>
+	<site>
+		<id>638</id>
+		<type>lair</type>
+		<name>the persuasive gutter</name>
+		<coords>111,112</coords>
+		<rectangle>1778,1800:1778,1800</rectangle>
+	</site>
+	<site>
+		<id>639</id>
+		<type>lair</type>
+		<name>warddeep</name>
+		<coords>53,21</coords>
+		<rectangle>855,344:855,344</rectangle>
+	</site>
+	<site>
+		<id>640</id>
+		<type>lair</type>
+		<name>gauntcave the pleated fat</name>
+		<coords>8,47</coords>
+		<rectangle>137,752:137,752</rectangle>
+	</site>
+	<site>
+		<id>641</id>
+		<type>lair</type>
+		<name>uglymine the scar of subtlety</name>
+		<coords>117,106</coords>
+		<rectangle>1873,1702:1873,1702</rectangle>
+	</site>
+	<site>
+		<id>642</id>
+		<type>lair</type>
+		<name>the umbra of lace</name>
+		<coords>72,18</coords>
+		<rectangle>1163,294:1163,294</rectangle>
+	</site>
+	<site>
+		<id>643</id>
+		<type>lair</type>
+		<name>brightabyss</name>
+		<coords>109,44</coords>
+		<rectangle>1759,707:1759,707</rectangle>
+	</site>
+	<site>
+		<id>644</id>
+		<type>lair</type>
+		<name>ghoulumbra</name>
+		<coords>116,19</coords>
+		<rectangle>1858,315:1858,315</rectangle>
+	</site>
+	<site>
+		<id>645</id>
+		<type>lair</type>
+		<name>vaultshaft</name>
+		<coords>114,23</coords>
+		<rectangle>1827,376:1827,376</rectangle>
+	</site>
+	<site>
+		<id>646</id>
+		<type>lair</type>
+		<name>the untamed hell</name>
+		<coords>96,23</coords>
+		<rectangle>1537,378:1537,378</rectangle>
+	</site>
+	<site>
+		<id>647</id>
+		<type>lair</type>
+		<name>rainhole the ferns of submerging</name>
+		<coords>52,33</coords>
+		<rectangle>837,542:837,542</rectangle>
+	</site>
+	<site>
+		<id>648</id>
+		<type>lair</type>
+		<name>the shaft of midnights</name>
+		<coords>24,54</coords>
+		<rectangle>386,876:386,876</rectangle>
+	</site>
+	<site>
+		<id>649</id>
+		<type>lair</type>
+		<name>twilighttunneled</name>
+		<coords>76,29</coords>
+		<rectangle>1217,465:1217,465</rectangle>
+	</site>
+	<site>
+		<id>650</id>
+		<type>lair</type>
+		<name>the copper abyss</name>
+		<coords>102,101</coords>
+		<rectangle>1638,1625:1638,1625</rectangle>
+	</site>
+	<site>
+		<id>651</id>
+		<type>lair</type>
+		<name>the hardy cavern</name>
+		<coords>109,114</coords>
+		<rectangle>1750,1824:1750,1824</rectangle>
+	</site>
+	<site>
+		<id>652</id>
+		<type>lair</type>
+		<name>the night of lamenting</name>
+		<coords>111,23</coords>
+		<rectangle>1777,370:1777,370</rectangle>
+	</site>
+	<site>
+		<id>653</id>
+		<type>lair</type>
+		<name>the rare mine</name>
+		<coords>114,25</coords>
+		<rectangle>1839,406:1839,406</rectangle>
+	</site>
+	<site>
+		<id>654</id>
+		<type>lair</type>
+		<name>fataltunneled</name>
+		<coords>98,21</coords>
+		<rectangle>1572,348:1572,348</rectangle>
+	</site>
+	<site>
+		<id>655</id>
+		<type>lair</type>
+		<name>twilightnights</name>
+		<coords>60,88</coords>
+		<rectangle>972,1421:972,1421</rectangle>
+	</site>
+	<site>
+		<id>656</id>
+		<type>lair</type>
+		<name>freehearts the radiant shafts</name>
+		<coords>111,108</coords>
+		<rectangle>1778,1736:1778,1736</rectangle>
+	</site>
+	<site>
+		<id>657</id>
+		<type>lair</type>
+		<name>hailnight the complex seal</name>
+		<coords>78,33</coords>
+		<rectangle>1263,529:1263,529</rectangle>
+	</site>
+	<site>
+		<id>658</id>
+		<type>lair</type>
+		<name>matchmines the clean phlegm</name>
+		<coords>116,25</coords>
+		<rectangle>1870,401:1870,401</rectangle>
+	</site>
+	<site>
+		<id>659</id>
+		<type>lair</type>
+		<name>brigandhell the friendly shafts</name>
+		<coords>78,80</coords>
+		<rectangle>1260,1285:1260,1285</rectangle>
+	</site>
+	<site>
+		<id>660</id>
+		<type>lair</type>
+		<name>prowlsewers</name>
+		<coords>72,70</coords>
+		<rectangle>1153,1125:1153,1125</rectangle>
+	</site>
+	<site>
+		<id>661</id>
+		<type>lair</type>
+		<name>bonesumbras</name>
+		<coords>105,110</coords>
+		<rectangle>1682,1767:1682,1767</rectangle>
+	</site>
+	<site>
+		<id>662</id>
+		<type>lair</type>
+		<name>paleumbral the perfect stream</name>
+		<coords>107,117</coords>
+		<rectangle>1715,1887:1715,1887</rectangle>
+	</site>
+	<site>
+		<id>663</id>
+		<type>lair</type>
+		<name>steamdank</name>
+		<coords>98,28</coords>
+		<rectangle>1568,450:1568,450</rectangle>
+	</site>
+	<site>
+		<id>664</id>
+		<type>lair</type>
+		<name>thirstcavern the beach of delights</name>
+		<coords>106,110</coords>
+		<rectangle>1710,1767:1710,1767</rectangle>
+	</site>
+	<site>
+		<id>665</id>
+		<type>lair</type>
+		<name>the shadow of squeezing</name>
+		<coords>103,113</coords>
+		<rectangle>1652,1808:1652,1808</rectangle>
+	</site>
+	<site>
+		<id>666</id>
+		<type>lair</type>
+		<name>fastenedumbral</name>
+		<coords>80,8</coords>
+		<rectangle>1292,141:1292,141</rectangle>
+	</site>
+	<site>
+		<id>667</id>
+		<type>lair</type>
+		<name>divinehell</name>
+		<coords>116,111</coords>
+		<rectangle>1863,1777:1863,1777</rectangle>
+	</site>
+	<site>
+		<id>668</id>
+		<type>lair</type>
+		<name>the symmetric gutters</name>
+		<coords>21,9</coords>
+		<rectangle>342,156:342,156</rectangle>
+	</site>
+	<site>
+		<id>669</id>
+		<type>lair</type>
+		<name>the cloudy neo-scars</name>
+		<coords>118,14</coords>
+		<rectangle>1903,238:1903,238</rectangle>
+	</site>
+	<site>
+		<id>670</id>
+		<type>lair</type>
+		<name>squashedhearts</name>
+		<coords>50,78</coords>
+		<rectangle>813,1252:813,1252</rectangle>
+	</site>
+	<site>
+		<id>671</id>
+		<type>lair</type>
+		<name>taxedechoes</name>
+		<coords>33,56</coords>
+		<rectangle>543,902:543,902</rectangle>
+	</site>
+	<site>
+		<id>672</id>
+		<type>lair</type>
+		<name>the deeps of combining</name>
+		<coords>79,10</coords>
+		<rectangle>1274,165:1274,165</rectangle>
+	</site>
+	<site>
+		<id>673</id>
+		<type>lair</type>
+		<name>the sensual hollows</name>
+		<coords>103,116</coords>
+		<rectangle>1657,1866:1657,1866</rectangle>
+	</site>
+	<site>
+		<id>674</id>
+		<type>lair</type>
+		<name>hotmined</name>
+		<coords>49,88</coords>
+		<rectangle>793,1423:793,1423</rectangle>
+	</site>
+	<site>
+		<id>675</id>
+		<type>lair</type>
+		<name>ecruhell the banded pit</name>
+		<coords>109,91</coords>
+		<rectangle>1746,1460:1746,1460</rectangle>
+	</site>
+	<site>
+		<id>676</id>
+		<type>lair</type>
+		<name>drownedcavern the deep of learning</name>
+		<coords>80,49</coords>
+		<rectangle>1292,797:1292,797</rectangle>
+	</site>
+	<site>
+		<id>677</id>
+		<type>labyrinth</type>
+		<name>the flier of vaults</name>
+		<coords>32,85</coords>
+		<rectangle>520,1367:520,1367</rectangle>
+	</site>
+	<site>
+		<id>678</id>
+		<type>lair</type>
+		<name>tipgloomy the mahogany group</name>
+		<coords>18,73</coords>
+		<rectangle>301,1182:301,1182</rectangle>
+	</site>
+	<site>
+		<id>679</id>
+		<type>lair</type>
+		<name>the death of fate</name>
+		<coords>57,10</coords>
+		<rectangle>913,169:913,169</rectangle>
+	</site>
+	<site>
+		<id>680</id>
+		<type>lair</type>
+		<name>the languishing murk</name>
+		<coords>67,126</coords>
+		<rectangle>1079,2026:1079,2026</rectangle>
+	</site>
+	<site>
+		<id>681</id>
+		<type>lair</type>
+		<name>pantherscar the stump of guts</name>
+		<coords>87,97</coords>
+		<rectangle>1406,1561:1406,1561</rectangle>
+	</site>
+	<site>
+		<id>682</id>
+		<type>lair</type>
+		<name>acheechoed</name>
+		<coords>62,124</coords>
+		<rectangle>1007,1987:1007,1987</rectangle>
+	</site>
+	<site>
+		<id>683</id>
+		<type>lair</type>
+		<name>shamecavern</name>
+		<coords>24,16</coords>
+		<rectangle>388,270:388,270</rectangle>
+	</site>
+	<site>
+		<id>684</id>
+		<type>lair</type>
+		<name>walkscar the accidental frill</name>
+		<coords>101,112</coords>
+		<rectangle>1626,1807:1626,1807</rectangle>
+	</site>
+	<site>
+		<id>685</id>
+		<type>lair</type>
+		<name>umbraldusk the murk of skulls</name>
+		<coords>54,83</coords>
+		<rectangle>864,1334:864,1334</rectangle>
+	</site>
+	<site>
+		<id>686</id>
+		<type>lair</type>
+		<name>murkytunnel</name>
+		<coords>50,84</coords>
+		<rectangle>802,1346:802,1346</rectangle>
+	</site>
+	<site>
+		<id>687</id>
+		<type>lair</type>
+		<name>bonesburies the cavernous grave</name>
+		<coords>69,28</coords>
+		<rectangle>1108,456:1108,456</rectangle>
+	</site>
+	<site>
+		<id>688</id>
+		<type>lair</type>
+		<name>the pit of slits</name>
+		<coords>79,80</coords>
+		<rectangle>1264,1281:1264,1281</rectangle>
+	</site>
+	<site>
+		<id>689</id>
+		<type>lair</type>
+		<name>tunnelfate</name>
+		<coords>91,15</coords>
+		<rectangle>1460,245:1460,245</rectangle>
+	</site>
+	<site>
+		<id>690</id>
+		<type>lair</type>
+		<name>helpfulabyss</name>
+		<coords>56,93</coords>
+		<rectangle>901,1494:901,1494</rectangle>
+	</site>
+	<site>
+		<id>691</id>
+		<type>lair</type>
+		<name>the contemptible murk</name>
+		<coords>115,15</coords>
+		<rectangle>1854,245:1854,245</rectangle>
+	</site>
+	<site>
+		<id>692</id>
+		<type>lair</type>
+		<name>helpedechoed the systemic dessert</name>
+		<coords>82,99</coords>
+		<rectangle>1314,1584:1314,1584</rectangle>
+	</site>
+	<site>
+		<id>693</id>
+		<type>lair</type>
+		<name>dyehole</name>
+		<coords>112,80</coords>
+		<rectangle>1806,1294:1806,1294</rectangle>
+	</site>
+	<site>
+		<id>694</id>
+		<type>lair</type>
+		<name>bughell</name>
+		<coords>43,4</coords>
+		<rectangle>691,64:691,64</rectangle>
+	</site>
+	<site>
+		<id>695</id>
+		<type>lair</type>
+		<name>the night of twilight</name>
+		<coords>92,18</coords>
+		<rectangle>1482,289:1482,289</rectangle>
+	</site>
+	<site>
+		<id>696</id>
+		<type>lair</type>
+		<name>problemsewers</name>
+		<coords>77,91</coords>
+		<rectangle>1234,1459:1234,1459</rectangle>
+	</site>
+	<site>
+		<id>697</id>
+		<type>lair</type>
+		<name>stoodknights</name>
+		<coords>25,20</coords>
+		<rectangle>400,325:400,325</rectangle>
+	</site>
+	<site>
+		<id>698</id>
+		<type>labyrinth</type>
+		<name>muckseize the mange of zephyrs</name>
+		<coords>105,119</coords>
+		<rectangle>1690,1912:1690,1912</rectangle>
+	</site>
+	<site>
+		<id>699</id>
+		<type>lair</type>
+		<name>the meteors of justice</name>
+		<coords>57,18</coords>
+		<rectangle>926,292:926,292</rectangle>
+	</site>
+	<site>
+		<id>700</id>
+		<type>lair</type>
+		<name>lacemother the large scholars</name>
+		<coords>117,18</coords>
+		<rectangle>1880,298:1880,298</rectangle>
+	</site>
+	<site>
+		<id>701</id>
+		<type>lair</type>
+		<name>twinkledplay the adventure of dyes</name>
+		<coords>34,61</coords>
+		<rectangle>556,984:556,984</rectangle>
+	</site>
+	<site>
+		<id>702</id>
+		<type>labyrinth</type>
+		<name>the muck of taking</name>
+		<coords>23,14</coords>
+		<rectangle>369,226:369,226</rectangle>
+	</site>
+	<site>
+		<id>703</id>
+		<type>lair</type>
+		<name>the quest of emeralds</name>
+		<coords>15,37</coords>
+		<rectangle>245,598:245,598</rectangle>
+	</site>
+	<site>
+		<id>704</id>
+		<type>lair</type>
+		<name>the mouth of bristles</name>
+		<coords>83,20</coords>
+		<rectangle>1342,335:1342,335</rectangle>
+	</site>
+	<site>
+		<id>705</id>
+		<type>lair</type>
+		<name>the mellow climax</name>
+		<coords>27,97</coords>
+		<rectangle>446,1564:446,1564</rectangle>
+	</site>
+	<site>
+		<id>706</id>
+		<type>labyrinth</type>
+		<name>wispyveiled the conflict of grizzle</name>
+		<coords>113,106</coords>
+		<rectangle>1808,1705:1808,1705</rectangle>
+	</site>
+	<site>
+		<id>707</id>
+		<type>labyrinth</type>
+		<name>the larva of gore</name>
+		<coords>7,17</coords>
+		<rectangle>119,284:119,284</rectangle>
+	</site>
+	<site>
+		<id>708</id>
+		<type>lair</type>
+		<name>fuchsiacouples</name>
+		<coords>28,18</coords>
+		<rectangle>463,301:463,301</rectangle>
+	</site>
+	<site>
+		<id>709</id>
+		<type>lair</type>
+		<name>sterntakers the strong culmination</name>
+		<coords>78,25</coords>
+		<rectangle>1248,404:1248,404</rectangle>
+	</site>
+	<site>
+		<id>710</id>
+		<type>lair</type>
+		<name>searchedancient the ivory oaks</name>
+		<coords>56,23</coords>
+		<rectangle>911,371:911,371</rectangle>
+	</site>
+	<site>
+		<id>711</id>
+		<type>labyrinth</type>
+		<name>searinggorged the large call</name>
+		<coords>109,117</coords>
+		<rectangle>1758,1882:1758,1882</rectangle>
+	</site>
+	<site>
+		<id>712</id>
+		<type>labyrinth</type>
+		<name>the bloody radiance</name>
+		<coords>84,104</coords>
+		<rectangle>1358,1678:1358,1678</rectangle>
+	</site>
+	<site>
+		<id>713</id>
+		<type>labyrinth</type>
+		<name>the prestigious umbra</name>
+		<coords>101,92</coords>
+		<rectangle>1616,1474:1616,1474</rectangle>
+	</site>
+	<site>
+		<id>714</id>
+		<type>labyrinth</type>
+		<name>echosqueezed the red mist</name>
+		<coords>3,101</coords>
+		<rectangle>54,1618:54,1618</rectangle>
+	</site>
+	<site>
+		<id>715</id>
+		<type>lair</type>
+		<name>cavernnights the tomb of twilight</name>
+		<coords>102,21</coords>
+		<rectangle>1633,350:1633,350</rectangle>
+	</site>
+	<site>
+		<id>716</id>
+		<type>lair</type>
+		<name>the tenebrous cavernous bones</name>
+		<coords>68,120</coords>
+		<rectangle>1088,1925:1088,1925</rectangle>
+	</site>
+	<site>
+		<id>717</id>
+		<type>lair</type>
+		<name>deadmurk the nights of bone</name>
+		<coords>102,12</coords>
+		<rectangle>1640,192:1640,192</rectangle>
+	</site>
+	<site>
+		<id>718</id>
+		<type>lair</type>
+		<name>shadedied</name>
+		<coords>24,28</coords>
+		<rectangle>388,453:388,453</rectangle>
+	</site>
+	<site>
+		<id>719</id>
+		<type>lair</type>
+		<name>the sable fate</name>
+		<coords>100,91</coords>
+		<rectangle>1600,1463:1600,1463</rectangle>
+	</site>
+	<site>
+		<id>720</id>
+		<type>lair</type>
+		<name>the crypts of shadow</name>
+		<coords>103,94</coords>
+		<rectangle>1649,1517:1649,1517</rectangle>
+	</site>
+	<site>
+		<id>721</id>
+		<type>lair</type>
+		<name>caverntunnels</name>
+		<coords>30,115</coords>
+		<rectangle>480,1843:480,1843</rectangle>
+	</site>
+	<site>
+		<id>722</id>
+		<type>lair</type>
+		<name>necrofatal</name>
+		<coords>97,117</coords>
+		<rectangle>1552,1886:1552,1886</rectangle>
+	</site>
+	<site>
+		<id>723</id>
+		<type>shrine</type>
+		<name>twigcloudy the sun of mists</name>
+		<coords>17,109</coords>
+		<rectangle>280,1751:280,1751</rectangle>
+	</site>
+	<site>
+		<id>724</id>
+		<type>shrine</type>
+		<name>chantedflights the ripe fur</name>
+		<coords>65,22</coords>
+		<rectangle>1050,358:1050,358</rectangle>
+	</site>
+	<site>
+		<id>725</id>
+		<type>shrine</type>
+		<name>clammines</name>
+		<coords>32,93</coords>
+		<rectangle>513,1496:513,1496</rectangle>
+	</site>
+	<site>
+		<id>726</id>
+		<type>shrine</type>
+		<name>bearwindy</name>
+		<coords>12,57</coords>
+		<rectangle>198,919:198,919</rectangle>
+	</site>
+	<site>
+		<id>727</id>
+		<type>shrine</type>
+		<name>drinkborn the raptor of boars</name>
+		<coords>57,122</coords>
+		<rectangle>923,1967:923,1967</rectangle>
+	</site>
+	<site>
+		<id>728</id>
+		<type>shrine</type>
+		<name>heatherdawns the crow of lakes</name>
+		<coords>2,96</coords>
+		<rectangle>40,1551:40,1551</rectangle>
+	</site>
+	<site>
+		<id>729</id>
+		<type>lair</type>
+		<name>the blossom of directions</name>
+		<coords>18,74</coords>
+		<rectangle>298,1187:298,1187</rectangle>
+	</site>
+	<site>
+		<id>730</id>
+		<type>lair</type>
+		<name>ramtribes</name>
+		<coords>104,102</coords>
+		<rectangle>1668,1646:1668,1646</rectangle>
+	</site>
+	<site>
+		<id>731</id>
+		<type>lair</type>
+		<name>the ripe glens</name>
+		<coords>53,91</coords>
+		<rectangle>848,1470:848,1470</rectangle>
+	</site>
+	<site>
+		<id>732</id>
+		<type>shrine</type>
+		<name>sculptedblazed the decisive gravel</name>
+		<coords>57,18</coords>
+		<rectangle>920,291:920,291</rectangle>
+	</site>
+	<site>
+		<id>733</id>
+		<type>lair</type>
+		<name>strappedbrews the cyclopean snarls</name>
+		<coords>44,88</coords>
+		<rectangle>709,1408:709,1408</rectangle>
+	</site>
+	<site>
+		<id>734</id>
+		<type>shrine</type>
+		<name>the gem of sharks</name>
+		<coords>21,106</coords>
+		<rectangle>338,1698:338,1698</rectangle>
+	</site>
+</sites>
+</df_world>

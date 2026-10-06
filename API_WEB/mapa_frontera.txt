@@ -1,0 +1,64 @@
+==============================================================================
+P1 :: AUDITORIA DE LA FRONTERA API/WEB
+==============================================================================
+Rutas registradas            : 51
+Delegan en el adaptador      : 13
+Deberian pasar por frontera  : 13
+
+ENDPOINT                                       TIPO          DELEGA EN           
+------------------------------------------------------------------------------
+   /api                                         metadatos     servicio            
+   /api/artefactos                              navegacion    servicio            
+   /api/artefactos                              navegacion    servicio            
+  */api/artefactos/{id}                         consulta      adaptador_consulta  
+   /api/artefactos/{id}/eventos                 navegacion    servicio            
+   /api/artefactos/{id}/propietarios            navegacion    servicio            
+   /api/buscar                                  navegacion    servicio            
+   /api/buscar/{tipo}                           navegacion    servicio            
+   /api/conflictos                              navegacion    servicio            
+  */api/consulta/atributo/{tipo}/{id}/{atributo} consulta      adaptador_consulta  
+  */api/consulta/contar/{tipo}                  consulta      adaptador_consulta  
+  */api/consulta/contrato                       consulta      adaptador_consulta  
+  */api/consulta/entidad/{tipo}/{id}            consulta      adaptador_consulta  
+  */api/consulta/evidencia/{tipo}/{id}          consulta      adaptador_consulta  
+  */api/consulta/relaciones/{id}                consulta      adaptador_consulta  
+  */api/consulta/verificar                      consulta      adaptador_consulta  
+   /api/entidades                               navegacion    servicio            
+  */api/entidades/{id}                          consulta      adaptador_consulta  
+   /api/entidades/{id}/cronologia               navegacion    servicio            
+   /api/entidades/{id}/eventos                  navegacion    servicio            
+   /api/entidades/{id}/miembros                 navegacion    servicio            
+   /api/entidades/{id}/sitios                   navegacion    servicio            
+   /api/estadisticas                            estadisticas  servicio            
+   /api/eventos                                 navegacion    servicio            
+   /api/eventos/tipos                           metadatos     servicio            
+  */api/eventos/{id}                            consulta      adaptador_consulta  
+   /api/eventos/{id}/participantes              navegacion    servicio            
+   /api/exportar                                exportacion   servicio            
+   /api/figuras                                 navegacion    servicio            
+  */api/figuras/{id}                            consulta      adaptador_consulta  
+   /api/figuras/{id}/artefactos                 navegacion    servicio            
+   /api/figuras/{id}/cronologia                 navegacion    servicio            
+   /api/figuras/{id}/eventos                    navegacion    servicio            
+   /api/figuras/{id}/identidad                  navegacion    servicio            
+  */api/figuras/{id}/relaciones                 consulta      adaptador_consulta  
+   /api/geografia                               navegacion    servicio            
+   /api/geografia/area/{x}/{y}                  navegacion    servicio            
+   /api/geografia/construcciones/{x}/{y}        navegacion    servicio            
+   /api/geografia/punto/{x}/{y}                 navegacion    servicio            
+   /api/geografia/{capa}                        navegacion    servicio            
+   /api/limitaciones                            metadatos     servicio            
+   /api/listar/{tipo}                           navegacion    servicio            
+   /api/relaciones/tipos                        metadatos     servicio            
+   /api/salud                                   salud         servicio            
+   /api/sitios                                  navegacion    servicio            
+  */api/sitios/{id}                             consulta      adaptador_consulta  
+   /api/sitios/{id}/cronologia                  navegacion    servicio            
+   /api/sitios/{id}/eventos                     navegacion    servicio            
+   /api/sitios/{id}/figuras                     navegacion    servicio            
+   /api/sitios/{id}/geografia                   navegacion    servicio            
+   /api/stats                                   estadisticas  servicio            
+
+(*) = debe pasar por la frontera determinista
+
+informe escrito en: API_WEB\mapa_frontera.json

@@ -1,0 +1,142 @@
+{
+ "dataset": "DF-Chronicles",
+ "version_esquema": "1.1",
+ "version_nucleo": "1.2",
+ "version_procesadores": {
+  "cargar_legends.py": "1.0",
+  "integrar_legends.py": "1.1",
+  "validar_semantica.py": "1.1",
+  "nucleo.py": "1.2",
+  "rutas.py": "1.0"
+ },
+ "juego": {
+  "version_detectada": "53.16"
+ },
+ "fuentes": {
+  "legends.xml": {
+   "ruta_relativa": "00_SOURCE/original_data/legends.xml",
+   "bytes": 49223702,
+   "sha256": "77db4739c4064911cdd6a94fd68d5b3cefcbfdbc5a4459d7495ca63985a4681f",
+   "codificacion_detectada": "cp437",
+   "bytes_control": {
+    "0x10": 12,
+    "0x11": 12
+   },
+   "rol": "fuente primaria"
+  },
+  "legends_plus.xml": {
+   "ruta_relativa": "00_SOURCE/original_data/legends_plus.xml",
+   "bytes": 17664819,
+   "sha256": "fb6be93dac3e878b36eb5bdd47bfe288b66d682fda30023ba9538e81194abc2d",
+   "codificacion_detectada": "utf-8",
+   "bytes_control": {},
+   "rol": "fuente complementaria"
+  }
+ },
+ "conteos": {
+  "historical_figures": 11144,
+  "entities": 1067,
+  "sites": 734,
+  "historical_events": 57215,
+  "artifacts": 427,
+  "historical_event_relationships": 13192,
+  "historical_event_relationship_supplements": 21,
+  "historical_event_collections": 6544,
+  "historical_eras": 1,
+  "rivers": 2346,
+  "landmasses": 40,
+  "mountain_peaks": 4,
+  "world_constructions": 122,
+  "identities": 475
+ },
+ "rango_temporal": {
+  "anio_min": 1,
+  "anio_max": 100,
+  "eventos_con_anio": 57215,
+  "eventos_sin_anio": 0,
+  "era_start_year": "-1",
+  "era_nombre": "Age of Myth",
+  "nota": "El rango 1-100 es un limite real del export, no una decision del nucleo."
+ },
+ "referencias": {
+  "rotas_totales": 0,
+  "comprobadas": [
+   "hfid",
+   "site_id",
+   "civ_id",
+   "relationships.source_hf",
+   "relationships.target_hf"
+  ],
+  "no_resolubles": {
+   "relationships.event_id": 13192,
+   "motivo": "Los eventos citados no existen en historical_events"
+  }
+ },
+ "limitaciones": {
+  "eventos_sin_participantes": 17881,
+  "eventos_coords_centinela": 9930,
+  "figuras_sin_eventos": 1947,
+  "figuras_sin_entidad": 422,
+  "figuras_sin_birth_year": 1555,
+  "figuras_sin_death_year": 6734,
+  "entidades_sin_nombre": 218,
+  "artefactos_sin_dueno_ni_sitio": 13,
+  "rivers_sin_id_df": 2346,
+  "tabla_de_guerras": false,
+  "grafo_relaciones_simetrico": false,
+  "documento": "08_DATABASE/data_limitations.md"
+ },
+ "conflictos_entre_fuentes": {
+  "divergencias_totales": 12866,
+  "conflictos_reales": 1925,
+  "notaciones_equivalentes": 10941,
+  "resueltos": 0,
+  "politica": "Se conservan ambos valores; no se elige ganador.",
+  "por_campo": {
+   "race [notacion_equivalente]": 10640,
+   "race [conflicto_real]": 499,
+   "structures.structure.name [notacion_equivalente]": 170,
+   "structures.structure.type [notacion_equivalente]": 131,
+   "style [conflicto_real]": 1426
+  }
+ },
+ "estado_validacion": {
+  "pruebas_integracion": {
+   "total": 20,
+   "correctas": 20
+  },
+  "pruebas_nucleo": {
+   "total": 48,
+   "correctas": 48
+  },
+  "pruebas_adversarial": {
+   "total": 39,
+   "correctas": 39
+  },
+  "pruebas_api_ui": {
+   "total": 54,
+   "correctas": 54
+  },
+  "pruebas_determinismo": {
+   "consultas": 29,
+   "procesos": 4,
+   "correctas": 29
+  },
+  "determinista": true,
+  "referencias_rotas": 0,
+  "total": 161,
+  "todas_correctas": true
+ },
+ "rendimiento": {
+  "arranque_segundos": 2.1,
+  "memoria_estimada_mib": 507,
+  "consulta_tipica_ms": 0.6,
+  "nota": "Medido en la auditoria de Fase 4. El arranque domina el coste."
+ },
+ "version_aplicacion": {
+  "dfchron": "1.0",
+  "api_endpoints": 38,
+  "ui_vistas": 15,
+  "dependencias_externas": 0
+ }
+}

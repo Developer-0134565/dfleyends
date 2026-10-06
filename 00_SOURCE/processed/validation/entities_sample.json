@@ -1,0 +1,101 @@
+{
+ "certainty": "FACT",
+ "entidades": [
+  {
+   "df_id": "282",
+   "nombre": "the curled diamond",
+   "tipo": "civilization",
+   "figuras": 25,
+   "eventos": 769,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "294",
+   "nombre": "the rock of voicing",
+   "tipo": "civilization",
+   "figuras": 82,
+   "eventos": 764,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "296",
+   "nombre": "the fenced artifact",
+   "tipo": "civilization",
+   "figuras": 3,
+   "eventos": 702,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "310",
+   "nombre": "the confederations of wonder",
+   "tipo": "civilization",
+   "figuras": 57,
+   "eventos": 577,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "268",
+   "nombre": "the glad bust",
+   "tipo": "civilization",
+   "figuras": 32,
+   "eventos": 473,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "306",
+   "nombre": "the scoured ropes",
+   "tipo": "civilization",
+   "figuras": 35,
+   "eventos": 367,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "304",
+   "nombre": "the fly of corridors",
+   "tipo": "civilization",
+   "figuras": 38,
+   "eventos": 275,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "300",
+   "nombre": "the nation of reverence",
+   "tipo": "civilization",
+   "figuras": 30,
+   "eventos": 262,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "314",
+   "nombre": "the kingdom of igniting",
+   "tipo": "civilization",
+   "figuras": 5,
+   "eventos": 246,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "312",
+   "nombre": "the infamous disloyalty",
+   "tipo": "civilization",
+   "figuras": 44,
+   "eventos": 209,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "276",
+   "nombre": "the confederations of robustness",
+   "tipo": "civilization",
+   "figuras": 35,
+   "eventos": 198,
+   "certainty": "FACT"
+  },
+  {
+   "df_id": "280",
+   "nombre": "the cunning confederations",
+   "tipo": "civilization",
+   "figuras": 12,
+   "eventos": 128,
+   "certainty": "FACT"
+  }
+ ]
+}

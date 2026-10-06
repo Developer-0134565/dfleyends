@@ -1,0 +1,73 @@
+{
+ "source": "C:\\Users\\Missingn0\\AppData\\Roaming\\Bay 12 Games\\Dwarf Fortress\\save\\region1\\world.sav",
+ "generated_utc": "2026-10-02T16:15:51.933030Z",
+ "records": [
+  {
+   "field": "cur_savegame.version_tag",
+   "offset_in_payload": 208335654,
+   "value": 3602,
+   "certainty": "FACT",
+   "note": "u32 LE = 3602. Same value as the file container header (bytes 0-3), i.e. the save format revision tag."
+  },
+  {
+   "field": "cur_savegame.version_string",
+   "offset_in_payload": 208335660,
+   "value": "53.16",
+   "certainty": "FACT",
+   "note": "u16 length prefix (5) + ASCII. Matches the reported Dwarf Fortress version 53.16 exactly."
+  },
+  {
+   "field": "creature_race_id_labels",
+   "offset_in_payload": 208335593,
+   "value": [
+    "DWARF",
+    "ELF",
+    "GOBLIN",
+    "HUMAN"
+   ],
+   "certainty": "FACT",
+   "note": "Four u16-length-prefixed ASCII labels appearing in sequence, each followed by two u32 values. They are the standard DF creature_race id labels (DWARF=0). They are vocabulary, NOT a roster of this save's inhabitants."
+  },
+  {
+   "field": "candidate_fortress_name",
+   "offset_in_payload": 208341394,
+   "value": "Give Me the Fortress",
+   "certainty": "FACT",
+   "note": "u16 length prefix (20) + ASCII."
+  },
+  {
+   "field": "candidate_world_name",
+   "offset_in_payload": 208341556,
+   "value": "A Record of the Forest",
+   "certainty": "FACT",
+   "note": "u16 length prefix (22) + ASCII."
+  },
+  {
+   "field": "fortress_name / world_name assignment",
+   "value": null,
+   "certainty": "DERIVED",
+   "confidence": "high but NOT confirmed",
+   "basis": "These two single-word df::language_name fields sit in the cur_savegame block at the tail of world.sav, whose only name-bearing fields are fortress_name and world_name. 'Give Me the Fortress' matches DF's fortress-name convention; 'A Record of the Forest' matches its world-name convention. Order was NOT verified against the df-structures layout.",
+   "do_not": "Do not treat as narrative fact until confirmed in-game."
+  },
+  {
+   "field": "u32 values preceding the two name fields",
+   "offset_in_payload": 208341387,
+   "value": [
+    57,
+    58
+   ],
+   "certainty": "UNKNOWN",
+   "note": "Sequential small integers immediately preceding each name. Their semantic (index? year? id?) could not be determined with confidence. NOT interpreted as dates."
+  }
+ ],
+ "confirmed_entities": {
+  "historical_figures": "UNKNOWN",
+  "civilizations": "UNKNOWN",
+  "sites": "UNKNOWN",
+  "events": "UNKNOWN",
+  "artifacts": "UNKNOWN",
+  "units": "UNKNOWN",
+  "relationships": "UNKNOWN"
+ }
+}

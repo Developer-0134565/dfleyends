@@ -1,0 +1,662 @@
+[
+ {
+  "crudo_hex": "80",
+  "utf8_hex": "C387",
+  "char": "Ç"
+ },
+ {
+  "crudo_hex": "81",
+  "utf8_hex": "C3BC",
+  "char": "ü"
+ },
+ {
+  "crudo_hex": "82",
+  "utf8_hex": "C3A9",
+  "char": "é"
+ },
+ {
+  "crudo_hex": "83",
+  "utf8_hex": "C3A2",
+  "char": "â"
+ },
+ {
+  "crudo_hex": "84",
+  "utf8_hex": "C3A4",
+  "char": "ä"
+ },
+ {
+  "crudo_hex": "85",
+  "utf8_hex": "C3A0",
+  "char": "à"
+ },
+ {
+  "crudo_hex": "86",
+  "utf8_hex": "C3A5",
+  "char": "å"
+ },
+ {
+  "crudo_hex": "87",
+  "utf8_hex": "C3A7",
+  "char": "ç"
+ },
+ {
+  "crudo_hex": "88",
+  "utf8_hex": "C3AA",
+  "char": "ê"
+ },
+ {
+  "crudo_hex": "89",
+  "utf8_hex": "C3AB",
+  "char": "ë"
+ },
+ {
+  "crudo_hex": "8A",
+  "utf8_hex": "C3A8",
+  "char": "è"
+ },
+ {
+  "crudo_hex": "8B",
+  "utf8_hex": "C3AF",
+  "char": "ï"
+ },
+ {
+  "crudo_hex": "8C",
+  "utf8_hex": "C3AE",
+  "char": "î"
+ },
+ {
+  "crudo_hex": "8D",
+  "utf8_hex": "C3AC",
+  "char": "ì"
+ },
+ {
+  "crudo_hex": "8E",
+  "utf8_hex": "C384",
+  "char": "Ä"
+ },
+ {
+  "crudo_hex": "8F",
+  "utf8_hex": "C385",
+  "char": "Å"
+ },
+ {
+  "crudo_hex": "90",
+  "utf8_hex": "C389",
+  "char": "É"
+ },
+ {
+  "crudo_hex": "91",
+  "utf8_hex": "C3A6",
+  "char": "æ"
+ },
+ {
+  "crudo_hex": "92",
+  "utf8_hex": "C386",
+  "char": "Æ"
+ },
+ {
+  "crudo_hex": "93",
+  "utf8_hex": "C3B4",
+  "char": "ô"
+ },
+ {
+  "crudo_hex": "94",
+  "utf8_hex": "C3B6",
+  "char": "ö"
+ },
+ {
+  "crudo_hex": "95",
+  "utf8_hex": "C3B2",
+  "char": "ò"
+ },
+ {
+  "crudo_hex": "96",
+  "utf8_hex": "C3BB",
+  "char": "û"
+ },
+ {
+  "crudo_hex": "97",
+  "utf8_hex": "C3B9",
+  "char": "ù"
+ },
+ {
+  "crudo_hex": "98",
+  "utf8_hex": "C3BF",
+  "char": "ÿ"
+ },
+ {
+  "crudo_hex": "99",
+  "utf8_hex": "C396",
+  "char": "Ö"
+ },
+ {
+  "crudo_hex": "9A",
+  "utf8_hex": "C39C",
+  "char": "Ü"
+ },
+ {
+  "crudo_hex": "9B",
+  "utf8_hex": "C2A2",
+  "char": "¢"
+ },
+ {
+  "crudo_hex": "9C",
+  "utf8_hex": "C2A3",
+  "char": "£"
+ },
+ {
+  "crudo_hex": "9D",
+  "utf8_hex": "C2A5",
+  "char": "¥"
+ },
+ {
+  "crudo_hex": "9E",
+  "utf8_hex": "E282A7",
+  "char": "₧"
+ },
+ {
+  "crudo_hex": "9F",
+  "utf8_hex": "C692",
+  "char": "ƒ"
+ },
+ {
+  "crudo_hex": "A0",
+  "utf8_hex": "C3A1",
+  "char": "á"
+ },
+ {
+  "crudo_hex": "A1",
+  "utf8_hex": "C3AD",
+  "char": "í"
+ },
+ {
+  "crudo_hex": "A2",
+  "utf8_hex": "C3B3",
+  "char": "ó"
+ },
+ {
+  "crudo_hex": "A3",
+  "utf8_hex": "C3BA",
+  "char": "ú"
+ },
+ {
+  "crudo_hex": "A4",
+  "utf8_hex": "C3B1",
+  "char": "ñ"
+ },
+ {
+  "crudo_hex": "A5",
+  "utf8_hex": "C391",
+  "char": "Ñ"
+ },
+ {
+  "crudo_hex": "A6",
+  "utf8_hex": "C2AA",
+  "char": "ª"
+ },
+ {
+  "crudo_hex": "A7",
+  "utf8_hex": "C2BA",
+  "char": "º"
+ },
+ {
+  "crudo_hex": "A8",
+  "utf8_hex": "C2BF",
+  "char": "¿"
+ },
+ {
+  "crudo_hex": "A9",
+  "utf8_hex": "E28C90",
+  "char": "⌐"
+ },
+ {
+  "crudo_hex": "AA",
+  "utf8_hex": "C2AC",
+  "char": "¬"
+ },
+ {
+  "crudo_hex": "AB",
+  "utf8_hex": "C2BD",
+  "char": "½"
+ },
+ {
+  "crudo_hex": "AC",
+  "utf8_hex": "C2BC",
+  "char": "¼"
+ },
+ {
+  "crudo_hex": "AD",
+  "utf8_hex": "C2A1",
+  "char": "¡"
+ },
+ {
+  "crudo_hex": "AE",
+  "utf8_hex": "C2AB",
+  "char": "«"
+ },
+ {
+  "crudo_hex": "AF",
+  "utf8_hex": "C2BB",
+  "char": "»"
+ },
+ {
+  "crudo_hex": "B0",
+  "utf8_hex": "E29691",
+  "char": "░"
+ },
+ {
+  "crudo_hex": "B1",
+  "utf8_hex": "E29692",
+  "char": "▒"
+ },
+ {
+  "crudo_hex": "B2",
+  "utf8_hex": "E29693",
+  "char": "▓"
+ },
+ {
+  "crudo_hex": "B3",
+  "utf8_hex": "E29482",
+  "char": "│"
+ },
+ {
+  "crudo_hex": "B4",
+  "utf8_hex": "E294A4",
+  "char": "┤"
+ },
+ {
+  "crudo_hex": "B5",
+  "utf8_hex": "E295A1",
+  "char": "╡"
+ },
+ {
+  "crudo_hex": "B6",
+  "utf8_hex": "E295A2",
+  "char": "╢"
+ },
+ {
+  "crudo_hex": "B7",
+  "utf8_hex": "E29596",
+  "char": "╖"
+ },
+ {
+  "crudo_hex": "B8",
+  "utf8_hex": "E29595",
+  "char": "╕"
+ },
+ {
+  "crudo_hex": "B9",
+  "utf8_hex": "E295A3",
+  "char": "╣"
+ },
+ {
+  "crudo_hex": "BA",
+  "utf8_hex": "E29591",
+  "char": "║"
+ },
+ {
+  "crudo_hex": "BB",
+  "utf8_hex": "E29597",
+  "char": "╗"
+ },
+ {
+  "crudo_hex": "BC",
+  "utf8_hex": "E2959D",
+  "char": "╝"
+ },
+ {
+  "crudo_hex": "BD",
+  "utf8_hex": "E2959C",
+  "char": "╜"
+ },
+ {
+  "crudo_hex": "BE",
+  "utf8_hex": "E2959B",
+  "char": "╛"
+ },
+ {
+  "crudo_hex": "BF",
+  "utf8_hex": "E29490",
+  "char": "┐"
+ },
+ {
+  "crudo_hex": "C0",
+  "utf8_hex": "E29494",
+  "char": "└"
+ },
+ {
+  "crudo_hex": "C1",
+  "utf8_hex": "E294B4",
+  "char": "┴"
+ },
+ {
+  "crudo_hex": "C2",
+  "utf8_hex": "E294AC",
+  "char": "┬"
+ },
+ {
+  "crudo_hex": "C3",
+  "utf8_hex": "E2949C",
+  "char": "├"
+ },
+ {
+  "crudo_hex": "C4",
+  "utf8_hex": "E29480",
+  "char": "─"
+ },
+ {
+  "crudo_hex": "C5",
+  "utf8_hex": "E294BC",
+  "char": "┼"
+ },
+ {
+  "crudo_hex": "C6",
+  "utf8_hex": "E2959E",
+  "char": "╞"
+ },
+ {
+  "crudo_hex": "C7",
+  "utf8_hex": "E2959F",
+  "char": "╟"
+ },
+ {
+  "crudo_hex": "C8",
+  "utf8_hex": "E2959A",
+  "char": "╚"
+ },
+ {
+  "crudo_hex": "C9",
+  "utf8_hex": "E29594",
+  "char": "╔"
+ },
+ {
+  "crudo_hex": "CA",
+  "utf8_hex": "E295A9",
+  "char": "╩"
+ },
+ {
+  "crudo_hex": "CB",
+  "utf8_hex": "E295A6",
+  "char": "╦"
+ },
+ {
+  "crudo_hex": "CC",
+  "utf8_hex": "E295A0",
+  "char": "╠"
+ },
+ {
+  "crudo_hex": "CD",
+  "utf8_hex": "E29590",
+  "char": "═"
+ },
+ {
+  "crudo_hex": "CE",
+  "utf8_hex": "E295AC",
+  "char": "╬"
+ },
+ {
+  "crudo_hex": "CF",
+  "utf8_hex": "E295A7",
+  "char": "╧"
+ },
+ {
+  "crudo_hex": "D0",
+  "utf8_hex": "E295A8",
+  "char": "╨"
+ },
+ {
+  "crudo_hex": "D1",
+  "utf8_hex": "E295A4",
+  "char": "╤"
+ },
+ {
+  "crudo_hex": "D2",
+  "utf8_hex": "E295A5",
+  "char": "╥"
+ },
+ {
+  "crudo_hex": "D3",
+  "utf8_hex": "E29599",
+  "char": "╙"
+ },
+ {
+  "crudo_hex": "D4",
+  "utf8_hex": "E29598",
+  "char": "╘"
+ },
+ {
+  "crudo_hex": "D5",
+  "utf8_hex": "E29592",
+  "char": "╒"
+ },
+ {
+  "crudo_hex": "D6",
+  "utf8_hex": "E29593",
+  "char": "╓"
+ },
+ {
+  "crudo_hex": "D7",
+  "utf8_hex": "E295AB",
+  "char": "╫"
+ },
+ {
+  "crudo_hex": "D8",
+  "utf8_hex": "E295AA",
+  "char": "╪"
+ },
+ {
+  "crudo_hex": "D9",
+  "utf8_hex": "E29498",
+  "char": "┘"
+ },
+ {
+  "crudo_hex": "DA",
+  "utf8_hex": "E2948C",
+  "char": "┌"
+ },
+ {
+  "crudo_hex": "DB",
+  "utf8_hex": "E29688",
+  "char": "█"
+ },
+ {
+  "crudo_hex": "DC",
+  "utf8_hex": "E29684",
+  "char": "▄"
+ },
+ {
+  "crudo_hex": "DD",
+  "utf8_hex": "E2968C",
+  "char": "▌"
+ },
+ {
+  "crudo_hex": "DE",
+  "utf8_hex": "E29690",
+  "char": "▐"
+ },
+ {
+  "crudo_hex": "DF",
+  "utf8_hex": "E29680",
+  "char": "▀"
+ },
+ {
+  "crudo_hex": "E0",
+  "utf8_hex": "CEB1",
+  "char": "α"
+ },
+ {
+  "crudo_hex": "E1",
+  "utf8_hex": "C39F",
+  "char": "ß"
+ },
+ {
+  "crudo_hex": "E2",
+  "utf8_hex": "CE93",
+  "char": "Γ"
+ },
+ {
+  "crudo_hex": "E3",
+  "utf8_hex": "CF80",
+  "char": "π"
+ },
+ {
+  "crudo_hex": "E4",
+  "utf8_hex": "CEA3",
+  "char": "Σ"
+ },
+ {
+  "crudo_hex": "E5",
+  "utf8_hex": "CF83",
+  "char": "σ"
+ },
+ {
+  "crudo_hex": "E6",
+  "utf8_hex": "C2B5",
+  "char": "µ"
+ },
+ {
+  "crudo_hex": "E7",
+  "utf8_hex": "CF84",
+  "char": "τ"
+ },
+ {
+  "crudo_hex": "E8",
+  "utf8_hex": "CEA6",
+  "char": "Φ"
+ },
+ {
+  "crudo_hex": "E9",
+  "utf8_hex": "CE98",
+  "char": "Θ"
+ },
+ {
+  "crudo_hex": "EA",
+  "utf8_hex": "CEA9",
+  "char": "Ω"
+ },
+ {
+  "crudo_hex": "EB",
+  "utf8_hex": "CEB4",
+  "char": "δ"
+ },
+ {
+  "crudo_hex": "EC",
+  "utf8_hex": "E2889E",
+  "char": "∞"
+ },
+ {
+  "crudo_hex": "ED",
+  "utf8_hex": "CF86",
+  "char": "φ"
+ },
+ {
+  "crudo_hex": "EE",
+  "utf8_hex": "CEB5",
+  "char": "ε"
+ },
+ {
+  "crudo_hex": "EF",
+  "utf8_hex": "E288A9",
+  "char": "∩"
+ },
+ {
+  "crudo_hex": "F0",
+  "utf8_hex": "E289A1",
+  "char": "≡"
+ },
+ {
+  "crudo_hex": "F1",
+  "utf8_hex": "C2B1",
+  "char": "±"
+ },
+ {
+  "crudo_hex": "F2",
+  "utf8_hex": "E289A5",
+  "char": "≥"
+ },
+ {
+  "crudo_hex": "F3",
+  "utf8_hex": "E289A4",
+  "char": "≤"
+ },
+ {
+  "crudo_hex": "F4",
+  "utf8_hex": "E28CA0",
+  "char": "⌠"
+ },
+ {
+  "crudo_hex": "F5",
+  "utf8_hex": "E28CA1",
+  "char": "⌡"
+ },
+ {
+  "crudo_hex": "F6",
+  "utf8_hex": "C3B7",
+  "char": "÷"
+ },
+ {
+  "crudo_hex": "F7",
+  "utf8_hex": "E28988",
+  "char": "≈"
+ },
+ {
+  "crudo_hex": "F8",
+  "utf8_hex": "C2B0",
+  "char": "°"
+ },
+ {
+  "crudo_hex": "F9",
+  "utf8_hex": "E28899",
+  "char": "∙"
+ },
+ {
+  "crudo_hex": "FA",
+  "utf8_hex": "C2B7",
+  "char": "·"
+ },
+ {
+  "crudo_hex": "FB",
+  "utf8_hex": "E2889A",
+  "char": "√"
+ },
+ {
+  "crudo_hex": "FC",
+  "utf8_hex": "E281BF",
+  "char": "ⁿ"
+ },
+ {
+  "crudo_hex": "FD",
+  "utf8_hex": "C2B2",
+  "char": "²"
+ },
+ {
+  "crudo_hex": "FE",
+  "utf8_hex": "E296A0",
+  "char": "■"
+ },
+ {
+  "crudo_hex": "FF",
+  "utf8_hex": "C2A0",
+  "char": " "
+ },
+ {
+  "crudo_hex": "53866B",
+  "utf8_hex": "53C3A56B",
+  "char": "Såk"
+ },
+ {
+  "crudo_hex": "4EF1",
+  "utf8_hex": "4EC2B1",
+  "char": "N±"
+ },
+ {
+  "crudo_hex": "82",
+  "utf8_hex": "C3A9",
+  "char": "é"
+ },
+ {
+  "crudo_hex": "FCF6E1F1E7",
+  "utf8_hex": "E281BFC3B7C39FC2B1CF84",
+  "char": "ⁿ÷ß±τ"
+ }
+]

@@ -1,0 +1,134 @@
+{
+ "actualizada": "2026-10-03T03:24:16.109+02:00",
+ "dataset_id": "v1-04170363943d4ba1",
+ "entradas": {
+  "legends.xml": {
+   "sha256": "77db4739c4064911cdd6a94fd68d5b3cefcbfdbc5a4459d7495ca63985a4681f",
+   "bytes": 49223702,
+   "origen": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\original_data\\legends.xml"
+  },
+  "legends_plus.xml": {
+   "sha256": "fb6be93dac3e878b36eb5bdd47bfe288b66d682fda30023ba9538e81194abc2d",
+   "bytes": 17664819,
+   "origen": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\original_data\\legends_plus.xml"
+  }
+ },
+ "salidas": {
+  "historical_figures": {
+   "lineas": 11144,
+   "sha256": "da400a37a7dd0b1129992589223d2afeb9b7ed886c48a317d52b21af5ae29cc3",
+   "bytes": 30767484
+  },
+  "entities": {
+   "lineas": 1067,
+   "sha256": "b28665231259c1f3377716155a2436bc0de592d71f0fab6a70b4a5fb31f693ce",
+   "bytes": 1400573
+  },
+  "sites": {
+   "lineas": 734,
+   "sha256": "53e5ec2da985fedb160778e6959c3f6a623fba7a958cd15d887a50e955f11735",
+   "bytes": 746942
+  },
+  "historical_events": {
+   "lineas": 57215,
+   "sha256": "07204f1b3cfaf227380c8f8194191b7927391a1228a01d9e12e99b387c5a87ba",
+   "bytes": 58561918
+  },
+  "artifacts": {
+   "lineas": 427,
+   "sha256": "8741133d84746ea43d3c91549ace9052ae3cb832260c657b6bcac11fd5616b93",
+   "bytes": 441497
+  },
+  "historical_event_relationships": {
+   "lineas": 13192,
+   "sha256": "43274e917ef9689e292f04d0d712817e9c652b4944933ef469ed2afc1283f79d",
+   "bytes": 10328894
+  },
+  "historical_event_relationship_supplements": {
+   "lineas": 21,
+   "sha256": "c60a93188e1c1bf8d74b3eaae1ab6bba6b6846e8e80cfb71a62d761224401fbd",
+   "bytes": 14902
+  },
+  "historical_event_collections": {
+   "lineas": 6544,
+   "sha256": "1b9a8593e2548b08631a382300f554e38d19d9c79371f971b6446e742dfd36b3",
+   "bytes": 8645425
+  },
+  "historical_eras": {
+   "lineas": 1,
+   "sha256": "f4673c02c255424bfbf829b7529eae31bca52baaa7a202c9325b99050498b7ce",
+   "bytes": 457
+  },
+  "regions": {
+   "lineas": 840,
+   "sha256": "ccc4d131c9f8da3ef56f163d500d3b89d4f210a34032fb544f511a05c70d0a89",
+   "bytes": 612456
+  },
+  "underground_regions": {
+   "lineas": 405,
+   "sha256": "f12e1c88aff97badc5732026564f2b5e66b3f4687f14dcb841d3c80f66c2a9aa",
+   "bytes": 748133
+  },
+  "entity_populations": {
+   "lineas": 243,
+   "sha256": "6ffec578a6412a8768a95f6b58f0146b131e7427fd27f2d5b7f5543840fe58b9",
+   "bytes": 115288
+  },
+  "written_contents": {
+   "lineas": 2341,
+   "sha256": "7cc387546d1ca2b865628556b756e81856daf057cbf7a15d9e1010adfbc6d23c",
+   "bytes": 3378291
+  },
+  "poetic_forms": {
+   "lineas": 95,
+   "sha256": "4b1e645589617cf713e06040e7ce21d67c78dffe29a4e20e0fbf5ab48e379c7f",
+   "bytes": 102759
+  },
+  "musical_forms": {
+   "lineas": 104,
+   "sha256": "0f03ac6b676a90371cb5460cfae06be1be23b093ed9bedd03c04a706706b0343",
+   "bytes": 324976
+  },
+  "dance_forms": {
+   "lineas": 107,
+   "sha256": "3f4fd460b6e8e91076aa936179df9e2f335e848c64903505b9e515f4fc8b2b9b",
+   "bytes": 169250
+  },
+  "world_constructions": {
+   "lineas": 122,
+   "sha256": "ec919419e3968e58136b5ed5b927907fe7402937be61604e1b1bb580180c2a87",
+   "bytes": 72020
+  }
+ },
+ "conteos": {
+  "figuras": 11144,
+  "entidades": 1067,
+  "sitios": 734,
+  "eventos": 57215,
+  "artefactos": 427,
+  "anios": [
+   1,
+   100
+  ]
+ },
+ "merge": {
+  "divergencias": 12866,
+  "conflictos": 1925,
+  "fusionados": 17507,
+  "generado": "2026-10-03T01:24:04.334681+00:00",
+  "lectura": {
+   "legends.xml": {
+    "codificacion": "CP437",
+    "entradas": 81267,
+    "sha256": "77db4739c4064911cdd6a94fd68d5b3cefcbfdbc5a4459d7495ca63985a4681f"
+   },
+   "legends_plus.xml": {
+    "codificacion": "utf-8",
+    "entradas": 75089,
+    "sha256": "fb6be93dac3e878b36eb5bdd47bfe288b66d682fda30023ba9538e81194abc2d"
+   }
+  }
+ },
+ "backup_de_la_version_anterior": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\backups\\merged-20261003-032416",
+ "version_anterior": "2026-10-03T02:25:39.120+02:00"
+}

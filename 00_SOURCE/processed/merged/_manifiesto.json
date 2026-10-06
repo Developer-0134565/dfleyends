@@ -1,0 +1,5251 @@
+{
+ "generado": "2026-10-03T01:24:04.334681+00:00",
+ "certainties": {
+  "FACT": "valor presente directamente en el XML de origen",
+  "DERIVED": "valor calculado a partir de los XML (p.ej. índices)",
+  "INTERPRETATION": "no se genera en esta fase",
+  "UNKNOWN": "no determinado"
+ },
+ "originales": {
+  "legends.xml": {
+   "origen": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\original_data\\legends.xml",
+   "destino": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\original_data\\legends.xml",
+   "sha256_origen": "77db4739c4064911cdd6a94fd68d5b3cefcbfdbc5a4459d7495ca63985a4681f",
+   "bytes": 49223702,
+   "accion": "ya existía (NO sobrescrito)",
+   "sha256_destino": "77db4739c4064911cdd6a94fd68d5b3cefcbfdbc5a4459d7495ca63985a4681f",
+   "identique": true
+  },
+  "legends_plus.xml": {
+   "origen": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\original_data\\legends_plus.xml",
+   "destino": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\original_data\\legends_plus.xml",
+   "sha256_origen": "fb6be93dac3e878b36eb5bdd47bfe288b66d682fda30023ba9538e81194abc2d",
+   "bytes": 17664819,
+   "accion": "ya existía (NO sobrescrito)",
+   "sha256_destino": "fb6be93dac3e878b36eb5bdd47bfe288b66d682fda30023ba9538e81194abc2d",
+   "identique": true
+  }
+ },
+ "lectura": {
+  "legends.xml": {
+   "ruta": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\original_data\\legends.xml",
+   "bytes": 49223702,
+   "sha256": "77db4739c4064911cdd6a94fd68d5b3cefcbfdbc5a4459d7495ca63985a4681f",
+   "raiz": "df_world",
+   "codificacion_detectada": "CP437",
+   "metodo_deteccion": "UTF-8 falló; 'CP437' decodifica (= declaración XML)",
+   "codificacion_declarada": "CP437",
+   "bom": "ninguno",
+   "bytes_control_encontrados": {
+    "0x10": 12,
+    "0x11": 12
+   },
+   "requiere_saneo_memoria": true,
+   "error": null,
+   "total_entradas": 81267,
+   "entradas_por_seccion": {
+    "regions": 840,
+    "underground_regions": 405,
+    "sites": 734,
+    "world_constructions": 0,
+    "artifacts": 427,
+    "historical_figures": 11144,
+    "entity_populations": 243,
+    "entities": 1067,
+    "historical_events": 57215,
+    "historical_event_collections": 6544,
+    "historical_eras": 1,
+    "written_contents": 2341,
+    "poetic_forms": 95,
+    "musical_forms": 104,
+    "dance_forms": 107
+   }
+  },
+  "legends_plus.xml": {
+   "ruta": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\original_data\\legends_plus.xml",
+   "bytes": 17664819,
+   "sha256": "fb6be93dac3e878b36eb5bdd47bfe288b66d682fda30023ba9538e81194abc2d",
+   "raiz": "df_world",
+   "codificacion_detectada": "utf-8",
+   "metodo_deteccion": "declaración declara UTF-8",
+   "codificacion_declarada": "UTF-8",
+   "bom": "ninguno",
+   "bytes_control_encontrados": {},
+   "requiere_saneo_memoria": false,
+   "error": null,
+   "total_entradas": 75089,
+   "entradas_por_seccion": {
+    "name": 0,
+    "altname": 0,
+    "landmasses": 40,
+    "mountain_peaks": 4,
+    "regions": 840,
+    "underground_regions": 405,
+    "rivers": 2346,
+    "creature_raw": 1321,
+    "sites": 734,
+    "world_constructions": 122,
+    "artifacts": 427,
+    "historical_figures": 11144,
+    "identities": 475,
+    "entity_populations": 243,
+    "entities": 1067,
+    "historical_events": 40061,
+    "historical_event_relationships": 13192,
+    "historical_event_relationship_supplements": 21,
+    "historical_event_collections": 0,
+    "historical_eras": 0,
+    "written_contents": 2341,
+    "poetic_forms": 95,
+    "musical_forms": 104,
+    "dance_forms": 107
+   }
+  }
+ },
+ "entradas_por_seccion": {
+  "legends.xml": {
+   "regions": 840,
+   "underground_regions": 405,
+   "sites": 734,
+   "world_constructions": 0,
+   "artifacts": 427,
+   "historical_figures": 11144,
+   "entity_populations": 243,
+   "entities": 1067,
+   "historical_events": 57215,
+   "historical_event_collections": 6544,
+   "historical_eras": 1,
+   "written_contents": 2341,
+   "poetic_forms": 95,
+   "musical_forms": 104,
+   "dance_forms": 107
+  },
+  "legends_plus.xml": {
+   "name": 0,
+   "altname": 0,
+   "landmasses": 40,
+   "mountain_peaks": 4,
+   "regions": 840,
+   "underground_regions": 405,
+   "rivers": 2346,
+   "creature_raw": 1321,
+   "sites": 734,
+   "world_constructions": 122,
+   "artifacts": 427,
+   "historical_figures": 11144,
+   "identities": 475,
+   "entity_populations": 243,
+   "entities": 1067,
+   "historical_events": 40061,
+   "historical_event_relationships": 13192,
+   "historical_event_relationship_supplements": 21,
+   "historical_event_collections": 0,
+   "historical_eras": 0,
+   "written_contents": 2341,
+   "poetic_forms": 95,
+   "musical_forms": 104,
+   "dance_forms": 107
+  }
+ },
+ "merge": {
+  "resumen_por_seccion": {
+   "historical_events": {
+    "total": 57215,
+    "conflictos": 0,
+    "nota": "exclusiva de legends.xml; plus la tiene vacía"
+   },
+   "historical_event_collections": {
+    "total": 6544,
+    "conflictos": 0,
+    "nota": "exclusiva de legends.xml; plus la tiene vacía"
+   },
+   "historical_eras": {
+    "total": 1,
+    "conflictos": 0,
+    "nota": "exclusiva de legends.xml; plus la tiene vacía"
+   },
+   "artifacts": {
+    "total": 427,
+    "conflictos": 0
+   },
+   "dance_forms": {
+    "total": 107,
+    "conflictos": 0
+   },
+   "entities": {
+    "total": 1067,
+    "conflictos": 0
+   },
+   "entity_populations": {
+    "total": 243,
+    "conflictos": 0
+   },
+   "historical_figures": {
+    "total": 11144,
+    "conflictos": 11139
+   },
+   "musical_forms": {
+    "total": 104,
+    "conflictos": 0
+   },
+   "poetic_forms": {
+    "total": 95,
+    "conflictos": 0
+   },
+   "regions": {
+    "total": 840,
+    "conflictos": 0
+   },
+   "sites": {
+    "total": 734,
+    "conflictos": 301
+   },
+   "underground_regions": {
+    "total": 405,
+    "conflictos": 0
+   },
+   "world_constructions": {
+    "total": 122,
+    "conflictos": 0
+   },
+   "written_contents": {
+    "total": 2341,
+    "conflictos": 1426
+   }
+  },
+  "registros_fusionados": 17507,
+  "solo_en_legends_xml": 63760,
+  "solo_en_legends_plus_xml": 122,
+  "divergencias_totales": 12866,
+  "divergencias_por_tipo": {
+   "notacion_equivalente": 10941,
+   "conflicto_real": 1925
+  },
+  "conflictos_reales": 1925,
+  "notaciones_equivalentes": 10941,
+  "nota": "Ambas categorías conservan los dos valores y registran su procedencia; ninguna se resuelve en silencio.",
+  "divergencias_por_campo": {
+   "race [notacion_equivalente]": 10640,
+   "race [conflicto_real]": 499,
+   "structures.structure.name [notacion_equivalente]": 170,
+   "structures.structure.type [notacion_equivalente]": 131,
+   "style [conflicto_real]": 1426
+  },
+  "divergencias_detalle": [
+   {
+    "campo": "race",
+    "record_id": "historical_figures:0",
+    "valor_legends_xml": "COLOSSUS_BRONZE",
+    "valor_legends_plus_xml": "bronze colossus",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:1",
+    "valor_legends_xml": "HYDRA",
+    "valor_legends_plus_xml": "hydra",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:2",
+    "valor_legends_xml": "DRAGON",
+    "valor_legends_plus_xml": "dragon",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:3",
+    "valor_legends_xml": "BIRD_ROC",
+    "valor_legends_plus_xml": "roc",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:4",
+    "valor_legends_xml": "DRAGON",
+    "valor_legends_plus_xml": "dragon",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:5",
+    "valor_legends_xml": "COLOSSUS_BRONZE",
+    "valor_legends_plus_xml": "bronze colossus",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:6",
+    "valor_legends_xml": "BIRD_ROC",
+    "valor_legends_plus_xml": "roc",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:7",
+    "valor_legends_xml": "HYDRA",
+    "valor_legends_plus_xml": "hydra",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:8",
+    "valor_legends_xml": "DRAGON",
+    "valor_legends_plus_xml": "dragon",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:9",
+    "valor_legends_xml": "HYDRA",
+    "valor_legends_plus_xml": "hydra",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:10",
+    "valor_legends_xml": "BIRD_ROC",
+    "valor_legends_plus_xml": "roc",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:11",
+    "valor_legends_xml": "COLOSSUS_BRONZE",
+    "valor_legends_plus_xml": "bronze colossus",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:12",
+    "valor_legends_xml": "HYDRA",
+    "valor_legends_plus_xml": "hydra",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:13",
+    "valor_legends_xml": "COLOSSUS_BRONZE",
+    "valor_legends_plus_xml": "bronze colossus",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:14",
+    "valor_legends_xml": "DRAGON",
+    "valor_legends_plus_xml": "dragon",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:15",
+    "valor_legends_xml": "BIRD_ROC",
+    "valor_legends_plus_xml": "roc",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:16",
+    "valor_legends_xml": "BIRD_ROC",
+    "valor_legends_plus_xml": "roc",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:17",
+    "valor_legends_xml": "DRAGON",
+    "valor_legends_plus_xml": "dragon",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:18",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:19",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:20",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:21",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:22",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:23",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:24",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:25",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:26",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:27",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:28",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:29",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:30",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:31",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:32",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:33",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:34",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:35",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:36",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:37",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:38",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:39",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:40",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:41",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:42",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:43",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:44",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:45",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:46",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:47",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:48",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:49",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:50",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:51",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:52",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:53",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:54",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:55",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:56",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:57",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:58",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:59",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:60",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:61",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:62",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:63",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:64",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:65",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:66",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:67",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:68",
+    "valor_legends_xml": "FORGOTTEN_BEAST_1",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:69",
+    "valor_legends_xml": "FORGOTTEN_BEAST_2",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:70",
+    "valor_legends_xml": "FORGOTTEN_BEAST_3",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:71",
+    "valor_legends_xml": "FORGOTTEN_BEAST_4",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:72",
+    "valor_legends_xml": "FORGOTTEN_BEAST_5",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:73",
+    "valor_legends_xml": "FORGOTTEN_BEAST_6",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:74",
+    "valor_legends_xml": "FORGOTTEN_BEAST_7",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:75",
+    "valor_legends_xml": "FORGOTTEN_BEAST_8",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:76",
+    "valor_legends_xml": "FORGOTTEN_BEAST_9",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:77",
+    "valor_legends_xml": "FORGOTTEN_BEAST_10",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:78",
+    "valor_legends_xml": "FORGOTTEN_BEAST_11",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:79",
+    "valor_legends_xml": "FORGOTTEN_BEAST_12",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:80",
+    "valor_legends_xml": "FORGOTTEN_BEAST_13",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:81",
+    "valor_legends_xml": "FORGOTTEN_BEAST_14",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:82",
+    "valor_legends_xml": "FORGOTTEN_BEAST_15",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:83",
+    "valor_legends_xml": "FORGOTTEN_BEAST_16",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:84",
+    "valor_legends_xml": "FORGOTTEN_BEAST_17",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:85",
+    "valor_legends_xml": "FORGOTTEN_BEAST_18",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:86",
+    "valor_legends_xml": "FORGOTTEN_BEAST_19",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:87",
+    "valor_legends_xml": "FORGOTTEN_BEAST_20",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:88",
+    "valor_legends_xml": "FORGOTTEN_BEAST_21",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:89",
+    "valor_legends_xml": "FORGOTTEN_BEAST_22",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:90",
+    "valor_legends_xml": "FORGOTTEN_BEAST_23",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:91",
+    "valor_legends_xml": "FORGOTTEN_BEAST_24",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:92",
+    "valor_legends_xml": "FORGOTTEN_BEAST_25",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:93",
+    "valor_legends_xml": "FORGOTTEN_BEAST_26",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:94",
+    "valor_legends_xml": "FORGOTTEN_BEAST_27",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:95",
+    "valor_legends_xml": "FORGOTTEN_BEAST_28",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:96",
+    "valor_legends_xml": "FORGOTTEN_BEAST_29",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:97",
+    "valor_legends_xml": "FORGOTTEN_BEAST_30",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:98",
+    "valor_legends_xml": "FORGOTTEN_BEAST_31",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:99",
+    "valor_legends_xml": "FORGOTTEN_BEAST_32",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:100",
+    "valor_legends_xml": "FORGOTTEN_BEAST_33",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:101",
+    "valor_legends_xml": "FORGOTTEN_BEAST_34",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:102",
+    "valor_legends_xml": "FORGOTTEN_BEAST_35",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:103",
+    "valor_legends_xml": "FORGOTTEN_BEAST_36",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:104",
+    "valor_legends_xml": "FORGOTTEN_BEAST_37",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:105",
+    "valor_legends_xml": "FORGOTTEN_BEAST_38",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:106",
+    "valor_legends_xml": "FORGOTTEN_BEAST_39",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:107",
+    "valor_legends_xml": "FORGOTTEN_BEAST_40",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:108",
+    "valor_legends_xml": "FORGOTTEN_BEAST_41",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:109",
+    "valor_legends_xml": "FORGOTTEN_BEAST_42",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:110",
+    "valor_legends_xml": "FORGOTTEN_BEAST_43",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:111",
+    "valor_legends_xml": "FORGOTTEN_BEAST_44",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:112",
+    "valor_legends_xml": "FORGOTTEN_BEAST_45",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:113",
+    "valor_legends_xml": "FORGOTTEN_BEAST_46",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:114",
+    "valor_legends_xml": "FORGOTTEN_BEAST_47",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:115",
+    "valor_legends_xml": "FORGOTTEN_BEAST_48",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:116",
+    "valor_legends_xml": "FORGOTTEN_BEAST_49",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:117",
+    "valor_legends_xml": "FORGOTTEN_BEAST_50",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:118",
+    "valor_legends_xml": "FORGOTTEN_BEAST_51",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:119",
+    "valor_legends_xml": "FORGOTTEN_BEAST_52",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:120",
+    "valor_legends_xml": "FORGOTTEN_BEAST_53",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:121",
+    "valor_legends_xml": "FORGOTTEN_BEAST_54",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:122",
+    "valor_legends_xml": "FORGOTTEN_BEAST_55",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:123",
+    "valor_legends_xml": "FORGOTTEN_BEAST_56",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:124",
+    "valor_legends_xml": "FORGOTTEN_BEAST_57",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:125",
+    "valor_legends_xml": "FORGOTTEN_BEAST_58",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:126",
+    "valor_legends_xml": "FORGOTTEN_BEAST_59",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:127",
+    "valor_legends_xml": "FORGOTTEN_BEAST_60",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:128",
+    "valor_legends_xml": "FORGOTTEN_BEAST_61",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:129",
+    "valor_legends_xml": "FORGOTTEN_BEAST_62",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:130",
+    "valor_legends_xml": "FORGOTTEN_BEAST_63",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:131",
+    "valor_legends_xml": "FORGOTTEN_BEAST_64",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:132",
+    "valor_legends_xml": "FORGOTTEN_BEAST_65",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:133",
+    "valor_legends_xml": "FORGOTTEN_BEAST_66",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:134",
+    "valor_legends_xml": "FORGOTTEN_BEAST_67",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:135",
+    "valor_legends_xml": "FORGOTTEN_BEAST_68",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:136",
+    "valor_legends_xml": "FORGOTTEN_BEAST_69",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:137",
+    "valor_legends_xml": "FORGOTTEN_BEAST_70",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:138",
+    "valor_legends_xml": "FORGOTTEN_BEAST_71",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:139",
+    "valor_legends_xml": "FORGOTTEN_BEAST_72",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:140",
+    "valor_legends_xml": "FORGOTTEN_BEAST_73",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:141",
+    "valor_legends_xml": "FORGOTTEN_BEAST_74",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:142",
+    "valor_legends_xml": "FORGOTTEN_BEAST_75",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:143",
+    "valor_legends_xml": "FORGOTTEN_BEAST_76",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:144",
+    "valor_legends_xml": "FORGOTTEN_BEAST_77",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:145",
+    "valor_legends_xml": "FORGOTTEN_BEAST_78",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:146",
+    "valor_legends_xml": "FORGOTTEN_BEAST_79",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:147",
+    "valor_legends_xml": "FORGOTTEN_BEAST_80",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:148",
+    "valor_legends_xml": "FORGOTTEN_BEAST_81",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:149",
+    "valor_legends_xml": "FORGOTTEN_BEAST_82",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:150",
+    "valor_legends_xml": "FORGOTTEN_BEAST_83",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:151",
+    "valor_legends_xml": "FORGOTTEN_BEAST_84",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:152",
+    "valor_legends_xml": "FORGOTTEN_BEAST_85",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:153",
+    "valor_legends_xml": "FORGOTTEN_BEAST_86",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:154",
+    "valor_legends_xml": "FORGOTTEN_BEAST_87",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:155",
+    "valor_legends_xml": "FORGOTTEN_BEAST_88",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:156",
+    "valor_legends_xml": "FORGOTTEN_BEAST_89",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:157",
+    "valor_legends_xml": "FORGOTTEN_BEAST_90",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:158",
+    "valor_legends_xml": "FORGOTTEN_BEAST_91",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:159",
+    "valor_legends_xml": "FORGOTTEN_BEAST_92",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:160",
+    "valor_legends_xml": "FORGOTTEN_BEAST_93",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:161",
+    "valor_legends_xml": "FORGOTTEN_BEAST_94",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:162",
+    "valor_legends_xml": "FORGOTTEN_BEAST_95",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:163",
+    "valor_legends_xml": "FORGOTTEN_BEAST_96",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:164",
+    "valor_legends_xml": "FORGOTTEN_BEAST_97",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:165",
+    "valor_legends_xml": "FORGOTTEN_BEAST_98",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:166",
+    "valor_legends_xml": "FORGOTTEN_BEAST_99",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:167",
+    "valor_legends_xml": "FORGOTTEN_BEAST_100",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:168",
+    "valor_legends_xml": "FORGOTTEN_BEAST_101",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:169",
+    "valor_legends_xml": "FORGOTTEN_BEAST_102",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:170",
+    "valor_legends_xml": "FORGOTTEN_BEAST_103",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:171",
+    "valor_legends_xml": "FORGOTTEN_BEAST_104",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:172",
+    "valor_legends_xml": "FORGOTTEN_BEAST_105",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:173",
+    "valor_legends_xml": "FORGOTTEN_BEAST_106",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:174",
+    "valor_legends_xml": "FORGOTTEN_BEAST_107",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:175",
+    "valor_legends_xml": "FORGOTTEN_BEAST_108",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:176",
+    "valor_legends_xml": "FORGOTTEN_BEAST_109",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:177",
+    "valor_legends_xml": "FORGOTTEN_BEAST_110",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:178",
+    "valor_legends_xml": "FORGOTTEN_BEAST_111",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:179",
+    "valor_legends_xml": "FORGOTTEN_BEAST_112",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:180",
+    "valor_legends_xml": "FORGOTTEN_BEAST_113",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:181",
+    "valor_legends_xml": "FORGOTTEN_BEAST_114",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:182",
+    "valor_legends_xml": "FORGOTTEN_BEAST_115",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:183",
+    "valor_legends_xml": "FORGOTTEN_BEAST_116",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:184",
+    "valor_legends_xml": "FORGOTTEN_BEAST_117",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:185",
+    "valor_legends_xml": "FORGOTTEN_BEAST_118",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:186",
+    "valor_legends_xml": "FORGOTTEN_BEAST_119",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:187",
+    "valor_legends_xml": "FORGOTTEN_BEAST_120",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:188",
+    "valor_legends_xml": "FORGOTTEN_BEAST_121",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:189",
+    "valor_legends_xml": "FORGOTTEN_BEAST_122",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:190",
+    "valor_legends_xml": "FORGOTTEN_BEAST_123",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:191",
+    "valor_legends_xml": "FORGOTTEN_BEAST_124",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:192",
+    "valor_legends_xml": "FORGOTTEN_BEAST_125",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:193",
+    "valor_legends_xml": "FORGOTTEN_BEAST_126",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:194",
+    "valor_legends_xml": "FORGOTTEN_BEAST_127",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:195",
+    "valor_legends_xml": "FORGOTTEN_BEAST_128",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:196",
+    "valor_legends_xml": "FORGOTTEN_BEAST_129",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:197",
+    "valor_legends_xml": "FORGOTTEN_BEAST_130",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:198",
+    "valor_legends_xml": "FORGOTTEN_BEAST_131",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:199",
+    "valor_legends_xml": "FORGOTTEN_BEAST_132",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:200",
+    "valor_legends_xml": "FORGOTTEN_BEAST_133",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:201",
+    "valor_legends_xml": "FORGOTTEN_BEAST_134",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:202",
+    "valor_legends_xml": "FORGOTTEN_BEAST_135",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:203",
+    "valor_legends_xml": "FORGOTTEN_BEAST_136",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:204",
+    "valor_legends_xml": "FORGOTTEN_BEAST_137",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:205",
+    "valor_legends_xml": "FORGOTTEN_BEAST_138",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:206",
+    "valor_legends_xml": "FORGOTTEN_BEAST_139",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:207",
+    "valor_legends_xml": "FORGOTTEN_BEAST_140",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:208",
+    "valor_legends_xml": "FORGOTTEN_BEAST_141",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:209",
+    "valor_legends_xml": "FORGOTTEN_BEAST_142",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:210",
+    "valor_legends_xml": "FORGOTTEN_BEAST_143",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:211",
+    "valor_legends_xml": "FORGOTTEN_BEAST_144",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:212",
+    "valor_legends_xml": "FORGOTTEN_BEAST_145",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:213",
+    "valor_legends_xml": "FORGOTTEN_BEAST_146",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:214",
+    "valor_legends_xml": "FORGOTTEN_BEAST_147",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:215",
+    "valor_legends_xml": "FORGOTTEN_BEAST_148",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:216",
+    "valor_legends_xml": "FORGOTTEN_BEAST_149",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:217",
+    "valor_legends_xml": "FORGOTTEN_BEAST_150",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:218",
+    "valor_legends_xml": "FORGOTTEN_BEAST_151",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:219",
+    "valor_legends_xml": "FORGOTTEN_BEAST_152",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:220",
+    "valor_legends_xml": "FORGOTTEN_BEAST_153",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:221",
+    "valor_legends_xml": "FORGOTTEN_BEAST_154",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:222",
+    "valor_legends_xml": "FORGOTTEN_BEAST_155",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:223",
+    "valor_legends_xml": "FORGOTTEN_BEAST_156",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:224",
+    "valor_legends_xml": "FORGOTTEN_BEAST_157",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:225",
+    "valor_legends_xml": "FORGOTTEN_BEAST_158",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:226",
+    "valor_legends_xml": "FORGOTTEN_BEAST_159",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:227",
+    "valor_legends_xml": "FORGOTTEN_BEAST_160",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:228",
+    "valor_legends_xml": "FORGOTTEN_BEAST_161",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:229",
+    "valor_legends_xml": "FORGOTTEN_BEAST_162",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:230",
+    "valor_legends_xml": "FORGOTTEN_BEAST_163",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:231",
+    "valor_legends_xml": "FORGOTTEN_BEAST_164",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:232",
+    "valor_legends_xml": "FORGOTTEN_BEAST_165",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:233",
+    "valor_legends_xml": "FORGOTTEN_BEAST_166",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:234",
+    "valor_legends_xml": "FORGOTTEN_BEAST_167",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:235",
+    "valor_legends_xml": "FORGOTTEN_BEAST_168",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:236",
+    "valor_legends_xml": "FORGOTTEN_BEAST_169",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:237",
+    "valor_legends_xml": "FORGOTTEN_BEAST_170",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:238",
+    "valor_legends_xml": "FORGOTTEN_BEAST_171",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:239",
+    "valor_legends_xml": "FORGOTTEN_BEAST_172",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:240",
+    "valor_legends_xml": "FORGOTTEN_BEAST_173",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:241",
+    "valor_legends_xml": "FORGOTTEN_BEAST_174",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:242",
+    "valor_legends_xml": "FORGOTTEN_BEAST_175",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:243",
+    "valor_legends_xml": "FORGOTTEN_BEAST_176",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:244",
+    "valor_legends_xml": "FORGOTTEN_BEAST_177",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:245",
+    "valor_legends_xml": "FORGOTTEN_BEAST_178",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:246",
+    "valor_legends_xml": "FORGOTTEN_BEAST_179",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:247",
+    "valor_legends_xml": "FORGOTTEN_BEAST_180",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:248",
+    "valor_legends_xml": "FORGOTTEN_BEAST_181",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:249",
+    "valor_legends_xml": "FORGOTTEN_BEAST_182",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:250",
+    "valor_legends_xml": "FORGOTTEN_BEAST_183",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:251",
+    "valor_legends_xml": "FORGOTTEN_BEAST_184",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:252",
+    "valor_legends_xml": "FORGOTTEN_BEAST_185",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:253",
+    "valor_legends_xml": "FORGOTTEN_BEAST_186",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:254",
+    "valor_legends_xml": "FORGOTTEN_BEAST_187",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:255",
+    "valor_legends_xml": "FORGOTTEN_BEAST_188",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:256",
+    "valor_legends_xml": "FORGOTTEN_BEAST_189",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:257",
+    "valor_legends_xml": "FORGOTTEN_BEAST_190",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:258",
+    "valor_legends_xml": "FORGOTTEN_BEAST_191",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:259",
+    "valor_legends_xml": "FORGOTTEN_BEAST_192",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:260",
+    "valor_legends_xml": "FORGOTTEN_BEAST_193",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:261",
+    "valor_legends_xml": "FORGOTTEN_BEAST_194",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:262",
+    "valor_legends_xml": "FORGOTTEN_BEAST_195",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:263",
+    "valor_legends_xml": "FORGOTTEN_BEAST_196",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:264",
+    "valor_legends_xml": "FORGOTTEN_BEAST_197",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:265",
+    "valor_legends_xml": "FORGOTTEN_BEAST_198",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:266",
+    "valor_legends_xml": "FORGOTTEN_BEAST_199",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:267",
+    "valor_legends_xml": "FORGOTTEN_BEAST_200",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:268",
+    "valor_legends_xml": "FORGOTTEN_BEAST_201",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:269",
+    "valor_legends_xml": "FORGOTTEN_BEAST_202",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:270",
+    "valor_legends_xml": "FORGOTTEN_BEAST_203",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:271",
+    "valor_legends_xml": "FORGOTTEN_BEAST_204",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:272",
+    "valor_legends_xml": "FORGOTTEN_BEAST_205",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:273",
+    "valor_legends_xml": "FORGOTTEN_BEAST_206",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:274",
+    "valor_legends_xml": "FORGOTTEN_BEAST_207",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:275",
+    "valor_legends_xml": "FORGOTTEN_BEAST_208",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:276",
+    "valor_legends_xml": "FORGOTTEN_BEAST_209",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:277",
+    "valor_legends_xml": "FORGOTTEN_BEAST_210",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:278",
+    "valor_legends_xml": "FORGOTTEN_BEAST_211",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:279",
+    "valor_legends_xml": "FORGOTTEN_BEAST_212",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:280",
+    "valor_legends_xml": "FORGOTTEN_BEAST_213",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:281",
+    "valor_legends_xml": "FORGOTTEN_BEAST_214",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:282",
+    "valor_legends_xml": "FORGOTTEN_BEAST_215",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:283",
+    "valor_legends_xml": "FORGOTTEN_BEAST_216",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:284",
+    "valor_legends_xml": "FORGOTTEN_BEAST_217",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:285",
+    "valor_legends_xml": "FORGOTTEN_BEAST_218",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:286",
+    "valor_legends_xml": "FORGOTTEN_BEAST_219",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:287",
+    "valor_legends_xml": "FORGOTTEN_BEAST_220",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:288",
+    "valor_legends_xml": "FORGOTTEN_BEAST_221",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:289",
+    "valor_legends_xml": "FORGOTTEN_BEAST_222",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:290",
+    "valor_legends_xml": "FORGOTTEN_BEAST_223",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:291",
+    "valor_legends_xml": "FORGOTTEN_BEAST_224",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:292",
+    "valor_legends_xml": "FORGOTTEN_BEAST_225",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:293",
+    "valor_legends_xml": "FORGOTTEN_BEAST_226",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:294",
+    "valor_legends_xml": "FORGOTTEN_BEAST_227",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:295",
+    "valor_legends_xml": "FORGOTTEN_BEAST_228",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:296",
+    "valor_legends_xml": "FORGOTTEN_BEAST_229",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:297",
+    "valor_legends_xml": "FORGOTTEN_BEAST_230",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:298",
+    "valor_legends_xml": "FORGOTTEN_BEAST_231",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:299",
+    "valor_legends_xml": "FORGOTTEN_BEAST_232",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:300",
+    "valor_legends_xml": "FORGOTTEN_BEAST_233",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:301",
+    "valor_legends_xml": "FORGOTTEN_BEAST_234",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:302",
+    "valor_legends_xml": "FORGOTTEN_BEAST_235",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:303",
+    "valor_legends_xml": "FORGOTTEN_BEAST_236",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:304",
+    "valor_legends_xml": "FORGOTTEN_BEAST_237",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:305",
+    "valor_legends_xml": "FORGOTTEN_BEAST_238",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:306",
+    "valor_legends_xml": "FORGOTTEN_BEAST_239",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:307",
+    "valor_legends_xml": "FORGOTTEN_BEAST_240",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:308",
+    "valor_legends_xml": "FORGOTTEN_BEAST_241",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:309",
+    "valor_legends_xml": "FORGOTTEN_BEAST_242",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:310",
+    "valor_legends_xml": "FORGOTTEN_BEAST_243",
+    "valor_legends_plus_xml": "forgotten beast",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:311",
+    "valor_legends_xml": "TITAN_1",
+    "valor_legends_plus_xml": "plains titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:312",
+    "valor_legends_xml": "TITAN_2",
+    "valor_legends_plus_xml": "hill titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:313",
+    "valor_legends_xml": "TITAN_3",
+    "valor_legends_plus_xml": "savanna titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:314",
+    "valor_legends_xml": "TITAN_4",
+    "valor_legends_plus_xml": "jungle titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:315",
+    "valor_legends_xml": "TITAN_5",
+    "valor_legends_plus_xml": "mountain titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:316",
+    "valor_legends_xml": "TITAN_6",
+    "valor_legends_plus_xml": "forest titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:317",
+    "valor_legends_xml": "TITAN_7",
+    "valor_legends_plus_xml": "swamp titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:318",
+    "valor_legends_xml": "TITAN_8",
+    "valor_legends_plus_xml": "hill titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:319",
+    "valor_legends_xml": "TITAN_9",
+    "valor_legends_plus_xml": "brush titan",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:320",
+    "valor_legends_xml": "NIGHT_CREATURE_14",
+    "valor_legends_plus_xml": "night creature",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:321",
+    "valor_legends_xml": "NIGHT_CREATURE_13",
+    "valor_legends_plus_xml": "dusk creature",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:322",
+    "valor_legends_xml": "NIGHT_CREATURE_12",
+    "valor_legends_plus_xml": "dark horror",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:323",
+    "valor_legends_xml": "NIGHT_CREATURE_11",
+    "valor_legends_plus_xml": "dark creature",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:324",
+    "valor_legends_xml": "NIGHT_CREATURE_10",
+    "valor_legends_plus_xml": "dusk creature",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:325",
+    "valor_legends_xml": "NIGHT_CREATURE_9",
+    "valor_legends_plus_xml": "dark freak",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:326",
+    "valor_legends_xml": "NIGHT_CREATURE_8",
+    "valor_legends_plus_xml": "gloom troll",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:327",
+    "valor_legends_xml": "NIGHT_CREATURE_7",
+    "valor_legends_plus_xml": "dark man",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:328",
+    "valor_legends_xml": "NIGHT_CREATURE_6",
+    "valor_legends_plus_xml": "hag of evil",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:329",
+    "valor_legends_xml": "NIGHT_CREATURE_5",
+    "valor_legends_plus_xml": "hulking man",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:330",
+    "valor_legends_xml": "NIGHT_CREATURE_4",
+    "valor_legends_plus_xml": "moon crone",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:331",
+    "valor_legends_xml": "NIGHT_CREATURE_3",
+    "valor_legends_plus_xml": "crone of evil",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:332",
+    "valor_legends_xml": "NIGHT_CREATURE_2",
+    "valor_legends_plus_xml": "hag of twilight",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:333",
+    "valor_legends_xml": "NIGHT_CREATURE_1",
+    "valor_legends_plus_xml": "vile monster",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:334",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:335",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:336",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:337",
+    "valor_legends_xml": "ELEMENTMAN_MAGMA",
+    "valor_legends_plus_xml": "magma man",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:338",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:339",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:340",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:341",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:342",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:343",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:344",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:345",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:346",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:347",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:348",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:349",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:350",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:351",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:352",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:353",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:354",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:355",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:356",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:357",
+    "valor_legends_xml": "DEMON_7",
+    "valor_legends_plus_xml": "bison monster",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:358",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:359",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:360",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:361",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:362",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:363",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:364",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:365",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:366",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:368",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:369",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:370",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:371",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:372",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:373",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:374",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:375",
+    "valor_legends_xml": "NIGHT_CREATURE_6",
+    "valor_legends_plus_xml": "hag of evil",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:376",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:377",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:378",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:379",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:380",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:381",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:382",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:383",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:384",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:385",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:386",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:387",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:388",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:389",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:390",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:391",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:392",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:393",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:394",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:395",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:396",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:397",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:398",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:399",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:400",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:401",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:402",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:403",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:404",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:405",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:406",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:407",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:408",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:409",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:410",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:411",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:412",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:413",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:414",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:415",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:416",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:417",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:418",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:419",
+    "valor_legends_xml": "KOBOLD",
+    "valor_legends_plus_xml": "kobold",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:420",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:421",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:422",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:423",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:424",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:425",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:426",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:427",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:428",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:429",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:430",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:431",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:432",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:433",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:434",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:435",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:436",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:437",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:438",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:439",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:440",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:441",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:442",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:443",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:444",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:445",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:446",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:447",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:448",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:449",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:450",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:451",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:452",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:453",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:454",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:455",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:456",
+    "valor_legends_xml": "DWARF",
+    "valor_legends_plus_xml": "dwarf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:458",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:459",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:460",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:461",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:462",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:463",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:464",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:465",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:466",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:467",
+    "valor_legends_xml": "ELF",
+    "valor_legends_plus_xml": "elf",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:468",
+    "valor_legends_xml": "DEMON_8",
+    "valor_legends_plus_xml": "chinchilla fiend",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:469",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:470",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:471",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:472",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:473",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:474",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:475",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:476",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:477",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:478",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:479",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:480",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:481",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:482",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:483",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:484",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:485",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:486",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:487",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:488",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:489",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:490",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:491",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:492",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:493",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:494",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:495",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:496",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:497",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:498",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:499",
+    "valor_legends_xml": "HUMAN",
+    "valor_legends_plus_xml": "human",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:500",
+    "valor_legends_xml": "DEMON_11",
+    "valor_legends_plus_xml": "blind devil",
+    "seccion_plus": "historical_figures",
+    "tipo": "conflicto_real",
+    "certidumbre": "FACT",
+    "resolucion": "Valores distintos; se conservan ambos sin elegir"
+   },
+   {
+    "campo": "race",
+    "record_id": "historical_figures:501",
+    "valor_legends_xml": "GOBLIN",
+    "valor_legends_plus_xml": "goblin",
+    "seccion_plus": "historical_figures",
+    "tipo": "notacion_equivalente",
+    "certidumbre": "DERIVED",
+    "resolucion": "Mismo valor en dos notaciones; se conservan ambos. legends.xml aporta el token raws original"
+   }
+  ]
+ },
+ "eventos": {
+  "historical_events": 57215,
+  "ids_ausentes_en_historical_events": 13192,
+  "historical_event_relationships": 13192,
+  "relationships_enlazadas": 0,
+  "relationships_sin_evento_en_historical_events": 13192,
+  "supplements": 21,
+  "politica": "Los ids ausentes NO se materializan como eventos; los relationships se conservan como sección relacionada."
+ },
+ "salidas": {
+  "from_legends_xml": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\processed\\from_legends_xml",
+  "from_legends_plus": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\processed\\from_legends_plus",
+  "merged": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DF-Chronicles\\00_SOURCE\\work\\staging-20261003-032404\\processed\\merged"
+ }
+}

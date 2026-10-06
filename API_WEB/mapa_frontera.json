@@ -1,0 +1,423 @@
+{
+  "deben_pasar_por_frontera": 13,
+  "garantias": {
+    "determinista": true,
+    "es_producto": false,
+    "modifica_originales": false,
+    "solo_lectura": true
+  },
+  "herramienta": "auditar_frontera",
+  "por_frontera": 13,
+  "rutas": [
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api",
+      "nombre": "raiz",
+      "razon": "Documento de la API: describe endpoints, no conocimiento.",
+      "tipo": "metadatos"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/artefactos",
+      "nombre": "artefactos_busqueda",
+      "razon": "Listado o busqueda de artefactos.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/artefactos",
+      "nombre": "artefactos_listado",
+      "razon": "Listado o busqueda de artefactos.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/artefactos/{id}",
+      "nombre": "artefacto",
+      "razon": "Afirma sobre UNA entidad concreta: aporta identidad y evidencia. Es la razon de estar en la frontera.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/artefactos/{id}/eventos",
+      "nombre": "artefacto_eventos",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/artefactos/{id}/propietarios",
+      "nombre": "artefacto_propietarios",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/buscar",
+      "nombre": "buscar",
+      "razon": "Busqueda por texto: orientacion. Un 'no aparece' NO es un hecho.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/buscar/{tipo}",
+      "nombre": "buscar_alias",
+      "razon": "Busqueda por texto: orientacion. Un 'no aparece' NO es un hecho.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/conflictos",
+      "nombre": "conflictos",
+      "razon": "Listado de conflictos entre fuentes. Explora, no afirma.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/consulta/atributo/{tipo}/{id}/{atributo}",
+      "nombre": "consulta_atributo",
+      "razon": "Expone una operacion del contrato de consulta. Afirma sobre entidades.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/consulta/contar/{tipo}",
+      "nombre": "consulta_contar",
+      "razon": "Expone una operacion del contrato de consulta. Afirma sobre entidades.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/consulta/contrato",
+      "nombre": "consulta_contrato",
+      "razon": "Expone una operacion del contrato de consulta. Afirma sobre entidades.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/consulta/entidad/{tipo}/{id}",
+      "nombre": "consulta_entidad",
+      "razon": "Expone una operacion del contrato de consulta. Afirma sobre entidades.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/consulta/evidencia/{tipo}/{id}",
+      "nombre": "consulta_evidencia",
+      "razon": "Expone una operacion del contrato de consulta. Afirma sobre entidades.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/consulta/relaciones/{id}",
+      "nombre": "consulta_relaciones",
+      "razon": "Expone una operacion del contrato de consulta. Afirma sobre entidades.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/consulta/verificar",
+      "nombre": "consulta_verificar",
+      "razon": "Expone una operacion del contrato de consulta. Afirma sobre entidades.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/entidades",
+      "nombre": "entidades_busqueda",
+      "razon": "ALIAS de busqueda de entidades.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/entidades/{id}",
+      "nombre": "entidad",
+      "razon": "Afirma sobre UNA entidad concreta: aporta identidad y evidencia. Es la razon de estar en la frontera.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/entidades/{id}/cronologia",
+      "nombre": "entidad_cronologia",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/entidades/{id}/eventos",
+      "nombre": "entidad_eventos",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/entidades/{id}/miembros",
+      "nombre": "entidad_miembros",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/entidades/{id}/sitios",
+      "nombre": "entidad_sitios",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/estadisticas",
+      "nombre": "estadisticas",
+      "razon": "ALIAS de /api/stats. Misma funcion, mismo criterio.",
+      "tipo": "estadisticas"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/eventos",
+      "nombre": "eventos",
+      "razon": "Listado de eventos filtrado: exploracion del historico.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/eventos/tipos",
+      "nombre": "eventos_tipos",
+      "razon": "Vocabulario de eventos. Declara, no afirma.",
+      "tipo": "metadatos"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/eventos/{id}",
+      "nombre": "evento",
+      "razon": "Afirma sobre UNA entidad concreta: aporta identidad y evidencia. Es la razon de estar en la frontera.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/eventos/{id}/participantes",
+      "nombre": "evento_participantes",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/exportar",
+      "nombre": "exportar",
+      "razon": "Vuelca a disco. Es un consumidor de salida, no una consulta.",
+      "tipo": "exportacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/figuras",
+      "nombre": "figuras_busqueda",
+      "razon": "ALIAS de busqueda de figuras.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/figuras/{id}",
+      "nombre": "figura",
+      "razon": "Afirma sobre UNA entidad concreta: aporta identidad y evidencia. Es la razon de estar en la frontera.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/figuras/{id}/artefactos",
+      "nombre": "figura_artefactos",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/figuras/{id}/cronologia",
+      "nombre": "figura_cronologia",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/figuras/{id}/eventos",
+      "nombre": "figura_eventos",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/figuras/{id}/identidad",
+      "nombre": "figura_identidad",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/figuras/{id}/relaciones",
+      "nombre": "figura_relaciones",
+      "razon": "Afirma sobre UNA entidad concreta: aporta identidad y evidencia. Es la razon de estar en la frontera.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/geografia",
+      "nombre": "geografia",
+      "razon": "Geografia: capas y puntos, no afirmaciones.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/geografia/area/{x}/{y}",
+      "nombre": "geografia_area",
+      "razon": "Geografia: capas y puntos, no afirmaciones.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/geografia/construcciones/{x}/{y}",
+      "nombre": "geografia_coordenada",
+      "razon": "Geografia: capas y puntos, no afirmaciones.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/geografia/punto/{x}/{y}",
+      "nombre": "geografia_punto",
+      "razon": "Geografia: capas y puntos, no afirmaciones.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/geografia/{capa}",
+      "nombre": "geografia_capa",
+      "razon": "Geografia: capas y puntos, no afirmaciones.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/limitaciones",
+      "nombre": "limitaciones",
+      "razon": "Declara lo que el dataset NO sabe. Es contrato, no contenido.",
+      "tipo": "metadatos"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/listar/{tipo}",
+      "nombre": "listar",
+      "razon": "Listado paginado: orientacion.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/relaciones/tipos",
+      "nombre": "relaciones_tipos",
+      "razon": "Vocabulario de relaciones. Declara, no afirma.",
+      "tipo": "metadatos"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/salud",
+      "nombre": "salud",
+      "razon": "Estado del SERVICIO (carga, dataset disponible). No es conocimiento.",
+      "tipo": "salud"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/sitios",
+      "nombre": "sitios_busqueda",
+      "razon": "Busqueda o coordenadas: orientacion espacial.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": true,
+      "delega_en": "adaptador_consulta",
+      "endpoint": "/api/sitios/{id}",
+      "nombre": "sitio",
+      "razon": "Afirma sobre UNA entidad concreta: aporta identidad y evidencia. Es la razon de estar en la frontera.",
+      "tipo": "consulta"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/sitios/{id}/cronologia",
+      "nombre": "sitio_cronologia",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/sitios/{id}/eventos",
+      "nombre": "sitio_eventos",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/sitios/{id}/figuras",
+      "nombre": "sitio_figuras",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/sitios/{id}/geografia",
+      "nombre": "sitio_geografia",
+      "razon": "Se apoya en una entidad pero devuelve un LISTADO. Un listado no lleva evidencia por elemento: migrarlo no aportaria nada.",
+      "tipo": "navegacion"
+    },
+    {
+      "debe_pasar_por_frontera": false,
+      "delega_en": "servicio",
+      "endpoint": "/api/stats",
+      "nombre": "stats",
+      "razon": "Cuenta agregada del dataset. No afirma nada sobre una entidad concreta.",
+      "tipo": "estadisticas"
+    }
+  ],
+  "tipo": "HERRAMIENTA DE AUDITORIA (no productiva)",
+  "total_rutas": 51
+}

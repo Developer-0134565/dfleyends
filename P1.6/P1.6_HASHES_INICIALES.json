@@ -1,0 +1,18 @@
+{
+ "00_SOURCE/original_data/legends.xml": "77db4739c4064911cdd6a94fd68d5b3cefcbfdbc5a4459d7495ca63985a4681f",
+ "00_SOURCE/original_data/legends_plus.xml": "fb6be93dac3e878b36eb5bdd47bfe288b66d682fda30023ba9538e81194abc2d",
+ "08_DATABASE/AI_PRE_LLM_CONTRACT.md": "5d2c3d001c542e774d8ff56951901f6d41b4701924b4a8971a6864cfb0b35e3a",
+ "_mtime": {
+  "00_SOURCE/original_data/legends.xml": 1790960710,
+  "00_SOURCE/original_data/legends_plus.xml": 1790960752,
+  "08_DATABASE/AI_PRE_LLM_CONTRACT.md": 1791053694,
+  "dfchron/adaptador_consulta.py": 1791123623,
+  "dfchron/api.py": 1791123642,
+  "dfchron/servicio.py": 1791115719,
+  "dfchron/servicio_consulta.py": 1791123586
+ },
+ "dfchron/adaptador_consulta.py": "c456256ec1c1d731d5dee461f8035cc1df92b19725bb6de832997ad820e22212",
+ "dfchron/api.py": "0426f63a632fd243ce0675db6c857389a3f3218ae44d1b950d176c67d0472e9e",
+ "dfchron/servicio.py": "48eb8354dca8728bcde4b5efad5c045761367e317fa8767c88c9503c768a1c65",
+ "dfchron/servicio_consulta.py": "0a5b6b1c3244e6192752f311b89d075e6b75de23d971a4972fdba54f3a73f834"
+}

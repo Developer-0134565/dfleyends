@@ -1,0 +1,120 @@
+==========================================================================
+P1.3 :: BANCO DE EXPERIMENTOS E1-E12
+==========================================================================
+DF en ejecucion : False
+dfhack-run.exe  : True
+Ejecutable      : False
+
+-- E1: mismo mundo, misma extraccion   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿Dos extracciones del mismo estado dan el mismo dataset_id?
+     1. Cargar el save y dejar el mundo en pausa.
+     2. exportlegends -> XML A.
+     3. Sin tocar el mundo, exportlegends otra vez -> XML B.
+     4. Comparar sha256 de A y B, y el dataset_id de cada una.
+   medir    : sha256 del XML, dataset_id, <name> del mundo, cur_year / mes / dia en cada extraccion
+   PASE     : A y B tienen el mismo dataset_id
+   FALLA SI : Los dataset_id difieren sin que el mundo haya cambiado
+
+-- E2: avanzar un tick   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿Un solo tick cambia el dataset_id?
+     1. Exportar (XML A).
+     2. Despausar EXACTAMENTE un tick (timestream o tecla de 1 tick).
+     3. Volver a pausar. Exportar (XML B).
+     4. Comparar A y B.
+   medir    : sha256, dataset_id, ReadCurrentTick() antes y despues
+   PASE     : Se registra si dataset_id cambia o no
+   FALLA SI : El tick avanza pero el contenido no cambia (falso positivo de freshness) O el contenido cambia con dataset_id igual
+
+-- E3: avanzar N ticks   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : Determinar la granularidad minima detectable de cambio.
+     1. Exportar (A). Avanzar 100 ticks. Exportar (B).
+     2. Avanzar 10 000 ticks. Exportar (C).
+     3. Comparar A, B, C.
+   medir    : sha256 de los tres, dataset_id de los tres, año y tick en cada punto
+   PASE     : Se construye la curva 'ticks avanzados -> cambia el dataset_id?'
+   FALLA SI : Un cambio grande del mundo no altera el dataset_id
+
+-- E4: save/load sin avanzar   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿Guardar y recargar el mismo estado cambia su identidad?
+     1. Exportar (A).
+     2. Guardar SIN avanzar. Cerrar. Reabrir. Cargar.
+     3. Exportar (B). Comparar A y B.
+   medir    : dataset_id, sha256(world.sav) antes y despues, hash de los XML
+   PASE     : Se observa si guardar ES PER SE un cambio de estado
+   FALLA SI : El hash del save cambia aunque el estado sea identico -> el hash no puede ser identidad de estado
+
+-- E5: save/load despues de avanzar   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿El estado persiste correctamente tras avanzar+guardar?
+     1. Avanzar N ticks. Exportar (A).
+     2. Guardar. Cerrar. Reabrir. Cargar. Exportar (B).
+     3. Comparar A y B.
+   medir    : dataset_id de A y B, año/tick tras la recarga
+   PASE     : A y B describen el mismo estado tras el round-trip
+   FALLA SI : A!=B sin causa aparente (indicio de estado no persistido)
+
+-- E6: cargar un save antiguo   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : La pregunta clave de la seccion 5: ¿se distinguen A, B y A?
+     1. Estado A. Guardar. Exportar A.
+     2. Avanzar hasta B. Guardar. Exportar B.
+     3. Cargar de nuevo el guardado de A. Exportar -> D.
+     4. Comparar A, B y D.
+   medir    : dataset_id de A, B, D, año/tick de A, B, D, sha256(world.sav) tras cada guardado
+   PASE     : Si A y D son identicos y B distinto, el sistema NO puede saber que existio una B (branching invisible)
+   FALLA SI : A y D son indistinguibles por cualquier senal disponible -> confirma H-012
+
+-- E7: duplicar save   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿Que identidad hereda una copia del save?
+   NOTA     : PARCIALMENTE RESUELTO por analisis de ficheros (P1.3-E007): una copia byte a byte produce el mismo sha256. Falta la parte que exige el juego.
+     1. Copiar la carpeta del save a 'region1_copia'.
+     2. Cargar AMBAS por separado en sesiones distintas.
+     3. En cada una: ReadWorldFolder(), exportlegends, sha256 del save.
+     4. Comparar.
+   medir    : ReadWorldFolder(), sha256(world.sav), dataset_id, contenido del fichero persistente de dfhack.persistent
+   PASE     : Se determina si la copia hereda o no la identidad
+   FALLA SI : Ambas copias producen identidades indistinguibles
+
+-- E8: crear rama   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿Existe alguna nocion de lineage en DF o DFHack?
+     1. Estado A. Guardar copia del save como 'rama_base'.
+     2. Avanzar hasta B en el save original.
+     3. Cargar 'rama_base' otra vez y seguir jugando -> D.
+     4. Buscar en DF y en DFHack alguna marca de que existio B.
+   medir    : dataset_id de B y D, world.dat / world.sav, fichero persistente de dfhack.persistent
+   PASE     : Se determina si DF registra historia o si es imposible
+   FALLA SI : B y D son indistinguibles -> LINEAGE no existe en DF
+
+-- E9: volver a una rama anterior   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿Se puede detectar que se ha retrocedido?
+     1. Tras E8, exportar en B, en D, y de nuevo en B.
+     2. Comparar las tres exportaciones.
+   medir    : dataset_id de las tres, año/tick de las tres
+   PASE     : Se mide el grado de reversibilidad de la identidad
+   FALLA SI : Los valores de B se repiten indistinguibles -> no hay contador monotono que detecte el retroceso
+
+-- E10: exportacion durante simulacion   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿El fichero mezcla estados? (H-015)
+     1. En modo fortaleza, con la simulacion CORRIENDO a maxima velocidad.
+     2. exportlegends.
+     3. Repetir 5 veces. Comparar entre si y contra E11.
+   medir    : sha256 de las 5 exportaciones, año/tick al inicio y fin, diferencias en los eventos del final del fichero
+   PASE     : Si los ficheros difieren entre si, la exportacion MEZCLA estados
+   FALLA SI : Los 5 ficheros son identicos con el mundo corriendo
+
+-- E11: exportacion pausada   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : Contraste de control para E10.
+     1. Congelar el mundo (pausa) y exportar 5 veces.
+     2. Comparar con los resultados de E10.
+   medir    : sha256 de las 5 exportaciones pausadas
+   PASE     : Las 5 deben ser identicas
+   FALLA SI : Difieren entre si con el mundo quieto
+
+-- E12: exportacion con el core bloqueado   [PENDIENTE - REQUIERE DF EN EJECUCION]
+   objetivo : ¿Se puede forzar un snapshot con with_suspend?
+     1. Script DFHack de prueba que use dfhack.with_suspend para leer los mismos campos que lee exportlegends.
+     2. Comparar su salida con la de exportlegends en E10.
+   medir    : consistencia de las lecturas dentro del lock, ¿el mundo avanza durante el lock? (año/tick antes y despues)
+   PASE     : Se determina si with_suspend detiene la SIMULACION
+   FALLA SI : El año/tick avanza pese al lock -> el lock solo serializa lecturas, no congela la simulacion (confirma H-009)
+
+VEREDICTO: Todos los experimentos quedan PENDIENTES. No hay resultados que reportar. Cualquier afirmacion sobre su resultado seria inventada.
+informe escrito en: P1.3_EVIDENCIA\banco_experimentos.json

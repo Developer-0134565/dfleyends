@@ -1,0 +1,66 @@
+{
+  "garantias": {
+    "determinista": true,
+    "es_producto": false,
+    "modifica_originales": false,
+    "solo_lectura": true
+  },
+  "herramienta": "forense_save",
+  "saves": [
+    {
+      "bloques_con_tamano_estandar": 10424,
+      "bloques_error": 0,
+      "bloques_ok": 10425,
+      "bloques_total": 10425,
+      "bytes": 12490429,
+      "bytes_descomprimidos": 208489987,
+      "bytes_restantes": 0,
+      "es_version_conocida": true,
+      "flag": 1,
+      "legible": true,
+      "mtime_es_identidad": false,
+      "mtime_observado": 1790954816.2444887,
+      "ruta": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\backups\\region1_before_dfhack\\world.sav",
+      "sha256": "603f455dde52b567ede034e1f637755e7845b53467abcde07809d885625de114",
+      "tamano_bloques_esperado": 20000,
+      "version_etiqueta": 3602
+    },
+    {
+      "bloques_con_tamano_estandar": 10424,
+      "bloques_error": 0,
+      "bloques_ok": 10425,
+      "bloques_total": 10425,
+      "bytes": 12490429,
+      "bytes_descomprimidos": 208489987,
+      "bytes_restantes": 0,
+      "es_version_conocida": true,
+      "flag": 1,
+      "legible": true,
+      "mtime_es_identidad": false,
+      "mtime_observado": 1790954816.2444887,
+      "ruta": "C:\\Users\\Missingn0\\AppData\\Roaming\\Bay 12 Games\\Dwarf Fortress\\save\\region1\\world.sav",
+      "sha256": "603f455dde52b567ede034e1f637755e7845b53467abcde07809d885625de114",
+      "tamano_bloques_esperado": 20000,
+      "version_etiqueta": 3602
+    },
+    {
+      "bloques_con_tamano_estandar": 3917,
+      "bloques_error": 0,
+      "bloques_ok": 3918,
+      "bloques_total": 3918,
+      "bytes": 10055380,
+      "bytes_descomprimidos": 78352171,
+      "bytes_restantes": 0,
+      "es_version_conocida": true,
+      "flag": 1,
+      "legible": true,
+      "mtime_es_identidad": false,
+      "mtime_observado": 1790955419.5186944,
+      "ruta": "C:\\Users\\Missingn0\\AppData\\Roaming\\Bay 12 Games\\Dwarf Fortress\\save\\region2\\world.dat",
+      "sha256": "229736318b941155b90a33c31f6cbba36649b22532772245a1d72b5b39b1d110",
+      "tamano_bloques_esperado": 20000,
+      "version_etiqueta": 3602
+    }
+  ],
+  "tipo": "HERRAMIENTA DE INVESTIGACION (no productiva)"
+}

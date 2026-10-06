@@ -1,0 +1,113 @@
+{
+ "certainty": "FACT",
+ "relaciones": [
+  {
+   "event_id": "536",
+   "tipo": "lover",
+   "source_hf": 541,
+   "target_hf": 542,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "537",
+   "tipo": "lover",
+   "source_hf": 544,
+   "target_hf": 535,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "540",
+   "tipo": "lover",
+   "source_hf": 642,
+   "target_hf": 646,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "541",
+   "tipo": "lover",
+   "source_hf": 645,
+   "target_hf": 643,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "542",
+   "tipo": "lover",
+   "source_hf": 650,
+   "target_hf": 651,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "570",
+   "tipo": "lover",
+   "source_hf": 470,
+   "target_hf": 473,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "581",
+   "tipo": "lover",
+   "source_hf": 664,
+   "target_hf": 658,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "582",
+   "tipo": "lover",
+   "source_hf": 657,
+   "target_hf": 660,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "583",
+   "tipo": "lover",
+   "source_hf": 659,
+   "target_hf": 665,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "596",
+   "tipo": "lover",
+   "source_hf": 459,
+   "target_hf": 467,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "604",
+   "tipo": "lover",
+   "source_hf": 410,
+   "target_hf": 417,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  },
+  {
+   "event_id": "605",
+   "tipo": "lover",
+   "source_hf": 415,
+   "target_hf": 412,
+   "año": 1,
+   "evento_presente": false,
+   "certainty": "FACT"
+  }
+ ]
+}

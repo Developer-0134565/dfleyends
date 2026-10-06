@@ -1,0 +1,252 @@
+{
+  "ejecutable": false,
+  "entorno": {
+    "df_corriendo": {
+      "disponible": false,
+      "metodo": "tasklist /FI IMAGENAME eq DwarfFortress.exe",
+      "salida": "INFORMACIÃ“N: no hay tareas ejecutÃ¡ndose que coincidan con los\ncriterios especificados."
+    },
+    "dfhack_run": {
+      "existe": true,
+      "ruta": "C:\\Users\\Missingn0\\Documents\\Dwarf Fortress\\DFHack\\hack\\dfhack-run.exe"
+    }
+  },
+  "experimentos": [
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "Los dataset_id difieren sin que el mundo haya cambiado",
+      "id": "E1",
+      "medir": [
+        "sha256 del XML",
+        "dataset_id",
+        "<name> del mundo",
+        "cur_year / mes / dia en cada extraccion"
+      ],
+      "nombre": "mismo mundo, misma extraccion",
+      "objetivo": "¿Dos extracciones del mismo estado dan el mismo dataset_id?",
+      "pase": "A y B tienen el mismo dataset_id",
+      "procedimiento": [
+        "1. Cargar el save y dejar el mundo en pausa.",
+        "2. exportlegends -> XML A.",
+        "3. Sin tocar el mundo, exportlegends otra vez -> XML B.",
+        "4. Comparar sha256 de A y B, y el dataset_id de cada una."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "El tick avanza pero el contenido no cambia (falso positivo de freshness) O el contenido cambia con dataset_id igual",
+      "id": "E2",
+      "medir": [
+        "sha256",
+        "dataset_id",
+        "ReadCurrentTick() antes y despues"
+      ],
+      "nombre": "avanzar un tick",
+      "objetivo": "¿Un solo tick cambia el dataset_id?",
+      "pase": "Se registra si dataset_id cambia o no",
+      "procedimiento": [
+        "1. Exportar (XML A).",
+        "2. Despausar EXACTAMENTE un tick (timestream o tecla de 1 tick).",
+        "3. Volver a pausar. Exportar (XML B).",
+        "4. Comparar A y B."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "Un cambio grande del mundo no altera el dataset_id",
+      "id": "E3",
+      "medir": [
+        "sha256 de los tres",
+        "dataset_id de los tres",
+        "año y tick en cada punto"
+      ],
+      "nombre": "avanzar N ticks",
+      "objetivo": "Determinar la granularidad minima detectable de cambio.",
+      "pase": "Se construye la curva 'ticks avanzados -> cambia el dataset_id?'",
+      "procedimiento": [
+        "1. Exportar (A). Avanzar 100 ticks. Exportar (B).",
+        "2. Avanzar 10 000 ticks. Exportar (C).",
+        "3. Comparar A, B, C."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "El hash del save cambia aunque el estado sea identico -> el hash no puede ser identidad de estado",
+      "id": "E4",
+      "medir": [
+        "dataset_id",
+        "sha256(world.sav) antes y despues",
+        "hash de los XML"
+      ],
+      "nombre": "save/load sin avanzar",
+      "objetivo": "¿Guardar y recargar el mismo estado cambia su identidad?",
+      "pase": "Se observa si guardar ES PER SE un cambio de estado",
+      "procedimiento": [
+        "1. Exportar (A).",
+        "2. Guardar SIN avanzar. Cerrar. Reabrir. Cargar.",
+        "3. Exportar (B). Comparar A y B."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "A!=B sin causa aparente (indicio de estado no persistido)",
+      "id": "E5",
+      "medir": [
+        "dataset_id de A y B",
+        "año/tick tras la recarga"
+      ],
+      "nombre": "save/load despues de avanzar",
+      "objetivo": "¿El estado persiste correctamente tras avanzar+guardar?",
+      "pase": "A y B describen el mismo estado tras el round-trip",
+      "procedimiento": [
+        "1. Avanzar N ticks. Exportar (A).",
+        "2. Guardar. Cerrar. Reabrir. Cargar. Exportar (B).",
+        "3. Comparar A y B."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "A y D son indistinguibles por cualquier senal disponible -> confirma H-012",
+      "id": "E6",
+      "medir": [
+        "dataset_id de A, B, D",
+        "año/tick de A, B, D",
+        "sha256(world.sav) tras cada guardado"
+      ],
+      "nombre": "cargar un save antiguo",
+      "objetivo": "La pregunta clave de la seccion 5: ¿se distinguen A, B y A?",
+      "pase": "Si A y D son identicos y B distinto, el sistema NO puede saber que existio una B (branching invisible)",
+      "procedimiento": [
+        "1. Estado A. Guardar. Exportar A.",
+        "2. Avanzar hasta B. Guardar. Exportar B.",
+        "3. Cargar de nuevo el guardado de A. Exportar -> D.",
+        "4. Comparar A, B y D."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "Ambas copias producen identidades indistinguibles",
+      "id": "E7",
+      "medir": [
+        "ReadWorldFolder()",
+        "sha256(world.sav)",
+        "dataset_id",
+        "contenido del fichero persistente de dfhack.persistent"
+      ],
+      "nombre": "duplicar save",
+      "nota": "PARCIALMENTE RESUELTO por analisis de ficheros (P1.3-E007): una copia byte a byte produce el mismo sha256. Falta la parte que exige el juego.",
+      "objetivo": "¿Que identidad hereda una copia del save?",
+      "pase": "Se determina si la copia hereda o no la identidad",
+      "procedimiento": [
+        "1. Copiar la carpeta del save a 'region1_copia'.",
+        "2. Cargar AMBAS por separado en sesiones distintas.",
+        "3. En cada una: ReadWorldFolder(), exportlegends, sha256 del save.",
+        "4. Comparar."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "B y D son indistinguibles -> LINEAGE no existe en DF",
+      "id": "E8",
+      "medir": [
+        "dataset_id de B y D",
+        "world.dat / world.sav",
+        "fichero persistente de dfhack.persistent"
+      ],
+      "nombre": "crear rama",
+      "objetivo": "¿Existe alguna nocion de lineage en DF o DFHack?",
+      "pase": "Se determina si DF registra historia o si es imposible",
+      "procedimiento": [
+        "1. Estado A. Guardar copia del save como 'rama_base'.",
+        "2. Avanzar hasta B en el save original.",
+        "3. Cargar 'rama_base' otra vez y seguir jugando -> D.",
+        "4. Buscar en DF y en DFHack alguna marca de que existio B."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "Los valores de B se repiten indistinguibles -> no hay contador monotono que detecte el retroceso",
+      "id": "E9",
+      "medir": [
+        "dataset_id de las tres",
+        "año/tick de las tres"
+      ],
+      "nombre": "volver a una rama anterior",
+      "objetivo": "¿Se puede detectar que se ha retrocedido?",
+      "pase": "Se mide el grado de reversibilidad de la identidad",
+      "procedimiento": [
+        "1. Tras E8, exportar en B, en D, y de nuevo en B.",
+        "2. Comparar las tres exportaciones."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "Los 5 ficheros son identicos con el mundo corriendo",
+      "id": "E10",
+      "medir": [
+        "sha256 de las 5 exportaciones",
+        "año/tick al inicio y fin",
+        "diferencias en los eventos del final del fichero"
+      ],
+      "nombre": "exportacion durante simulacion",
+      "objetivo": "¿El fichero mezcla estados? (H-015)",
+      "pase": "Si los ficheros difieren entre si, la exportacion MEZCLA estados",
+      "procedimiento": [
+        "1. En modo fortaleza, con la simulacion CORRIENDO a maxima velocidad.",
+        "2. exportlegends.",
+        "3. Repetir 5 veces. Comparar entre si y contra E11."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "Difieren entre si con el mundo quieto",
+      "id": "E11",
+      "medir": [
+        "sha256 de las 5 exportaciones pausadas"
+      ],
+      "nombre": "exportacion pausada",
+      "objetivo": "Contraste de control para E10.",
+      "pase": "Las 5 deben ser identicas",
+      "procedimiento": [
+        "1. Congelar el mundo (pausa) y exportar 5 veces.",
+        "2. Comparar con los resultados de E10."
+      ],
+      "resultado": null
+    },
+    {
+      "estado": "PENDIENTE - REQUIERE DF EN EJECUCION",
+      "falla_si": "El año/tick avanza pese al lock -> el lock solo serializa lecturas, no congela la simulacion (confirma H-009)",
+      "id": "E12",
+      "medir": [
+        "consistencia de las lecturas dentro del lock",
+        "¿el mundo avanza durante el lock? (año/tick antes y despues)"
+      ],
+      "nombre": "exportacion con el core bloqueado",
+      "objetivo": "¿Se puede forzar un snapshot con with_suspend?",
+      "pase": "Se determina si with_suspend detiene la SIMULACION",
+      "procedimiento": [
+        "1. Script DFHack de prueba que use dfhack.with_suspend para leer los mismos campos que lee exportlegends.",
+        "2. Comparar su salida con la de exportlegends en E10."
+      ],
+      "resultado": null
+    }
+  ],
+  "garantias": {
+    "es_producto": false,
+    "no_escribe_en_saves": true,
+    "no_inventa_resultados": true
+  },
+  "herramienta": "experimentos_p1_3",
+  "tipo": "HERRAMIENTA DE INVESTIGACION (no productiva)",
+  "veredicto": "Todos los experimentos quedan PENDIENTES. No hay resultados que reportar. Cualquier afirmacion sobre su resultado seria inventada."
+}

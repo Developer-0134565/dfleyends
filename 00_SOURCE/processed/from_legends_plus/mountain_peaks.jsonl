@@ -1,0 +1,4 @@
+{"record_id": "mountain_peaks:0", "df_id": "0", "certainty": "FACT", "source": "legends_plus.xml", "source_section": "mountain_peaks", "campos": {"name": "The Narrow Teeth", "coords": "54,96", "height": "279"}}
+{"record_id": "mountain_peaks:1", "df_id": "1", "certainty": "FACT", "source": "legends_plus.xml", "source_section": "mountain_peaks", "campos": {"name": "The Grizzly Hatchet", "coords": "112,16", "height": "261"}}
+{"record_id": "mountain_peaks:2", "df_id": "2", "certainty": "FACT", "source": "legends_plus.xml", "source_section": "mountain_peaks", "campos": {"name": "The Fuchsia Tusk", "coords": "16,42", "height": "276"}}
+{"record_id": "mountain_peaks:3", "df_id": "3", "certainty": "FACT", "source": "legends_plus.xml", "source_section": "mountain_peaks", "campos": {"name": "The Prime Cinders", "coords": "82,48", "height": "206", "is_volcano": ""}}
